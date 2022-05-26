@@ -12,17 +12,23 @@ Front-End Web UI Frameworks and Tools: Bootstrap 4
 <p>
 We'll look at various aspects of Bootstrap. Through several examples, you will learn by doing exercises as part of this course. <br/>
 Let's look at some details next. Before you begin this course, please make sure that you have sufficient background to be able to succeed in this course. <br/>
+
 You should have a good knowledge of HTML, CSS, and JavaScript before you start the course. </p><br/>
 
 From my perspective, web design and development consists of two aspects: one is the design of the website and the web page, the second one is the actual building and deployment of the web page itself.<br/>
+
 From the design perspective, what I mean is the design of the user interface and the user experience, the visual design, the prototyping, the elements of colors, graphics and animation that might be of interest. <br/>
 
 In this Specialization, we are not looking at this aspect of web development. Instead, we are looking at that second aspect, which is the development, building, and deployment of websites and web pages, using technologies like the <i>front end web UI frameworks</i> like <b>Bootstrap</b>, maybe JavaScript <i>framework</i> like <b>Angular</b> or a <i>Library</i> like <b><i>React</i></b> and <i>hybrid mobile frameworks</i> to design mobile applications and also server-side development using <b>Node, Express, MongoDB</b>, the main stack in more detail.<br/>
+
 If you are looking at the Specialization, thinking about the design aspect of website, then you may wish to rethink again. <br/>
+
 This Specialization concentrates on the development building and deployment of website and web pages, a purely technical knowledge on using the HTML, CSS, and JavaScript-based skills for actual website development. <br/>
 
 You're also probably wondering about what is meant by full stack web development.
+
 We'll look at more details of full stack web development in the next lesson.
+
 In particular, if you're looking at how this course is positioned in the general context of full stack web development, in this course, we are dealing with front end web UI development. 
 In particular, the UI Framework Bootstrap 4. 
 
