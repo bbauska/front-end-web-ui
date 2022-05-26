@@ -8,10 +8,12 @@ Front-End Web UI Frameworks and Tools: Bootstrap 4
 
 <p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.</p>
 <p>I'm glad you decided to join this course to learn about the most popular front end Web UI Framework: Bootstrap. 
-</p><p>
+</p>
+<p>
 We'll look at various aspects of Bootstrap. Through several examples, you will learn by doing exercises as part of this course. <br/>
-Let's look at some details next. Before you begin this course, please make sure that you have sufficient background to be able to succeed in this course. </p><br/>
+Let's look at some details next. Before you begin this course, please make sure that you have sufficient background to be able to succeed in this course. <br/>
 You should have a good knowledge of HTML, CSS, and JavaScript before you start the course. </p><br/>
+
 From my perspective, web design and development consists of two aspects: one is the design of the website and the web page, the second one is the actual building and deployment of the web page itself.<br/>
 From the design perspective, what I mean is the design of the user interface and the user experience, the visual design, the prototyping, the elements of colors, graphics and animation that might be of interest. <br/>
 
