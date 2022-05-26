@@ -1,4 +1,4 @@
-<h1>Front-End-Web-UI</h1>
+<h1>Front-End Web UI Frameworks & More</h1>
 <hr/>
 <h5>(by coursera.org)</h5>
 <p>
@@ -13,7 +13,7 @@ Front-End Web UI Frameworks and Tools: Bootstrap 4
 We'll look at various aspects of Bootstrap. Through several examples, you will learn by doing exercises as part of this course. <br/>
 Let's look at some details next. Before you begin this course, please make sure that you have sufficient background to be able to succeed in this course. <br/>
 
-You should have a good knowledge of HTML, CSS, and JavaScript before you start the course. </p><br/>
+You should have a good knowledge of HTML, CSS, and JavaScript before you start the course.<br/>
 
 From my perspective, web design and development consists of two aspects: one is the design of the website and the web page, the second one is the actual building and deployment of the web page itself.<br/>
 
@@ -21,24 +21,23 @@ From the design perspective, what I mean is the design of the user interface and
 
 In this Specialization, we are not looking at this aspect of web development. Instead, we are looking at that second aspect, which is the development, building, and deployment of websites and web pages, using technologies like the <i>front end web UI frameworks</i> like <b>Bootstrap</b>, maybe JavaScript <i>framework</i> like <b>Angular</b> or a <i>Library</i> like <b><i>React</i></b> and <i>hybrid mobile frameworks</i> to design mobile applications and also server-side development using <b>Node, Express, MongoDB</b>, the main stack in more detail.<br/>
 
-If you are looking at the Specialization, thinking about the design aspect of website, then you may wish to rethink again. <br/>
-
+If you are looking at the Specialization, thinking about the design aspect of website, then you may wish to rethink again.
 This Specialization concentrates on the development building and deployment of website and web pages, a purely technical knowledge on using the HTML, CSS, and JavaScript-based skills for actual website development. <br/>
 
-You're also probably wondering about what is meant by full stack web development.
+You're also probably wondering about what is meant by full stack web development.<br/>
 
-We'll look at more details of full stack web development in the next lesson.
-
+We'll look at more details of full stack web development in the next lesson.<br/>
 In particular, if you're looking at how this course is positioned in the general context of full stack web development, in this course, we are dealing with front end web UI development. 
-In particular, the UI Framework Bootstrap 4. 
+In particular, the UI Framework Bootstrap 4.<br/>
 
-We'll be looking at the remaining aspects of full stack web development in the rest of this specialization.
-This course looks at Bootstrap in great detail. We will also look at responsive web design and how Bootstrap supports responsive web design through the Bootstrap Grid system.<br/>
-
-We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages.
-Along the way, we'll learn about that web development using the command line.
-We'll learn a lot of web tools that are based on the command line and the Node.js ecosystem. 
-We'll briefly review Git, add Node.js and look at Noje.js based tools including task runners like Grunt and Gulp. 
+- We'll be looking at the remaining aspects of full stack web development in the rest of this specialization.
+  This course looks at <b><i>Bootstrap</i></b> in great detail. We will also look at <b>responsive web design</b> and how Bootstrap supports responsive web design through the Bootstrap Grid system.<br/>
+<ul>
+<li>We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages.<br/></li>
+<li>Along the way, we'll learn about that web development using the command line.<br/></li>
+<li>We'll learn a lot of web tools that are based on the command line and the Node.js ecosystem.<br/></li>
+<li>We'll briefly review Git, add Node.js and look at Noje.js based tools including task runners like Grunt and Gulp.<br/></li>
+</ul>
 This course, itself, is structured into full modules.
 Each module roughly corresponding to one week of work. 
 In the first module, we'll get the big picture view of full stack web development, then you'll get a quick introduction to Git and Node.js. 
