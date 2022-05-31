@@ -2652,7 +2652,7 @@ How does this work?
 We'll see that in the next slide.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 54. auto-layout columns (76) ------------------------------->
+<!-------------------------------- 54. auto-layout columns (77) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png"
@@ -2662,7 +2662,14 @@ We'll see that in the next slide.
 
 Going back to our Bootstrap Grid, suppose we have a piece of content and we want to lay out the peace of content.
 
-![](images/8d5519ceee4dd472429e51d86059482e.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 55. bootstrap grid part i (77) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image055.png"
+   alt="Bootstrap Grid Part i"
+   width="85%" />
+</p>
 
 We can specify that that content is enclosed inside another div, to which we apply column class, like for example, col-sm-5.
 
@@ -2678,7 +2685,14 @@ Now, we now see that out of the 12 columns, we have already occupied five column
 
 There are still seven more columns left.
 
-![](images/c4651c86bae94cd4786b7ea3733dfed5.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 56. bootstrap grid part ii (78) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image056.png"
+   alt="Bootstrap Grid Part ii"
+   width="85%" />
+</p>
 
 I could take another piece of content and then position it to the right of this, by defending another div and then applying column sm-7.
 
@@ -2688,7 +2702,14 @@ These two pieces of content that are enclosed in the two divs, will now be posit
 
 This is how we can specify and the work with the 12 columns in defining the layout of the current tier.
 
-![](images/6614f5edd5ce7df523537108d057c045.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 57. auto-layout columns part i (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image057.png"
+   alt="Auto-Layout Columns Part i"
+   width="85%" />
+</p>
 
 With the use of the CSS flex box layout, Bootstrap also supports what is called the Auto-layout Columns.
 
@@ -2696,17 +2717,38 @@ In this case, I can simply specify column sm without specifying how many columns
 
 In case I specify three Doobs width column sm in my heml 5, then the bootstrap grid will automatically position these contents inside those divs, side by side, so, that each one of them gets one third of the total width.
 
-![](images/b15c6846a1afe7a6a0c1a71677c1d5b1.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 58. auto-layout columns part ii (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image058.png"
+   alt="Auto-Layout Columns Part ii"
+   width="85%" />
+</p>
 
 Since we have 12 columns here, each of these three will get four columns each.
 
 And this is automatically taken care of by the bootstraps layout mechanism.
 
-![](images/1141df890a41dee47b676f4d01c0aa47.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 59. auto-layout columns part ii (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image059.png"
+   alt="Auto-Layout Columns Part ii"
+   width="85%" />
+</p>
 
 Now, we can explicitly specify the number of columns a particular piece of content occupy.
 
-![](images/a096bd07dbc5b0eba8d728a0b0ac5e19.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 60. auto-layout columns part ii (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image060.png"
+   alt="Auto-Layout Columns Part ii"
+   width="85%" />
+</p>
 
 For example, suppose I specify three column classes, but the middle one I specify column sm 6.
 
@@ -2720,7 +2762,14 @@ That is how the layout is automatically done with Bootstrap.
 
 In the exercise, we will see various combinations of use of these kind of specifications of how many columns each piece of content will occupy in color layout.
 
-![](images/c4587a111b188096f0f70cc745e36d34.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 61. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image061.png"
+   alt="Auto-Layout Columns Part ii"
+   width="85%" />
+</p>
 
 This table summarizes the way Bootstrap treats the different screen grids and correspondingly how you identify these screen grids.
 
@@ -2788,7 +2837,14 @@ Also, it supports offsets.
 
 We will see the use of offsets also in some examples later.
 
-![](images/a8b5a05d4f8e8a19cf657df1f9f6a0ce.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 62. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image062.png"
+   alt=""
+   width="85%" />
+</p>
 
 Let's look at our first example of how you would apply bootstraps column classes, and how they would actually be rendered on different screen sizes.
 
@@ -2806,7 +2862,14 @@ For small to extra-large they're laid out side by side so that the red content w
 
 This is how we would specify content layout for different screen sizes.
 
-![](images/66f41371d73fbbcc03141130c08a5309.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 63. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image063.png"
+   alt=""
+   width="85%" />
+</p>
 
 Bootstrap also provides additional classes called as the Order Hyphen Classes which allow you to reorder the content on the screen.
 
@@ -2820,7 +2883,14 @@ Using a larger number, you could shift the content to the right side of the row 
 
 We will see an example of this also in the exercise.
 
-![](images/6b64e229cd82615f1824cab4f59d2aca.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 64. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image064.png"
+   alt=""
+   width="85%" />
+</p>
 
 The next interesting support that Bootstrap Grid brings with the use of the Flexbox layout is vertical alignment of content.
 
@@ -2830,19 +2900,40 @@ With the use of the Flexbox for designing the Bootstrap Grid in Bootstrap four, 
 
 If you wanted the content to be vertically-centered, then to the row, you would apply the class called "align items center".
 
-![](images/b98a2092ff3b76ca39af16e097a00357.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 65. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image065.png"
+   alt=""
+   width="85%" />
+</p>
 
 In this case, whatever content is laid out, will be laid out vertically-aligned within that particular row.
 
 The content which occupies the largest height will be the one to which the remaining ones will be aligned when it is laid out in that row or if you pre-specify the height of the row, then all the content will be centered vertically within that particular row there.
 
-![](images/1196d1071a0a3d23ba3e45906235c5f6.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 66. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image066.png"
+   alt=""
+   width="85%" />
+</p>
 
 Not only that, Bootstrap's Grid also supports horizontal alignment of content.
 
 Let's look at an example.
 
-![](images/a3ee75998cf3d9d1056cee6c31288c73.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 67. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image067.png"
+   alt=""
+   width="85%" />
+</p>
 
 If you specify your content like this.
 
@@ -2850,7 +2941,14 @@ Say, you have three columns and the first one you specify div class column three
 
 And the right one says div class column 3. So in this case, what we are specifying is that the left and the rightmost pieces of content will occupy three columns each.
 
-![](images/f30f95ef591801c00beaca407e5a1fad.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 68. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image068.png"
+   alt=""
+   width="85%" />
+</p>
 
 The middle one, when I say, "column auto", it means that the number of columns that this particular div occupies will be automatically determined by the content that is enclosed inside there.
 
@@ -2870,7 +2968,14 @@ You can also have the content left-justified, right-justified and a couple of ot
 
 Details are in the bootstraps documentation.
 
-![](images/c54f3aac43fb679f10da5b3cb96ae32f.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 69. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image069.png"
+   alt=""
+   width="85%" />
+</p>
 
 Bootstrap also allows you to do column offsets.
 
@@ -2878,7 +2983,14 @@ How does this work?
 
 Let's look at an example.
 
-![](images/9aa5f8452cbaa37353b544664745c400.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 70. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image070.png"
+   alt=""
+   width="85%" />
+</p>
 
 In this column offset, we can specify a piece of content, add to that if we apply the class as offset hyphen sm hyphen one.
 
@@ -2886,7 +2998,14 @@ What we are specifying is for small to extra-large screens, this piece of conten
 
 When this content is laid out, as you can see, the leftmost one column is left blank and the content is shifted right by one column.
 
-![](images/7e350a0554e34f2b078cb55e7a9d7a8e.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 71. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image071.png"
+   alt=""
+   width="85%" />
+</p>
 
 And you can lay out the remaining content on the right side.
 
@@ -2896,7 +3015,14 @@ That is how we can control the layout of the content using a column offset.
 
 As you can see, using the column size specifications, the vertical and horizontal alignment, the offset, the push and the pull, and flex first and flex last, we are able to get a lot of control on how we lay out contents for different screen widths and different screen sizes.
 
-![](images/14ca88f58183fdef9336afb54250bd8a.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 72. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image072.png"
+   alt=""
+   width="85%" />
+</p>
 
 Bootstrap goes even further by allowing you to nest content inside divs.
 
@@ -2906,7 +3032,14 @@ Now, inside the right div, I can again go in and divide that div's width into a 
 
 Nesting like this, brings you even more flexibility in the way you lay out content in your pitch.
 
-![](images/5923199431d937a5d61970cfd9bafa64.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 73. bootstrap grid details (79) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image073.png"
+   alt=""
+   width="85%" />
+</p>
 
 With all the discussion about the Bootstrap Grid System and how the Bootstrap Grid supports various ways of laying out content, we're going to now, move on to our next set of exercises.
 
@@ -3613,8 +3746,24 @@ After you complete your assignment, in case you're saving your changes to a Git 
 **aboutus.html**
 
 ### **Assignment 1 Screenshots**
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 74.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image074.png"
+   alt=""
+   width="85%" />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/0524ef64534ed8928939b9c5ca6365a6.png)![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/fe1d88f7e65158bd9503ba70a3d29713.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 75.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png"
+   alt=""
+   width="85%" />
+</p>
 
 ### **Bootstrap Resources**
 
@@ -6709,8 +6858,24 @@ You can use the column classes to adjust these things.
 ## Assignment 2: Resources
 
 ### **Assignment Screenshots**
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 76.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image076.png"
+   alt=""
+   width="85%" />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QAQDOy2SEeikKwpOWDsZFA_b69afa8d38e22b06cde6e076d3eb1459_screencapture-Assignment2.png?expiry=1641081600000&hmac=jEHWrZT5WgUFXJD7q-NiciA_QS9OR7VFUTRr28mLAIE](images/b49f88337eb7848fab2a21685631aa89.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 77.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image077.png"
+   alt=""
+   width="85%" />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VRO1WC2SEeiISxJZ7npQ3g_e44b2b9a244756bb19ecfd430ad96beb_screencapture-Assignment2-xs.png?expiry=1641081600000&hmac=NBbvO-ysXP-pwcDIwUklpxFfx4-Kh_UIEU2O46muB40](images/b2bfa8c81c8c2c81d58be10216b4e27b.png)
 
@@ -8418,6 +8583,15 @@ Hope you enjoyed creating this new variation of the index.html page.
 
 ### Assignment Screenshots
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 78.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image078.png"
+   alt=""
+   width="85%" />
+</p>
+
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/47f457d977fbafb3cd5cd7c3e563605d.png)
 
 ### Bootstrap Resources
@@ -9821,8 +9995,25 @@ And upon completing this assignment, you may wish to do a good comment to save y
 ## Assignment 4: Additional Resources
 
 ### **Screenshots**
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 79.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image079.png"
+   alt=""
+   width="85%" />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA](images/938f7cc8c2d5b4ffc4e13f9d77452168.png)
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 80.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image080.png"
+   alt=""
+   width="85%" />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/3fae449c13caa1d13169c4e0c43939e1.png)
 
@@ -12178,5 +12369,5 @@ In particular, this section should contain:
 
 -   Give references to any material / websites / books etc. relevant to your project.
 ...the end
-last updated 05-30-2022 9:21pm front-end-web-ui
+last updated 05-30-2022 11:16pm front-end-web-ui
 
