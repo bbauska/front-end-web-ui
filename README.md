@@ -31,7 +31,7 @@ In particular, if you're looking at how this course is positioned in the general
 
 In particular, the UI Framework Bootstrap 4.<br/>
 <ul>
-<li>We'll be looking at the remaining aspects of full stack web development in the rest of this specialization.<br/></li>
+<li>We'll be looking at the remaining aspects of full stack web development in the rest of this specialization</b>.<br/></li>
 <li>This course looks at <b><i>Bootstrap</i></b> in great detail. We will also look at <b>responsive web design</b> and how Bootstrap supports responsive web design through the Bootstrap Grid system.<br/></li>
 <li>We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages.<br/></li>
 <li>Along the way, we'll learn about that web development using the command line.<br/></li>
@@ -89,7 +89,7 @@ Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
 I'm glad you decided to join this course to learn about the most popular front end Web UI Framework: Bootstrap.
 
-We'll look at various aspects of **Bootstrap**. Through several examples, you will learn by doing exercises as part of this course.
+We'll look at various aspects of <b>Bootstrap</b>. Through several examples, you will learn by doing exercises as part of this course.
 
 Let's look at some details next. Before you begin this course, please make sure that you have sufficient background to be able to succeed in this course.
 
@@ -101,7 +101,7 @@ From the design perspective, what I mean is the design of the user interface and
 
 In this Specialization, we are not looking at this aspect of web development.
 
-Instead, we are looking at that second aspect, which is the **development, building, and deployment of websites and web pages**, using technologies like the front end web UI frameworks like Bootstrap, maybe JavaScript framework like Angular or a Library like React and hybrid mobile frameworks to design mobile applications and also server-side development using Node, Express, MongoDB, the main stack in more detail.
+Instead, we are looking at that second aspect, which is the <b>development, building, and deployment of websites and web pages</b>, using technologies like the front end web UI frameworks like Bootstrap, maybe JavaScript framework like Angular or a Library like React and hybrid mobile frameworks to design mobile applications and also server-side development using Node, Express, MongoDB, the main stack in more detail.
 
 If you are looking at the Specialization, thinking about the design aspect of website, then you may wish to rethink again.
 
@@ -113,25 +113,25 @@ We'll look at more details of full stack web development in the next lesson.
 
 In particular, if you're looking at how this course is positioned in the general context of full stack web development, in this course, we are dealing with front end web UI development.
 
-In particular, the **UI Framework Bootstrap 4**.
+In particular, the <b>UI Framework Bootstrap 4</b>.
 
 -   We'll be looking at the remaining aspects of full stack web development in the rest of this specialization.
 -   This course looks at Bootstrap in great detail. We will also look at responsive web design and how Bootstrap supports responsive web design through the Bootstrap Grid system.
 -   We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages.
 -   Along the way, we'll learn about that web development using the command line.
 -   We'll learn a lot of web tools that are based on the command line and the Node.js ecosystem.
--   We'll briefly review **Git**, add **Node.js** and look at Noje.js based tools including task runners like **Grunt** and **Gulp**.
+-   We'll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.
 
 This course, itself, is structured into four modules.
 
 Each module roughly corresponding to one week of work.
 <ol type="1">
-<li>In the **first** module, we'll get the big picture view of full stack web development, then you'll get a quick introduction to **Git** and **Node.js**.<br/>
+<li>In the <b>first</b> module, we'll get the big picture view of full stack web development, then you'll get a quick introduction to <b>Git</b> and <b>Node.js</b>.<br/>
 <ol type="i">
-<li>Then we'll introduce you to the **Bootstrap** and then review the **Bootstrap Grid** system.</li>
+<li>Then we'll introduce you to the <b>Bootstrap</b> and then review the <b>Bootstrap Grid</b> system.</li>
 <li>That will lead you up to the first assignment in this course.</li>
 </ol></li>
-<li>The **second** module deals with **Bootstrap CSS** components.</li>
+<li>The <b>second</b> module deals with <b>Bootstrap CSS</b> components.</li>
 <ol type="i">
 <li>We'll look at the design of the Bootstrap navigation bar and how we can make use of it to support navigation.<br/></li>
 <li>We'll look at user input through buttons and forms then we'll look at how we can display content using tables and cards.<br/></li>
@@ -139,19 +139,19 @@ Each module roughly corresponding to one week of work.
 <li>And then, finally, we look at how we alert users using tags, alerts and progress bars.<br/></li>
 <li>This should lead you up to your second assignment.<br/></li>
 </ol></li>
-<li>The **third** module deals with **Bootstrap JavaScript** components.
+<li>The <b>third</b> module deals with <b>Bootstrap JavaScript</b> components.
 <ol type="i">
 <li>We'll look at the big picture view of how Bootstrap JavaScript components work, we'll review tabs, pills and tabbed navigation, then we'll look at how collapse and accordion can be used to show and hide content.<br/></li>
 <li>And then we'll look at the use of tooltips, popovers and modals to reveal content to be displayed in your page.<br/></li>
 <li>And then we'll look at the carousel component, which allows you to display sliding information on your web page.<br/></li>
 <li>This will lead you up to the third assignment in this course.<br/></li>
 </ol></li>
-<li>The **last (fourth)** module deals with **Bootstrap** and the **JQuery** and various **dev tools**.<br/>
+<li>The <b>last (fourth)</b> module deals with <b>Bootstrap</b> and the <b>JQuery</b> and various <b>dev tools</b>.<br/>
 <ol type="i">
 <li>We'll, in particular, look at how Bootstrap and JQuery interact and how you can write JQuery and JavaScript code in order to control your Bootstrap JavaScript component.<br/></li>
 <li>We look at the various methods that are supported by the Bootstrap JavaScript components, which can be leveraged to write JavaScript code to control the behavior of these components.<br/></li>
-<li>Then we'll review CSS pre-processing language is like **LESS** and **Sass**.<br/></li>
-<li>Then, **finally**, we'll look at how we can build and deploy our website using **NPM scripts** or **task runners** like **Grunt** and **Gulp**.<br/></li>
+<li>Then we'll review CSS pre-processing language is like <b>LESS</b> and <b>Sass</b>.<br/></li>
+<li>Then, <b>finally</b>, we'll look at how we can build and deploy our website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b> and <b>Gulp</b>.<br/></li>
 </ol></li>
 </ol>
 
@@ -215,7 +215,7 @@ We often hear people talking about the three tier architecture for Web Developme
 
 In this approach, the entire web application is organized into three different layers.
 
-The **presentation layer**, which is concerned with delivering to the user.
+The <b>presentation layer</b>, which is concerned with delivering to the user.
 
 This is usually the UI-related concerns that are dealt with at the presentation layer.
 
@@ -228,9 +228,9 @@ This is usually the UI-related concerns that are dealt with at the presentation 
    width="85%" />
 </p>
 
-The **Business Logic Layer**, on the other hand, is concerned more about the data, the data validation, the dynamic content processing, and generating the content to be delivered to the user.
+The <b>Business Logic Layer</b>, on the other hand, is concerned more about the data, the data validation, the dynamic content processing, and generating the content to be delivered to the user.
 
-This is backed up behind the scenes with the **data persistence layer or the data access layer**.
+This is backed up behind the scenes with the <b>data persistence layer or the data access layer</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 05. three-tier architecture - part iii (06) -------------------------->
@@ -320,7 +320,7 @@ We will also consider back end as a service and then the data support implemente
 
 <h3>PDFs of Presentations</h3>
 
-**00-FSWD-BigPicture.pdf – 6 slides.**
+<b>00-FSWD-BigPicture.pdf – 6 slides.</b>
 
 <h3>Useful Links</h3>
 
@@ -342,10 +342,10 @@ At the end of this lesson you should have set up Git and Node.js on your compute
 
 <h3>Software Requirements</h3>
 
-1.  **Text editor of your choice**: Any text editor that you are already familiar with can be used for editing the project files. I will be using Visual Studio Code (<https://code.visualstudio.com/>) as the editor of choice in this specialization. You may also consider other editors such as Brackets (<http://brackets.io/>), Sublime Text (<http://www.sublimetext.com/)>, or Atom (<https://atom.io/>).
-2.  **Browser of your choice**: You may use your preferred browser. I will be using Chrome as the browser in all the exercises. All the exercises and assignments in this course have been tested using Chrome v. 46. Please note that not all browsers may support all the HTML5 features to the same extent. You might encounter problems when using other browsers. I strongly urge you to use the latest Chrome browser for the exercises and assignments in this course so that any problems are minimized.
-3.  **Command line shell**: Familiarity with the command-line shell will be essential for the exercises. In Windows a cmd window or power shell with admin privileges would be needed. On a Mac or in Linux, a terminal window can be used. Please get familiar with the "sudo" command in OS X and Linux.
-4.  **Files required for the exercises**: We will provide additional starter files for the exercises wherever needed. Links to download the files will be provided inline in the **exercise instructions** that follow each exercise video. Please download the files provided there, if any, before beginning the exercise. The links are also available through the **Additional Resources** of the specific lesson.
+1.  <b>Text editor of your choice</b>: Any text editor that you are already familiar with can be used for editing the project files. I will be using Visual Studio Code (<https://code.visualstudio.com/>) as the editor of choice in this specialization. You may also consider other editors such as Brackets (<http://brackets.io/>), Sublime Text (<http://www.sublimetext.com/)>, or Atom (<https://atom.io/>).
+2.  <b>Browser of your choice</b>: You may use your preferred browser. I will be using Chrome as the browser in all the exercises. All the exercises and assignments in this course have been tested using Chrome v. 46. Please note that not all browsers may support all the HTML5 features to the same extent. You might encounter problems when using other browsers. I strongly urge you to use the latest Chrome browser for the exercises and assignments in this course so that any problems are minimized.
+3.  <b>Command line shell</b>: Familiarity with the command-line shell will be essential for the exercises. In Windows a cmd window or power shell with admin privileges would be needed. On a Mac or in Linux, a terminal window can be used. Please get familiar with the "sudo" command in OS X and Linux.
+4.  <b>Files required for the exercises</b>: We will provide additional starter files for the exercises wherever needed. Links to download the files will be provided inline in the <b>exercise instructions</b> that follow each exercise video. Please download the files provided there, if any, before beginning the exercise. The links are also available through the <b>Additional Resources</b> of the specific lesson.
 
 Note: Please remember to retain the folders and all the files that you create in the exercises. Further exercises will build upon the files that you create in the preceding exercises. DO NOT DELETE the files at the end of the exercises, unless otherwise instructed. You may wish to set up your exercise folder as a Git repository and commit the files to the repository at the end of each exercise.
 
@@ -448,7 +448,7 @@ Download the installer and run through the set up to get Git on to your computer
    width="85%" />
 </p>
 
-Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in **git --version** to check what version of git is installed on your computer.
+Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in <b>git --version</b> to check what version of git is installed on your computer.
 
 On my machine I have this current version of git installed and that is good enough for me to work with.
 
@@ -456,15 +456,15 @@ Once we verify that Git is installed, we will configure a couple of global ident
 
 Whenever Git does any comments as you will learn later, it will make use of this information.
 
-To do that, at the prompt type **git config --global user.name** “Username”, and then you can type in your user name.
+To do that, at the prompt type <b>git config --global user.name</b> “Username”, and then you can type in your user name.
 
-**git config –global user.Email brianbauska@gmail.com**
+<b>git config –global user.Email brianbauska@gmail.com</b>
 
 The other parameter that I'm going to configure is my email.
 
 And to insure that this information has been configured, we can type
 
-**git config ---list**.
+<b>git config ---list</b>.
 
 And it will list out a bunch of configurations that we have. Done.
 
@@ -480,7 +480,7 @@ Once you get git on your computer it is time to go and learn git bit by bit.
 
 <h3>Exercise (Instructions): Setting up Git</h3>
 
-<h3>**Objectives and Outcomes**</h3>
+<h3><b>Objectives and Outcomes</b></h3>
 
 In this exercise you will learn to install Git on your computer. Git is required for using all the remaining Node.js and Node based tools that we encounter in the rest of the course. At the end of this exercise, you would be able to:
 
@@ -488,7 +488,7 @@ In this exercise you will learn to install Git on your computer. Git is required
 -   Ensure that Git can be used from the command-line or command-prompt on your computer
 -   Set up some of the basic global configuration for Git
 
-<h3>**Downloading and Installing Git**</h3>
+<h3><b>Downloading and Installing Git</b></h3>
 
 -   To install Git on your computer, go to <https://git-scm.com/downloads> to download the Git installer for your specific computing platform.
 -   Then, follow the installation steps as you install Git using the installer.
@@ -497,24 +497,24 @@ In this exercise you will learn to install Git on your computer. Git is required
 -   On a Mac, setting up XCode command-line tools also will set up Git on your computer.
 -   You can choose any of the methods that is most convenient for you.
 
-**Some Global Configuration for Git**
+<b>Some Global Configuration for Git</b>
 
 -   Open a cmd window or terminal on your computer.
 -   Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:
 
-**git --version**
+<b>git --version</b>
 
 -   To configure your user name to be used by Git, type the following at the prompt:
 
-**git config --global user.name "Your Name"**
+<b>git config --global user.name "Your Name"</b>
 
 -   To configure your email to be used by Git, type the following at the prompt:
 
-**git config --global user.email \<your email address\>**
+<b>git config --global user.email \<your email address\></b>
 
 -   You can check your default Git global configuration, you can type the following at the prompt:
 
-**git config --list**
+<b>git config --list</b>
 
 <h3>**Conclusions**</h3>
 
@@ -542,7 +542,7 @@ To do that at the command line type git init.
 
 Now, this folder has been initialized to be a git repository.
 
-This is our first git command that we have learnt, **git init**.
+This is our first git command that we have learnt, <b>git init</b>.
 
 This initializes the current folder as a git repository and when it initializes the folder, it will mark that folder as a master.
 
@@ -556,7 +556,7 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we're going to look at is **git status**.
+The next command that we're going to look at is <b>git status</b>.
 
 If you type git status in the command line, it'll tell you the current status of the folder.
 
@@ -574,19 +574,19 @@ Now, this index.html file that we have just created in this folder is now not be
 
 Let's go ahead and add that file to the git repository.
 
-To do that, we say, **\> git add,** and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.
+To do that, we say, <b>\> git add,</b> and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.
 
 Now, if I again type \> git status, you will see that the file index.html is marked in green.
 
 And it says, changes to be committed there and then shows the file name and then so that means that this file is now ready to be committed to my git repository.
 
-The next command that we saw was **\> git add**.
+The next command that we saw was <b>\> git add</b>.
 
 By using git add you can add file or folders to that staging area.
 
 Once you add it to the staging area, then you can commit that snapshot of our folder status to our git repository.
 
-That means that when you do the **\> git commit**, what this command will do is commit the current state of our folders into our git repositories.
+That means that when you do the <b>\> git commit</b>, what this command will do is commit the current state of our folders into our git repositories.
 
 All the files as they exist at the moment, once they have been staged using the git add, then they will be committed to our git repository when we execute the git command folder.
 
@@ -594,11 +594,11 @@ At this point when we execute the git command, then our initial state will now b
 
 Let's go ahead and do that.
 
-Back at the command prompt, let's type **\> git commit**.
+Back at the command prompt, let's type <b>\> git commit</b>.
 
 And then we can even add a message to our commit.
 
-I'm going to say **\> git commit -m "first commit"** because this is our commit to our git repository.
+I'm going to say <b>\> git commit -m "first commit"</b> because this is our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git repository and some other information will be typed out on to the command window.
 
@@ -606,13 +606,13 @@ Let's now check again, git status and now you see that it says nothing to commit
 
 What it means is that the current state of my working directory or working folder has been committed to the git repository, so a snapshot has been committed to my git repository.
 
-Now, I can type the next command called **\> git log --oneline**, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.
+Now, I can type the next command called <b>\> git log --oneline</b>, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.
 
 That is the log of all the commits that have been put into my git repository.
 
-Going back to our next git command, we saw that **\> git log --oneline** will show us a brief log of all the commits.
+Going back to our next git command, we saw that <b>\> git log --oneline</b> will show us a brief log of all the commits.
 
-If you simply type **git log** display a lot more detailed information about all the commits.
+If you simply type <b>git log</b> display a lot more detailed information about all the commits.
 
 But this is sufficient enough for obtaining information that we require.
 
@@ -677,7 +677,7 @@ Let's add this to the staging area, and then do a third commit.
 
 Let's say, \> git add., git status, now you see that the index.html the modified version has been added.
 
-Now we can say **\> git commit**. "third commit" and do **\> git log --oneline,** and you see there are three commits in our repository.
+Now we can say <b>\> git commit</b>. "third commit" and do <b>\> git log --oneline,</b> and you see there are three commits in our repository.
 
 Now our repository contains snapshots of three different points, at the end of the first commit, at the end of the second commit, and at the end of the third commit.
 
@@ -691,7 +691,7 @@ At this stage, our index.html file is in the current state. So you can notice th
 
 Let's now look at the next git command.
 
-The next git command that we are going to learn about is **\> git checkout.**
+The next git command that we are going to learn about is <b>\> git checkout.</b>
 
 This checkout command allows us to check out a file from a previous commit in our git repository.
 
@@ -703,7 +703,7 @@ Going back to our command line, we remember that, between the second and the thi
 
 Suppose I want to revert back to the index.html file from my second commit.
 
-Then, I can simply say, **git checkout 900cfcf**.
+Then, I can simply say, <b>git checkout 900cfcf</b>.
 
 That is commit identify the number that identifies the particular commit, and then I can say index.html, and what you would notice is that, that older file will now be checked out into my current working directory.
 
@@ -733,7 +733,7 @@ That's one way you can discard the changes that you have made to a particular fi
 
 Let me just restore that index.html back to what it was at the end of the third commit.
 
-To do that, I could simply say **git checkout -- index.html** and then, if I do git status, it shows that my directory is clean.
+To do that, I could simply say <b>git checkout -- index.html</b> and then, if I do git status, it shows that my directory is clean.
 
 And basically my directory has been restored to the state at the end of the third commit.
 
@@ -778,7 +778,7 @@ At the end of this exercise, did you Git it?
 
 <h3>Exercise (Instructions): Basic Git Commands</h3>
 
-<h3>**Objectives and Outcomes**</h3>
+<h3><b>Objectives and Outcomes</b></h3>
 
 In this exercise you will get familiar with some basic Git commands. At the end of this exercise you will be able to:
 
@@ -787,93 +787,94 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 
 <h3>Basic Git Commands</h3>
 
--   At a convenient location on your computer, create a folder named **git-test**.
+-   At a convenient location on your computer, create a folder named <b>git-test</b>.
 -   Open this git-test folder in your favorite editor.
--   Add a file named *index.html* to this folder, and add the following HTML code to this file:
+-   Add a file named <i>index.html</i> to this folder, and add the following HTML code to this file:
+<b>
+    \<!DOCTYPE html\>
+    \<html\>
+    \<head\>\</head\>
+    \<body\>
+    \<h1\>This is a Header\</h1\>
+    \</body\>
+    \</html\>
+</b>
 
-    **\<!DOCTYPE html\>**
-    **\<html\>**
-    **\<head\>\</head\>**
-    **\<body\>**
-    **\<h1\>This is a Header\</h1\>**
-    **\</body\>**
-    **\</html\>**
-
-<h3>**Initializing the folder as a Git repository**</h3>
+<h3><b>Initializing the folder as a Git repository</b></h3>
 
 -   Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:
 
-**git init**
+<b>git init</b>
 
-<h3>**Checking your Git repository status**</h3>
+<h3><b>Checking your Git repository status</b></h3>
 
 -   Type the following at the prompt to check your Git repository's status:
 
-**git status**
+<b>git status</b>
 
-<h3>**Adding files to the staging area**</h3>
+<h3><b>Adding files to the staging area</b></h3>
 
 -   To add files to the staging area of your Git repository, type:
 
-**git add .**
+<b>git add .</b>
 
-<h3>**Commiting to the Git repository**</h3>
+<h3><b>Commiting to the Git repository</b></h3>
 
 <h3>To commit the current staging area to your Git repository, type:</h3>
 
-**git commit -m "first commit"**
+<b>git commit -m "first commit"</b>
 
-<h3>**Checking the log of Git commits**</h3>
+<h3><b>Checking the log of Git commits</b></h3>
 
 <h3>To check the log of the commits to your Git repository, type</h3>
 
-**git log --oneline**
+<b>git log --oneline</b>
 
-<h3>Now, modify the *index.html* file as follows:</h3>
+<h3>Now, modify the <i>index.html</i> file as follows:</h3>
 
-**\<!DOCTYPE html\>**
-**\<html\>**
-**\<head\>\</head\>**
-**\<body\>**
-**\<h1\>This is a Header\</h1\>**
-**\<p\>This is a paragraph\</p\>**
-**\</body\>**
-**\</html\>**
+<b>\<!DOCTYPE html\>
+\<html\>
+\<head\>\</head\>
+\<body\>
+\<h1\>This is a Header\</h1\>
+\<p\>This is a paragraph\</p\>
+\</body\>
+\</html\></b>
 
--   Add a sub-folder named **templates** to your **git-test** folder, and then add a file named *test.html* to the templates folder. Then set the contents of this file to be the same as the *index.html* file above.
+-   Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <i>test.html</i> to the templates folder. Then set the contents of this file to be the same as the <i>index.html</i> file above.
 -   Then check the status and add all the files to the staging area.
 -   Then do the second commit to your repository
--   Now, modify the *index.html* file as follows:
+-   Now, modify the <i>index.html</i> file as follows:
 
-    **\<!DOCTYPE html\>**
-    **\<html\>**
-    **\<head\>\</head\>**
-    **\<body\>**
-    **\<h1\>This is a Header\</h1\>**
-    **\<p\>This is a paragraph\</p\>**
-    **\<p\>This is a second paragraph\</p\>**
-    **\</body\>**
-    **\</html\>**
-
+    <b>\<!DOCTYPE html\>
+    \<html\>
+    \<head\>\</head\>
+    \<body\>
+    \<h1\>This is a Header\</h1\>
+    \<p\>This is a paragraph\</p\>
+    \<p\>This is a second paragraph\</p\>
+    \</body\>
+    \</html\>
+</b>
 -   Now add the modified index.html file to the staging area and then do a third commit.
 
-<h3>**Checking out a file from an earlier commit**</h3>
+<h3><B>Checking out a file from an earlier commit</b></h3>
 
 -   To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:
 
-**git checkout \<second commit's number\> index.html**
+<b>git checkout \<second commit's number\> index.html</b>
 
 <h3>**Resetting the Git repository**</h3>
 
 -   To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:
 
-**git reset HEAD index.html**
+<b>git reset HEAD index.html</b>
 
 -   Then type the following at the prompt:
 
-**git checkout -- index.html**
+<b>git checkout -- index.html</b>
 
--   You can also use *git reset* to reset the staging area to the last commit without disturbing the working directory.
+-   You can also use <i>git reset</i> to reset the staging area to the last commit without disturbing the working directory.
 
 <h3>**Conclusions**</h3>
 
@@ -1054,7 +1055,7 @@ So did you finally Git it?
 
 ## Exercise (Instructions): Online Git Repositories
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 In this exercise you will learn about how to set up and use an online Git repository and synchronize your local Git repository with your online repository. At the end of this exercise, you will be able to:
 
@@ -1062,24 +1063,24 @@ In this exercise you will learn about how to set up and use an online Git reposi
 -   Push your commits to the online repository
 -   Clone an online Git repository to your computer
 
-### **Setting up an Online Git repository**
+### <b>Setting up an Online Git repository</b>
 
 -   Sign up for an account either at Bitbucket ([https://bitbucket.org](https://bitbucket.org/)) or GitHub ([https://github.com](https://github.com/)).
--   Then set up an online Git repository named **git-test**. Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.
+-   Then set up an online Git repository named <b>git-test</b>. Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.
 
-### **Set the local Git repository to set its remote origin**
+### <b>Set the local Git repository to set its remote origin</b>
 
 -   At the prompt, type the following to set up your local repository to link to your online Git repository:
 
-**git remote add origin \<repository URL\>**
+<b>git remote add origin \<repository URL\></b>
 
-### **Pushing your commits to the online repository**
+### <b>Pushing your commits to the online repository</b>
 
 -   At the prompt, type the following to push the commits to the online repository:
 
-**git push -u origin master**
+<b>git push -u origin master</b>
 
-### **Cloning an online repository**
+### <b>Cloning an online repository</b>
 
 -   To clone an online repository to your computer, type the following at the prompt:
 
@@ -1093,9 +1094,9 @@ In this exercise you will learn about how to set up and use an online Git reposi
    width="85%" />
 </p>
 
-**git clone \<repository URL\>**
+<b>git clone \<repository URL\></b>
 
-### **Conclusions**
+### <b>Conclusions</b>
 
 In this exercise you have learnt to set up an online Git repository, synchronize your local repository with the remote repository, and clone an online repository.
 
@@ -1199,9 +1200,9 @@ Make sure that you are logged in into an administrator account and install Node.
 
 And once the installation is complete, let's go ahead and verify that Node.js has been installed correctly.
 
-Open up a terminal window or a command window and add the prompt, type **node-v** to check the version of node installed.
+Open up a terminal window or a command window and add the prompt, type <b>node-v</b> to check the version of node installed.
 
-Similarly, check **npm-v** to check the version of NPM installed. I am starting with these versions of node and NPM, and the subsequent exercises will be based on these.
+Similarly, check <b>npm-v</b> to check the version of NPM installed. I am starting with these versions of node and NPM, and the subsequent exercises will be based on these.
 
 Even if you install the later version, I'm pretty sure that it would be backward compatible.
 
@@ -1213,9 +1214,9 @@ Let's go ahead and make use of Node.js in the next exercise.
 
 ## Exercise (Instructions): Setting up Node.js and NPM
 
-**Note: Make sure you have installed Git on your machine before you install Node.js. Please complete the previous Git installation exercise before proceeding with this exercise.**
+<b>Note: Make sure you have installed Git on your machine before you install Node.js. Please complete the previous Git installation exercise before proceeding with this exercise.</b>
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 In this exercise, you will learn to set up the Node.js environment, a popular Javascript based server framework, and node package manager (NPM) on your machine.
 
@@ -1230,17 +1231,17 @@ At the end of this exercise, you will be able to:
 -   Complete the setup of Node.js and NPM on your machine
 -   Verify that the installation was successful and your machine is ready for using Node.js and NPM.
 
-### **Installing Node**
+### <b>Installing Node</b>
 
 -   To install Node on your machine, go to [https://nodejs.org](https://nodejs.org/) and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.
 -   As an example, on a Mac, you will see the following web page. Click on the Download button. Follow along the instructions to install Node on your machine. (Note: Now Node gives you the option of installing a mature and dependable LTS version and a more newer stable version. You should to install the LTS version. I will use this version in the course.)
 
-**Note: On Windows machines, you may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.**
+<b>Note: On Windows machines, you may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.</b>
 
 ### Verifying the Node Installation
 
--   Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with **admin** privileges.
--   To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of **Node** and **NPM**
+-   Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with <b>admin</b> privileges.
+-   To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b>
 
 <ul>
 <li><b>node -v</b></li><br/>
@@ -1555,7 +1556,7 @@ And then you see that all this new files have been checked in into your commit.
 
 Let's do a git commit.
 
-**git commit -m "fourth commit"**.
+<b>git commit -m "fourth commit"</b>.
 
 And the files are committed.
 
@@ -1589,27 +1590,27 @@ This is just a start.
 
 ## Exercise (Instructions): Basics of Node.js and NPM
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 In this exercise you will learn the basics of Node and NPM. At the end of this exercise, you will be able to:
 
 -   Set up package.json file in the project folder for configuring your Node and NPM for this project
 -   Install a NPM module and make use of it within your project
 
-### **Initializing package.json**
+### <b>Initializing package.json</b>
 
--   At the command prompt in your **git-test** folder, type
+-   At the command prompt in your <b>git-test</b> folder, type
 
-**npm init**
+<b>npm init</b>
 
 -   Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html
--   This should create a *package.json* file in your **git-test** folder.
+-   This should create a <i>package.json</i> file in your <b>git-test</b> folder.
 
-**Installing an NPM Module**
+<b>Installing an NPM Module</b>
 
 -   Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:
 
-**npm install lite-server --save-dev**
+<b>npm install lite-server --save-dev</b>
 
 -   You can check out more documentation on lite-server [here](https://github.com/johnpapa/lite-server).
 -   Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.
@@ -1638,33 +1639,33 @@ In this exercise you will learn the basics of Node and NPM. At the end of this e
 
 -   Next, start the development server by typing the following at the prompt:
 
-**npm start**
+<b>npm start</b>
 
--   This should open your *index.html* page in your default browser.
--   If you now open the *index.html* page in an editor and make changes and save, the browser should immediately refresh to reflect the changes.
+-   This should open your <i>index.html</i> page in your default browser.
+-   If you now open the <i>index.html</i> page in an editor and make changes and save, the browser should immediately refresh to reflect the changes.
 
-### **Setting up .gitignore**
+### <b>Setting up .gitignore</b>
 
--   Next, create a file in your project directory named *.gitignore* (**Note**: the name starts with a period)Then, add the following to the .gitignore file
+-   Next, create a file in your project directory named *.gitignore</i> (**Note**: the name starts with a period)Then, add the following to the .gitignore file
 
-**node_modules**
+<b>node_modules</b>
 
 -   Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.
 
-### **Conclusions**
+### <b>Conclusions</b>
 
 In this exercise you learnt to set up package.json, install a npm package and start a development server.
 
 ## Setting up your Development Environment: Git and Node: Additional Resources
 
-### **PDFs of Presentations**
+### <b>PDFs of Presentations</b>
 
--   **01-Git.pdf**
--   **01-Git-Exercises.pdf**
--   **02-NodeJS.pdf**
--   **02-Exercises-Node-NPM.pdf**
+-   <b>01-Git.pdf</b>
+-   <b>01-Git-Exercises.pdf</b>
+-   <b>02-NodeJS.pdf</b>
+-   <b>02-Exercises-Node-NPM.pdf</b>
 
-### **Additional Resources (Git)**
+### <b>Additional Resources (Git)</b>
 
 -   Git site [http://git-scm.com](http://git-scm.com/).
 -   [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) chapter from Pro Git
@@ -1672,7 +1673,7 @@ In this exercise you learnt to set up package.json, install a npm package and st
 -   Quick reference guides: [GitHub Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (PDF) \| [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html) (SVG \| PNG)
 -   [Atlassian comprehensive Git tutorial](https://www.atlassian.com/git/tutorials/)
 
-### **Additional Resources (Node.js and NPM)**
+### <b>Additional Resources (Node.js and NPM)</b>
 
 -   [Nodejs.org](https://nodejs.org/)
 -   [Npmjs.com](https://www.npmjs.com/)
@@ -1693,7 +1694,7 @@ At the end of this lesson, you will be able to:
 -   Configure a web project to use Bootstrap
 -   Become familiar with the basic features of Bootstrap
 
-**Note**: For those of you who are already familiar with Bootstrap 3, [here](http://getbootstrap.com/docs/4.0/migration/) is an overview from the Bootstrap 4 documentation on the major changes in Bootstrap 4 compared to Bootstrap 3.
+<b>Note</b>: For those of you who are already familiar with Bootstrap 3, [here](http://getbootstrap.com/docs/4.0/migration/) is an overview from the Bootstrap 4 documentation on the major changes in Bootstrap 4 compared to Bootstrap 3.
 
 While you will find Bootstrap 4 to have a lot of overlap in its classes with Bootstrap 3, several breaking changes have been introduced, including removing some components and introducing new components.
 
@@ -2096,11 +2097,11 @@ As we proceed to the next few exercises, we're going to employee the Bootstrap c
 
 ## Exercise (Instructions): Getting Started with Bootstrap
 
-### **Exercise Resources**
+### <b>Exercise Resources</b>
 
-**Bootstrap4-starter.zip**
+<b>Bootstrap4-starter.zip</b>
 
-**Objectives and Outcomes**
+<b>Objectives and Outcomes</b>
 
 This exercise introduces the first set of steps to set up your web page to make use of Bootstrap classes and components. At the end of this exercise, you will be able to:
 
@@ -2108,40 +2109,40 @@ This exercise introduces the first set of steps to set up your web page to make 
 -   Understand how to set up a web project to use Bootstrap
 -   Include the Bootstrap CSS and JS classes into a web page
 
-### **Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.**
+### <b>Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.</b>
 
-### **Setting up the Project Folder**
+### <b>Setting up the Project Folder</b>
 
--   Go to a convenient folder location on your computer and download the **Bootstrap4-starter.zip** file using the link provided at the top of this page.
--   Unzip the file to see a folder named *Bootstrap4* and a sub-folder under it named *conFusion* created. Move to the *conFusion* folder.
+-   Go to a convenient folder location on your computer and download the <b>Bootstrap4-starter.zip</b> file using the link provided at the top of this page.
+-   Unzip the file to see a folder named <i>Bootstrap4</i> and a sub-folder under it named <i>conFusion</i> created. Move to the <i>conFusion</i> folder.
 -   Open a cmd window/terminal and move to the conFusion folder.
 -   At the prompt type
 
-### **npm install**
+### <b>npm install</b>
 
 -   This will install the lite-server node module to your project.
 -   Next, initialize a Git repository in the project folder, and then set up a .gitignore file with the contents as shown below:
 
-### **node_modules**
+### <b>node_modules</b>
 
 -   Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain the completed files of each exercise.
 -   Set up an online Git repository and synchronize your project folder with the online repository.
 
-### **Downloading Bootstrap**
+### <b>Downloading Bootstrap</b>
 
 -   You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:
 
-    **npm install bootstrap@4.0.0 --save**
-    **npm install jquery@3.3.1 popper.js@1.12.9 --save**
+    <b>npm install bootstrap@4.0.0 --save</b>
+    <b>npm install jquery@3.3.1 popper.js@1.12.9 --save</b>
 
 -   This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-\>dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.
--   Open your project folder in your editor, and then open the index.html file in the *conFusion* folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
--   Start your lite-server by typing **npm start** at the prompt. The *index.html* file should now be loaded into your default browser.
+-   Open your project folder in your editor, and then open the index.html file in the <i>conFusion</i> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
+-   Start your lite-server by typing <b>npm start</b> at the prompt. The <i>index.html</i> file should now be loaded into your default browser.
 
-### **Getting your Web page Bootstrap ready**
+### <b>Getting your Web page Bootstrap ready</b>
 
--   Open the *index.html* file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.
--   Insert the following code in the *\<head\>* of *index.html* file before the title.
+-   Open the <i>index.html</i> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.
+-   Insert the following code in the *\<head\>* of <i>index.html</i> file before the title.
 
     **\<!-- Required meta tags always come first --\>**
     **\<meta charset="utf-8"\>**
@@ -2160,31 +2161,31 @@ This exercise introduces the first set of steps to set up your web page to make 
 
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
 
-### **Conclusion**
+### <b>Conclusion</b>
 
 We have now understood how to set up a web project to use Bootstrap. In the next lecture, we will explore further on responsive design and Bootstrap's grid system.
 
 ## Introduction to Bootstrap: Additional Resources
 
-### **PDFs of the Presentations**
+### <b>PDFs of the Presentations</b>
 
-**03-Web-UI-Frameworks.pdf**
+<b>03-Web-UI-Frameworks.pdf</b>
 
-**04-Intro-Bootstrap.pdf**
+<b>04-Intro-Bootstrap.pdf</b>
 
-### **Exercise Resources**
+### <b>Exercise Resources</b>
 
 -   (required for the exercise)
 
-**Bootstrap4-starter.zip**
+<b>Bootstrap4-starter.zip</b>
 
-### **Bootstrap Official Resources**
+### <b>Bootstrap Official Resources</b>
 
 -   [Bootstrap 4 Home Page](http://getbootstrap.com/)
 -   [Bootstrap typography](http://getbootstrap.com/docs/4.0/content/typography/)
 -   [Migrating from Bootstrap 3 to Bootstrap 4](http://getbootstrap.com/docs/4.0/migration/)
 
-### **Front-end Web UI Frameworks**
+### <b>Front-end Web UI Frameworks</b>
 
 -   [Top 10 Front-End Frameworks of 2018](https://www.keycdn.com/blog/front-end-frameworks/)
 -   [The 5 Most Popular Front-end Frameworks Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/)
@@ -3245,7 +3246,7 @@ This exercise introduces you to responsive design and Bootstrap support for mobi
 -   Create responsive websites using the Bootstrap grid system
 -   Reordering content using push, pull and offset classes
 
-**Note: In this exercise we will continue to update the** *index.html* **file in the** *conFusion* **folder that we created and edited in the previous lecture.**
+<b>Note: In this exercise we will continue to update the</b> <i>index.html</i> <b>file in the</b> <i>conFusion</i> <b>folder that we created and edited in the previous lecture.</b>
 
 ### Bootstrap Grid System and Responsive Design
 
@@ -3253,7 +3254,7 @@ Bootstrap is designed to be mobile first, meaning that the classes are designed 
 
 \<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
 
-The *viewport* meta tag ensures that the screen width is set to the device width and the content is rendered with this width in mind.
+The <i>viewport</i> meta tag ensures that the screen width is set to the device width and the content is rendered with this width in mind.
 
 This brings us to the second issue, designing the websites to be responsive to the size of the viewport.
 
@@ -3277,25 +3278,25 @@ We can specify how many columns each piece of content will occupy within a row, 
 
 **\<div class="container"\> ...**
 
-### **Dividing the content into rows**
+### <b>Dividing the content into rows</b>
 
--   Let us now add the class *row* to the first-level inner *div* elements inside the container. This organizes the page into rows of content. In the next exercise, we will see how we can add other classes to the rows.
+-   Let us now add the class <i>row</i> to the first-level inner <i>div</i> elements inside the container. This organizes the page into rows of content. In the next exercise, we will see how we can add other classes to the rows.
 
 **\<div class="row"\> ...**
 
-### **Creating a Jumbotron**
+### <b>Creating a Jumbotron</b>
 
 -   Let us add the class jumbotron to the header class as shown below. This turns the header element into a Bootstrap component named Jumbotron. A jumbotron is used to showcase key content on a website. In this case we are using it to highlight the name of the restaurant.
 
 **\<header class="jumbotron"\> ...**
 
--   In the header add a **container** class to the first inner div and a row class to the second inner div.
+-   In the header add a <b>container</b> class to the first inner div and a row class to the second inner div.
 
-### **Creating a footer**
+### <b>Creating a footer</b>
 
--   Finally, in the footer add a **container** class to the first inner div and a row class to the second inner div.
+-   Finally, in the footer add a <b>container</b> class to the first inner div and a row class to the second inner div.
 
-### **Applying column classes within each row**
+### <b>Applying column classes within each row</b>
 
 -   In the header row, we will display the restaurant name and the description to occupy 6 columns, while we will leave six columns for displaying the restaurant logo in the future. Let us go into the jumbotron and define the classes for the inner divs as follows:
 
@@ -3329,7 +3330,7 @@ Now you can see how the web page has been turned into a mobile-first responsive 
 
 -   After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 1" and push your changes to the online repository.
 
-### **Conclusion**
+### <b>Conclusion</b>
 
 In this exercise, we reviewed responsive design and the Bootstrap grid system.
 
@@ -3487,68 +3488,68 @@ This is a good time for you to do a good comment with the message, Bootstrap gri
 
 ## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 This exercise continues the examination of responsive design and Bootstrap support for mobile first responsive design through the use of the grid system. We also learn how to customize some of the Bootstrap classes through defining our own modifications in a separate CSS file. At the end of this exercise, you will be able to:
 
 -   Customize the CSS classes through your own additions in a separate CSS file
 -   Centering the content both vertically and horizontally within a row
 
-### **List styles**
+### <b>List styles</b>
 
--   You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style *list-unstyled* to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows
+-   You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style <i>list-unstyled</i> to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows
 
-**\<ul class="list-unstyled"\> ... \</ul\>**
+<b>\<ul class="list-unstyled"\> ... \</ul\></b>
 
-### **Using Custom CSS classes**
+### <b>Using Custom CSS classes</b>
 
 We can define our own custom CSS classes in a separate CSS file, and also customize some of the built-in CSS classes. We will now attempt to do this in this part of the exercise.
 
--   Create a folder named *css*. Then create a file named *styles.css* in the *css* folder. Open this file to edit the contents. Add the following CSS code to the file:
+-   Create a folder named <i>css</i>. Then create a file named <i>styles.css</i> in the <i>css</i> folder. Open this file to edit the contents. Add the following CSS code to the file:
 
-    **.row-header{**
-    **margin:0px auto;**
-    **padding:0px;**
-    **}**
-    **.row-content {**
-    **margin:0px auto;**
-    **padding: 50px 0px 50px 0px;**
-    **border-bottom: 1px ridge;**
-    **min-height:400px;**
-    **}**
-    **.footer{**
-    **background-color: \#D1C4E9;**
-    **margin:0px auto;**
-    **padding: 20px 0px 20px 0px;**
-    **}**
+    <b>.row-header{
+    margin:0px auto;
+    padding:0px;
+    }
+    .row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+    }
+    .footer{
+    background-color: \#D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    }</b>
 
--   Include the *styles.css* file into the head of the *index.html* file as follows:
+-   Include the <i>styles.css</i> file into the head of the <i>index.html</i> file as follows:
 
-**\<link href="css/styles.css" rel="stylesheet"\>**
+<b>\<link href="css/styles.css" rel="stylesheet"\></b>
 
--   Then add these classes to the corresponding rows in the *index.html* file as follows. See the difference in the *index.html* file in the browser. The first one is for the row in the \<header\>, the next three for the rows in the content, and the last one directly to the \<footer\> tag.
+-   Then add these classes to the corresponding rows in the <i>index.html</i> file as follows. See the difference in the <i>index.html</i> file in the browser. The first one is for the row in the \<header\>, the next three for the rows in the content, and the last one directly to the \<footer\> tag.
 
-    **\<div class="row row-header"\> ... \</div\>**
-    **\<div class="row row-content"\> ... \</div\>**
-    **\<div class="row row-content"\> ... \</div\>**
-    **\<div class="row row-content"\> ... \</div\>**
-    **\<footer class="footer"\> ... \</footer\>**
+    <b>\<div class="row row-header"\> ... \</div\></b>
+    <b>\<div class="row row-content"\> ... \</div\></b>
+    <b>\<div class="row row-content"\> ... \</div\></b>
+    <b>\<div class="row row-content"\> ... \</div\></b>
+    <b>\<footer class="footer"\> ... \</footer\></b>
 
--   Our next set of customization is to the jumbotron and the address. Add the following to *styles.css* file:
+-   Our next set of customization is to the jumbotron and the address. Add the following to <i>styles.css</i> file:
 
-    **.jumbotron {**
-    **padding:70px 30px 70px 30px;**
-    **margin:0px auto;**
-    **background: \#9575CD ;**
-    **color:floralwhite;**
-    **}**
-    **address{**
-    **font-size:80%;**
-    **margin:0px;**
-    **color:\#0f0f0f;**
-    **}**
+    <b>.jumbotron {</b>
+    <b>padding:70px 30px 70px 30px;</b>
+    <b>margin:0px auto;</b>
+    <b>background: \#9575CD ;</b>
+    <b>color:floralwhite;</b>
+    <b>}</b>
+    <b>address{</b>
+    <b>font-size:80%;</b>
+    <b>margin:0px;</b>
+    <b>color:\#0f0f0f;</b>
+    <b>}</b>
 
-### **Vertically Centering the Content**
+### <b>Vertically Centering the Content</b>
 
 -   In the content section, update all the rows as follows:
 
@@ -3558,7 +3559,7 @@ We can define our own custom CSS classes in a separate CSS file, and also custom
 
 **\<div class="col-12 col-sm-4 align-self-center"\>**
 
-### **Horizontally Centering the Content**
+### <b>Horizontally Centering the Content</b>
 
 -   Update the copyright paragraph as follows:
 
@@ -3571,23 +3572,23 @@ We can define our own custom CSS classes in a separate CSS file, and also custom
 
 -   After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 2" and push your changes to the online repository.
 
-### **Conclusion**
+### <b>Conclusion</b>
 
 In this exercise, we continued our review of responsive design and the Bootstrap grid system. We also learnt how to customize using our own CSS classes.
 
 ## Responsive Design and Bootstrap Grid System: Additional Resources
 
-### **PDFs of Presentations**
+### <b>PDFs of Presentations</b>
 
-**05-Responsive-Design.pdf**
+<b>05-Responsive-Design.pdf</b>
 
-**05-Bootstrap-Grid.pdf**
+<b>05-Bootstrap-Grid.pdf</b>
 
-### **Bootstrap Official Documentation**
+### <b>Bootstrap Official Documentation</b>
 
 -   [Bootstrap Grid System](http://getbootstrap.com/docs/4.0/layout/grid/)
 
-### **Responsive Design and Bootstrap Grid Resources**
+### <b>Responsive Design and Bootstrap Grid Resources</b>
 
 -   [CSS Flexible Box Layout Module Level 1](https://www.w3.org/TR/css-flexbox/) (W3C Documentation)
 -   [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -3665,13 +3666,13 @@ To take a full page screenshot in Chrome, you can use a Chrome extension that is
 
 After you complete your assignment, in case you're saving your changes to a Git Repository, please don't forget to commit the changes to your Git Repository with the Message Assignment One.
 
-**Assignment 1 Resources**
+<b>Assignment 1 Resources</b>
 
-### **Assignment 1 Starter Files**
+### <b>Assignment 1 Starter Files</b>
 
-**aboutus.html**
+<b>aboutus.html</b>
 
-### **Assignment 1 Screenshots**
+### <b>Assignment 1 Screenshots</b>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 74. ristorante con fusion part i (110/111) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3693,12 +3694,12 @@ After you complete your assignment, in case you're saving your changes to a Git 
    width="85%" />
 </p>
 
-### **Bootstrap Resources**
+### <b>Bootstrap Resources</b>
 
 -   [Bootstrap grid](http://getbootstrap.com/docs/4.0/layout/grid/)
 -   [Bootstrap display utilities](http://getbootstrap.com/docs/4.0/utilities/display/) (documentation here about the d-none and d-sm-block classes)
 
-### **Chrome extension**
+### <b>Chrome extension</b>
 
 -   [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl).
 
@@ -3724,19 +3725,19 @@ At the end of this step you should be able to:
 
 ## Ideation Report Template
 
-### **Project Title**
+### <b>Project Title</b>
 
-### **1. Introduction**
+### <b>1. Introduction</b>
 
 -   A brief introduction to your website idea. State the goals of the project.
 -   The values / benefits (tangible and intangible) this application can bring to a company/organization/end-user.
 
-### **2. Expected List of Features**
+### <b>2. Expected List of Features</b>
 
 -   A brief list of features that you expect your website to support.
 -   Brief justifications for including these features.
 
-### **3. Market Survey**
+### <b>3. Market Survey</b>
 
 -   Do a survey of the Web to find about five web sites that might have similar ideas as yours.
 -   Briefly compare the features of these applications with your application idea.
@@ -3748,11 +3749,11 @@ At the end of this step you should be able to:
 
 ## Ideation: Additional Resources
 
-### **General Resources**
+### <b>General Resources</b>
 
 -   [Ideation (creative process)](https://en.wikipedia.org/wiki/Ideation_(creative_process))
 
-### **Volunteer your Services**
+### <b>Volunteer your Services</b>
 
 -   [VolunteerMatch.org](http://www.volunteermatch.org/)
 -   [Free Code Camp](https://www.freecodecamp.com/)
@@ -4265,7 +4266,7 @@ This is a good time for you to do a git commit with the message "navbar and brea
 
 ## Exercise (Instructions): Navbar and Breadcrumbs
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 In this exercise, we will examine the navigation support that we can build into a web page using the Navbar in Bootstrap. At the end of this exercise, you will be able to:
 
@@ -4273,62 +4274,62 @@ In this exercise, we will examine the navigation support that we can build into 
 -   Add breadcrumbs to the website
 -   Include additional CSS classes into your project
 
-### **Create a basic navigation bar**
+### <b>Create a basic navigation bar</b>
 
 -   We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.
 
-    **\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>**
-    **\<div class="container"\>**
-    **\<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\>**
-    **\<ul class="navbar-nav mr-auto"\>**
-    **\<li class="nav-item active"\>\<a class="nav-link" href="\#"\>Home\</a\>\</li\>**
-    **\<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>About\</a\>\</li\>**
-    **\<li class="nav-item"\>\<a class="nav-link" href="\#"\>Menu\</a\>\</li\>**
-    **\<li class="nav-item"\>\<a class="nav-link" href="\#"\>Contact\</a\>\</li\>**
-    **\</ul\>**
-    **\</div\>**
-    **\</nav\>**
+    <b>\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>
+    \<div class="container"\>
+    \<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\>
+    \<ul class="navbar-nav mr-auto"\>
+    \<li class="nav-item active"\>\<a class="nav-link" href="\#"\>Home\</a\>\</li\>
+    \<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>About\</a\>\</li\>
+    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Menu\</a\>\</li\>
+    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Contact\</a\>\</li\>
+    \</ul\>
+    \</div\>
+    \</nav\></b>
 
-In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the *navbar* that declares it as a navigation bar, and the *navbar-dark* class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner *ul* is used to specify the items to be put in the navigation bar. This *ul* is styled with *navbar-nav* class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
+In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i> class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner <i>ul</i> is used to specify the items to be put in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
 
 ### Creating a responsive navigation bar
 
 -   We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens. This can be achieved by adding the following code to the navigation bar, just below the container div
 
-    **\<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="\#Navbar"\>**
-    **\<span class="navbar-toggler-icon"\>\</span\>**
-    **\</button\>**
+    <b>\<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="\#Navbar"\></b>
+    <b>\<span class="navbar-toggler-icon"\>\</span\></b>
+    <b>\</button\></b>
 
 This creates a button with three horizontal lines. For medium to extra large screens, this button is hidden. For small and extra small screens, this button becomes visible. This button will act as the toggle for the navbar items.
 
--   To hide the items from the navigation bar for the small screens, we need to enclose the *ul* within another div as follows:
+-   To hide the items from the navigation bar for the small screens, we need to enclose the <i>ul</i> within another div as follows:
 
-    **\<div class="collapse navbar-collapse" id="Navbar"\>**
-    **\<ul class="navbar-nav mr-auto"\> ... \</ul\>**
-    **\</div\>**
+    <b>\<div class="collapse navbar-collapse" id="Navbar"\></b>
+    <b>\<ul class="navbar-nav mr-auto"\> ... \</ul\></b>
+    <b>\</div\></b>
 
-By doing this, we are specifying that this div with *collapse* and *navbar-collapse* classes and with the id N*avbar* will be collapsed on small and xs screens, but can be toggled on or off when the toggle button is clicked. Note the use of *data-toggle="collapse" data-target="\#Navbar"* within the button above. This specifies that the menu items are collapsed on small and xs screens when the toggle button is visible. They can be displayed or hidden by clicking the toggle button.
+By doing this, we are specifying that this div with <i>collapse</i> and <i>navbar-collapse</i> classes and with the id N<i>avbar</i> will be collapsed on small and xs screens, but can be toggled on or off when the toggle button is clicked. Note the use of <i>data-toggle="collapse" data-target="\#Navbar"</i> within the button above. This specifies that the menu items are collapsed on small and xs screens when the toggle button is visible. They can be displayed or hidden by clicking the toggle button.
 
--   Copy and paste the entire navbar code also into *aboutus.html* to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to *active*, and remove the *active* class from the Home link. Also, update the home link to take you back to *index.html*. Update the navbar-brand tag also to take you back to *index.html*.
+-   Copy and paste the entire navbar code also into <i>aboutus.html</i> to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to <i>active*, and remove the <i>active</i> class from the Home link. Also, update the home link to take you back to <i>index.html*. Update the navbar-brand tag also to take you back to <i>index.html*.
 
-### **Modifications to the CSS styles**
+### <b>Modifications to the CSS styles</b>
 
--   We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the *styles.css* file
+-   We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <i>styles.css</i> file
 
-    **body{**
-    **padding:50px 0px 0px 0px;**
-    **z-index:0;**
-    **}**
-    **.navbar-dark {**
-    **background-color: \#512DA8;**
-    **}**
+    <b>body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    }
+    .navbar-dark {
+    background-color: \#512DA8;
+    }</b>
 
--   Remember to delete the *bg-primary* class from the \<nav\> element in both *index.html* and *aboutus.html.*
+-   Remember to delete the <i>bg-primary</i> class from the \<nav\> element in both <i>index.html</i> and <i>aboutus.html.*
 -   We are already beginning to see the page format close to the final format for this module.
 
 ### Adding Breadcrumbs
 
--   To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in *aboutus.html*.
+-   To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <i>aboutus.html*.
 
     **\<ol class="col-12 breadcrumb"\>**
     **\<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\>**
@@ -4481,7 +4482,7 @@ Now that you've completed this exercise, this may be a good time to do a good co
 
 ## Exercise (Instructions): Icon Fonts
 
-### **Objectives and Outcomes**
+### <b>Objectives and Outcomes</b>
 
 In this exercise, we will learn the use of icons in web page design using Font Awesome icons, and bootstrap-social icons. At the end of this exercise, you will be able to:
 
@@ -4489,15 +4490,15 @@ In this exercise, we will learn the use of icons in web page design using Font A
 
 Note: Some people have pointed out that if they have AdBlocker installed, then the font icons are not showing up in their browser.
 
-### **Using Icon Fonts and Other CSS classes**
+### <b>Using Icon Fonts and Other CSS classes</b>
 
 -   One of the most popular icon font toolkit is Font Awesome. Go to its website <http://fontawesome.io/> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:
 
-**npm install font-awesome@4.7.0 --save**
+<b>npm install font-awesome@4.7.0 --save</b>
 
 -   Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <https://lipis.github.io/bootstrap-social/>. To install it using npm, type the following at the prompt:
 
-**npm install bootstrap-social@5.1.1 --save**
+<b>npm install bootstrap-social@5.1.1 --save</b>
 
 -   We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:
 
@@ -4538,13 +4539,13 @@ Note: Some people have pointed out that if they have AdBlocker installed, then t
 
 -   Save all the changes and commit to your Git repository with the message "Icon Fonts".
 
-### **Conclusions**
+### <b>Conclusions</b>
 
 We learnt about using icon fonts in a web project.
 
 ## Navigation and Navigation Bar: Additional Resources
 
-### **PDFs of Presentations**
+### <b>PDFs of Presentations</b>
 
 **06-Navigation.pdf**
 
@@ -5293,13 +5294,13 @@ Download file
 
 ### Set up for the Exercise
 
--   Download the *contactus.html.zip* file given above, unzip it and move the *contactus.html* to the *conFusion* folder. This file is already pre-formatted with some content.
--   Set up the links in the navigation bars for all the three pages, *index.html, aboutus.html* and *contactus.html* so that we can navigate from one to the other with ease.
+-   Download the <i>contactus.html.zip</i> file given above, unzip it and move the <i>contactus.html</i> to the <i>conFusion</i> folder. This file is already pre-formatted with some content.
+-   Set up the links in the navigation bars for all the three pages, <i>index.html, aboutus.html</i> and <i>contactus.html</i> so that we can navigate from one to the other with ease.
 -   Also set up the links in the footer correctly to point to the appropriate pages.
 
 ### Adding a Button Bar
 
--   We are now going to add content to *contactus.html* file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:
+-   We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:
 
     **\<div class="btn-group" role="group"\>**
     **\<a role="button" class="btn btn-primary" href="tel:+85212345678"\>\<i class="fa fa-phone"\>\</i\> Call\</a\>**
@@ -5307,7 +5308,7 @@ Download file
     **\<a role="button" class="btn btn-success" href="mailto:confusion@food.net"\>\<i class="fa fa-envelope-o"\>\</i\> Email\</a\>**
     **\</div\>**
 
-Note how we define the button bar using the *btn-group* class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an *href* associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the *btn* class.
+Note how we define the button bar using the <i>btn-group</i> class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an <i>href</i> associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the <i>btn</i> class.
 
 -   Remember to do a Git commit with the message "Buttons"
 
@@ -5606,7 +5607,7 @@ In this exercise, we will examine user input for a website through the use of Fo
     **\</div\>**
     **\</form\>**
 
-This creates a form with two elements in the form. Note that the class *row* in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
+This creates a form with two elements in the form. Note that the class <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user's telephone number and email:
 
@@ -5668,7 +5669,7 @@ This creates a form with two elements in the form. Note that the class *row* in 
     **\</div\>**
     **\</div\>**
 
-Note the declaration of the type for the button to *submit*.
+Note the declaration of the type for the button to <i>submit*.
 
 -   Remember to do a Git commit with the message "Forms"
 
@@ -5991,8 +5992,8 @@ In this exercise, we will examine tables and Bootstrap classes for styling table
 
 ### **Set up for the Exercise**
 
--   In this exercise we will be modifying the *aboutus.html* page to add a table, a card with some content and a card with a quotation.
--   Let us get started by opening *aboutus.html* page in a text editor.
+-   In this exercise we will be modifying the <i>aboutus.html</i> page to add a table, a card with some content and a card with a quotation.
+-   Let us get started by opening <i>aboutus.html</i> page in a text editor.
 
 ### **Bootstrap Tables**
 
@@ -6047,7 +6048,7 @@ In this exercise, we will examine tables and Bootstrap classes for styling table
     **\</table\>**
     **\</div\>**
 
-Note the use of *table-responsive* class to create a responsive table, and the *table-striped* and *thead-inverse* classes for styling the table.
+Note the use of <i>table-responsive</i> class to create a responsive table, and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the table.
 
 ### **Bootstrap Cards**
 
@@ -6321,8 +6322,8 @@ In this exercise, we will explore the Bootstrap classes to support image and med
 
 ### **Set up for the Exercise**
 
--   Download the img.zip file that we provide above and unzip it in the *conFusion* folder. This should create a folder named *img* there.
--   We will now update the *index.html* file to include images and media objects on the web page.
+-   Download the img.zip file that we provide above and unzip it in the <i>conFusion</i> folder. This should create a folder named <i>img</i> there.
+-   We will now update the <i>index.html</i> file to include images and media objects on the web page.
 
 ### **Adding the Restaurant Logo**
 
@@ -6340,7 +6341,7 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
 
 **Note the inclusion of the logo in the navbar.**
 
--   Repeat the above two steps for the *aboutus.html* and the *contactus.html* page also to update their navbars and jumbotrons.
+-   Repeat the above two steps for the <i>aboutus.html</i> and the <i>contactus.html</i> page also to update their navbars and jumbotrons.
 
 ### **Adding Media Objects**
 
@@ -6359,7 +6360,7 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
     **\</div\>**
     **\</div\>**
 
-Note the use of the *media* class and the related Bootstrap classes to style the content.
+Note the use of the <i>media</i> class and the related Bootstrap classes to style the content.
 
 -   Next, we will go to the third row and replace the contents of the second column containing the description about Alberto with the following content:
 
@@ -6500,7 +6501,7 @@ In this short exercise we will examine the use of badges as a way of alerting us
 
 ### **Adding Badges**
 
--   We will continue to edit the *index.html* file. In this file, we will add a badge *HOT* next to the name of the dish Uthappizza in the first content row. To do this, add the following code inside the *\<h2\>* containing the name of the dish:
+-   We will continue to edit the <i>index.html</i> file. In this file, we will add a badge <i>HOT</i> next to the name of the dish Uthappizza in the first content row. To do this, add the following code inside the *\<h2\>* containing the name of the dish:
 
     **\<span class="badge badge-danger"\>HOT\</span\>**
 
@@ -7057,7 +7058,7 @@ In this exercise we will explore Bootstrap tabs and tabbed navigation. In partic
 
 ### **Adding Tab Navigation Elements**
 
--   Open the *aboutus.html* page and move to the second content row containing the details of the corporate leadership of the restaurant.
+-   Open the <i>aboutus.html<i> page and move to the second content row containing the details of the corporate leadership of the restaurant.
 -   Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:
 
     **\<ul class="nav nav-tabs"\>**
@@ -7079,7 +7080,7 @@ In this exercise we will explore Bootstrap tabs and tabbed navigation. In partic
     **\</li\>**
     **\</ul\>**
 
-Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes to set up the tab navigation. Each list item within the list acts as the tab element. Within each list item, note that we set up the *\<a\>* tags with the *href* pointing to the *id* of the tab pane of content to be introduced later. Also note that the *\<a\>* tag contains the *data-toggle=tab* attribute. The first list element's *\<a\>* tag contains the class *active*. This tab will be the open tab when we view the web page. We can switch to the other tabs using the tabbed navigation that we just set up.
+Note the use of the *\<ul\>* tag with the <i>nav</i> and <i>nav-tabs</i> classes to set up the tab navigation. Each list item within the list acts as the tab element. Within each list item, note that we set up the *\<a\>* tags with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be introduced later. Also note that the *\<a\>* tag contains the <i>data-toggle=tab</i> attribute. The first list element's *\<a\>* tag contains the class <i>active*. This tab will be the open tab when we view the web page. We can switch to the other tabs using the tabbed navigation that we just set up.
 
 ### Adding Tab Content
 
@@ -7096,13 +7097,13 @@ Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes to set up
     **\<p\> ... \</p\>**
     **\</div\>**
 
-Note the use of the *tab-pane, fade, show,* and *active* classes and with *peter* as the id. This is the same id used as the *href* in the *\<a\>* link in the navigation.
+Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the *\<a\>* link in the navigation.
 
--   The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the *show* and *active* classes specified to indicate that the content should be visible on the web page by default.
+-   The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the <i>show</i> and <i>active</i> classes specified to indicate that the content should be visible on the web page by default.
 
 ### **Modifying the tab-content CSS**
 
--   We now modify the CSS styles for the tab-content class in the *mystyles.css* file as follows:
+-   We now modify the CSS styles for the tab-content class in the <i>mystyles.css</i> file as follows:
 
     **.tab-content {**
     **border-left: 1px solid \#ddd;**
@@ -7352,7 +7353,7 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 ### Converting Tabs to Accordion
 
 -   First delete the \<ul\> class that was introduced for the tabbed navigation.
--   Then the turn the *tab-content* div into a *accordion* div. Use the code structure as shown below:
+-   Then the turn the <i>tab-content</i> div into a <i>accordion</i> div. Use the code structure as shown below:
 
     **\<div id="accordion"\>**
     **. . .**
@@ -7743,13 +7744,13 @@ In this exercise we will examine how to add tooltips to a web page. In addition 
 
 ### **Adding a Tooltip**
 
--   Let us now switch to the *index.html* page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:
+-   Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:
 
     **\<a role="button" class="btn btn-block nav-link btn-warning"**
     **data-toggle="tooltip" data-html="true" title="Or Call us at \<br\>\<strong\>+852 12345678\</strong\>"**
     **data-placement="bottom" href="\#reserveform"\>Reserve Table\</a\>**
 
-As you can see from the code, we add a *data-toggle*, *data-placement* and a *title* attribute to the \<a\> tag in order to introduce a tooltip.
+As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:
 
@@ -7809,7 +7810,7 @@ This script is added right after the line that imports the bootstrap.min.js file
     **\<span class="fa fa-sign-in"\>\</span\> Login\</a\>**
     **\</span\>**
 
-We are introducing another link to the right of the navbar using the *navbar-text*. This contains a link with an *\<a\>* tag with the *data-toggle="modal"* and *data-target="\#loginModal"* attributes.
+We are introducing another link to the right of the navbar using the <i>navbar-text*. This contains a link with an *\<a\>* tag with the <i>data-toggle="modal"* and <i>data-target="\#loginModal"* attributes.
 
 -   Save all the changes and do a Git commit with the message "Tooltip and Modal".
 
@@ -8019,7 +8020,7 @@ In this exercise we will examine the carousel component and add it to the web pa
 
 ### Adding a row for the carousel
 
--   The carousel will be added to the *index.html* page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:
+-   The carousel will be added to the <i>index.html</i> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:
 
 **\<div class="row row-content"\>**
 **\<div class="col"\>**
@@ -8058,7 +8059,7 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 
 ### Adding CSS Classes
 
--   Add the following CSS classes to the *styles.css* file:
+-   Add the following CSS classes to the <i>styles.css</i> file:
 
     **.carousel {**
     **background:\#512DA8;**
@@ -9096,7 +9097,7 @@ In this exercise you will learn to write Less code and then automatically transf
 
 ### **Adding Less Variables**
 
--   Open the *conFusion* project in a text editor of your choice. In the css folder, create a file named *styles.less*. We will add the Less code into this file.
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.less*. We will add the Less code into this file.
 -   Add the following Less variables into the file:
 
     **@lt-gray: \#ddd;**
@@ -9186,9 +9187,9 @@ Note the use of the variables and the mixin with various parameters in defining 
 
     **npm install -g less@2.7.2**
 
-This will install the *less* NPM module globally so that it can be used by any project. **Note: if you are executing this on a Mac or Linux machine, you may need to add "sudo" to the beginning of this command**. This will make available the *lessc* compiler for us so that we can compile Less files.
+This will install the <i>less</i> NPM module globally so that it can be used by any project. **Note: if you are executing this on a Mac or Linux machine, you may need to add "sudo" to the beginning of this command**. This will make available the <i>lessc</i> compiler for us so that we can compile Less files.
 
--   Next, go to the CSS folder on your machine and rename the *styles.css* file that you have there as *styles-old.css*. This is to save the CSS file that we have been using so far. We will be creating a new *styles.css* file by compiling the Less file.
+-   Next, go to the CSS folder on your machine and rename the <i>styles.css</i> file that you have there as <i>styles-old.css*. This is to save the CSS file that we have been using so far. We will be creating a new <i>styles.css</i> file by compiling the Less file.
 -   Next type the following at the command prompt to compile the Less file into a CSS file:
 
     **lessc styles.less styles.css**
@@ -9282,7 +9283,7 @@ In this exercise you will learn to write Scss code and then automatically transf
 
 ### **Adding Scss Variables**
 
--   Open the *conFusion* project in a text editor of your choice. In the css folder, create a file named *styles.scss*. We will add the Scss code into this file.
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.scss*. We will add the Scss code into this file.
 -   Add the following Scss variables into the file:
 
     **\$lt-gray: \#ddd;**
@@ -9372,7 +9373,7 @@ Note the use of the variables and the mixin with various parameters in defining 
 
     **npm install --save-dev node-sass@4.7.2**
 
-This will install the *node-sass* NPM module into your project and also add it as a development dependency in your package.json file.
+This will install the <i>node-sass</i> NPM module into your project and also add it as a development dependency in your package.json file.
 
 -   Next open your package.json file and add the following line into the scripts object there. This adds a script to enable the compilation of the Scss file into a CSS file:
 
@@ -9648,28 +9649,28 @@ To help us understand how we can leverage NPM scripts to automate a lot of our w
 
 ### **Objectives and Outcomes**
 
-In this exercise, you will learn to set up NPM scripts by modifying the *package.json* file. At the end of this exercise, you will be able to:
+In this exercise, you will learn to set up NPM scripts by modifying the <i>package.json</i> file. At the end of this exercise, you will be able to:
 
--   Watch for changes to the *styles.scss* file and automatically compile it to the css file.
+-   Watch for changes to the <i>styles.scss</i> file and automatically compile it to the css file.
 -   Run multiple NPM scripts in parallel using parallelshell NPM module.
 
 ### **Moving JS to Script file**
 
--   Create a folder named *js* and in that folder create a file named *scripts.js*.
--   Open *index.html* and from this file cut out all the JQuery script that we added to it and move the code to the *scripts.js* file that we created above.
--   Then, update the *index.html* file to include the *scripts.js* file by adding the following line:
+-   Create a folder named <i>js</i> and in that folder create a file named <i>scripts.js*.
+-   Open <i>index.html</i> and from this file cut out all the JQuery script that we added to it and move the code to the <i>scripts.js</i> file that we created above.
+-   Then, update the <i>index.html</i> file to include the <i>scripts.js</i> file by adding the following line:
 
 **\<script src="js/scripts.js"\>\</script\>**
 
--   Add the same line to the scripts block in *aboutus.html* and *contactus.html*:
+-   Add the same line to the scripts block in <i>aboutus.html</i> and <i>contactus.html*:
 
 ### **Watching for Changes and Parallelshell**
 
--   First, we install two NPM packages *onchange* and *parallelshell* as follows:
+-   First, we install two NPM packages <i>onchange</i> and <i>parallelshell</i> as follows:
 
 **npm install --save-dev onchange@3.3.0 parallelshell@3.0.2**
 
--   Then, add the following two script items to *package.json* if you are doing the exercise on a MacOS computer or a Linux computer:
+-   Then, add the following two script items to <i>package.json</i> if you are doing the exercise on a MacOS computer or a Linux computer:
 
     **"watch:scss": "onchange 'css/\*.scss' -- npm run scss",**
 
@@ -9688,7 +9689,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the *package
 
 **npm start**
 
--   Now, whenever you make any changes to *styles.scss* file, it will automatically be compiled to the corresponding css file.
+-   Now, whenever you make any changes to <i>styles.scss</i> file, it will automatically be compiled to the corresponding css file.
 -   Do a Git Commit with the message "NPM Scripts Part 1".
 
 ### **Conclusions**
@@ -10042,7 +10043,7 @@ At the end of this exercise, you will be able to:
 
 ### **Cleaning up a Distribution Folder**
 
--   Install the *rimraf* npm module by typing the following at the prompt:
+-   Install the <i>rimraf</i> npm module by typing the following at the prompt:
 
 **npm install --save-dev rimraf@2.6.2**
 
@@ -10052,11 +10053,11 @@ At the end of this exercise, you will be able to:
 
 ### **Copying Fonts**
 
--   Your project uses font-awesome fonts. These need to be copied to the distribution folder. To help us do this, install the *copyfiles* NPM module globally as follows:
+-   Your project uses font-awesome fonts. These need to be copied to the distribution folder. To help us do this, install the <i>copyfiles</i> NPM module globally as follows:
 
 **npm -g install copyfiles@2.0.0**
 
-Remember to use *sudo* on mac and Linux.
+Remember to use <i>sudo</i> on mac and Linux.
 
 -   Then set up the following script:
 
@@ -10064,11 +10065,11 @@ Remember to use *sudo* on mac and Linux.
 
 Compressing and Minifying Images
 
--   We use the *imagemin-cli* NPM module to help us to compress our images to reduce the size of the images being used in our project. Install the *imagemin-cli* module as follows:
+-   We use the <i>imagemin-cli</i> NPM module to help us to compress our images to reduce the size of the images being used in our project. Install the <i>imagemin-cli</i> module as follows:
 
 **npm -g install imagemin-cli@3.0.0**
 
-Remember to use *sudo* on mac and Linux. **NOTE:** Some students have encountered issues with imagemin-cli not installing its plugins due to issues with global permissions on Mac. In that case try
+Remember to use <i>sudo</i> on mac and Linux. **NOTE:** Some students have encountered issues with imagemin-cli not installing its plugins due to issues with global permissions on Mac. In that case try
 
 **sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root**
 
@@ -10078,12 +10079,12 @@ Remember to use *sudo* on mac and Linux. **NOTE:** Some students have encountere
 
 ### **Preparing the Distribution Folder**
 
--   Open *.gitignore* and update it as follows. We do not want the dist folder to be checked into the git repository.
+-   Open *.gitignore</i> and update it as follows. We do not want the dist folder to be checked into the git repository.
 
     **node_modules**
     **dist**
 
--   Then, install the *usemin-cli, cssmin, uglifyjs* and *htmlmin* NPM packages as follows:
+-   Then, install the <i>usemin-cli, cssmin, uglifyjs</i> and <i>htmlmin</i> NPM packages as follows:
 
     **npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
 
@@ -10093,7 +10094,7 @@ Remember to use *sudo* on mac and Linux. **NOTE:** Some students have encountere
 
     **"build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"**
 
--   Open *index.html* and surround the css links inclusion code as follows:
+-   Open <i>index.html</i> and surround the css links inclusion code as follows:
 
     **\<!-- build:css css/main.css --\>**
     **\<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>**
@@ -10102,8 +10103,8 @@ Remember to use *sudo* on mac and Linux. **NOTE:** Some students have encountere
     **\<link href="css/styles.css" rel="stylesheet"\>**
     **\<!-- endbuild --\>**
 
--   Do the same change in *aboutus.html* and *contactus.html*
--   Similarly, open *index.html* and surround the js script inclusion code as follows:
+-   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
+-   Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:
 
     **\<!-- build:js js/main.js --\>**
     **\<script src="node_modules/jquery/dist/jquery.slim.min.js"\>\</script\>**
@@ -10112,12 +10113,12 @@ Remember to use *sudo* on mac and Linux. **NOTE:** Some students have encountere
     **\<script src="js/scripts.js"\>\</script\>**
     **\<!-- endbuild --\>**
 
--   Do the same change in *aboutus.html* and *contactus.html*
+-   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 -   To build the distribution folder, you can type the following at the prompt:
 
 **npm run build**
 
--   This will build the *dist* folder containing the files that are a self-contained version of your project. You can now copy the contents of this folder to a web server that hosts your website.
+-   This will build the <i>dist</i> folder containing the files that are a self-contained version of your project. You can now copy the contents of this folder to a web server that hosts your website.
 -   After verifying that the dist folder is built correctly, you can now do a git commit with the message "NPM Scripts Part 2"
 
 ### **Conclusions**
@@ -10474,7 +10475,7 @@ In this exercise, you will learn to use Grunt, the task runner. You will install
 
 This will install the Grunt CLI globally so that you can use them in all projects.
 
--   Next install Grunt to use within your project. To do this, go to the *conFusion* folder and type the following at the prompt:
+-   Next install Grunt to use within your project. To do this, go to the <i>conFusion</i> folder and type the following at the prompt:
 
 **npm install grunt@1.0.2 --save-dev**
 
@@ -10482,7 +10483,7 @@ This will install local per-project Grunt to use within your project.
 
 ### **Creating a Grunt File**
 
--   Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named *Gruntfile.js* in the *conFusion* folder.
+-   Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named <i>Gruntfile.js</i> in the <i>conFusion</i> folder.
 -   Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:
 
     **'use strict';**
@@ -10504,7 +10505,7 @@ This sets up the Grunt module ready for including the grunt tasks inside the fun
 
 The first one installs the Grunt module for SCSS to CSS conversion. The time-grunt module generates time statistics about how much time each task consumes, and jit-grunt enables us to include the necessary downloaded Grunt modules when needed for the tasks.
 
--   Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in *Gruntfile.js*:
+-   Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <i>Gruntfile.js*:
 
     **'use strict';**
     **module.exports = function (grunt) {**
@@ -10957,7 +10958,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
     **npm install grunt-contrib-clean@1.1.0 --save-dev**
 
--   You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to *Gruntfile.js*. This should be added right after the configuration of the SASS task.:
+-   You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <i>Gruntfile.js*. This should be added right after the configuration of the SASS task.:
 
     **,**
     **copy: {**
@@ -11014,7 +11015,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
 ### **Preparing the Distribution Folder and Files**
 
--   We are now going to use the Grunt *usemin* module together with *concat*, *cssmin*, *uglify* and *filerev* to prepare the distribution folder. To do this, install the following Grunt modules:
+-   We are now going to use the Grunt <i>usemin</i> module together with <i>concat*, <i>cssmin*, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:
 
     **npm install grunt-contrib-concat@1.0.1 --save-dev**
     **npm install grunt-contrib-cssmin@2.2.1 --save-dev**
@@ -11284,7 +11285,7 @@ In this exercise, you will learn to use Gulp, the task runner. You will install 
 
 This will install the Gulp globally so that you can use it in all projects.
 
--   Next install Gulp to use within your project. To do this, go to the *conFusion* folder and type the following at the prompt:
+-   Next install Gulp to use within your project. To do this, go to the <i>conFusion</i> folder and type the following at the prompt:
 
     **npm install gulp@3.9.1 --save-dev**
 
@@ -11298,7 +11299,7 @@ This will install local per-project Gulp to use within your project.
 
 ### **Creating a Gulp File**
 
--   Next you need to create a Gulp file containing the tasks to be run when you use Gulp. To do this, create a file named *gulpfile.js* in the *conFusion* folder.
+-   Next you need to create a Gulp file containing the tasks to be run when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in the <i>conFusion</i> folder.
 
 ### **Loading Gulp Plugins**
 
@@ -11343,7 +11344,7 @@ This will install local per-project Gulp to use within your project.
 
 ### **Running the Gulp Tasks**
 
--   At the command prompt, if you type *gulp* it will run the default task:
+-   At the command prompt, if you type <i>gulp</i> it will run the default task:
 
     **gulp**
 
@@ -11367,7 +11368,7 @@ At the end of this exercise, you will be able to:
 
 ### **Copying the Files and Cleaning up the Dist Folder**
 
--   We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the *del* Node module and require it in the Gulp file as follows:
+-   We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the <i>del</i> Node module and require it in the Gulp file as follows:
 
     **npm install del@3.0.0 --save-dev**
     **var ...**
@@ -11387,14 +11388,14 @@ At the end of this exercise, you will be able to:
 
 <h3>**Compressing and Minifying Images**</h3>
 
--   We will now install the *gulp-imagemin* plugin and configure the *imagemin* task. To do this we install the plugin and require it as follows:
+-   We will now install the <i>gulp-imagemin</i> plugin and configure the <i>imagemin</i> task. To do this we install the plugin and require it as follows:
 
 **npm install gulp-imagemin@4.1.0 --save-dev**
 **var ...**
 **imagemin = require('gulp-imagemin'),**
 **...**
 
--   Next, we create the *imagemin* task as follows:
+-   Next, we create the <i>imagemin</i> task as follows:
 
     **// Images**
     **gulp.task('imagemin', function() {**
@@ -11440,7 +11441,7 @@ At the end of this exercise, you will be able to:
 
 ### **Running the Gulp Tasks**
 
-### At the command prompt, if you type *gulp build* it will run the build task:
+### At the command prompt, if you type <i>gulp build</i> it will run the build task:
 
 **gulp build**
 
@@ -11551,13 +11552,13 @@ I hope you enjoyed going through this course.
 
 And I hope I'll see you back again in the next course of the specialization.
 
-## Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions
+<h2>Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions</h2>
 
-### **PDFs of Presentations**
+<h3><b>PDFs of Presentations</b></h3>
 
-**11-Conclusion.pdf**
+<b>11-Conclusion.pdf</b>
 
-## Project Implementation: Objectives and Outcomes
+<h3>Project Implementation: Objectives and Outcomes</h3>
 
 This is the final stretch before you complete your project.
 
@@ -11577,13 +11578,13 @@ At the end of this lesson, you will be able to:
 
 <h3>Final Report Template</h3>
 
-### **Project Title**
+<h3><b>Project Title</b></h3>
 
-### **1. Introduction**
+<h3><b>1. Introduction</b></h3>
 
-### Briefly describe the salient features of your project.
+<h3>Briefly describe the salient features of your project.</h3>
 
-### **2. Design and Implementation**
+<h3><b>2. Design and Implementation</b></h3>
 
 <h3>Give a detailed system description and design and implementation details.</h3>
 
@@ -11594,15 +11595,15 @@ In particular, this section should contain:
 -   A brief discussion of various modules and libraries that you used in implementing your project. In particular highlight the reasons for your choices briefly.
 -   Include a few screen shots of your website in the report
 
-<h3>**3. Conclusions**</h3>
+<h3><b>3. Conclusions</b></h3>
 
 -   Briefly state what results you obtained from your project.
 -   Discuss any features and shortcomings of the project.
 -   Discuss any choices that you might have made differently, in hindsight after completing the project.
 
-<h3>**4. References**</h3>
+<h3><b>4. References</b></h3>
 
 -   Give references to any material / websites / books etc. relevant to your project.
 ...the end
-last updated 05-31-2022 8:41am front-end-web-ui
+last updated 05-31-2022 10:52am front-end-web-ui
 </html>
