@@ -9648,16 +9648,16 @@ We are going to leverage this to be able to develop a few additional scripts tha
 
 To help us understand how we can leverage NPM scripts to automate a lot of our web development tasks, we will learn how to configure the NPM scripts in the package.json file, and then execute the scripts, sometimes automatically or sometimes manually invoke the scripts in order to do the building and deployment of our website.
 
-## Exercise (Instructions): NPM Scripts Part 1
+<h3>Exercise (Instructions): NPM Scripts Part 1</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to set up NPM scripts by modifying the <i>package.json</i> file. At the end of this exercise, you will be able to:
 
 -   Watch for changes to the <i>styles.scss</i> file and automatically compile it to the css file.
 -   Run multiple NPM scripts in parallel using parallelshell NPM module.
 
-### **Moving JS to Script file**
+<h4>Moving JS to Script file</h4>
 
 -   Create a folder named <i>js</i> and in that folder create a file named <i>scripts.js*.
 -   Open <i>index.html</i> and from this file cut out all the JQuery script that we added to it and move the code to the <i>scripts.js</i> file that we created above.
@@ -9667,7 +9667,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and <i>contactus.html*:
 
-### **Watching for Changes and Parallelshell**
+<h4>Watching for Changes and Parallelshell</h4>
 
 -   First, we install two NPM packages <i>onchange</i> and <i>parallelshell</i> as follows:
 
@@ -10029,9 +10029,9 @@ In this exercise, we saw how we can make use of NBM scripts in order to build an
 
 This may be a good time for you to do a Get Comment with message NPM Scripts, Part 2.
 
-## Exercise (Instructions): NPM Scripts Part 2
+<h3>Exercise (Instructions): NPM Scripts Part 2</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to build a distribution folder containing the files that can be deployed on a web server hosting your project.
 
@@ -10044,7 +10044,7 @@ At the end of this exercise, you will be able to:
 -   Prepare a minified and concatenated css file from all the css files used in your project
 -   Prepare an uglified and concatenated JS file containing all the JS code used in your project
 
-### **Cleaning up a Distribution Folder**
+<h4>Cleaning up a Distribution Folder</h4>
 
 -   Install the <i>rimraf</i> npm module by typing the following at the prompt:
 
@@ -10054,7 +10054,7 @@ At the end of this exercise, you will be able to:
 
 **"clean": "rimraf dist",**
 
-### **Copying Fonts**
+<h4>Copying Fonts</h4>
 
 -   Your project uses font-awesome fonts. These need to be copied to the distribution folder. To help us do this, install the <i>copyfiles</i> NPM module globally as follows:
 
@@ -10080,7 +10080,7 @@ Remember to use <i>sudo</i> on mac and Linux. **NOTE:** Some students have encou
 
 **"imagemin": "imagemin img/\* --out-dir='dist/img'",**
 
-### **Preparing the Distribution Folder**
+<h4>Preparing the Distribution Folder</h4>
 
 -   Open *.gitignore</i> and update it as follows. We do not want the dist folder to be checked into the git repository.
 
@@ -10124,25 +10124,25 @@ Remember to use <i>sudo</i> on mac and Linux. **NOTE:** Some students have encou
 -   This will build the <i>dist</i> folder containing the files that are a self-contained version of your project. You can now copy the contents of this folder to a web server that hosts your website.
 -   After verifying that the dist folder is built correctly, you can now do a git commit with the message "NPM Scripts Part 2"
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise, you learnt the various steps to build the project for deployment using NPM scripts.
 
-## Building and Deployment: NPM Scripts: Additional Resources
+<h3>Building and Deployment: NPM Scripts: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h4>PDFs of Presentations</h4>
 
 **10-Building-Deployment.pdf**
 
 **10-NPM-Scripts.pdf**
 
-### **Additional Resources**
+<h4>Additional Resources</h4>
 
 -   [Why npm Scripts?](https://css-tricks.com/why-npm-scripts/)
 -   [How to Use npm as a Build Tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 -   [The Command Line for Web Design](https://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
 
-### **NPM Modules**
+<h4>NPM Modules</h4>
 
 -   [onchange](https://github.com/Qard/onchange)
 -   [parallelshell](https://github.com/keithamus/parallelshell)
@@ -10461,16 +10461,16 @@ With this, we complete our grunt part one exercise.
 
 This is a good time to save your files, to the Git Repository with the message Grunt part one.
 
-## Exercise (Instructions): Grunt Part 1
+<h3>Exercise (Instructions): Grunt Part 1</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to use Grunt, the task runner. You will install Grunt CLI and install Grunt packages using NPM. Thereafter you will configure a Grunt file with a set of tasks to build and serve your web project. At the end of this exercise, you will be able to:
 
 -   Install Grunt CLI and Grunt packages in your project
 -   Configure a Grunt file with a set of tasks to build a web project from a source, and serve the built project using a server.
 
-### **Installing Grunt**
+<h4>Installing Grunt</h4>
 
 -   At the command prompt, type the following to install Grunt command-line interface (CLI):
 
@@ -10484,7 +10484,7 @@ This will install the Grunt CLI globally so that you can use them in all project
 
 This will install local per-project Grunt to use within your project.
 
-### **Creating a Grunt File**
+<h4>Creating a Grunt File</h4>
 
 -   Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named <i>Gruntfile.js</i> in the <i>conFusion</i> folder.
 -   Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:
@@ -10498,7 +10498,7 @@ This will install local per-project Grunt to use within your project.
 
 This sets up the Grunt module ready for including the grunt tasks inside the function above.
 
-### **Compiling SCSS to CSS**
+<h4>Compiling SCSS to CSS</h4>
 
 -   Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:
 
@@ -10533,7 +10533,7 @@ The first one installs the Grunt module for SCSS to CSS conversion. The time-gru
 
 **grunt css**
 
-### **Watch and Serve Tasks**
+<h4>Watch and Serve Tasks</h4>
 
 -   The final step is to use the Grunt modules watch and browser-sync to spin up a web server and keep a watch on the files and automatically reload the browser when any of the watched files are updated. To do this, install the following grunt modules:
 
@@ -10575,13 +10575,13 @@ The first one installs the Grunt module for SCSS to CSS conversion. The time-gru
 
 -   Do a Git commit with the message "Grunt Part 1".
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise you have learnt how to configure a Grunt file to perform several tasks.
 
 You were able to start a server with livereload to serve the web page.
 
-## Exercise (Video): Grunt Part 2
+<h3>Exercise (Video): Grunt Part 2</h3>
 
 Let's continue our grunting.
 
@@ -10941,9 +10941,9 @@ After all the grunting, I'm sure you need to catch your breath.
 
 Before you do that, make sure to do a good comment with the message "Grunt Part two."
 
-## Exercise (Instructions): Grunt Part 2
+<h3>Exercise (Instructions): Grunt Part 2</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will continue to learn to use Grunt, the task runner.
 
@@ -10953,7 +10953,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
 -   Configure a Grunt file with a set of tasks to build your web project from a source.
 
-### **Copying the Files and Cleaning Up the Dist Folder**
+<h4>Copying the Files and Cleaning Up the Dist Folder</h4>
 
 -   Next you will install the Grunt modules to copy over files to a distribution folder named dist, and clean up the dist folder when needed. To do this, install the following Grunt modules:
 
@@ -10996,7 +10996,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
 -   Remember to add the comma after the end of the SASS task.
 
-### **Compressing and Minifying Images**
+<h4>Compressing and Minifying Images</h4>
 
 -   Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:
 
@@ -11016,7 +11016,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
     **}**
     **}**
 
-### **Preparing the Distribution Folder and Files**
+<h4>Preparing the Distribution Folder and Files</h4>
 
 -   We are now going to use the Grunt <i>usemin</i> module together with <i>concat*, <i>cssmin*, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:
 
@@ -11091,11 +11091,11 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
     **grunt build**
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise you have learnt how to configure a Grunt file to perform several tasks. You were able to build a distribution folder for your web project.
 
-## Exercise (Video): Gulp Part 1
+<h3>Exercise (Video): Gulp Part 1</h3>
 
 Now that we have granted enough, it's time to Gulp.
 
@@ -11271,9 +11271,9 @@ In the second part, we will prepare the distribution folder.
 
 This is a good time for you to do a git-commit with the message Gulp part 1.
 
-## Exercise (Instructions): Gulp Part 1
+<h3>Exercise (Instructions): Gulp Part 1</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to use Gulp, the task runner. You will install Gulp CLI and install Gulp plugins using NPM. Thereafter you will configure a Gulp file with a set of tasks to build and serve your web project. At the end of this exercise, you will be able to:
 
@@ -11294,17 +11294,17 @@ This will install the Gulp globally so that you can use it in all projects.
 
 This will install local per-project Gulp to use within your project.
 
-### **Install Gulp Plugins for SASS and Browser-Sync**
+<h4>Install Gulp Plugins for SASS and Browser-Sync</h4>
 
 -   Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:
 
     **npm install gulp-sass@3.1.0 browser-sync@2.23.6 --save-dev**
 
-### **Creating a Gulp File**
+<h4>Creating a Gulp File</h4>
 
 -   Next you need to create a Gulp file containing the tasks to be run when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in the <i>conFusion</i> folder.
 
-### **Loading Gulp Plugins**
+<h4>Loading Gulp Plugins</h4>
 
 -   Load in all the Gulp plugins by including the following code in the Gulp file:
 
@@ -11313,7 +11313,7 @@ This will install local per-project Gulp to use within your project.
     **sass = require('gulp-sass'),**
     **browserSync = require('browser-sync');**
 
-### **Adding Gulp Tasks for SASS and Browser-Sync**
+<h4>Adding Gulp Tasks for SASS and Browser-Sync</h4>
 
 -   Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:
 
@@ -11345,7 +11345,7 @@ This will install local per-project Gulp to use within your project.
 
 -   Save the Gulp file
 
-### **Running the Gulp Tasks**
+<h4>Running the Gulp Tasks</h4>
 
 -   At the command prompt, if you type <i>gulp</i> it will run the default task:
 
@@ -11353,13 +11353,13 @@ This will install local per-project Gulp to use within your project.
 
 -   Do a Git commit with the message "Gulp Part 1".
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gulpfile.js and then use Gulp to automate the web development tasks.
 
-## Exercise (Video): Gulp Part 2
+<h3>Exercise (Video): Gulp Part 2</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will continue to learn to use Gulp.
 
@@ -11369,7 +11369,7 @@ At the end of this exercise, you will be able to:
 
 -   Configure the Gulp file with a set of tasks to build the distribution folder for the web project.
 
-### **Copying the Files and Cleaning up the Dist Folder**
+<h4>Copying the Files and Cleaning up the Dist Folder</h4>
 
 -   We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the <i>del</i> Node module and require it in the Gulp file as follows:
 
@@ -11440,27 +11440,27 @@ At the end of this exercise, you will be able to:
     **gulp.start('copyfonts','imagemin','usemin');**
     **});**
 
-### Save the Gulp file
+<h4>Save the Gulp file</h4>
 
-### **Running the Gulp Tasks**
+<h4>Running the Gulp Tasks</h4>
 
-### At the command prompt, if you type <i>gulp build</i> it will run the build task:
+<h4>At the command prompt, if you type <i>gulp build</i> it will run the build task:</h4>
 
 **gulp build**
 
-### Do a Git commit with the message "Gulp Part 2"
+<h4>Do a Git commit with the message "Gulp Part 2"</h4>
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gulpfile.js and then use Gulp to automate the web development tasks.
 
-## Building and Deployment: Task Runners: Additional Resources
+<h2>Building and Deployment: Task Runners: Additional Resources</h2>
 
-### **PDFs of Presentations**
+<h4>PDFs of Presentations</h4>
 
 **10-Task-Runners.pdf**
 
-### **Grunt Resources**
+<h4>Grunt Resources</h4>
 
 -   [Grunt](http://gruntjs.com/)
 -   [Writing an Awesome Build Script with Grunt](http://www.sitepoint.com/writing-awesome-build-script-grunt/)
@@ -11468,7 +11468,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 -   [File Globbing](http://gruntjs.com/configuring-tasks#globbing-patterns)
 -   [The Command Line for Web Design: Automation With Grunt](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454)
 
-### **Grunt Plugins**
+<h4>Grunt Plugins</h4>
 
 -   [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 -   [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
@@ -11481,7 +11481,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 -   [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 -   [grunt-filerev](https://github.com/yeoman/grunt-filerev)
 
-### **Gulp Resources**
+<h4>Gulp Resources</h4>
 
 -   [Gulp](http://gulpjs.com/)
 -   [An Introduction to Gulp.js](http://www.sitepoint.com/introduction-gulp-js/)
@@ -11489,7 +11489,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 -   [Building with Gulp](http://www.smashingmagazine.com/2014/06/building-with-gulp/)
 -   [The Command Line for Web Design: Automation with Gulp](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-gulp--cms-23642)
 
-### **Gulp Plugins**
+<h4>Gulp Plugins</h4>
 
 -   [gulp](https://github.com/gulpjs/gulp)
 -   [gulp-sass](https://github.com/dlmanning/gulp-sass)
@@ -11503,13 +11503,20 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 -   [gulp-flatmap](https://github.com/mariusGundersen/gulp-flatMap)
 -   [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 
-### **Tasks**
+<h4>Tasks</h4>
 
 -   [Minification](https://en.wikipedia.org/wiki/Minification_(programming))
 -   [UglifyJS](http://lisperator.net/uglifyjs/)
 -   [JSHint](http://jshint.com/)
 
-### **General Resources**
+<h3><b>General Resources</b></h3>
+<ul>
+<li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/">Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit</a><br/></li>
+<li><a href="https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/">The Advantages of Using Task Runners</a><br/></li>
+<li><a href="https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4">Gulp vs Grunt. Why one? Why the Other?</a><br/></li>
+<li><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/">Why we should stop using Grunt & Gulp</a><br/></li>
+<li><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8">Why I Left Gulp and Grunt for npm Scripts</a></li>
+</ul>
 
 -   [Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
 -   [The Advantages of Using Task Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/)
@@ -11517,7 +11524,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 -   [Why we should stop using Grunt & Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
 -   [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)
 
-## Front-End Web UI Frameworks: Bootstrap 4: Conclusions
+<h2>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h2>
 
 As we come to the conclusion of this course, it's time to look back and reflect about what we've covered in this course so far.
 
@@ -11574,10 +11581,11 @@ Perhaps a critical look back at the past, with the view of learning from our exp
 Upon completion of the project it is important not only to demonstrate the working project, but also summarize the process of reaching the final goal.
 
 At the end of this lesson, you will be able to:
-
--   Document the process of starting from an idea and reaching the conclusion of the project, not just the implementation, but also recognizing the process of reaching the end.
--   Learn lessons from the process in understanding what worked and what did not, and being able to make intelligent choices in the future based on the experience
--   Understand the design and development process through the practice.
+<ul type="disc">
+<li>Document the process of starting from an idea and reaching the conclusion of the project, not just the implementation, but also recognizing the process of reaching the end,<br/></li>
+<li>Learn lessons from the process in understanding what worked and what did not, and being able to make intelligent choices in the future based on the experience,<br/></li>
+<li>Understand the design and development process through the practice.</li>
+</ul>
 
 <h3>Final Report Template</h3>
 
@@ -11592,21 +11600,24 @@ At the end of this lesson, you will be able to:
 <h3>Give a detailed system description and design and implementation details.</h3>
 
 In particular, this section should contain:
-
--   Details of how you converted from design to the actual realization of your project in terms of implementing the code.
--   Any choices that you made, and any modifications that you made to the design, in response to difficulties that you might have encountered while implementing the project.
--   A brief discussion of various modules and libraries that you used in implementing your project. In particular highlight the reasons for your choices briefly.
--   Include a few screen shots of your website in the report
+<ul type="circle">
+<li>Details of how you converted from design to the actual realization of your project in terms of implementing the code,<br/></li>
+<li>Any choices that you made, and any modifications that you made to the design, in response to difficulties that you might have encountered while implementing the project,<br/></li>
+<li>A brief discussion of various modules and libraries that you used in implementing your project. In particular highlight the reasons for your choices briefly,<br/></li>
+<li>Include a few screen shots of your website in the report.</li>
+</ul>
 
 <h3><b>3. Conclusions</b></h3>
-
--   Briefly state what results you obtained from your project.
--   Discuss any features and shortcomings of the project.
--   Discuss any choices that you might have made differently, in hindsight after completing the project.
+<ul type="disc">
+<li>Briefly state what results you obtained from your project,<br/></li>
+<li>Discuss any features and shortcomings of the project,<br/></li>
+<li>Discuss any choices that you might have made differently, in hindsight after completing the project.</li>
+</ul>
 
 <h3><b>4. References</b></h3>
-
--   Give references to any material / websites / books etc. relevant to your project.
+<ul type="square">
+<li>Give references to any material / websites / books etc. relevant to your project.<br/></li>
+</ul>
 ...the end
 
 last updated 05-31-2022 11:36am front-end-web-ui
