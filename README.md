@@ -73,6 +73,15 @@ This should take you all the way to the final assignment in this course. I hope 
 <h2><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></h2>
 
 <h5>(coursera.org)</h5>
+<!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------- 88.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png"
+   alt=""
+   width="85%" />
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 01. the hong kong university of science &amp; technology (01) ------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -80,6 +89,7 @@ This should take you all the way to the final assignment in this course. I hope 
 <img src="./images/image001.png"
    alt="The Hong Kong University of Science &amp; Technology"
    width="85%" />
+</p>
 
 ## Course Overview
 
@@ -371,11 +381,11 @@ Git was designed as a version control system and distributed version control sys
 
 That node ecosystem is very much tied into Git and that is the reason why we need Git for this specialization.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 11. git - distributed version control (12) ---------------------->
+<!-------------------------- 11. git - distributed version control (12) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image011.png"
-   alt="Git"
+   alt="Git - Distributed Version Control System"
    width="85%" />
 </p>
 
@@ -416,8 +426,9 @@ If you are using a Mac and you set up x code and especially the x code command l
 
 On this site, gitscm.com, if you go to the documentation page you will notice that there is a book here called Pro Git.
 
+<!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 13. git - getting started (12) ---------------------->
+<!------------------------------- 13. git - getting started (12) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image013.png"
@@ -433,7 +444,7 @@ Go to this Installing Git site and there you have more details about how to inst
 
 Download the installer and run through the set up to get Git on to your computer.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 14. git - powershell config (14) ---------------------->
+<!------------------------------ 14. git - powershell config (14) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image014.png"
@@ -616,7 +627,7 @@ I have changed my index.html file.
 Now, let me add another folder under the git test folder, so I will create a subfolder here named templates, and inside these templates folder, I'm going to create another file name, test.html.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 15. windows powershell - git config (19) --------------------------->
+<!-------------------------- 15. windows powershell - git config (19) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image015.png"
@@ -743,7 +754,7 @@ That way, if you're carrying out a new exercise and you've discovered that you'v
 With this basic understanding of this few git commands, you'll be able to proceed forward with understanding and using git in the courses of this specialization.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 16.  (23) ---------------------->
+<!--------------------------- 16. basic git commands- git reset (23) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png"
@@ -1044,7 +1055,7 @@ Pretending that we are on another computer, so I'm going to say git clone.
 And then, Paste the URL of my Bitbucket repository here.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 17. git - test (30) ---------------------->
+<!------------------------------------ 17. git - test (30) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image017.png"
@@ -1097,8 +1108,9 @@ In this exercise you will learn about how to set up and use an online Git reposi
 
 -   To clone an online repository to your computer, type the following at the prompt:
 
+<!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 18. online git repository commands (31) ---------------------->
+<!--------------------------- 18. online git repository commands (31) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png"
@@ -1118,8 +1130,9 @@ JavaScript which was designed as a scripting language for the browser has seen d
 
 Node.js has played a significant role in this shift of JavaScript from the browser to the desktop.
 
+<!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 19. what is node.js? (32) ---------------------->
+<!---------------------------------- 19. what is node.js? (32) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image019.png"
@@ -1254,6 +1267,12 @@ At the end of this exercise, you will be able to:
 -   Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with **admin** privileges.
 -   To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of **Node** and **NPM**
 
+<ul>
+<li><b>node -v</b></li><br/>
+<li></li><br/>
+<li>**npm -v**</li><br/>
+</ul>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 23. node.js download screen (37) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1262,13 +1281,9 @@ At the end of this exercise, you will be able to:
    alt="Node.js Download Screen"
    width="85%" />
 </p>
- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/86dcde927fae45b56b1cd85213c25824.png)
+ ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](./images/image023.png)
 
-    **node -v**
-
-    **npm -v**
-
-### **Conclusions**
+<h4><b>Conclusions</b></h4>
 
 At the end of this exercise, your machine is now ready with the Node installed for further development. We will examine web development tools next.
 
@@ -1734,7 +1749,7 @@ This course covers Bootstrap 4 with the assumption that you are not familiar wit
 Front-end Web UI Frameworks are becoming their go-to approach for designing and implementing their recent websites.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 26. overview (49) --------------------------------->
+<!-------------------------------------- 26. overview (49) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image026.png"
@@ -1860,11 +1875,11 @@ With this understanding of front-end web UI frameworks, let's now proceed forwar
 Let me do a quick introduction to Bootstrap before we go on to learn how to make use of Bootstrap in designing our website.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 30. bootstrap overview (53) --------------------------------->
+<!----------------------------- 30. bootstrap overview part i (53) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png"
-   alt=""
+   alt="Bootstrap Overview - i"
    width="85%" />
 </p>
 
@@ -1873,11 +1888,11 @@ If you go to the Bootstrap webpage, you will see that Bootstrap claims to be the
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 31. bootstrap overview (54) --------------------------------->
+<!----------------------------- 31. bootstrap overview part ii (54) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image031.png"
-   alt=""
+   alt="Bootstrap Overview ii"
    width="85%" />
 </p>
 
@@ -1890,11 +1905,11 @@ This enables you to design responsive websites with the mobile first approach.
 We will talk more about this in the next lesson.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 32. bootstrap history (54) --------------------------------->
+<!--------------------------------- 32. bootstrap history (54) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image032.png"
-   alt=""
+   alt="Bootstrap History"
    width="85%" />
 </p>
 
@@ -2279,7 +2294,7 @@ We need a better approach, an approach that will automatically adapt your websit
 This is where we have to take an approach to adapt to the user's view port.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 37. why responsive design? part iii (65) --------------------------->
+<!-------------------------- 37. why responsive design? part iii (65) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image037.png"
@@ -2652,7 +2667,7 @@ How does this work?
 We'll see that in the next slide.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 54. auto-layout columns (77) ------------------------------->
+<!-------------------------------- 54. auto-layout columns (77) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png"
@@ -2703,7 +2718,7 @@ These two pieces of content that are enclosed in the two divs, will now be posit
 This is how we can specify and the work with the 12 columns in defining the layout of the current tier.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 57. auto-layout columns part i (79) ------------------------------->
+<!---------------------------- 57. auto-layout columns part i (79) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image057.png"
@@ -2718,7 +2733,7 @@ In this case, I can simply specify column sm without specifying how many columns
 In case I specify three Doobs width column sm in my heml 5, then the bootstrap grid will automatically position these contents inside those divs, side by side, so, that each one of them gets one third of the total width.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 58. auto-layout columns part ii (79) ------------------------------->
+<!---------------------------- 58. auto-layout columns part ii (79) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image058.png"
@@ -2731,22 +2746,22 @@ Since we have 12 columns here, each of these three will get four columns each.
 And this is automatically taken care of by the bootstraps layout mechanism.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 59. auto-layout columns part ii (79) ------------------------------->
+<!--------------------------- 59. auto-layout columns part iii (80) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image059.png"
-   alt="Auto-Layout Columns Part ii"
+   alt="Auto-Layout Columns Part iii"
    width="85%" />
 </p>
 
 Now, we can explicitly specify the number of columns a particular piece of content occupy.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 60. auto-layout columns part ii (79) ------------------------------->
+<!---------------------------- 60. auto-layout columns part iv (80) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image060.png"
-   alt="Auto-Layout Columns Part ii"
+   alt="Auto-Layout Columns Part iv"
    width="85%" />
 </p>
 
@@ -2763,11 +2778,11 @@ That is how the layout is automatically done with Bootstrap.
 In the exercise, we will see various combinations of use of these kind of specifications of how many columns each piece of content will occupy in color layout.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 61. bootstrap grid details (79) ------------------------------->
+<!------------------------------ 61. bootstrap grid details (81) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image061.png"
-   alt="Auto-Layout Columns Part ii"
+   alt="Bootstrap Grid Details"
    width="85%" />
 </p>
 
@@ -2838,11 +2853,11 @@ Also, it supports offsets.
 We will see the use of offsets also in some examples later.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 62. bootstrap grid details (79) ------------------------------->
+<!-------------------------------- 62. using column classes (83) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image062.png"
-   alt=""
+   alt="Using Column Classes"
    width="85%" />
 </p>
 
@@ -2863,11 +2878,11 @@ For small to extra-large they're laid out side by side so that the red content w
 This is how we would specify content layout for different screen sizes.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 63. bootstrap grid details (79) ------------------------------->
+<!--------------------------------- 63. reordering content (84) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image063.png"
-   alt=""
+   alt="Reordering Content"
    width="85%" />
 </p>
 
@@ -2884,11 +2899,11 @@ Using a larger number, you could shift the content to the right side of the row 
 We will see an example of this also in the exercise.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 64. bootstrap grid details (79) ------------------------------->
+<!----------------------------- 64. vertical alignment part i (84) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image064.png"
-   alt=""
+   alt="Vertical Alignment Part i"
    width="85%" />
 </p>
 
@@ -2901,11 +2916,11 @@ With the use of the Flexbox for designing the Bootstrap Grid in Bootstrap four, 
 If you wanted the content to be vertically-centered, then to the row, you would apply the class called "align items center".
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 65. bootstrap grid details (79) ------------------------------->
+<!---------------------------- 65. vertical alignemnt part ii (85) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png"
-   alt=""
+   alt="Vertical Alignment Part ii"
    width="85%" />
 </p>
 
@@ -2914,11 +2929,11 @@ In this case, whatever content is laid out, will be laid out vertically-aligned 
 The content which occupies the largest height will be the one to which the remaining ones will be aligned when it is laid out in that row or if you pre-specify the height of the row, then all the content will be centered vertically within that particular row there.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 66. bootstrap grid details (79) ------------------------------->
+<!---------------------------- 66. horizontal alignment part i (86) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image066.png"
-   alt=""
+   alt="Horizontal Alignment Part i"
    width="85%" />
 </p>
 
@@ -2927,11 +2942,11 @@ Not only that, Bootstrap's Grid also supports horizontal alignment of content.
 Let's look at an example.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 67. bootstrap grid details (79) ------------------------------->
+<!---------------------------- 67. horizontal alignment part ii (86) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png"
-   alt=""
+   alt="Horizontal Alignment Part ii"
    width="85%" />
 </p>
 
@@ -2942,11 +2957,11 @@ Say, you have three columns and the first one you specify div class column three
 And the right one says div class column 3. So in this case, what we are specifying is that the left and the rightmost pieces of content will occupy three columns each.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 68. bootstrap grid details (79) ------------------------------->
+<!--------------------------- 68. horizontal alignment part iii (87) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image068.png"
-   alt=""
+   alt="Horizontal Alignment Part iii"
    width="85%" />
 </p>
 
@@ -2969,11 +2984,11 @@ You can also have the content left-justified, right-justified and a couple of ot
 Details are in the bootstraps documentation.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 69. bootstrap grid details (79) ------------------------------->
+<!------------------------------ 69. column offsets part i (88) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png"
-   alt=""
+   alt="Column Offsets Part i"
    width="85%" />
 </p>
 
@@ -2984,11 +2999,11 @@ How does this work?
 Let's look at an example.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 70. bootstrap grid details (79) ------------------------------->
+<!-------------------------------- 70. column offset part ii (88) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png"
-   alt=""
+   alt="Column Offsets Part ii"
    width="85%" />
 </p>
 
@@ -2999,11 +3014,11 @@ What we are specifying is for small to extra-large screens, this piece of conten
 When this content is laid out, as you can see, the leftmost one column is left blank and the content is shifted right by one column.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 71. bootstrap grid details (79) ------------------------------->
+<!------------------------------ 71. column offset part iii (89) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png"
-   alt=""
+   alt="Column Offsets Part iii"
    width="85%" />
 </p>
 
@@ -3016,11 +3031,11 @@ That is how we can control the layout of the content using a column offset.
 As you can see, using the column size specifications, the vertical and horizontal alignment, the offset, the push and the pull, and flex first and flex last, we are able to get a lot of control on how we lay out contents for different screen widths and different screen sizes.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 72. bootstrap grid details (79) ------------------------------->
+<!---------------------------------- 72. nesting columns (89) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.png"
-   alt=""
+   alt="Nesting Columns"
    width="85%" />
 </p>
 
@@ -3033,11 +3048,11 @@ Now, inside the right div, I can again go in and divide that div's width into a 
 Nesting like this, brings you even more flexibility in the way you lay out content in your pitch.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 73. bootstrap grid details (79) ------------------------------->
+<!--------------- 73. exercise: responsive design and bootstrap grid system (90) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png"
-   alt=""
+   alt="Exercise: Responsive Design and Bootstrap Grid System"
    width="85%" />
 </p>
 
@@ -3747,21 +3762,21 @@ After you complete your assignment, in case you're saving your changes to a Git 
 
 ### **Assignment 1 Screenshots**
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 74.  (xx) ------------------------------->
+<!------------------------ 74. ristorante con fusion part i (110/111) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image074.png"
-   alt=""
+   alt="The World's Best Cousine Part i"
    width="85%" />
 </p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/0524ef64534ed8928939b9c5ca6365a6.png)![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/fe1d88f7e65158bd9503ba70a3d29713.png)
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 75.  (xx) ------------------------------->
+<!------------------------ 75. ristorante con fusion part ii (111/112) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image075.png"
-   alt=""
+   alt="The World's Best Cousine Part ii"
    width="85%" />
 </p>
 
@@ -9996,7 +10011,7 @@ And upon completing this assignment, you may wish to do a good comment to save y
 
 ### **Screenshots**
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 79.  (xx) ------------------------------->
+<!----------------------- 79. reserve a table - smoking or non-smoking (xx) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image079.png"
@@ -12369,5 +12384,5 @@ In particular, this section should contain:
 
 -   Give references to any material / websites / books etc. relevant to your project.
 ...the end
-last updated 05-30-2022 11:16pm front-end-web-ui
+last updated 05-31-2022 7:13am front-end-web-ui
 
