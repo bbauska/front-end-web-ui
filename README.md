@@ -74,7 +74,7 @@ This should take you all the way to the final assignment in this course. I hope 
 
 (coursera.org)
 
-![](images/image001png)
+![](images/image001.png)
 
 ## Course Overview
 
