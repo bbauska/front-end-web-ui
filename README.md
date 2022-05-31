@@ -70,17 +70,9 @@ This should take you all the way to the final assignment in this course. I hope 
 </p>
 
 <!-------------------------------------------- begins here --------------------------------------->
-<h2><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></h2>
+<h2 align="center"><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></h2>
 
-<h5>(coursera.org)</h5>
-<!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
-<!------------------------------------------------------------------------------------------------>
-<!--------------- 88.  (xx) ------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image.png"
-   alt=""
-   width="85%" />
+<h5 align="center">(coursera.org)</h5>
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 01. the hong kong university of science &amp; technology (01) ------------------>
@@ -91,7 +83,7 @@ This should take you all the way to the final assignment in this course. I hope 
    width="85%" />
 </p>
 
-## Course Overview
+<h3>Course Overview</h3>
 
 Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
@@ -135,31 +127,29 @@ This course, itself, is structured into four modules.
 Each module roughly corresponding to one week of work.
 
 1.  In the **first** module, we'll get the big picture view of full stack web development, then you'll get a quick introduction to **Git** and **Node.js***.*
-    1.  Then we'll introduce you to the **Bootstrap** and then review the **Bootstrap Grid** system.
-    2.  That will lead you up to the first assignment in this course.
+    i.  Then we'll introduce you to the **Bootstrap** and then review the **Bootstrap Grid** system.
+    ii. That will lead you up to the first assignment in this course.
 2.  The **second** module deals with **Bootstrap CSS** components.
-    1.  We'll look at the design of the Bootstrap navigation bar and how we can make use of it to support navigation.
-    2.  We'll look at user input through buttons and forms then we'll look at how we can display content using tables and cards.
-    3.  Then we'll look at how we can include images and media into our Web page using images, thumbnails, and media objects.
-    4.  And then, finally, we look at how we alert users using tags, alerts and progress bars.
-    5.  This should lead you up to your second assignment.
+    i.   We'll look at the design of the Bootstrap navigation bar and how we can make use of it to support navigation.
+    ii.  We'll look at user input through buttons and forms then we'll look at how we can display content using tables and cards.
+    iii. Then we'll look at how we can include images and media into our Web page using images, thumbnails, and media objects.
+    iv.  And then, finally, we look at how we alert users using tags, alerts and progress bars.
+    v.   This should lead you up to your second assignment.
 3.  The **third** module deals with **Bootstrap JavaScript** components.
-    1.  We'll look at the big picture view of how Bootstrap JavaScript components work, we'll review tabs, pills and tabbed navigation, then we'll look at how collapse and accordion can be used to show and hide content.
-    2.  And then we'll look at the use of tooltips, popovers and modals to reveal content to be displayed in your page.
-    3.  And then we'll look at the carousel component, which allows you to display sliding information on your web page.
-    4.  This will lead you up to the third assignment in this course.
+    i.   We'll look at the big picture view of how Bootstrap JavaScript components work, we'll review tabs, pills and tabbed navigation, then we'll look at how collapse and accordion can be used to show and hide content.
+    ii.  And then we'll look at the use of tooltips, popovers and modals to reveal content to be displayed in your page.
+    iii. And then we'll look at the carousel component, which allows you to display sliding information on your web page.
+    iv.  This will lead you up to the third assignment in this course.
 
-        The **last (fourth)** module deals with **Bootstrap** and the **JQuery** and various **dev tools**.
+4. The **last (fourth)** module deals with **Bootstrap** and the **JQuery** and various **dev tools**.
 
-        We'll, in particular, look at how Bootstrap and JQuery interact and how you can write JQuery and JavaScript code in order to control your Bootstrap JavaScript component.
+    i.   We'll, in particular, look at how Bootstrap and JQuery interact and how you can write JQuery and JavaScript code in order to control your Bootstrap JavaScript component.
+    ii.  We look at the various methods that are supported by the Bootstrap JavaScript components, which can be leveraged to write JavaScript code to control the behavior of these components.
+    iii. Then we'll review CSS pre-processing language is like **LESS** and **Sass**.
+    iv.  Then, **finally**, we'll look at how we can build and deploy our website using **NPM scripts** or **task runners** like **Grunt** and **Gulp**.
 
-        We look at the various methods that are supported by the Bootstrap JavaScript components, which can be leveraged to write JavaScript code to control the behavior of these components.
 
-        Then we'll review CSS pre-processing language is like **LESS** and **Sass**.
-
-        Then, **finally**, we'll look at how we can build and deploy our website using **NPM scripts** or **task runners** like **Grunt** and **Gulp**.
-
-        This should take you all the way to the final assignment in this course. I hope you will have a lot of fun doing the various parts of this course and also enjoy the exercises that you'll encounter at each stage that enable you to better understand various aspects of the Bootstrap web UI framework.
+This should take you all the way to the final assignment in this course. I hope you will have a lot of fun doing the various parts of this course and also enjoy the exercises that you'll encounter at each stage that enable you to better understand various aspects of the Bootstrap web UI framework.
 
 ## Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources
 
