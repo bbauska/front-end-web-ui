@@ -4277,20 +4277,21 @@ With this we complete this exercise on navbar and breadcrumbs.
 
 This is a good time for you to do a git commit with the message "navbar and breadcrumbs."
 
-## Exercise (Instructions): Navbar and Breadcrumbs
+<h3>Exercise (Instructions): Navbar and Breadcrumbs</h3>
 
-### <b>Objectives and Outcomes</b>
+<h4><b>Objectives and Outcomes</b></h4>
 
 In this exercise, we will examine the navigation support that we can build into a web page using the Navbar in Bootstrap. At the end of this exercise, you will be able to:
+<ul>
+<li>Create a navigation structure for your website using the Navbar,<br/></li>
+<li>Add breadcrumbs to the website,<br/></li>
+<li>Include additional CSS classes into your project.</li>
+</ul>
 
--   Create a navigation structure for your website using the Navbar
--   Add breadcrumbs to the website
--   Include additional CSS classes into your project
-
-### <b>Create a basic navigation bar</b>
-
--   We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.
-
+<b>Create a basic navigation bar</b>
+<ul>
+<li>We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.</li>
+</ul>
     <b>\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\><br/>
     \<div class="container"\><br/>
     \<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\><br/>
@@ -4306,50 +4307,59 @@ In this exercise, we will examine the navigation support that we can build into 
 In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i> class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner <i>ul</i> is used to specify the items to be put in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
 
 <h4>Creating a responsive navigation bar</h4>
-
--   We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens. This can be achieved by adding the following code to the navigation bar, just below the container div
+<ul>
+<li>We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens. This can be achieved by adding the following code to the navigation bar, just below the container div.</li>
+</ul>
 
     <b>\<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="\#Navbar"\></b><br/>
     <b>\<span class="navbar-toggler-icon"\>\</span\></b><br/>
     <b>\</button\></b><br/>
 
 This creates a button with three horizontal lines. For medium to extra large screens, this button is hidden. For small and extra small screens, this button becomes visible. This button will act as the toggle for the navbar items.
-
--   To hide the items from the navigation bar for the small screens, we need to enclose the <i>ul</i> within another div as follows:
+<ul>
+<li>To hide the items from the navigation bar for the small screens, we need to enclose the <i>ul</i> within another div as follows:</li>
+</ul>
 
     <b>\<div class="collapse navbar-collapse" id="Navbar"\></b><br/>
     <b>\<ul class="navbar-nav mr-auto"\> ... \</ul\></b><br/>
     <b>\</div\></b><br/>
 
 By doing this, we are specifying that this div with <i>collapse</i> and <i>navbar-collapse</i> classes and with the id N<i>avbar</i> will be collapsed on small and xs screens, but can be toggled on or off when the toggle button is clicked. Note the use of <i>data-toggle="collapse" data-target="\#Navbar"</i> within the button above. This specifies that the menu items are collapsed on small and xs screens when the toggle button is visible. They can be displayed or hidden by clicking the toggle button.
-
--   Copy and paste the entire navbar code also into <i>aboutus.html</i> to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to <i>active*, and remove the <i>active</i> class from the Home link. Also, update the home link to take you back to <i>index.html*. Update the navbar-brand tag also to take you back to <i>index.html*.
+<ul>
+<li>Copy and paste the entire navbar code also into <i>aboutus.html</i> to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to <i>active</i>, and remove the <i>active</i> class from the Home link. Also, update the home link to take you back to <i>index.html</i>. Update the navbar-brand tag also to take you back to <i>index.html</i>.</li>
+</ul>
 
 <h4><b>Modifications to the CSS styles</b></h4>
+<ul>
+<li>We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <i>styles.css</i> file.</li>
+</ul>
 
--   We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <i>styles.css</i> file
-
-    <b>body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-    }
-    .navbar-dark {
-    background-color: \#512DA8;
-    }</b>
-
--   Remember to delete the <i>bg-primary</i> class from the \<nav\> element in both <i>index.html</i> and <i>aboutus.html.*
--   We are already beginning to see the page format close to the final format for this module.
+    <b>body{<br/>
+    padding:50px 0px 0px 0px;<br/>
+    z-index:0;<br/>
+    }<br/>
+    .navbar-dark {<br/>
+    background-color: \#512DA8;<br/>
+    }</b><br/>
+<ul>
+<li>Remember to delete the <i>bg-primary</i> class from the \<nav\> element in both <i>index.html</i> and <i>aboutus.html.</i><br/></li>
+<li>We are already beginning to see the page format close to the final format for this module.</li>
+</ul>
 
 <h4>Adding Breadcrumbs</h4>
+<ul>
+<li>To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <i>aboutus.html</i>.</li>
+</ul>
 
--   To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <i>aboutus.html*.
-
-    **\<ol class="col-12 breadcrumb"\>**<br/>
-    **\<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\>**<br/>
-    **\<li class="breadcrumb-item active"\>About Us\</li\>**<br/>
-    **\</ol\>**<br/>
-
--   Save all the changes and commit to your Git repository with a message "Navbar and Breadcrumbs".
+<b>
+    \<ol class="col-12 breadcrumb"\><br/>
+    \<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\><br/>
+    \<li class="breadcrumb-item active"\>About Us\</li\><br/>
+    \</ol\><br/>
+</b>
+<ul>
+<li>Save all the changes and commit to your Git repository with a message "Navbar and Breadcrumbs".</li>
+</ul>
 
 <h4>Conclusions</h4>
 
