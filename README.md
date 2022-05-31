@@ -3697,16 +3697,18 @@ After you complete your assignment, in case you're saving your changes to a Git 
    width="85%" />
 </p>
 
-### <b>Bootstrap Resources</b>
+<h4><b>Bootstrap Resources</b></h4>
+<ul type="disc">
+<li><a href="http://getbootstrap.com/docs/4.0/layout/grid/">Bootstrap grid</a><br/></li>
+<li><a href="http://getbootstrap.com/docs/4.0/utilities/display/">Bootstrap display utilities (documentation here about the d-none and d-sm-block classes)</a></li>
+</ul>
 
--   [Bootstrap grid](http://getbootstrap.com/docs/4.0/layout/grid/)
--   [Bootstrap display utilities](http://getbootstrap.com/docs/4.0/utilities/display/) (documentation here about the d-none and d-sm-block classes)
+<h4><b>Chrome extension</b></h4>
+<ul type="disc">
+<li><a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)">Full Page Screen Capture.</a></li>
+</ul>
 
-### <b>Chrome extension</b>
-
--   [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl).
-
-## Ideation: Objectives and Outcomes
+<h3>Ideation: Objectives and Outcomes</h3>
 
 The first step in your journey towards the implementation of the Capstone project begins with an idea.
 
@@ -3721,47 +3723,54 @@ Before you get started on a project, the first step is to develop the idea for t
 In this module you will explore how you develop your idea and come up with possible set of features for your project.
 
 At the end of this step you should be able to:
+<ul type="disc">
+<li>Clearly express the central idea of your project, and identify the problem being addressed,<br/></li>
+<li>Delineate a set of features that you expect your website and app should support,<br/></li>
+<li>Identify other projects that might have similar features and would act as exemplars for your project.</li>
+</ul>
 
--   Clearly express the central idea of your project, and identify the problem being addressed
--   Delineate a set of features that you expect your website and app should support
--   Identify other projects that might have similar features and would act as exemplars for your project
+<h3>Ideation Report Template</h3>
 
-## Ideation Report Template
+<h4><b>Project Title</b></h4>
 
-### <b>Project Title</b>
+<h4><b>1. Introduction</b></h4>
+<ul type="disc">
+<li>A brief introduction to your website idea. State the goals of the project,<br/></li>
+<li>The values / benefits (tangible and intangible) this application can bring to a company/organization/end-user.</li>
+</ul>
 
-### <b>1. Introduction</b>
+<h4><b>2. Expected List of Features</b></h4>
+<ul type="disc">
+<li>A brief list of features that you expect your website to support,<br/></li>
+<li>Brief justifications for including these features.</li>
+</ul>
 
--   A brief introduction to your website idea. State the goals of the project.
--   The values / benefits (tangible and intangible) this application can bring to a company/organization/end-user.
+<h4><b>3. Market Survey</b></h4>
+<ul type="disc">
+<li>Do a survey of the Web to find about five web sites that might have similar ideas as yours,<br/></li>
+<li>Briefly compare the features of these applications with your application idea.</li>
+</ul>
 
-### <b>2. Expected List of Features</b>
+<h4>4. References</h4>
+<ul type="disc">
+<li>Give references to any material / websites / books etc. relevant to your application idea,<br/></li>
+<li>Give the links to the websites relevant to your idea, that you listed in the section above.</li>
+</ul>
 
--   A brief list of features that you expect your website to support.
--   Brief justifications for including these features.
+<h3>Ideation: Additional Resources</h3>
 
-### <b>3. Market Survey</b>
+<h4><b>General Resources</b></h4>
+<ul type="disc">
+<li><a href="https://en.wikipedia.org/wiki/Ideation_(creative_process">Ideation (creative process)</li>
+</ul>
 
--   Do a survey of the Web to find about five web sites that might have similar ideas as yours.
--   Briefly compare the features of these applications with your application idea.
+<h4><b>Volunteer your Services</b></h4>
+<ul type="disc">
+<li><a href="http://www.volunteermatch.org/">VolunteerMatch.org</a><br/></li>
+<li><a href="https://www.freecodecamp.com/">Free Code Camp</a></li>
+</ul>
 
-### 4. References
-
--   Give references to any material / websites / books etc. relevant to your application idea
--   Give the links to the websites relevant to your idea, that you listed in the section above.
-
-## Ideation: Additional Resources
-
-### <b>General Resources</b>
-
--   [Ideation (creative process)](https://en.wikipedia.org/wiki/Ideation_(creative_process))
-
-### <b>Volunteer your Services</b>
-
--   [VolunteerMatch.org](http://www.volunteermatch.org/)
--   [Free Code Camp](https://www.freecodecamp.com/)
-
-## Navigation and Navigation Bar: Objectives and Outcomes
+<h3>Navigation and Navigation Bar: Objectives and Outcomes</h3>
 
 In this lesson, you will be given an overview of navigation design and the importance of providing appropriate navigation support within your website.
 
@@ -3774,12 +3783,13 @@ In addition, the use of icon fonts in web page design will be covered.
 The exercises will concentrate on adding a responsive navigation bar to the website.
 
 At the end of this lesson, you will be able to:
+<ul type="disc">
+<li>Understand the need for navigation support in a web project,<br/></li>
+<li>Use the Bootstrap navigation features including the Navbar and breadcrumbs in providing navigation support in websites,<br/></li>
+<li>Use icon fonts for decorating your website with meaningful graphical elements.</li>
+</ul>
 
--   Understand the need for navigation support in a web project
--   Use the Bootstrap navigation features including the Navbar and breadcrumbs in providing navigation support in websites
--   Use icon fonts for decorating your website with meaningful graphical elements
-
-## Navigation and Navigation Bar
+<h3>Navigation and Navigation Bar</h3>
 
 Let's now talk about navigation.
 
@@ -4281,41 +4291,41 @@ In this exercise, we will examine the navigation support that we can build into 
 
 -   We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.
 
-    <b>\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>
-    \<div class="container"\>
-    \<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\>
-    \<ul class="navbar-nav mr-auto"\>
-    \<li class="nav-item active"\>\<a class="nav-link" href="\#"\>Home\</a\>\</li\>
-    \<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>About\</a\>\</li\>
-    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Menu\</a\>\</li\>
-    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Contact\</a\>\</li\>
-    \</ul\>
-    \</div\>
-    \</nav\></b>
+    <b>\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\><br/>
+    \<div class="container"\><br/>
+    \<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\><br/>
+    \<ul class="navbar-nav mr-auto"\><br/>
+    \<li class="nav-item active"\>\<a class="nav-link" href="\#"\>Home\</a\>\</li\><br/>
+    \<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>About\</a\>\</li\><br/>
+    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Menu\</a\>\</li\><br/>
+    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Contact\</a\>\</li\><br/>
+    \</ul\><br/>
+    \</div\><br/>
+    \</nav\></b><br/>
 
 In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i> class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner <i>ul</i> is used to specify the items to be put in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
 
-### Creating a responsive navigation bar
+<h4>Creating a responsive navigation bar</h4>
 
 -   We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens. This can be achieved by adding the following code to the navigation bar, just below the container div
 
-    <b>\<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="\#Navbar"\></b>
-    <b>\<span class="navbar-toggler-icon"\>\</span\></b>
-    <b>\</button\></b>
+    <b>\<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="\#Navbar"\></b><br/>
+    <b>\<span class="navbar-toggler-icon"\>\</span\></b><br/>
+    <b>\</button\></b><br/>
 
 This creates a button with three horizontal lines. For medium to extra large screens, this button is hidden. For small and extra small screens, this button becomes visible. This button will act as the toggle for the navbar items.
 
 -   To hide the items from the navigation bar for the small screens, we need to enclose the <i>ul</i> within another div as follows:
 
-    <b>\<div class="collapse navbar-collapse" id="Navbar"\></b>
-    <b>\<ul class="navbar-nav mr-auto"\> ... \</ul\></b>
-    <b>\</div\></b>
+    <b>\<div class="collapse navbar-collapse" id="Navbar"\></b><br/>
+    <b>\<ul class="navbar-nav mr-auto"\> ... \</ul\></b><br/>
+    <b>\</div\></b><br/>
 
 By doing this, we are specifying that this div with <i>collapse</i> and <i>navbar-collapse</i> classes and with the id N<i>avbar</i> will be collapsed on small and xs screens, but can be toggled on or off when the toggle button is clicked. Note the use of <i>data-toggle="collapse" data-target="\#Navbar"</i> within the button above. This specifies that the menu items are collapsed on small and xs screens when the toggle button is visible. They can be displayed or hidden by clicking the toggle button.
 
 -   Copy and paste the entire navbar code also into <i>aboutus.html</i> to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to <i>active*, and remove the <i>active</i> class from the Home link. Also, update the home link to take you back to <i>index.html*. Update the navbar-brand tag also to take you back to <i>index.html*.
 
-### <b>Modifications to the CSS styles</b>
+<h4><b>Modifications to the CSS styles</b></h4>
 
 -   We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <i>styles.css</i> file
 
@@ -4330,22 +4340,22 @@ By doing this, we are specifying that this div with <i>collapse</i> and <i>navba
 -   Remember to delete the <i>bg-primary</i> class from the \<nav\> element in both <i>index.html</i> and <i>aboutus.html.*
 -   We are already beginning to see the page format close to the final format for this module.
 
-### Adding Breadcrumbs
+<h4>Adding Breadcrumbs</h4>
 
 -   To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <i>aboutus.html*.
 
-    **\<ol class="col-12 breadcrumb"\>**
-    **\<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\>**
-    **\<li class="breadcrumb-item active"\>About Us\</li\>**
-    **\</ol\>**
+    **\<ol class="col-12 breadcrumb"\>**<br/>
+    **\<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\>**<br/>
+    **\<li class="breadcrumb-item active"\>About Us\</li\>**<br/>
+    **\</ol\>**<br/>
 
 -   Save all the changes and commit to your Git repository with a message "Navbar and Breadcrumbs".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you learnt about adding a navigation bar and breadcrumbs to your website.
 
-## Icon Fonts
+<h3>Icon Fonts</h3>
 
 Let us now talk about icon fonts.
 
@@ -11518,12 +11528,6 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 <li><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8">Why I Left Gulp and Grunt for npm Scripts</a></li>
 </ul>
 
--   [Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
--   [The Advantages of Using Task Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/)
--   [Gulp vs Grunt. Why one? Why the Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
--   [Why we should stop using Grunt & Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
--   [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)
-
 <h2>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h2>
 
 As we come to the conclusion of this course, it's time to look back and reflect about what we've covered in this course so far.
@@ -11568,7 +11572,7 @@ And I hope I'll see you back again in the next course of the specialization.
 
 <b>11-Conclusion.pdf</b>
 
-<h3>Project Implementation: Objectives and Outcomes</h3>
+<h4>Project Implementation: Objectives and Outcomes</h4>
 
 This is the final stretch before you complete your project.
 
@@ -11597,10 +11601,10 @@ At the end of this lesson, you will be able to:
 
 <h3><b>2. Design and Implementation</b></h3>
 
-<h3>Give a detailed system description and design and implementation details.</h3>
+<h4>Give a detailed system description and design and implementation details.</h4>
 
 In particular, this section should contain:
-<ul type="circle">
+<ul type="disc">
 <li>Details of how you converted from design to the actual realization of your project in terms of implementing the code,<br/></li>
 <li>Any choices that you made, and any modifications that you made to the design, in response to difficulties that you might have encountered while implementing the project,<br/></li>
 <li>A brief discussion of various modules and libraries that you used in implementing your project. In particular highlight the reasons for your choices briefly,<br/></li>
@@ -11620,5 +11624,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 05-31-2022 11:36am front-end-web-ui
+last updated 05-31-2022 12:46pm front-end-web-ui
 </html>
