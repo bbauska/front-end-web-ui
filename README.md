@@ -69,12 +69,17 @@ Then, finally, we'll look at how we can build and deploy our website using <i>NP
 This should take you all the way to the final assignment in this course. I hope you will have a lot of fun doing the various parts of this course and also enjoy the exercises that you'll encounter at each stage that enable you to better understand various aspects of the Bootstrap web UI framework.
 </p>
 
-<!------------------------------------------------------------------------------------ begins here ---------------------------->
-**Front-End Web UI Frameworks and Tools: Bootstrap 4**
+<!-------------------------------------------- begins here --------------------------------------->
+<h2><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></h2>
 
-(coursera.org)
-
-![](images/image001.png)
+<h5>(coursera.org)</h5>
+<!------------------------------------------------------------------------------------------------>
+<!--------------- 01. the hong kong university of science &amp; technology (01) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image001.png"
+   alt="The Hong Kong University of Science &amp; Technology"
+   width="85%" />
 
 ## Course Overview
 
@@ -172,7 +177,14 @@ This lesson gives you a big picture view of the Full Stack Web Development. The 
 
 ## What is Full-Stack Web Development?
 
-## ![](images/image002.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 02. front end and back end (04) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image002.png"
+   alt="Front End and Back End"
+   width="85%" />
+</p>
 
 ## What is Full Stack Web Development?
 
@@ -186,7 +198,14 @@ This information delivery is supported behind the scenes by a back end support w
 
 We often hear people talking about the three tier architecture for Web Development.
 
-![](images/image003.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 03. three-tier architecture - part i (05) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image003.png"
+   alt="Three-Tier Architecture"
+   width="85%" />
+</p>
 
 In this approach, the entire web application is organized into three different layers.
 
@@ -194,29 +213,64 @@ The **presentation layer**, which is concerned with delivering to the user.
 
 This is usually the UI-related concerns that are dealt with at the presentation layer.
 
-![](images/image004.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 04. three-tier architecture - part ii (06) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image004.png"
+   alt="Three-Tier Architecture (part ii)"
+   width="85%" />
+</p>
 
 The **Business Logic Layer**, on the other hand, is concerned more about the data, the data validation, the dynamic content processing, and generating the content to be delivered to the user.
 
 This is backed up behind the scenes with the **data persistence layer or the data access layer**.
 
-![](images/image005.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 05. three-tier architecture - part iii (06) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image005.png"
+   alt="Three-Tier Architecture (part iii)"
+   width="85%" />
+</p>
 
 This is concerned with how we store and interact with the data, typically, in the form of a database and access this data through an API.
 
 Exploring this further, let us see what is implemented typically in the traditional web development in each of these three layers.
 
-![](images/image006.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 06. traditional web development - part i (07) ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image006.png"
+   alt="Traditional Web Development (part i)"
+   width="85%" />
+</p>
 
 The Business Logic Layer is usually implemented these days using technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 
-![](images/image007.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 07. traditional web development - part ii (07) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image007.png"
+   alt="Traditional Web Development (part ii)"
+   width="85%" />
+</p>
 
 This Business Logic Layer is interacting behind the scenes with the persistent data typically stored in a relational database and accessed by the Business Logic Layer.
 
 The Business Logic Layer is also concerned with the rendering of information to the front side, typically, in the form of server-side rendering these days.
 
-![](images/image008.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 08. traditional web development - part iii (08) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image008.png"
+   alt="Traditional Web Development (part iii)"
+   width="85%" />
+</p>
 
 The HTML, CSS and JavaScript is generated on the server-side and then sent over to the client side in the form of a web page.
 
@@ -11804,4 +11858,6 @@ In particular, this section should contain:
 ### **4. References**
 
 -   Give references to any material / websites / books etc. relevant to your project.
+...the end
+last updated 05-30-2022 7:20pm front-end-web-ui
 
