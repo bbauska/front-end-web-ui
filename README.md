@@ -280,7 +280,14 @@ Front end specialists, typically, would be well-versed in HTML, CSS, and JavaScr
 
 The business logic specialist would be well-versed in one of the technologies that is used for implementing the business logic and then you need a data specialist who will be well-versed in the relational database management system.
 
-![](images/image009.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- 09. full-stake javascript development - part i (08) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image009.png"
+   alt="Full-Stake JavaScript Development"
+   width="85%" />
+</p>
 
 There is an increasing trend towards using a single language to implement the entire stack, this being JavaScript so you could have the front end implemented, for example, as a single page application using frameworks like Angular or React.
 
@@ -290,7 +297,14 @@ And the information exchange between the server side and the client side is usua
 
 We will cover these technologies as part of this specialization.
 
-![](images/5fcde4866ad7a93f0d6b53e18eca7f06.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 10. full-stake javascript development part ii (09) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image010.png"
+   alt="Full-Stake JavaScript Development"
+   width="85%" />
+</p>
 
 As you go through the specialization, you will see that on the presentation layer side, we will cover Bootstrap four and Angular or React for implementing front end applications while on the Business Logic Layer we will be using NodeJS and NodeJS modules and express for implementing the Business Logic Layer.
 
@@ -356,8 +370,14 @@ Git was designed by Linus Torvalds, the person behind the Linux Operating System
 Git was designed as a version control system and distributed version control system for use in Linux kernel development and it has seen much wider deployment in the real world, these days.
 
 That node ecosystem is very much tied into Git and that is the reason why we need Git for this specialization.
-
-![](images/d34a45e95fa04ac6b3e00ac983e6a576.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 11. git - distributed version control (12) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image011.png"
+   alt="Git"
+   width="85%" />
+</p>
 
 Let's now move on to a Few hands on exercises, where you will first set up Git.
 
@@ -369,7 +389,14 @@ This is obviously not a comprehensive tutorial on the Git but we'll learn just e
 
 Let's now run through a few quick steps to set up Git on your computer.
 
-![](images/5d2b6bdc6451ff5aa247450b71c31ae1.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 12. git - distributed is the new centralized (12) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image012.png"
+   alt="Git - distributed is the new centralized"
+   width="85%" />
+</p>
 
 One easy way of setting up Git on a computer is to go to this site called git-scm.com.
 
@@ -389,7 +416,14 @@ If you are using a Mac and you set up x code and especially the x code command l
 
 On this site, gitscm.com, if you go to the documentation page you will notice that there is a book here called Pro Git.
 
-![](images/dfe676aab18f3a056a3b1e7be8f668a0.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 13. git - getting started (12) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image013.png"
+   alt="Git"
+   width="85%" />
+</p>
 
 You can just go on to the Getting Started link.
 
@@ -398,8 +432,14 @@ You will see a specific chapter here on Installing git.
 Go to this Installing Git site and there you have more details about how to install Git on your specific platform.
 
 Download the installer and run through the set up to get Git on to your computer.
-
-![](images/6b7a13fba77d9c2df4c93199f317ef5f.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 14. git - powershell config (14) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image014.png"
+   alt="Git - Powershell Config"
+   width="85%" />
+</p>
 
 Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in **git --version** to check what version of git is installed on your computer.
 
@@ -575,7 +615,14 @@ I have changed my index.html file.
 
 Now, let me add another folder under the git test folder, so I will create a subfolder here named templates, and inside these templates folder, I'm going to create another file name, test.html.
 
-![](images/46e003e4166b7454c7c4f091160a13da.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 15. windows powershell - git config (19) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image015.png"
+   alt="Powershell - Git Config"
+   width="85%" />
+</p>
 
 This is just to show you how git can commit entire folder hierarchy into its repository.
 
@@ -695,7 +742,14 @@ That way, if you're carrying out a new exercise and you've discovered that you'v
 
 With this basic understanding of this few git commands, you'll be able to proceed forward with understanding and using git in the courses of this specialization.
 
-![](images/49475a3e42cb917ae226c8f08d226cd7.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 16.  (23) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image016.png"
+   alt="Git - Basic Commands - part ii"
+   width="85%" />
+</p>
 
 Now, we have reviewed the git reset for a specific file or git reset in general.
 
@@ -989,7 +1043,14 @@ Pretending that we are on another computer, so I'm going to say git clone.
 
 And then, Paste the URL of my Bitbucket repository here.
 
-![](images/1afbc07fcad189111b7f8e5e32bbb7cb.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 17. git - test (30) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image017.png"
+   alt="Git - Powershell Config"
+   width="85%" />
+</p>
 
 Then you would see that that repository will now get cloned into a local folder of the same name, git-test.
 
@@ -1036,7 +1097,14 @@ In this exercise you will learn about how to set up and use an online Git reposi
 
 -   To clone an online repository to your computer, type the following at the prompt:
 
-![](images/d6fc7c06fce71d88596260cfa73f9178.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 18. online git repository commands (31) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image018.png"
+   alt="Online Git Repository Commands"
+   width="85%" />
+</p>
 
 **git clone \<repository URL\>**
 
@@ -1050,7 +1118,14 @@ JavaScript which was designed as a scripting language for the browser has seen d
 
 Node.js has played a significant role in this shift of JavaScript from the browser to the desktop.
 
-![](images/a83da9a3e365b3a34fb420b2fb1411e6.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 19. what is node.js? (32) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png"
+   alt="What is Node.js?"
+   width="85%" />
+</p>
 
 Let's now learn a little bit about what Node.js is and what role does NPM, the Node Package Manager, play in the context of Node.js. Node.js, as I mentioned earlier, allows us to bring the power of JavaScript to the desktop.
 
@@ -1064,7 +1139,14 @@ Right now we will examine Node.js in the context its use as a JavaScript runtime
 
 We will look at the server side application of Node.js in detail in the last course of this specialization.
 
-![](images/45ee0cdaddb4a93669a73e3f56874b0f.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 20. node architecture (32) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image020.png"
+   alt="Node Architecture"
+   width="85%" />
+</p>
 
 This is the typical architecture of Node.js.
 
@@ -1083,8 +1165,14 @@ We will explore some of these in the later part of this course and in subsequent
 The last course in the specialization as I mentioned, looks at the use of Node.js on the server side.
 
 How we can develop web server, business logic, all implemented in JavaScript on the server side.
-
-![](images/14e6179f57c170df91bb828a073af003.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 21. node package manager (33) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image021.png"
+   alt="Node Package Manager"
+   width="85%" />
+</p>
 
 Together with Node you often hear people talking about the Node package manager or NPM. When you install Node on your computer NPM automatically gets installed. The Node package manager is the manager for the Node ecosystem.
 
@@ -1104,7 +1192,14 @@ Click on the current version of Node.js.
 
 Click on that to download the installer package for your platform.
 
-![](images/374853ffd1e3aaf8b6bdf6493fb7b713.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 22. node.js installer (34) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image022.png"
+   alt="Node.js Installer"
+   width="85%" />
+</p>
 
 Once you get hold of the installer package, double click on it to start installing Node.js.
 
@@ -1159,7 +1254,15 @@ At the end of this exercise, you will be able to:
 -   Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with **admin** privileges.
 -   To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of **Node** and **NPM**
 
-    ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/86dcde927fae45b56b1cd85213c25824.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 23. node.js download screen (37) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image023.png"
+   alt="Node.js Download Screen"
+   width="85%" />
+</p>
+ ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/86dcde927fae45b56b1cd85213c25824.png)
 
     **node -v**
 
@@ -1185,15 +1288,28 @@ And we will also see how the lite server will enable us to automatically see upd
 
 The lite server is something that we're going to extensively use in this and future courses, to be able to see the changes in real time in a browser window as you edit the files of your project.
 
-![](images/92c6ddf5adeae792644be7c47d0ee38d.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ 24. package.json (38) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image024.png"
+   alt="Package.json"
+   width="85%" />
+</p>
 
 As I mentioned, we want to set up the package.json file.
 
 What exactly is this package.json file that we're going to setup?
 
 Here, I have some information from the npmjs.org site which specifies what exactly is the role of the package.json file.
-
-![](images/22a7aa41cb4ee7f78e0af1dbe0fd94dd.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 25. initializing package json (39) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image025.png"
+   alt="Node.js Download Screen"
+   width="85%" />
+</p>
 
 The package.json file serves as the documentation on what all other packages that your project is dependent upon.
 
@@ -1617,11 +1733,25 @@ This course covers Bootstrap 4 with the assumption that you are not familiar wit
 
 Front-end Web UI Frameworks are becoming their go-to approach for designing and implementing their recent websites.
 
-![](images/4ce54cad10cc24693222c92c78b8d8f8.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 26. overview (49) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image026.png"
+   alt="Overview"
+   width="85%" />
+</p>
 
 Let's ask ourselves what exactly are front-end Web UI Frameworks, and learn a little more details about them.
 
-![](images/3c273c9673289ef06ae17ddd176389a8.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 27. what are front-end ui frameworks? (50) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image027.png"
+   alt="What are Front-End UI Frameworks?"
+   width="85%" />
+</p>
 
 Next, so obviously in this lesson we're going to ask ourselves, what are front-end frameworks?
 
@@ -1657,7 +1787,14 @@ Not only that, it gives you a method of defining consistent typography that you 
 
 And enables you to quickly scaffold out a website or the pitch.
 
-![](images/f985d999b469bd22b59e09159330fb56.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 28. popular front-end ui frameworks (51) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image028.png"
+   alt="Popular Front-End UI Frameworks"
+   width="85%" />
+</p>
 
 If you search for front-end web frameworks, you would find a plethora of them out there in the Internet.
 
@@ -1669,7 +1806,14 @@ Bootstrap consistently ranks as the number one in many of the lists of front end
 
 The remaining among this list may vary, but you would often find Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of these others appearing in many of those top-end lists.
 
-![](images/c57c8b434154b9473713e0ac0853ee79.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 29. why front-end web ui frameworks? (53) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image029.png"
+   alt="Why Front-End Web UI Frameworks"
+   width="85%" />
+</p>
 
 The next obvious question is, why would you want to use front-end web UI frameworks?
 
@@ -1715,13 +1859,27 @@ With this understanding of front-end web UI frameworks, let's now proceed forwar
 
 Let me do a quick introduction to Bootstrap before we go on to learn how to make use of Bootstrap in designing our website.
 
-![](images/1c0b6065fffb750488db0dabed8236b3.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 30. bootstrap overview (53) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image030.png"
+   alt=""
+   width="85%" />
+</p>
 
 If you go to the Bootstrap webpage, you will see that Bootstrap claims to be the most popular HTML, CSS, and JavaScript based framework that is in use today and specially designed for developing responsive mobile first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 
-![](images/8728d45784d85e70c5f4ad5fc5525fb6.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 31. bootstrap overview (54) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image031.png"
+   alt=""
+   width="85%" />
+</p>
 
 It supports a number of CSS classes that enable you to design radius, web components very effectively.
 
@@ -1731,7 +1889,14 @@ This enables you to design responsive websites with the mobile first approach.
 
 We will talk more about this in the next lesson.
 
-![](images/e57f517b24c673fbbb88d411f2ca719f.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 32. bootstrap history (54) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image032.png"
+   alt=""
+   width="85%" />
+</p>
 
 Bootstrap originated around 2011.
 
@@ -1753,11 +1918,25 @@ Strap on your boots, and let's get started with Bootstrap.
 
 I'm sure your fingers are itching to get your hands around Bootstrap.
 
-![](images/e732436b0bd9cc8dc29cc41486a743eb.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 33. setting up the project folder  (55) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image033.png"
+   alt="Setting Up the Project Folder"
+   width="85%" />
+</p>
 
 First step, go to the exercise instructions that follow this exercise in your Bootstrap course page on Coursera.
 
-![](images/11927d03290e27d0a88436a948e11e0c.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 34. exercise: getting started with bootstrap (56) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image034.png"
+   alt="Exercise: Getting Started with Bootstrap"
+   width="85%" />
+</p>
 
 And then in the instructions, you will see a link to this file Bootstrap4-starter.zip.
 
@@ -2069,7 +2248,14 @@ Your obvious question is going to be why consider responsive design?
 
 To help us understand this, let's consider how people access websites these days?
 
-![](images/c61cf15d710095e460c07f553fbd9428.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 35. why responsive design? part i (64) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image035.png"
+   alt="Why Responsive Design? Part i"
+   width="85%" />
+</p>
 
 Traditionally, when websites were first designed, you could pretty much assume that people will be browsing your websites from a computer.
 
@@ -2077,7 +2263,14 @@ These days your websites could be visited from a smartphone, a tablet or a compu
 
 How do we render our websites consistently on devices of different screen sizes?
 
-![](images/a7fbbbf7b2af27e571dbdb21e40f7904.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 36. why responsive design? part ii (65) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image036.png"
+   alt="Why Responsive Design? Part ii"
+   width="85%" />
+</p>
 
 The one size fits all approach that traditional website designers have taken no longer fixed bill.
 
@@ -2085,7 +2278,14 @@ We need a better approach, an approach that will automatically adapt your websit
 
 This is where we have to take an approach to adapt to the user's view port.
 
-![](images/149278cd733a5e199d7bb3f162de19c7.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 37. why responsive design? part iii (65) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image037.png"
+   alt="Why Responsive Design? Part iii"
+   width="85%" />
+</p>
 
 This has to be built into your website design and development so that it will automatically adapt to the viewport of the user's device.
 
@@ -2101,7 +2301,14 @@ This would be a typical large desktop or a high resolution laptop screen.
 
 Then let's consider the same website being viewed using a smaller screen such.
 
-![](images/0e832fa9be3f82ff8e3baa64f99c92c9.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 38. screen layout different sizes (66) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image038.png"
+   alt="Screen Layout Different Sizes"
+   width="85%" />
+</p>
 
 You see automatically your screen layout is slightly adjusting to the size of the viewport of your device, same thing at 800 by 600.
 
@@ -2117,7 +2324,14 @@ Similarly for an iPhone 6S in landscape mode and go down to an iPhone SE, and yo
 
 Hopefully, this example has illustrated to you how and why we need responsive web design.
 
-![](images/98c85db81d053acb39fdae665db7be46.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 39. mobile first design (67) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image039.png"
+   alt="Mobile First Design"
+   width="85%" />
+</p>
 
 The second related concept that you will hear is mobile first.
 
@@ -2145,7 +2359,14 @@ Yeah, how do we go by doing responsive web design?
 
 There are several concepts that are built in to your frame time web UI frameworks that come to the aid when you need to do responsive web design.
 
-![](images/fc5d948fd93e9c32b16a314de5490777.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 40. foundation for responsive design part i (68) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image040.png"
+   alt="Foundation for Responsive Design Part i"
+   width="85%" />
+</p>
 
 First and foremost is what is called is a Grid system?
 
@@ -2153,11 +2374,25 @@ We're going to look at the Bootstrap's Grid system in more detail in the next le
 
 That we'll understand exactly how we can leverage that to be able to do responsive web design.
 
-![](images/a3ca6ceddfa86bff8ffd036ddbb82d2d.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 41. foundation for responsie design part ii (68) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image041.png"
+   alt="Foundation for Responsive Design Part ii"
+   width="85%" />
+</p>
 
 The second aspect is fluid images, so that your images that you include in your website will automatically adapt itself to the screen size.
 
-![](images/30f0004e78f2bed2abe62258ed21e652.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 42. foundation for responsive design part iii (69) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image042.png"
+   alt="Foundation for Responsive Design Part iii"
+   width="85%" />
+</p>
 
 And the third part is what is called a CSS media queries from your CSS code.
 
@@ -2169,7 +2404,14 @@ Let's look at that next.
 
 Media queries are supported in CSS like this.
 
-![](images/c2cc4274fba880ff0b5cb4abe7129205.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 43. media queries (69) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image043.png"
+   alt="Media Queries"
+   width="85%" />
+</p>
 
 The technology allows you to do a media query to specify the minimum width of the screen under which this particular set of CSS classes will be active.
 
@@ -2179,7 +2421,14 @@ There are a lot more options to the media queries than what I'm showing here.
 
 This is just one example of how you would build a media query in your CSS code.
 
-![](images/1683319b671c0e206b1362d7aac3c0ea.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 44. example media query in css (70) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image044.png"
+   alt="Example: Media Query in CSS"
+   width="85%" />
+</p>
 
 Taking a look at Bootstrap's CSS code itself, let's go in and see how media queries are being used by Bootstrap.
 
@@ -2197,7 +2446,14 @@ Doing media queries, your web UI framework is able to establish what kind of dev
 
 And correspondingly adjust the CSS classes to fit that particular devices screen size.
 
-![](images/5caa41f9a94ad4ff93f88ea8b2538cdd.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 45. how do we do this? (71) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image045.png"
+   alt="How Do We Do This?"
+   width="85%" />
+</p>
 
 Then obviously, the next question that is going to come in your mind is how do we do this in practice?
 
@@ -2223,7 +2479,14 @@ I briefly referred to this particular line in the code then.
 
 Let's try to understand why we use this in our index.html page.
 
-![](images/d7ddcc120b1c21eab688fcf086eddf5f.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- 46. viewport (72) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image046.png"
+   alt="Viewport"
+   width="85%" />
+</p>
 
 What we are specifying here is that, when our web page is being rendered by the browser in a particular device, then, their rendering in the browser will take into account the size of the screen and automatically adapt the rendering of the page to the devices screen width.
 
@@ -2233,13 +2496,27 @@ CSS classes built into our UI framework, then that will ensure that our web page
 
 This is where the Bootstrap grid system comes to our rescue and enables us to design responsive websites.
 
-![](images/7034319028bf9aefb56494400cac0474.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 47. boostrap grid (72) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image047.png"
+   alt="Bootstrap Grid"
+   width="85%" />
+</p>
 
 Again, emphasizing this point, Bootstrap grid is designed to be responsive.
 
 You have already seen what this means in the previous lecture, and mobile first, which we have already discussed in the previous lecture and then fluid, automatically adapting to the screen width.
 
-![](images/81b9e2e9a90ef41dc7202bd2ef0402f2.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 48. css flexbox layout (73) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image048.png"
+   alt="CSS Flexbox Layout"
+   width="85%" />
+</p>
 
 The Bootstrap grid takes advantage of the CSS flexbox layout.
 
@@ -2249,7 +2526,14 @@ Now, the actual discussion of how CSS flexbox layout works is beyond the scope o
 
 Earlier Bootstrap had its own grid system which was predating the CSS flexbox layout, but the latest version of Bootstrap has made the CSS flexbox layout as the standard for the Bootstrap grid.
 
-![](images/e7aec8105528caab23db7702818d8c9e.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 49. why flexbox for bootstrap? (73) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image049.png"
+   alt="Why Flexbox for Bootstrap?"
+   width="85%" />
+</p>
 
 This flexbox layout can easily handle dynamic content and can adapt the containers to the dynamic content, and also can easily adapt to unknown size of the actual content enclosed inside the containers.
 
@@ -2267,7 +2551,14 @@ Also, that content itself, the content containers can also be designed to be equ
 
 Let's now talk a little more details about the Bootstrap grid and how it actually works.
 
-![](images/c05314987699c9c502be2414d708908a.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 50. bootrap grid part i (74) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image050.png"
+   alt="Bootstrap Grid Part i"
+   width="85%" />
+</p>
 
 The way the Bootstrap grid works, is by applying a container class to the outermost layer.
 
@@ -2283,13 +2574,27 @@ Later on, we will see how this container will adjust to different screen sizes. 
 
 But the fixed width container, fixes the size of the actual layout width.
 
-![](images/d529def0feb641f49e3ecfe74d83e081.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 51. bootstrap grid part ii (75) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image051.png"
+   alt="Bootstrap Grid Part ii"
+   width="85%" />
+</p>
 
 Inside the container, the content will be laid out in the form of rows, so typically what we would do is inside and out of div to which we apply the container class, we’ll include an inner div to which we will apply the row class.
 
 The content itself will be vertically divided into multiple rows.
 
-![](images/98328c045468f0498dc63b3b028671eb.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 52. bootstrap grid part iii (75) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image052.png"
+   alt="Bootstrap Grid Part iii"
+   width="85%" />
+</p>
 
 And once this is divided into rows, within each row, you can then layout the content using columns.
 
@@ -2309,7 +2614,14 @@ How exactly do we layout the content?
 
 We'll talk about that in the next few slides.
 
-![](images/2a215bbad33a29ffd0dc0a8bda373976.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 53. bootstrap grid part iv (76) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image053.png"
+   alt="Bootstrap Grid Part iv"
+   width="85%" />
+</p>
 
 The Bootstrap grid itself, makes available to us five classes to specify different screen sizes by default.
 
@@ -2339,7 +2651,14 @@ How does this work?
 
 We'll see that in the next slide.
 
-![](images/fdf1c80fdcea8de5c4c29348409559b1.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 54. auto-layout columns (76) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image054.png"
+   alt="Auto-Layout Columns"
+   width="85%" />
+</p>
 
 Going back to our Bootstrap Grid, suppose we have a piece of content and we want to lay out the peace of content.
 
@@ -11859,5 +12178,5 @@ In particular, this section should contain:
 
 -   Give references to any material / websites / books etc. relevant to your project.
 ...the end
-last updated 05-30-2022 7:20pm front-end-web-ui
+last updated 05-30-2022 9:21pm front-end-web-ui
 
