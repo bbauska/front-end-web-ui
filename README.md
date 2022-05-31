@@ -114,25 +114,26 @@ We'll look at more details of full stack web development in the next lesson.
 In particular, if you're looking at how this course is positioned in the general context of full stack web development, in this course, we are dealing with front end web UI development.
 
 In particular, the <b>UI Framework Bootstrap 4</b>.
-
--   We'll be looking at the remaining aspects of full stack web development in the rest of this specialization.
--   This course looks at Bootstrap in great detail. We will also look at responsive web design and how Bootstrap supports responsive web design through the Bootstrap Grid system.
--   We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages.
--   Along the way, we'll learn about that web development using the command line.
--   We'll learn a lot of web tools that are based on the command line and the Node.js ecosystem.
--   We'll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.
+<ul type="disc">
+<li>We'll be looking at the remaining aspects of full stack web development in the rest of this specialization,<br/></li>
+<li>This course looks at Bootstrap in great detail. We will also look at responsive web design and how Bootstrap supports responsive web design through the Bootstrap Grid system,<br/></li>
+<li>We'll look at the CSS and JavaScript-based components in Bootstrap and how you can make use of them in building your website and your web pages,<br/></li>
+<li>Along the way, we'll learn about that web development using the command line,<br/></li>
+<li>We'll learn a lot of web tools that are based on the command line and the Node.js ecosystem,<br/></li>
+<li>We'll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.<br/></li>
+</ul>
 
 This course, itself, is structured into four modules.
 
 Each module roughly corresponding to one week of work.
 <ol type="1">
 <li>In the <b>first</b> module, we'll get the big picture view of full stack web development, then you'll get a quick introduction to <b>Git</b> and <b>Node.js</b>.<br/>
-<ol type="i">
+<ol type="a">
 <li>Then we'll introduce you to the <b>Bootstrap</b> and then review the <b>Bootstrap Grid</b> system.</li>
 <li>That will lead you up to the first assignment in this course.</li>
 </ol></li>
 <li>The <b>second</b> module deals with <b>Bootstrap CSS</b> components.</li>
-<ol type="i">
+<ol type="a">
 <li>We'll look at the design of the Bootstrap navigation bar and how we can make use of it to support navigation.<br/></li>
 <li>We'll look at user input through buttons and forms then we'll look at how we can display content using tables and cards.<br/></li>
 <li>Then we'll look at how we can include images and media into our Web page using images, thumbnails, and media objects.<br/></li>
@@ -140,14 +141,14 @@ Each module roughly corresponding to one week of work.
 <li>This should lead you up to your second assignment.<br/></li>
 </ol></li>
 <li>The <b>third</b> module deals with <b>Bootstrap JavaScript</b> components.
-<ol type="i">
+<ol type="a">
 <li>We'll look at the big picture view of how Bootstrap JavaScript components work, we'll review tabs, pills and tabbed navigation, then we'll look at how collapse and accordion can be used to show and hide content.<br/></li>
 <li>And then we'll look at the use of tooltips, popovers and modals to reveal content to be displayed in your page.<br/></li>
 <li>And then we'll look at the carousel component, which allows you to display sliding information on your web page.<br/></li>
 <li>This will lead you up to the third assignment in this course.<br/></li>
 </ol></li>
 <li>The <b>last (fourth)</b> module deals with <b>Bootstrap</b> and the <b>JQuery</b> and various <b>dev tools</b>.<br/>
-<ol type="i">
+<ol type="a">
 <li>We'll, in particular, look at how Bootstrap and JQuery interact and how you can write JQuery and JavaScript code in order to control your Bootstrap JavaScript component.<br/></li>
 <li>We look at the various methods that are supported by the Bootstrap JavaScript components, which can be leveraged to write JavaScript code to control the behavior of these components.<br/></li>
 <li>Then we'll review CSS pre-processing language is like <b>LESS</b> and <b>Sass</b>.<br/></li>
@@ -159,27 +160,26 @@ This should take you all the way to the final assignment in this course. I hope 
 
 <h3>Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources</h3>
 
-<h4>Bootstrap Resources</h4>
+<h3>Bootstrap Resources</h3>
 
-#### [Bootstrap Site](http://www.getbootstrap.com/) (https://getbootstrap.com/)
+<h4><a href="http://www.getbootstrap.com/">Bootstrap Site</a></h4>
 
-### Coursera Resources
+<h3>Coursera Resources</h3>
 
-#### [Coursera Learner Help](https://learner.coursera.help/hc/en-us)
+<h4><a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a></h4>
 
-#### (https://www.coursera.support/s/learner-help-center?language=en_US)
+<h4><a href="https://www.coursera.support/s/learner-help-center?language=en_US">Help Center</a></h4>
 
-#### [Switching to a Different Session](https://learner.coursera.help/hc/en-us/articles/208279776)
-
-#### (h<ttps://www.coursera.support/s/page-not-f>ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US)
+<h4><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a></h4>
 
 <h3>Full Stack Web Development: The Big Picture: Objectives and Outcomes</h3>
 
 This lesson gives you a big picture view of the Full Stack Web Development. The lecture gives you an overview of full stack web development. At the end of this lesson, you will be able to:
-
--   Understand what is meant by full stack in the context of web development
--   Distinguish between front-end, back-end and full stack web development
--   Understand the position of this course in the context of this specialization.
+<ul type="disc">
+<li>Understand what is meant by full stack in the context of web development,<br/></li>
+<li>Distinguish between front-end, back-end and full stack web development,<br/></li>
+<li>Understand the position of this course in the context of this specialization.</li>
+</ul>
 
 <h3>What is Full-Stack Web Development?</h3>
 
@@ -323,20 +323,23 @@ We will also consider back end as a service and then the data support implemente
 <b>00-FSWD-BigPicture.pdf – 6 slides.</b>
 
 <h3>Useful Links</h3>
-
--   [What is a Full Stack developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/)
--   [Wait, Wait… What is a Full-stack Web Developer After All?](http://edward-designer.com/web/full-stack-web-developer/)
--   [The Myth of the Full-stack Developer](http://andyshora.com/full-stack-developers.html)
--   [Multi-tier Architecture](https://en.wikipedia.org/wiki/Multitier_architecture)
--   [What is the 3-Tier Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html)
+<ul type="disc">
+<li><a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/">What is a Full Stack developer?</a><br/></li>
+<li><a href="http://edward-designer.com/web/full-stack-web-developer/">Wait, Wait… What is a Full-stack Web Developer After All?</a><br/></li>
+<li><a href="http://andyshora.com/full-stack-developers.html">The Myth of the Full-stack Developer</a><br/></li>
+<li><a href="https://en.wikipedia.org/wiki/Multitier_architecture">Multi-tier Architecture</a><br/></li>
+<li><a href="http://www.tonymarston.net/php-mysql/3-tier-architecture.html">What is the 3-Tier Architecture?</a></li>
+</ul>
 
 <h3>Setting up Your Development Environment: Git and Node: Objectives and Outcomes</h3>
 
 At the end of this lesson you should have set up Git and Node.js on your computer. At the end of this lesson, you will be able to:
 
--   Set up a Git repository and perform basic Git operations
--   Set up and use online Git repositories
--   Use Node-based modules to perform basic operations.
+<ul type="circle">
+<li>Set up a Git repository and perform basic Git operations,<br/></li>
+<li>Set up and use online Git repositories,<br/></li>
+<li>Use Node-based modules to perform basic operations.</li>
+</ul>
 
 <h3>Setting up your Development Environment</h3>
 
@@ -11605,5 +11608,6 @@ In particular, this section should contain:
 
 -   Give references to any material / websites / books etc. relevant to your project.
 ...the end
-last updated 05-31-2022 10:52am front-end-web-ui
+
+last updated 05-31-2022 11:36am front-end-web-ui
 </html>
