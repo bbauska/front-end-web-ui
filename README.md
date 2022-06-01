@@ -486,19 +486,20 @@ Once you get git on your computer it is time to go and learn git bit by bit.
 <h3><b>Objectives and Outcomes</b></h3>
 
 In this exercise you will learn to install Git on your computer. Git is required for using all the remaining Node.js and Node based tools that we encounter in the rest of the course. At the end of this exercise, you would be able to:
-
--   Install Git on your computer
--   Ensure that Git can be used from the command-line or command-prompt on your computer
--   Set up some of the basic global configuration for Git
+<ul>
+<li>Install Git on your computer,<br/></li>
+<li>Ensure that Git can be used from the command-line or command-prompt on your computer,<br/></li>
+<li>Set up some of the basic global configuration for Git</li>
+</ul>
 
 <h3><b>Downloading and Installing Git</b></h3>
-
--   To install Git on your computer, go to <https://git-scm.com/downloads> to download the Git installer for your specific computing platform.
--   Then, follow the installation steps as you install Git using the installer.
--   You can find more details about installing Git at <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>. This document lists several ways of installing Git on various platforms.
--   Installing some of the GUI tools like GitHub Desktop will also install Git on your computer.
--   On a Mac, setting up XCode command-line tools also will set up Git on your computer.
--   You can choose any of the methods that is most convenient for you.
+<ul>
+<li>To install Git on your computer, go to <https://git-scm.com/downloads> to download the Git installer for your specific computing platform,<br/></li>
+<li>Then, follow the installation steps as you install Git using the installer,<br/></li>
+<li>You can find more details about installing Git at <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>. This document lists several ways of installing Git on various platforms,<br/></li>
+<li>Installing some of the GUI tools like GitHub Desktop will also install Git on your computer,<br/></li>
+<li>On a Mac, setting up XCode command-line tools also will set up Git on your computer,<br/></li>
+<li>You can choose any of the methods that is most convenient for you.</li>
 
 <b>Some Global Configuration for Git</b>
 
@@ -519,7 +520,7 @@ In this exercise you will learn to install Git on your computer. Git is required
 
 <b>git config --list</b>
 
-<h3>**Conclusions**</h3>
+<h3>Conclusions</h3>
 
 At the end of this exercise you should have Git available on the command-line of your computer.
 
@@ -789,23 +790,26 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 -   Perform basic Git operations on your Git repository
 
 <h3>Basic Git Commands</h3>
+<ul>
+<li>At a convenient location on your computer, create a folder named <b>git-test</b>,<br/></li>
+<li>Open this git-test folder in your favorite editor,<br/></li>
+<li>Add a file named <i>index.html</i> to this folder, and add the following HTML code to this file:</li>
+</ul>
 
--   At a convenient location on your computer, create a folder named <b>git-test</b>.
--   Open this git-test folder in your favorite editor.
--   Add a file named <i>index.html</i> to this folder, and add the following HTML code to this file:
 <b>
-    \<!DOCTYPE html\>
-    \<html\>
-    \<head\>\</head\>
-    \<body\>
-    \<h1\>This is a Header\</h1\>
-    \</body\>
-    \</html\>
+    \<!DOCTYPE html\><br/>
+    \<html\><br/>
+    \<head\>\</head\><br/>
+    \<body\><br/>
+    \<h1\>This is a Header\</h1\><br/>
+    \</body\><br/>
+    \</html\><br/>
 </b>
 
 <h3><b>Initializing the folder as a Git repository</b></h3>
-
--   Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:
+<ul>
+<li>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</li>
+</ul>
 
 <b>git init</b>
 
@@ -835,31 +839,35 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 
 <h3>Now, modify the <i>index.html</i> file as follows:</h3>
 
-<b>\<!DOCTYPE html\>
-\<html\>
-\<head\>\</head\>
-\<body\>
-\<h1\>This is a Header\</h1\>
-\<p\>This is a paragraph\</p\>
-\</body\>
-\</html\></b>
+<b>\<!DOCTYPE html\><br/>
+\<html\><br/>
+\<head\>\</head\><br/>
+\<body\><br/>
+\<h1\>This is a Header\</h1\><br/>
+\<p\>This is a paragraph\</p\><br/>
+\</body\><br/>
+\</html\></b><br/>
 
--   Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <i>test.html</i> to the templates folder. Then set the contents of this file to be the same as the <i>index.html</i> file above.
--   Then check the status and add all the files to the staging area.
--   Then do the second commit to your repository
--   Now, modify the <i>index.html</i> file as follows:
+<ul>
+<li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <i>test.html</i> to the templates folder. Then set the contents of this file to be the same as the <i>index.html</i> file above,<br/></li>
+<li>Then check the status and add all the files to the staging area,<br/></li>
+<li>Then do the second commit to your repository,<br/></li>
+<li>Now, modify the <i>index.html</i> file as follows:</li>
+</ul>
 
-    <b>\<!DOCTYPE html\>
-    \<html\>
-    \<head\>\</head\>
-    \<body\>
-    \<h1\>This is a Header\</h1\>
-    \<p\>This is a paragraph\</p\>
-    \<p\>This is a second paragraph\</p\>
-    \</body\>
-    \</html\>
+    <b>\<!DOCTYPE html\><br/>
+    \<html\><br/>
+    \<head\>\</head\><br/>
+    \<body\><br/>
+    \<h1\>This is a Header\</h1\><br/>
+    \<p\>This is a paragraph\</p\><br/>
+    \<p\>This is a second paragraph\</p\><br/>
+    \</body\><br/>
+    \</html\><br/>
 </b>
--   Now add the modified index.html file to the staging area and then do a third commit.
+<ul>
+<li>Now add the modified index.html file to the staging area and then do a third commit.</li>
+</ul>
 
 <h3><B>Checking out a file from an earlier commit</b></h3>
 
@@ -4919,70 +4927,52 @@ Automatically, makes your form responsive, so that when it is laid out on differ
 But for larger screen sizes, because you have larger real estate, you are able to stretch the form, to make use of the extra space that you have.
 
 Taking a look at that source code, and the form side by side, obviously the first thing that you notice, is that your form begins with the form tag here. So, form and then the closing form, tag here. So, inside there, you are describing the various parts of your form. So, let's take a look at how the first name is constructed, the last name obviously as it looks
-
 like should be using a similar approach.
 
-In default, what you notice is that, there is a div here. Div element here, with the closing div here. So this div element has a class called form-group. And then followed by a row class. So the form-group class essentially, says whatever is inside this div will be treated as a group of elements. And then they will be laid out accordingly. And the second part, you see the use of row here. So, you'd see that the Bootstrap group's row comes into play here. And so this particular form group, can be laid out using the row and the column classes that you have from the Bootstrap grid. So now, if you apply the row to this div, whatever is inside there, you can use the column classes, to exactly decide how much of space each of them is going to occupy on the screen. Now, so that makes it more clearer to,
+In default, what you notice is that, there is a div here. Div element here, with the closing div here. So this div element has a class called form-group. And then followed by a row class. So the form-group class essentially, says whatever is inside this div will be treated as a group of elements. And then they will be laid out accordingly. And the second part, you see the use of row here. So, you'd see that the Bootstrap group's row comes into play here. And so this particular form group, can be laid out using the row and the column classes that you have from the Bootstrap grid. So now, if you apply the row to this div, whatever is inside there, you can use the column classes, to exactly decide how much of space each of them is going to occupy on the screen. Now, so that makes it more clearer to, 
+so those form group encloses. This unit. We're going to see this repeat over and over again when we are designing the various elements of the form. Then, below that,
+you see this label tag here. For the label tag, there are certain attributes that have been assigned to it. So you see that the label tag uses a for
+firstname. So this label is for something with the id firstname. So which is the input box that follows right below that. 
 
-so those form group encloses. This unit. We're going to see this repeat over and over again when we are designing
+We're going to look at that in a short while. 
 
-the various elements of the form. Then, below that,
+And then look at the classes that are applied to the label class, col-md-2. 
 
-you see this label tag here. For the label tag, there are certain
+Meaning that for medium to extra large screens, this particular element is going to occupy 2 columns of the space. 
 
-attributes that have been assigned to it. So you see that the label tag uses a for
+And then note the other one. It says, col-form-label. 
 
-firstname. So this label is for
+The col-form-label essentially specifies that this label should be positioned to be aligned with the other element that forms
+part of this form group. 
 
-something with the id firstname. So which is the input box that
+So, in this case, the input box. And so this also means that the label be lined up in the middle, horizontally with the input box. 
 
-follows right below that. We're going to look at
+That is the reason why we use the col-form-label class. 
 
-that in a short while. And then look at the classes that
+If you don't apply this, then your label will be aligned to the top of your input box. 
 
-are applied to the label class, col-md-2. So meaning that for
+Which your form will not look that great on medium to extra large screen sizes.
 
-medium to extra large screens, this particular element is going
+Now, on the left side, of course, because this browser window is squashed, so it is showing the view in a small or
+extra small screen size here. 
 
-to occupy 2 columns of the space. And then note the other one. It says, col-form-label. So the col-form-label
+That's why you see the label stacking up on top of the input box here. 
 
-essentially specifies that this label should be
+This is the label that specify. 
 
-positioned to be aligned with the other element that forms
+If you have a label that you want to assign to an element, so that is how you're going to assign the label. 
 
-part of this form group. So, in this case, the input box. And so this also means that the label be lined up in the middle, horizontally with the input box. So that is the reason why we
+Down below here, you see a div class col-md-10. So this occupies the remaining 10 of the 12 columns. So two columns that are occupied by the label. And the remaining ten columns occupied
+by this, but is enclosed inside the div. 
 
-use the col-form-label class. If you don't apply this,
+And inside this div, you see that there is an input tag element there with the type text. So which means that this
+input box accepts text input. 
 
-then your label will be aligned to the top of your input box. Which your form will not look that great
+And the class, look at the class here. It says form-control. 
 
-on medium to extra large screen sizes. Now, on the left side, of course,
+This is important to apply to the input box here. So form-control, and id firstname. And the name which is firstname. 
 
-because this browser window is squashed, so it is showing the view in a small or
-
-extra small screen size here. So that's why you see the label stacking
-
-up on top of the input box here. So this is the label that specify. So if you have a label that you
-
-want to assign to an element, so that is how you're
-
-going to assign the label. Down below here,
-
-you see a div class col-md-10. So this occupies the remaining
-
-10 of the 12 columns. So two columns that
-
-are occupied by the label. And the remaining ten columns occupied
-
-by this, but is enclosed inside the div. And inside this div, you see that there is an input tag
-
-element there with the type text. So which means that this
-
-input box accepts text input. And the class, look at the class here. It says form-control. This is important to apply
-
-to the input box here. So form-control, and id firstname. And the name which is firstname. Then placeholder First Name. So the placeholder is what appears
-
-inside the box as a placeholder for the input box. So all these attributes are assigned. So more importantly, note the use of the form-control
+Then placeholder First Name. So the placeholder is what appears inside the box as a placeholder for the input box. So all these attributes are assigned. So more importantly, note the use of the form-control
 
 class being applied to input type. So this is how you structure
 
@@ -5313,11 +5303,9 @@ In this exercise, we will examine user input for a website through the use of Bu
 
 ### Exercise Resources
 
-**contactus.html**ZIP File
+>b>contactus.html</b>ZIP File
 
-Download file
-
-### Set up for the Exercise
+<h4>Set up for the Exercise</h4>
 
 -   Download the <i>contactus.html.zip</i> file given above, unzip it and move the <i>contactus.html</i> to the <i>conFusion</i> folder. This file is already pre-formatted with some content.
 -   Set up the links in the navigation bars for all the three pages, <i>index.html, aboutus.html</i> and <i>contactus.html</i> so that we can navigate from one to the other with ease.
@@ -5610,27 +5598,30 @@ This is a good time for you to do a good comment with the message forms.
 ### **Objectives and Outcomes**
 
 In this exercise, we will examine user input for a website through the use of Forms support in Bootstrap. At the end of this exercise, you will be able to:
+<ul>
+<li>Design a form using various form elements and style the form using Bootstrap form classes.</li>
+</ul>
 
--   Design a form using various form elements and style the form using Bootstrap form classes
-
-### **Adding a Basic Form**
+<h4>Adding a Basic Form</h4>
 
 -   We will add a simple form to the page at the location identified by "Form goes here". Add the following code to page to create a simple horizontal form with two fields:
 
-    **\<form\>**
-    **\<div class="form-group row"\>**
-    **\<label for="firstname" class="col-md-2 col-form-label"\>First Name\</label\>**
-    **\<div class="col-md-10"\>**
-    **\<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"\>**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="form-group row"\>**
-    **\<label for="lastname" class="col-md-2 col-form-label"\>Last Name\</label\>**
-    **\<div class="col-md-10"\>**
-    **\<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"\>**
-    **\</div\>**
-    **\</div\>**
-    **\</form\>**
+<b>
+    \<form\>**<br/>
+    \<div class="form-group row"\><br/>
+    \<label for="firstname" class="col-md-2 col-form-label"\>First Name\</label\><br/>
+    \<div class="col-md-10"\><br/>
+    \<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"\><br/>
+    \</div\><br/>
+    \</div\><br/>
+    \<div class="form-group row"\><br/>
+    \<label for="lastname" class="col-md-2 col-form-label"\>Last Name\</label\><br/>
+    \<div class="col-md-10"\><br/>
+    \<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"\><br/>
+    \</div\><br/>
+    \</div\><br/>
+    \</form\><br/>
+</b>
 
 This creates a form with two elements in the form. Note that the class <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
 
@@ -5684,53 +5675,56 @@ This creates a form with two elements in the form. Note that the class <i>row</i
     **\</div\>**
     **\</div\>**
 
-### **Adding the Submit Button**
+<h4>Adding the Submit Button</h4>
+<ul>
+<li>Finally, we add the submit button to the form as follows:</li>
+</ul>
 
--   Finally, we add the submit button to the form as follows:
-
-    **\<div class="form-group row"\>**
-    **\<div class="offset-md-2 col-md-10"\>**
-    **\<button type="submit" class="btn btn-primary"\>Send Feedback\</button\>**
-    **\</div\>**
-    **\</div\>**
+<b>
+    \<div class="form-group row"\><br/>
+    \<div class="offset-md-2 col-md-10"\><br/>
+    \<button type="submit" class="btn btn-primary"\>Send Feedback\</button\><br/>
+    \</div\><br/>
+    \</div\><br/>
+</b>
 
 Note the declaration of the type for the button to <i>submit*.
 
 -   Remember to do a Git commit with the message "Forms"
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 We have learnt how to add a form and style the form using Bootstrap form classes.
 
-## User Input: Additional Resources
+<h3>User Input: Additional Resources</h3>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
-**07-User-Input.pdf**
+<b>07-User-Input.pdf</b>
 
-### **Exercise Resources**
+<h4>Exercise Resources</h4>
 
-**contactus.html**
+<b>contactus.html</b>
 
-### **Bootstrap Resources**
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Buttons](http://getbootstrap.com/docs/4.0/components/buttons/)
 -   [Bootstrap Button Groups](http://getbootstrap.com/docs/4.0/components/button-group/)
 -   [Bootstrap Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
-### **Other Useful Resources**
+<h4>Other Useful Resources</h4>
 
 -   [The Difference Between Anchors, Inputs and Buttons](http://davidwalsh.name/html5-buttons) (Semantic differences in the usage)
 -   [When To Use The Button Element](https://css-tricks.com/use-button-element/) (The multifaceted button element)
 
-## Displaying Content: Tables and Cards: Objectives and Outcomes
+<h3>Displaying Content: Tables and Cards: Objectives and Outcomes</h3>
 
 In this lesson we will be reviewing the support for tables in Bootstrap. In addition we will look at a versatile component called card that enables the display of content in myriad ways. At the end of this lesson you will be able to:
 
 -   Present and style tabular data in a table form using Bootstrap support for tables
 -   Display content using a card on a web page.
 
-## Bootstrap Tables and Cards
+<h3>Bootstrap Tables and Cards</h3>
 
 Let's briefly discuss about bootstrap tables.
 
@@ -11636,5 +11630,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 05-31-2022 12:46pm front-end-web-ui
+last updated 05-31-2022 5:30pm front-end-web-ui
 </html>
