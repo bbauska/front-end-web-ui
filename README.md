@@ -5032,69 +5032,54 @@ this. This should be very straightforward for
 
 you to understand. And then this email field also
 
-should be very straightforward for you to understand. Because this looks very
+should be very straightforward for you to understand. 
 
-similar to the lastname. Except that for this, the input field,
+Because this looks very similar to the lastname. 
 
-the type will be set to email. So that the built in form
+Except that for this, the input field, the type will be set to email.
 
-checking capabilities of your browser automatically kicks in. So that when you type in something
+So that the built in form checking capabilities of your browser automatically kicks in. 
 
-that doesn't look like an email, then it'll complain appropriately. So let's examine this particular
+So that when you type in something that doesn't look like an email, then it'll complain appropriately. 
 
-part of the form here. Note that in this case,
+So let's examine this particular part of the form here.
 
-we are adding in left parenthesis and the right parenthesis to
+Note that in this case, we are adding in left parenthesis and the right parenthesis to this particular input box. 
 
-this particular input box. So how do you add in things
+So how do you add in things into your box like this? Taking a look at the code here in your editor, you see that you still have the form-group row which you already understand. 
 
-into your box like this? Taking a look at the code
+And down below here, you have input type form element id telnum, and so on, which also should be very clear to you. 
 
-here in your editor, you see that you still have the form-group
+So I don't think I need to explain that part to you. 
 
-row which you already understand. And down below here, you have
+Notice how I am using the Bootstrap's grid column classes to each of these. So the label is given col-md-2. 
 
-input type form element id telnum, and so on,
+And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here. 
 
-which also should be very clear to you. So I don't think I need to
+So that way, the telephone number, this element is properly positioned. 
 
-explain that part to you. Notice how I am using the Bootstrap's
+But, in particular, let's pay attention to this part. So this one here is inside of this div. 
 
-grid column classes to each of these. So the label is given col-md-2. And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here. So that way, the telephone number,
+Inside this div, notice the class given to it. The class says input-group. 
 
-this element is properly positioned. But, in particular,
+Essentially meaning that whatever is inside this div will be treated as a group of elements here.
 
-let's pay attention to this part. So this one here is inside of this div. So inside this div,
+That's why the class given is input-group. Now, for adding in something like this, you will use a class called as input-group-addon.
 
-notice the class given to it. The class says input-group. So essentially meaning that whatever
+And then notice that I am using a div to hold that item. I can use anything here, but a div comes in handy here. 
 
-is inside this div will be treated as a group of elements here. So that's why the class
+So I say div class input-group-addon. And then the closing div type inside, where, notice that I have the left parenthesis. 
 
-given is input-group. Now, for adding in something like this,
+So this is what allows you to add in some extra appendage to your input box here. Similarly, the one below here is also
+an input-group-addon right parenthesis. 
 
-you will use a class called as input-group-addon. And then notice that I am
+So that is what adds the other right parenthesis here. Now, between these two, of course, you have the input type. 
 
-using a div to hold that item. I can use anything here, but
+The input with the type tel and class form-control, id, name, placeholder, everything in place here. 
 
-a div comes in handy here. So I say div class input-group-addon. And then the closing div type inside,
+So this is nothing but the area code part. So if you use this input-group together with input-group-addons like this on either side. 
 
-where, notice that I have the left parenthesis. So this is what allows
-
-you to add in some extra appendage to your input box here. Similarly, the one below here is also
-
-an input-group-addon right parenthesis. So that is what adds the other
-
-right parenthesis here. Now, between these two, of course,
-
-you have the input type. The input with the type tel and
-
-class form-control, id, name, placeholder, everything in place here. So this is nothing but the area code part. So if you use this input-group
-
-together with input-group-addons like this on either side. Those things will be added in
-
-to your input element like this. That provides you with a nice way of
-
-designing Your form with some added in.
+Those things will be added in to your input element like this. That provides you with a nice way of designing Your form with some added in. 
 
 For example, if you have a field that is accepting money as the input, you could simply add a dollar sign to the left hand side to indicate to the user that that is a field that takes currency value at the moment.
 
@@ -5648,55 +5633,58 @@ In this exercise, we will examine user input for a website through the use of Fo
 This creates a form with two elements in the form. Note that the class <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user's telephone number and email:
-
-    **\<div class="form-group row"\>**<br/>
-    **\<label for="telnum" class="col-12 co<br/>l-md-2 col-form-label"\>Contact Tel.\</label\>**
-    **\<div class="col-5 col-md-3"\>**<br/>
-    **\<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code"\>**<br/>
-    **\</div\>**<br/>
-    **\<div class="col-7 col-md-7"\>**<br/>
-    **\<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number"\>**<br/>
-    **\</div\>**<br/>
-    **\</div\>**<br/>
-    **\<div class="form-group row"\>**<br/>
-    **\<label for="emailid" class="col-md-2 col-form-label"\>Email\</label\>**<br/>
-    **\<div class="col-md-10"\>**<br/>
-    **\<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email"\>**<br/>
-    **\</div\>**<br/>
-    **\</div\>**<br/>
+<b>
+    \<div class="form-group row"\><br/>
+    \<label for="telnum" class="col-12 co<br/>l-md-2 col-form-label"\>Contact Tel.\</label\><br/>
+    \<div class="col-5 col-md-3"\><br/>
+    \<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code"\><br/>
+    \</div\><br/>
+    \<div class="col-7 col-md-7"\><br/>
+    \<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number"\><br/>
+    \</div\><br/>
+    \</div\><br/>
+    \<div class="form-group row"\><br/>
+    \<label for="emailid" class="col-md-2 col-form-label"\>Email\</label\><br/>
+    \<div class="col-md-10"\><br/>
+    \<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email"\><br/>
+    \</div\><br/>
+    \</div\><br/>
+</b>
 
 <h4>Adding a Checkbox and Select</h4>
 
 -   We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:
 
-**\<div class="form-group row"\>**<br/>
-**\<div class="col-md-6 offset-md-2"\>**<br/>
-**\<div class="form-check"\>**<br/>
-**\<input type="checkbox" class="form-check-input" name="approve" id="approve" value=""\>**<br/>
-**\<label class="form-check-label" for="approve"\>**<br/>
-**\<strong\>May we contact you?\</strong\>**<br/>
-**\</label\>**<br/>
-**\</div\>**<br/>
-**\</div\>**<br/>
-**\<div class="col-md-3 offset-md-1"\>**<br/>
-**\<select class="form-control"\>**<br/>
-**\<option\>Tel.\</option\>**<br/>
-**\<option\>Email\</option\>**<br/>
-**\</select\>**<br/>
-**\</div\>**<br/>
-**\</div\>**<br/>
+<b>
+\<div class="form-group row"\><br/>
+\<div class="col-md-6 offset-md-2"\><br/>
+\<div class="form-check"\><br/>
+\<input type="checkbox" class="form-check-input" name="approve" id="approve" value=""\><br/>
+\<label class="form-check-label" for="approve"\><br/>
+\<strong\>May we contact you?\</strong\><br/>
+\</label\><br/>
+\</div\><br/>
+\</div\><br/>
+\<div class="col-md-3 offset-md-1"\><br/>
+\<select class="form-control"\><br/>
+\<option\>Tel.\</option\><br/>
+\<option\>Email\</option\><br/>
+\</select\><br/>
+\</div\><br/>
+\</div\><br/>
+</b>
 
-### **Adding a textarea**
+<h4>Adding a textarea</h4>
 
 -   Next we add a textarea for the users to submit their feedback comments as follows:
-
-    **\<div class="form-group row"\>**<br/>
-    **\<label for="feedback" class="col-md-2 col-form-label"\>Your Feedback\</label\>**<br/>
-    **\<div class="col-md-10"\>**<br/>
-    **\<textarea class="form-control" id="feedback" name="feedback" rows="12"\>\</textarea\>**<br/>
-    **\</div\>**<br/>
-    **\</div\>**<br/>
-
+<b>
+    \<div class="form-group row"\><br/>
+    \<label for="feedback" class="col-md-2 col-form-label"\>Your Feedback\</label\><br/>
+    \<div class="col-md-10"\><br/>
+    \<textarea class="form-control" id="feedback" name="feedback" rows="12"\>\</textarea\><br/>
+    \</div\><br/>
+    \</div\><br/>
+</b>
 <h4>Adding the Submit Button</h4>
 <ul>
 <li>Finally, we add the submit button to the form as follows:</li>
