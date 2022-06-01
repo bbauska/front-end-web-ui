@@ -324,11 +324,11 @@ We will also consider back end as a service and then the data support implemente
 
 <h3>Useful Links</h3>
 <ul type="disc">
-<li><a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/">What is a Full Stack developer?</a><br/></li>
-<li><a href="http://edward-designer.com/web/full-stack-web-developer/">Wait, Wait… What is a Full-stack Web Developer After All?</a><br/></li>
-<li><a href="http://andyshora.com/full-stack-developers.html">The Myth of the Full-stack Developer</a><br/></li>
-<li><a href="https://en.wikipedia.org/wiki/Multitier_architecture">Multi-tier Architecture</a><br/></li>
-<li><a href="http://www.tonymarston.net/php-mysql/3-tier-architecture.html">What is the 3-Tier Architecture?</a></li>
+<li><a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">What is a Full Stack developer?</a><br/></li>
+<li><a href="http://edward-designer.com/web/full-stack-web-developer/" target="_blank">Wait, Wait… What is a Full-stack Web Developer After All?</a><br/></li>
+<li><a href="http://andyshora.com/full-stack-developers.html" target="_blank">The Myth of the Full-stack Developer</a><br/></li>
+<li><a href="https://en.wikipedia.org/wiki/Multitier_architecture" target="_blank">Multi-tier Architecture</a><br/></li>
+<li><a href="http://www.tonymarston.net/php-mysql/3-tier-architecture.html" target="_blank">What is the 3-Tier Architecture?</a></li>
 </ul>
 
 <h3>Setting up Your Development Environment: Git and Node: Objectives and Outcomes</h3>
@@ -3711,13 +3711,13 @@ After you complete your assignment, in case you're saving your changes to a Git 
 
 <h4><b>Bootstrap Resources</b></h4>
 <ul type="disc">
-<li><a href="http://getbootstrap.com/docs/4.0/layout/grid/">Bootstrap grid</a><br/></li>
-<li><a href="http://getbootstrap.com/docs/4.0/utilities/display/">Bootstrap display utilities (documentation here about the d-none and d-sm-block classes)</a></li>
+<li><a href="http://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Bootstrap grid</a><br/></li>
+<li><a href="http://getbootstrap.com/docs/4.0/utilities/display/" target="_blank">Bootstrap display utilities (documentation here about the d-none and d-sm-block classes)</a></li>
 </ul>
 
 <h4><b>Chrome extension</b></h4>
 <ul type="disc">
-<li><a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)">Full Page Screen Capture.</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)" target="_blank">Full Page Screen Capture.</a></li>
 </ul>
 
 <h3>Ideation: Objectives and Outcomes</h3>
@@ -3773,13 +3773,13 @@ At the end of this step you should be able to:
 
 <h4><b>General Resources</b></h4>
 <ul type="disc">
-<li><a href="https://en.wikipedia.org/wiki/Ideation_(creative_process">Ideation (creative process)</li>
+<li><a href="https://en.wikipedia.org/wiki/Ideation_(creative_process" target="_blank">Ideation (creative process)</li>
 </ul>
 
 <h4><b>Volunteer your Services</b></h4>
 <ul type="disc">
-<li><a href="http://www.volunteermatch.org/">VolunteerMatch.org</a><br/></li>
-<li><a href="https://www.freecodecamp.com/">Free Code Camp</a></li>
+<li><a href="http://www.volunteermatch.org/" target="_blank">VolunteerMatch.org</a><br/></li>
+<li><a href="https://www.freecodecamp.com/" target="_blank">Free Code Camp</a></li>
 </ul>
 
 <h3>Navigation and Navigation Bar: Objectives and Outcomes</h3>
@@ -11531,11 +11531,11 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 
 <h3><b>General Resources</b></h3>
 <ul>
-<li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/">Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit</a><br/></li>
-<li><a href="https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/">The Advantages of Using Task Runners</a><br/></li>
-<li><a href="https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4">Gulp vs Grunt. Why one? Why the Other?</a><br/></li>
-<li><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/">Why we should stop using Grunt & Gulp</a><br/></li>
-<li><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8">Why I Left Gulp and Grunt for npm Scripts</a></li>
+<li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/ target="_blank"">Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit</a><br/></li>
+<li><a href="https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/" target="_blank">The Advantages of Using Task Runners</a><br/></li>
+<li><a href="https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4" target="_blank">Gulp vs Grunt. Why one? Why the Other?</a><br/></li>
+<li><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/" target="_blank">Why we should stop using Grunt & Gulp</a><br/></li>
+<li><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8" target="_blank">Why I Left Gulp and Grunt for npm Scripts</a></li>
 </ul>
 
 <h2>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h2>
