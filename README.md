@@ -162,15 +162,15 @@ This should take you all the way to the final assignment in this course. I hope 
 
 <h3>Bootstrap Resources</h3>
 
-<h4><a href="http://www.getbootstrap.com/">Bootstrap Site</a></h4>
+<h4><a href="http://www.getbootstrap.com/ target="_blank"">Bootstrap Site</a></h4>
 
 <h3>Coursera Resources</h3>
 
-<h4><a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a></h4>
+<h4><a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h4>
 
-<h4><a href="https://www.coursera.support/s/learner-help-center?language=en_US">Help Center</a></h4>
+<h4><a href="https://www.coursera.support/s/learner-help-center?language=en_US" target="_blank">Help Center</a></h4>
 
-<h4><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a></h4>
+<h4><a href="https://learner.coursera.help/hc/en-us/articles/208279776" target="_blank">Switching to a Different Session</a></h4>
 
 <h3>Full Stack Web Development: The Big Picture: Objectives and Outcomes</h3>
 
@@ -11634,5 +11634,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 05-31-2022 5:30pm front-end-web-ui
+last updated 05-31-2022 6:42pm front-end-web-ui
 </html>
