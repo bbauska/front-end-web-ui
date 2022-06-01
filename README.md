@@ -3248,9 +3248,9 @@ Obviously, there is still room for improvement.
 
 This may be a good time for you to do a git comment with the message Bootstrap Grid Part One.
 
-## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
+<h3>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1</h3>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 This exercise introduces you to responsive design and Bootstrap support for mobile first responsive design through the use of the grid system. At the end of this exercise, you will be able to:
 
@@ -3259,7 +3259,7 @@ This exercise introduces you to responsive design and Bootstrap support for mobi
 
 <b>Note: In this exercise we will continue to update the</b> <i>index.html</i> <b>file in the</b> <i>conFusion</i> <b>folder that we created and edited in the previous lecture.</b>
 
-### Bootstrap Grid System and Responsive Design
+<h4>Bootstrap Grid System and Responsive Design</h4>
 
 Bootstrap is designed to be mobile first, meaning that the classes are designed such that we can begin by targeting mobile device screens first and then work upwards to larger screen sizes. The starting point for this is first through media queries. We have already added the support for media queries in the last lesson, where we added this line to the head:
 
@@ -5290,18 +5290,19 @@ And then say Bootstrap buttons and forms, and then that would have committed to 
 
 Here we have learned how we include buttons and form elements into our Bootstrap design pitch.
 
-## Exercise (Instructions): Buttons
+<h3>Exercise (Instructions): Buttons</h3>
 
-# Exercise: Buttons
+<h2>Exercise: Buttons</h2>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, we will examine user input for a website through the use of Buttons support in Bootstrap. At the end of this exercise, you will be able to:
+<ul>
+<li>Create, style and activate buttons in a web page using the button classes,<br/></li>
+<li>Use a Button Group to group together related buttons.</li>
+</ul>
 
--   Create, style and activate buttons in a web page using the button classes
--   Use a Button Group to group together related buttons.
-
-### Exercise Resources
+<h4>Exercise Resources</h4>
 
 >b>contactus.html</b>ZIP File
 
@@ -5311,25 +5312,27 @@ In this exercise, we will examine user input for a website through the use of Bu
 -   Set up the links in the navigation bars for all the three pages, <i>index.html, aboutus.html</i> and <i>contactus.html</i> so that we can navigate from one to the other with ease.
 -   Also set up the links in the footer correctly to point to the appropriate pages.
 
-### Adding a Button Bar
+<h4>Adding a Button Bar</h4>
 
 -   We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:
 
-    **\<div class="btn-group" role="group"\>**
-    **\<a role="button" class="btn btn-primary" href="tel:+85212345678"\>\<i class="fa fa-phone"\>\</i\> Call\</a\>**
-    **\<a role="button" class="btn btn-info"\>\<i class="fa fa-skype"\>\</i\> Skype\</a\>**
-    **\<a role="button" class="btn btn-success" href="mailto:confusion@food.net"\>\<i class="fa fa-envelope-o"\>\</i\> Email\</a\>**
-    **\</div\>**
+<b>
+    \<div class="btn-group" role="group"\><br/>
+    \<a role="button" class="btn btn-primary" href="tel:+85212345678"\>\<i class="fa fa-phone"\>\</i\> Call\</a\><br/>
+    \<a role="button" class="btn btn-info"\>\<i class="fa fa-skype"\>\</i\> Skype\</a\><br/>
+    \<a role="button" class="btn btn-success" href="mailto:confusion@food.net"\>\<i class="fa fa-envelope-o"\>\</i\> Email\</a\><br/>
+    \</div\><br/>
+</b>
 
 Note how we define the button bar using the <i>btn-group</i> class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an <i>href</i> associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the <i>btn</i> class.
 
 -   Remember to do a Git commit with the message "Buttons"
 
-### Conclusions
+<h4>Conclusions</h4>
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-## Exercise (Video): Forms
+<h3>Exercise (Video): Forms</h3>
 
 Now that we have seen how to add buttons to our web page.
 
@@ -5591,11 +5594,11 @@ You'll be working with forms in some of the later exercises including your secon
 
 This is a good time for you to do a good comment with the message forms.
 
-## Exercise (Instructions): Forms
+<h3>Exercise (Instructions): Forms</h3>
 
-# Exercise: Forms
+<h2>Exercise: Forms</h2>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, we will examine user input for a website through the use of Forms support in Bootstrap. At the end of this exercise, you will be able to:
 <ul>
@@ -7885,7 +7888,7 @@ Now that I have gotten you interested in the carousel, I'm sure you're curious a
 
 That is what we're going to examine in this next exercise, where we will add a carousel to our web page, the index.html page and then create the manual controls for it.
 
-## Exercise (Video): Carousel
+<h3>Exercise (Video): Carousel</h3>
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -8027,9 +8030,9 @@ This completes this exercise.
 
 This is a good time for you to do a git-commit with the message carousel.
 
-## Exercise (Instructions): Carousel
+<h3>Exercise (Instructions): Carousel</h3>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we will examine the carousel component and add it to the web page. We will examine the configuration of the carousel and adding controls to the carousel. At the end of this exercise you will be able to:
 
@@ -8037,7 +8040,7 @@ In this exercise we will examine the carousel component and add it to the web pa
 -   Configure various aspects of the carousel
 -   Add controls to the carousel to manually control it
 
-### Adding a row for the carousel
+<h4>Adding a row for the carousel</h4>
 
 -   The carousel will be added to the <i>index.html</i> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:
 
@@ -8046,14 +8049,14 @@ In this exercise we will examine the carousel component and add it to the web pa
 **\</div\>**
 **\</div\>**
 
-### Adding a Carousel
+<h4>Adding a Carousel</h4>
 
 -   Next, add the basic carousel div inside the content row that you just added as follows:
 
     **\<div id="mycarousel" class="carousel slide" data-ride="carousel"\>**
     **\</div\>**
 
-### Adding Carousel Content
+<h4>Adding Carousel Content</h4>
 
 -   Next add the content inside the carousel as follows:
 
@@ -8076,7 +8079,7 @@ In this exercise we will examine the carousel component and add it to the web pa
 
 Note that the first item has been set up partially. Fill in the remaining parts from the content rows below.
 
-### Adding CSS Classes
+<h4>Adding CSS Classes</h4>
 
 -   Add the following CSS classes to the <i>styles.css</i> file:
 
@@ -8093,7 +8096,7 @@ Note that the first item has been set up partially. Fill in the remaining parts 
     **min-height: 300px;**
     **}**
 
-### Adding Carousel Controls
+<h4>Adding Carousel Controls</h4>
 
 -   Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:
 
@@ -8114,25 +8117,25 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 
 -   Do a Git commit with the message "Carousel".
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise we learnt about the carousel component and how to add it to a web page.
 
 We also learnt about introducing manual controls to the carousel.
 
-## Carousel: Additional Resources
+<h3>Carousel: Additional Resources</h3>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 **09-Carousel.pdf**
 
 Open file
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Carousel](http://getbootstrap.com/docs/4.0/components/carousel/)
 
-## Assignment 3: Bootstrap JavaScript Components
+<h3>Assignment 3: Bootstrap JavaScript Components</h3>
 
 We have reached the end of the third module of this course.
 
@@ -8573,7 +8576,7 @@ This exercise illustrates to you how we can use JavaScript code to be able to co
 
 This is a good time to do a comment of your code with the message Bootstrap jQuery.
 
-## Exercise (Instructions): Bootstrap and JQuery
+<h3>Exercise (Instructions): Bootstrap and JQuery</h3>
 
 Many of the Bootstrap's JavaScript-based components provide us with a mechanism to control some of the features of these components by writing JavaScript code, in particular, by writing code Using the jQuery syntax.
 
@@ -8829,16 +8832,16 @@ Now, you see how in our code we made use of the hasClass method, and we also saw
 
 With this, we complete this exercise. It's time for you to do a Git commit with the message more Bootstrap and jQuery.
 
-## Exercise (Instructions): More Bootstrap and JQuery
+<h3>Exercise (Instructions): More Bootstrap and JQuery</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we extend the previous exercise of controlling the carousel by using more JQuery and JavaScript to write JavaScript code to control the JS component. At the end of this exercise you will be able to:
 
 -   Use Bootstrap's JS component methods together with JQuery and Javascript
 -   Use JS code to control the Bootstrap JS component
 
-### **Modifying the Carousel Control Buttons**
+<h4>Modifying the Carousel Control Buttons</h4>
 
 -   We will modify the carousel control buttons in the carousel component that we already included in the index.html page. Instead of two buttons, we will use a single button that will indicate if the carousel is currently cycling or paused. Furthermore we can use the button to toggle the carousel cycling behavior:
 
@@ -8848,7 +8851,7 @@ In this exercise we extend the previous exercise of controlling the carousel by 
 
 We are adding a single button inside a button group with the ID carouselButton. The buttons will show either as a pause or play button based on the current behavior of the carousel.
 
-### **Modifying JavaScript Code**
+<h4>Modifying JavaScript Code</h4>
 
 -   Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:
 
@@ -8867,33 +8870,33 @@ We are adding a single button inside a button group with the ID carouselButton. 
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise we learnt more about Bootstrap's JS component methods and how they can be used together with JQuery and JavaScript to control the behavior of a Bootstrap JS component.
 
-## Bootstrap and JQuery: Additional Resources
+<h3>Bootstrap and JQuery: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h4>PDFs of Presentations</h4>
 
 **09-Bootstrap-JQuery.pdf**
 
-### **Bootstrap Resources**
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Carousel Methods](http://getbootstrap.com/docs/4.0/components/carousel/#methods)
 
-### **JQuery**
+<h4>JQuery</h4>
 
 -   [JQuery](http://jquery.com/)
 -   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp)
 
-## CSS Preprocessors: Objectives and Outcomes
+<h3>CSS Preprocessors: Objectives and Outcomes</h3>
 
 In this lesson we explore CSS preprocessors, Less and Sass. We learn the salient features of both the processors and see how we can generate CSS from the Less and Sass code. At the end of this lesson, you will be able to:
 
 -   Write Less and Sass code to define your CSS classes
 -   Compile the Less and Sass code into the corresponding CSS classes
 
-## CSS Preprocessors: Less and Sass
+<h3>CSS Preprocessors: Less and Sass</h3>
 
 This particular lesson deals with CSS preprocessors, in particular Less and Sass.
 
@@ -9027,7 +9030,7 @@ First, we'll do an exercise based upon Less.
 
 Then we'll follow that up with an exercise based on Sass.
 
-## Exercise: Less
+<h3>Exercise: Less</h3>
 
 It's time to move on to the next exercise, called Exercise: Less.
 
@@ -9105,16 +9108,16 @@ In this exercise, we have learnt how to write less code and then automatically c
 
 At this point, you may wish to save the changes to your Git repository with the message Exercise: Less.
 
-## Exercise (Instructions): Less
+<h3>Exercise (Instructions): Less</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to write Less code and then automatically transform it into the corresponding CSS code. At the end of this exercise you will be able to:
 
 -   Write Less code using many of the features of Less
 -   Automatically convert the Less code into CSS
 
-### **Adding Less Variables**
+<h4>Adding Less Variables</h4>
 
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.less*. We will add the Less code into this file.
 -   Add the following Less variables into the file:
@@ -9128,7 +9131,7 @@ In this exercise you will learn to write Less code and then automatically transf
 
 We have just added a few color and a height variable. We will make use of these variables while defining the classes.
 
-### **Less Mixins**
+<h4>Less Mixins</h4>
 
 -   Next we add a mixin into the file as follows:
 
@@ -9177,7 +9180,7 @@ We will make use of this to define several row classes next.
 
 Note the use of the variables and the mixin with various parameters in defining the classes.
 
-### **Nesting Selectors**
+<h4>Nesting Selectors</h4>
 
 -   Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:
 
@@ -9200,7 +9203,7 @@ Note the use of the variables and the mixin with various parameters in defining 
     **z-index: 1;**
     **}**
 
-### **Installing and using the lessc Compiler**
+<h4>Installing and using the lessc Compiler</h4>
 
 -   Now we install the node module to support the compilation of the Less file. To do this, type the following at the command prompt:
 
@@ -9291,16 +9294,16 @@ This completes our exercise.
 
 This may be a good time for you to do a good commit with the message exercise SCSS.
 
-## Exercise (Instructions): Scss
+<h3>Exercise (Instructions): Scss</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to write Scss code and then automatically transform it into the corresponding CSS code. At the end of this exercise you will be able to:
 
 -   Write Scss code using many of the features of Scss
 -   Automatically convert the Scss code into CSS
 
-### **Adding Scss Variables**
+<h4>Adding Scss Variables</h4>
 
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.scss*. We will add the Scss code into this file.
 -   Add the following Scss variables into the file:
@@ -9314,7 +9317,7 @@ In this exercise you will learn to write Scss code and then automatically transf
 
 We have just added a few color and a height variable. We will make use of these variables while defining the classes.
 
-### **Scss Mixins**
+<h4>Scss Mixins</h4>
 
 -   Next we add a mixin into the file as follows:
 
@@ -9363,7 +9366,7 @@ We will make use of this to define several row classes next.
 
 Note the use of the variables and the mixin with various parameters in defining the classes.
 
-### **Nesting Selectors**
+<h4>Nesting Selectors</h4>
 
 -   Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:
 
@@ -9386,7 +9389,7 @@ Note the use of the variables and the mixin with various parameters in defining 
     **z-index: 1;**
     **}**
 
-### **Installing and using the node-sass module**
+<h4>Installing and using the node-sass module</h4>
 
 -   Now we install the node module to support the compilation of the Scss file to a CSS file. To do this, type the following at the command prompt:
 
@@ -9404,17 +9407,17 @@ This will install the <i>node-sass</i> NPM module into your project and also add
 
 -   You can now do a Git commit with the message "Sass".
 
-### **Conclusions**
+<h4>Conclusions</h4>
 
 In this exercise you learnt to write Scss code and then automatically generating the CSS file by compiling the Scss code.
 
-## CSS Preprocessors: Additional Resources
+<h3>CSS Preprocessors: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h4>PDFs of Presentations</h4>
 
-**10-CSS-Preprocessors.pdf**
+<b>10-CSS-Preprocessors.pdf</b>
 
-### **Less and Sass Resources**
+<h4>Less and Sass Resources</h4>
 
 -   [Less Getting Started](http://lesscss.org/)
 -   [Sass Basics](http://sass-lang.com/guide)
@@ -9423,7 +9426,7 @@ In this exercise you learnt to write Scss code and then automatically generating
 -   [Less NPM package](https://www.npmjs.com/package/less)
 -   [Node-sass NPM package](https://www.npmjs.com/package/node-sass)
 
-## Assignment 4: Bootstrap, JQuery and Sass
+<h3>Assignment 4: Bootstrap, JQuery and Sass</h3>
 
 We come to the final assignment of this course. In this fourth assignment, you're going to work with bootstraps, JQuery support and also a little bit of Sass. This assignment consists of four tasks.
 
@@ -9463,9 +9466,9 @@ Insert appropriate SCSS code into your style start SCSS file to enable this to w
 
 And upon completing this assignment, you may wish to do a good comment to save your changes with the message assignment four.
 
-## Assignment 4: Additional Resources
+<h3>Assignment 4: Additional Resources</h3>
 
-### **Screenshots**
+<h4>Screenshots</h4>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 79. reserve a table - smoking or non-smoking (xx) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9506,7 +9509,7 @@ At the end of this lesson, you will be able to:
 -   Configure NPM scripts and automate your web development
 -   Prepare your project for being hosted on a web server
 
-## Building and Deployment
+<h3>Building and Deployment</h3>
 
 So far, we have been concentrating on designing and implementing our website, be it HTML, CSS, or JavaScript code.
 
@@ -10245,7 +10248,7 @@ I will show you how you perform the same set of tasks that I did with the npm sc
 
 By showing you the Grunt and the Gulp way of doing the same sort of tasks in the exercises that follow this lecture.
 
-## Exercise (Video): Grunt Part 1
+<h3>Exercise (Video): Grunt Part 1</h3>
 
 Time to start Grunting. In this and the next exercise we're going to repeat the same kind of setup as we did with the NPM scripts.
 
