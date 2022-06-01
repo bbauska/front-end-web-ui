@@ -3683,7 +3683,7 @@ After you complete your assignment, in case you're saving your changes to a Git 
 
 <b>aboutus.html</b>
 
-### <b>Assignment 1 Screenshots</b>
+<h4><b>Assignment 1 Screenshots</b></h4>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 74. ristorante con fusion part i (110/111) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4524,51 +4524,51 @@ Note: Some people have pointed out that if they have AdBlocker installed, then t
 
 <h4><b>Using Icon Fonts and Other CSS classes</b></h4>
 <ul>
-<li>One of the most popular icon font toolkit is Font Awesome. Go to its website <http://fontawesome.io/> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:
-
-<b>npm install font-awesome@4.7.0 --save</b></br/></li>
-
-<li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <https://lipis.github.io/bootstrap-social/>. To install it using npm, type the following at the prompt:
-
-<b>npm install bootstrap-social@5.1.1 --save</b></br/></li>
-
-<li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:
-
-    <b>\<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"\></b><br/>
-    <b>\<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"\></b></br/></li>
-
-<li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:
-
+<li>One of the most popular icon font toolkit is Font Awesome. Go to its website <http://fontawesome.io/> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
+```
+$ npm install font-awesome@4.7.0 --save</b></br/></li>
+```
+<li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <https://lipis.github.io/bootstrap-social/>. To install it using npm, type the following at the prompt:</li>
+```
+$ npm install bootstrap-social@5.1.1 --save
+```
+<li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:</li>
+```
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+```
+<li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
+```
     <b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-address-card fa-lg"\>\</span\> Contact\</a\>\</li\></b><br/>
     <b>\<li class="nav-item active"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-home fa-lg"\>\</span\><br/> Home\</a\>\</b></li\>**<br/>
     <b>\<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>\<span class="fa fa-info fa-lg"\>\</span\> About\</a\>\</b></li\></b><br/>
     <b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-list fa-lg"\>\</span\> Menu\</a\>\</li\></b></br/></li>
-
+```
 <li>Similarly update the navbar's ul list items as follows in aboutus.html:
-
-<b>\<li class="nav-item"\>\<a class="nav-link" href="./index.html"\>\<span class="fa fa-home fa-lg"\>\</span\> Home\</a\>\</li\></b>
-<b>\<li class="nav-item active"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-info fa-lg"\>\</span\> About\</a\>\</li\></b>
-<b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-list fa-lg"\>\</span\> Menu\</a\>\</li\>**
-<b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-address-card fa-lg"\>\</span\> Contact\</a\>\</li\></b></br/></li>
-
-<li>Next, in both index.html and aboutus.html, go down to the address in the footer of the page and replace the "Tel.", "Fax" and "Email" with the corresponding font awesome based icons as follows:
-
-    <b>\<i class="fa fa-phone fa-lg"\>\</i\>: +852 1234 5678\<br\>**
-    <b>\<i class="fa fa-fax fa-lg"\>\</i\>: +852 8765 4321\<br\>**
-    <b>\<i class="fa fa-envelope fa-lg"\>\</i\>:**
-    <b>\<a href="mailto:confusion@food.net"\>confusion@food.net\</a\></b></br/></li>
-
-<li>Finally, let us use the bootstrap-social CSS classes to create the social buttons in the footer in both index.html and aboutus.html, by replacing the social sites' links with the following code:
-
-    <b>\<div class="text-center"\></b>
-    <b>\<a class="btn btn-social-icon btn-google" href="http://google.com/+"\>\<i class="fa fa-google-plus"\>\</i\>\</a\></b>
-    <b>\<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="\>\<i class="fa fa-facebook"\>\</i\>\</a\></b>
-    <b>\<a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"\>\<i class="fa fa-linkedin"\>\</i\>\</a\></b>
-    <b>\<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"\>\<i class="fa fa-twitter"\>\</i\>\</a\></b>
-    <b>\<a class="btn btn-social-icon btn-google" href="http://youtube.com/"\>\<i class="fa fa-youtube"\>\</i\>\</a\></b>
-    <b>\<a class="btn btn-social-icon" href="mailto:"\>\<i class="fa fa-envelope-o"\>\</i\>\</a\></b>
-    <b>\</div\></b></br/></li>
-
+```
+<li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li></b>
+<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li></b>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li></b></br/></li>
+```
+<li>Next, in both index.html and aboutus.html, go down to the address in the footer of the page and replace the "Tel.", "Fax" and "Email" with the corresponding font awesome based icons as follows:</li>
+```
+    <i class="fa fa-phone fa-lg"></i>: +852 1234 5678
+    <i class="fa fa-fax fa-lg"></i>: +852 8765 4321
+    <i class="fa fa-envelope fa-lg"></i>:
+    <a href="mailto:confusion@food.net">confusion@food.net</a>
+```
+<li>Finally, let us use the bootstrap-social CSS classes to create the social buttons in the footer in both index.html and aboutus.html, by replacing the social sites' links with the following code:</li>
+```
+    <div class="text-center">
+    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a></b>
+    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a></b>
+    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+    </div>
+```
 <li>Save all the changes and commit to your Git repository with the message "Icon Fonts".</li>
 </ul>
 
@@ -4584,34 +4584,34 @@ We learnt about using icon fonts in a web project.
 
 **06-Icon Fonts.pdf**
 
-### **Official Bootstrap Resources**
+<h4>Official Bootstrap Resources</h4>
 
 -   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
 -   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/)
 
-### **General**
+<h4>General</h4>
 
 -   [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) (Accessibility support and screen reader support)
 
-### **Information Architecture**
+<h4>Information Architecture</h4>
 
 -   [Information Architecture 101: Techniques and Best Practices](http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/) (Quick introduction to Information architecture with respect to website design)
 -   [Web Site Information Architecture models](http://webdesignfromscratch.com/website-architecture/ia-models/) (Another good resource on information architecture)
 -   [What is information architecture?](http://www.steptwo.com.au/papers/kmc_whatisinfoarch/) (Good definition and explanation about the topic)
 -   [Information Architecture Tutorial](http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/) (Comprehensive look from a website design perspective)
 
-### **Navigation Bar Design**
+<h4>Navigation Bar Design</h4>
 
 -   [Designing A Winning Navigation Menu: Ideas and Inspirations](http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/) (Good suggestions on how to design navigation for a website)
 -   [Are You Making These Common Website Navigation Mistakes?](https://blog.kissmetrics.com/common-website-navigation-mistakes/) (Worth reading at least to learn what not to do)
 -   [3 Reasons We Should Stop Using Navigation Bars](http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/) (A provocative view on navigation bars)
 
-### **Breadcrumbs**
+<h4>Breadcrumbs</h4>
 
 -   [Breadcrumb Navigation Examined: Best Practices & Examples](http://www.hongkiat.com/blog/breadcrumb-navigation-examined-best-practices-examples/) (Great suggestions on using breadcrumbs for navigation)
 -   [Breadcrumb Navigation: A Guide On Types, Benefits And Best Practices](http://blog.woorank.com/2014/11/breadcrumb-navigation-guide/) (Another great resource on types and usage of breadcrumbs)
 
-### **Icon Fonts**
+<h4>Icon Fonts</h4>
 
 -   [Why And How To Use Icon Fonts](http://vanseodesign.com/web-design/icon-fonts/) (a good overview of icon fonts)
 -   [Icon Fonts are Awesome](https://css-tricks.com/examples/IconFont/) (another good introduction to icon fonts)
@@ -4621,14 +4621,14 @@ We learnt about using icon fonts in a web project.
 -   [The Final Nail in the Icon Fonts Coffin?](http://www.sitepoint.com/final-nail-icon-fonts-coffin/) (a controversial opinion piece on icon fonts)
 -   [Using SVGs](http://gomakethings.com/using-svgs/) (alternative to icon fonts)
 
-## User Input: Buttons and Forms: Objectives and Outcomes
+<h3>User Input: Buttons and Forms: Objectives and Outcomes</h3>
 
 In this lesson we review the support for user input through the use of buttons and forms in a web page. We review Bootstrap button classes and Forms classes. At the end of this lesson you will be able to:
 
 -   Create and style buttons on a web page using Bootstrap button classes
 -   Create and style forms on a web page using Bootstrap form classes
 
-## User Input
+<h3>User Input</h3>
 
 Gone are the days whenwebsites were purely used for delivering information to the users.
 
@@ -4850,7 +4850,7 @@ You have some colors that are already defined in Bootstrap.
 
 Primary refers to blue in for the first, light blue success refers to the green color, then you have warning which would be a pale yellow color, and then danger, which is a red color.
 
-o, these are default colors that were set up in Bootstrap.
+These are default colors that were set up in Bootstrap.
 
 And then the href setup, with the mailto here, and then following that, you have the.
 
@@ -4972,51 +4972,21 @@ And the class, look at the class here. It says form-control.
 
 This is important to apply to the input box here. So form-control, and id firstname. And the name which is firstname. 
 
-Then placeholder First Name. So the placeholder is what appears inside the box as a placeholder for the input box. So all these attributes are assigned. So more importantly, note the use of the form-control
+Then placeholder First Name. So the placeholder is what appears inside the box as a placeholder for the input box. So all these attributes are assigned. So more importantly, note the use of the form-control class being applied to input type. 
 
-class being applied to input type. So this is how you structure
+This is how you structure these two elements in your form. For small screen sizes and below, it stacks the two things. 
 
-these two elements in your form. For small screen sizes and
+But for medium to extra large, you saw that it is positioning them horizontally side by side. 
 
-below, it stacks the two things. But for medium to extra large, you saw that it is positioning
+The same thing applies to the lastname code also. It'll be very similar to how the firstname is structured. 
 
-them horizontally side by side. The same thing applies to
+I would like you to spend a little bit of time taking a look at this code. 
 
-the lastname code also. It'll be very similar to how
+Based upon your understanding of this, how this is also formatted. 
 
-the firstname is structured. So I would like you to spend a little bit
+The next kind of formal event that we will add in is an input group element.
 
-of time taking a look at this code also. So that you see,
-
-based upon your understanding of this, how this is also formatted. The next kind of formal event that we
-
-will add in is an input group element. Let me add in the code. We'll look at what
-
-the form turns out to be. And then we'll go back and
-
-examine the code. So right here, after the second div,
-
-after the lastname field, I'm going to include the code for
-
-the next element here. And then let's save the changes. And then, immediately, you would see a couple of more
-
-things added into your form. You see a telephone
-
-number field added here. This, from the look of it,
-
-you see that this is very similar to that. So I'm not going to explain the code for
-
-this. This should be very straightforward for
-
-you to understand. And then this email field also
-
-should be very straightforward for you to understand. Because this looks very
-
-similar to the lastname. Except that for this, the input field,
-
-the type will be set to email. So that the built in form
-
-checking capabilities of your browser automatically kicks in. So that when you type in something
+Let me add in the code. We'll look at what the form turns out to be. And then we'll go back and examine the code. So right here, after the second div, after the lastname field, I'm going to include the code for the next element here. And then let's save the changes. And then, immediately, you would see a couple of more things added into your form. You see a telephone number field added here. This, from the look of it, you see that this is very similar to that. So I'm not going to explain the code for this. This should be very straightforward for you to understand. And then this email field also should be very straightforward for you to understand. Because this looks very similar to the lastname. Except that for this, the input field, the type will be set to email. So that the built in form checking capabilities of your browser automatically kicks in. So that when you type in something
 
 that doesn't look like an email, then it'll complain appropriately. So let's examine this particular
 
@@ -5313,30 +5283,42 @@ In this exercise, we will examine user input for a website through the use of Bu
 -   Also set up the links in the footer correctly to point to the appropriate pages.
 
 <h4>Adding a Button Bar</h4>
-
--   We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:
-
+<ul>
+<li>We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</li>
+</ul>
 <b>
-    \<div class="btn-group" role="group"\><br/>
-    \<a role="button" class="btn btn-primary" href="tel:+85212345678"\>\<i class="fa fa-phone"\>\</i\> Call\</a\><br/>
-    \<a role="button" class="btn btn-info"\>\<i class="fa fa-skype"\>\</i\> Skype\</a\><br/>
-    \<a role="button" class="btn btn-success" href="mailto:confusion@food.net"\>\<i class="fa fa-envelope-o"\>\</i\> Email\</a\><br/>
-    \</div\><br/>
+```
+    <div class="btn-group" role="group">
+    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> email</a>
+    </div>
+```
 </b>
-
 Note how we define the button bar using the <i>btn-group</i> class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an <i>href</i> associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the <i>btn</i> class.
-
--   Remember to do a Git commit with the message "Buttons"
+<ul>
+<li>Remember to do a Git commit with the message "Buttons".</li>
+</ul>
 
 <h4>Conclusions</h4>
-
--   We have learnt how to add buttons and button groups to a web page.
+<ul>
+<li>We have learnt how to add buttons and button groups to a web page.</li>
+</ul>
 
 <h3>Exercise (Video): Forms</h3>
 
 Now that we have seen how to add buttons to our web page.
 
 In this exercise, we're going to look at forms and how we can add forms to our web page and also style these form elements using the Bootstrap classes.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 100. contactus - form goes here (141) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/contactus-formgoeshere.png"
+   alt="Contactus.html - form goes here."
+   width="85%" />
+</p>
 
 Going back to contactus.html page, scroll down until you see this comment there called "Form goes here".
 
@@ -11633,5 +11615,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 05-31-2022 11:36pm front-end-web-ui
+last updated 06-01-2022 10:13am front-end-web-ui
 </html>
