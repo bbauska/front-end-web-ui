@@ -1064,7 +1064,7 @@ With this, we complete this exercise on using online Git repositories.
 
 So did you finally Git it?
 
-## Exercise (Instructions): Online Git Repositories
+<h3>Exercise (Instructions): Online Git Repositories</h3>
 
 ### <b>Objectives and Outcomes</b>
 
@@ -1111,7 +1111,7 @@ In this exercise you will learn about how to set up and use an online Git reposi
 
 In this exercise you have learnt to set up an online Git repository, synchronize your local repository with the remote repository, and clone an online repository.
 
-## Node.js and NPM
+<h3>Node.js and NPM</h3>
 
 JavaScript which was designed as a scripting language for the browser has seen deployment far beyond the browser.
 
@@ -1182,7 +1182,7 @@ A typical Node package consist of JavaScript files together with a file called p
 
 We will look at how we can use the package.json file in more detail in the subsequent exercises.
 
-## Exercise (Video): Setting up Node.js and NPM
+<h3>Exercise (Video): Setting up Node.js and NPM</h3>
 
 In your browser, head over to nodejs.org and as you browse down, you'll see the download buttons for Node.js for your specific platform.
 
@@ -2139,7 +2139,7 @@ This exercise introduces the first set of steps to set up your web page to make 
 -   Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain the completed files of each exercise.
 -   Set up an online Git repository and synchronize your project folder with the online repository.
 
-### <b>Downloading Bootstrap</b>
+<h4><b>Downloading Bootstrap</b></h4>
 
 -   You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:
 
@@ -2150,25 +2150,29 @@ This exercise introduces the first set of steps to set up your web page to make 
 -   Open your project folder in your editor, and then open the index.html file in the <i>conFusion</i> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
 -   Start your lite-server by typing <b>npm start</b> at the prompt. The <i>index.html</i> file should now be loaded into your default browser.
 
-### <b>Getting your Web page Bootstrap ready</b>
+<h4><b>Getting your Web page Bootstrap ready</b></h4>
 
 -   Open the <i>index.html</i> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.
 -   Insert the following code in the *\<head\>* of <i>index.html</i> file before the title.
 
-    **\<!-- Required meta tags always come first --\>**
-    **\<meta charset="utf-8"\>**
-    **\<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>**
-    **\<meta http-equiv="x-ua-compatible" content="ie=edge"\>**
-    **\<!-- Bootstrap CSS --\>**
-    **\<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>**
+<b>
+    \<!-- Required meta tags always come first --\><br/>
+    \<meta charset="utf-8"\><br/>
+    \<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\><br/>
+    \<meta http-equiv="x-ua-compatible" content="ie=edge"\><br/>
+    \<!-- Bootstrap CSS --\><br/>
+    \<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\><br/>
+</b>
 
 -   This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.
 -   At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.
 
-    **\<!-- jQuery first, then Popper.js, then Bootstrap JS. --\>**
-    **\<script src="node_modules/jquery/dist/jquery.slim.min.js"\>\</script\>**
-    **\<script src="node_modules/popper.js/dist/umd/popper.min.js"\>\</script\>**
-    **\<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\>\</script\>**
+<b>
+    \<!-- jQuery first, then Popper.js, then Bootstrap JS. --\><br/>
+    \<script src="node_modules/jquery/dist/jquery.slim.min.js"\>\</script\><br/>
+    \<script src="node_modules/popper.js/dist/umd/popper.min.js"\>\</script\><br/>
+    \<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\>\</script\><br/>
+</b>
 
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
 
@@ -2176,7 +2180,7 @@ This exercise introduces the first set of steps to set up your web page to make 
 
 We have now understood how to set up a web project to use Bootstrap. In the next lecture, we will explore further on responsive design and Bootstrap's grid system.
 
-## Introduction to Bootstrap: Additional Resources
+<h3>Introduction to Bootstrap: Additional Resources</h3>
 
 ### <b>PDFs of the Presentations</b>
 
@@ -2201,7 +2205,7 @@ We have now understood how to set up a web project to use Bootstrap. In the next
 -   [Top 10 Front-End Frameworks of 2018](https://www.keycdn.com/blog/front-end-frameworks/)
 -   [The 5 Most Popular Front-end Frameworks Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/)
 
-## Responsive Design and Bootstrap Grid System: Objectives and Outcomes
+<h3>Responsive Design and Bootstrap Grid System: Objectives and Outcomes</h3>
 
 In this lesson, you will be given an overview of responsive web design and an introduction to the Bootstrap grid system. The exercises will concentrate on enhancing your web project using the Bootstrap grid in order to make it responsive.
 
@@ -2211,7 +2215,7 @@ At the end of this lesson, you will be able to:
 -   Use the Bootstrap grid system to design responsive websites
 -   Add your own custom CSS classes to a Bootstrap based web project
 
-## Responsive Design
+<h3>Responsive Design</h3>
 
 These days in web development world, we often hear people mentioning the terms responsive design and mobile first approach.
 
@@ -2434,7 +2438,7 @@ Fortunately, if you start with a well-designed front end web UI framework like B
 
 We will learn more about this in the next lecture and the exercise that follows.
 
-## Bootstrap Grid System
+<h3>Bootstrap Grid System</h3>
 
 In the previous lecture, we learnt about responsive design.
 
@@ -3020,7 +3024,7 @@ We're going to apply the Bootstrap grid to our index.html page in order to do th
 
 We will also use some custom CSS classes.
 
-## Exercise (Video): Responsive Design and Bootstrap Grid System Part 1
+<h3>Exercise (Video): Responsive Design and Bootstrap Grid System Part 1</h3>
 
 In the previous lectures, we have learnt about responsive design and the bootstrap grid system.
 
@@ -3248,7 +3252,7 @@ Obviously, there is still room for improvement.
 
 This may be a good time for you to do a git comment with the message Bootstrap Grid Part One.
 
-## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
+<h3>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1</h3>
 
 ### Objectives and Outcomes
 
@@ -3345,7 +3349,7 @@ Now you can see how the web page has been turned into a mobile-first responsive 
 
 In this exercise, we reviewed responsive design and the Bootstrap grid system.
 
-## Exercise (Video): Responsive Design and Bootstrap Grid System Part 2
+<h3>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2</h3>
 
 We'll continue with the bootstrap grid exercise that we started out in the previous exercise.
 
@@ -3497,7 +3501,7 @@ In this exercise, we saw the use of custom CSS classes, and also used some of th
 
 This is a good time for you to do a good comment with the message, Bootstrap grid, part two.
 
-## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
+<h3>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2</h3>
 
 ### <b>Objectives and Outcomes</b>
 
@@ -3587,7 +3591,7 @@ We can define our own custom CSS classes in a separate CSS file, and also custom
 
 In this exercise, we continued our review of responsive design and the Bootstrap grid system. We also learnt how to customize using our own CSS classes.
 
-## Responsive Design and Bootstrap Grid System: Additional Resources
+<h3>Responsive Design and Bootstrap Grid System: Additional Resources</h3>
 
 ### <b>PDFs of Presentations</b>
 
@@ -3611,7 +3615,7 @@ In this exercise, we continued our review of responsive design and the Bootstrap
 -   [Beginner’s Guide to Responsive Web Design](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design) (simple introduction to responsive web design)
 -   [The 2014 Guide to Responsive Web Design](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design) (an updated guide to responsive design)
 
-## Assignment 1 Requirements (Video)
+<h3>Assignment 1 Requirements (Video)</h3>
 
 It is time for your first assignment in this course.
 
@@ -3917,7 +3921,7 @@ These include tabs, pills, pagination, dropdowns, accordions, tags, and SchrollS
 
 We'll look at some of these in a bit more detail as we go through the various lessons in the modules that follow this particular lesson.
 
-## Exercise (Video): Navbar and Breadcrumbs
+<h3>Exercise (Video): Navbar and Breadcrumbs</h3>
 
 We just completed a discussion on the importance of providing navigation in your website.
 
@@ -4621,14 +4625,14 @@ We learnt about using icon fonts in a web project.
 -   [The Final Nail in the Icon Fonts Coffin?](http://www.sitepoint.com/final-nail-icon-fonts-coffin/) (a controversial opinion piece on icon fonts)
 -   [Using SVGs](http://gomakethings.com/using-svgs/) (alternative to icon fonts)
 
-## User Input: Buttons and Forms: Objectives and Outcomes
+<h3>User Input: Buttons and Forms: Objectives and Outcomes</h3>
 
 In this lesson we review the support for user input through the use of buttons and forms in a web page. We review Bootstrap button classes and Forms classes. At the end of this lesson you will be able to:
 
 -   Create and style buttons on a web page using Bootstrap button classes
 -   Create and style forms on a web page using Bootstrap form classes
 
-## User Input
+<h3>User Input</h3>
 
 Gone are the days whenwebsites were purely used for delivering information to the users.
 
@@ -5290,9 +5294,9 @@ And then say Bootstrap buttons and forms, and then that would have committed to 
 
 Here we have learned how we include buttons and form elements into our Bootstrap design pitch.
 
-## Exercise (Instructions): Buttons
+<h3>Exercise (Instructions): Buttons</h3>
 
-# Exercise: Buttons
+<h2>Exercise: Buttons</h2>
 
 ### Objectives and Outcomes
 
@@ -5329,7 +5333,7 @@ Note how we define the button bar using the <i>btn-group</i> class, and then add
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-## Exercise (Video): Forms
+<h3>Exercise (Video): Forms</h3>
 
 Now that we have seen how to add buttons to our web page.
 
@@ -5591,7 +5595,7 @@ You'll be working with forms in some of the later exercises including your secon
 
 This is a good time for you to do a good comment with the message forms.
 
-## Exercise (Instructions): Forms
+<h3>Exercise (Instructions): Forms</h3>
 
 # Exercise: Forms
 
@@ -5776,7 +5780,7 @@ We will also see more versatile us of cards in later exercises and other courses
 
 Card is a very important company that can be effectively used for displaying content. It's time to move on to the next exercise where we will use tables and cards to display some content in our web page.
 
-## Exercise (Video): Displaying Content: Tables and Cards
+<h3>Exercise (Video): Displaying Content: Tables and Cards</h3>
 
 Our next exercise looks at ways of displaying content on our web page.
 
@@ -6000,7 +6004,7 @@ In this exercise, we learned about how we can use tables and cards for displayin
 
 Now that we have completed this exercise, it's a good time to do a git commit.
 
-## Exercise (Instructions): Displaying Content: Tables and Cards
+<h3>Exercise (Instructions): Displaying Content: Tables and Cards</h3>
 
 ### **Objectives and Outcomes**
 
@@ -6114,7 +6118,7 @@ Note the use of the *\<blockquote\>* tag to create a block quote in the card. We
 
 In this exercise, we constructed a table and styled it with the Bootstrap table classes. Thereafter, we added two cards to the web page. We also saw the use of the description list and the block quote in the content.
 
-## Displaying Content: Additional Resources
+<h3>Displaying Content: Additional Resources</h3>
 
 ### PDFs of Presentations
 
@@ -6128,7 +6132,7 @@ In this exercise, we constructed a table and styled it with the Bootstrap table 
 -   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/)
 -   [Bootstrap Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
-## Images and Media: Objectives and Outcomes
+<h3>Images and Media: Objectives and Outcomes</h3>
 
 In this lesson we will look at the use of images and media on websites. In particular we will review the Bootstrap classes to support the inclusion of images and media, supporting responsiveness of images and media, and the use of these as thumbnails and part of other components, in particular the media component. At the end of this lesson you will be able to:
 
@@ -6136,7 +6140,7 @@ In this lesson we will look at the use of images and media on websites. In parti
 -   Support responsive images and media using responsive Bootstrap classes for images and media
 -   Use thumbnails and media components using Bootstrap classes
 
-## Images and Media
+<h3>Images and Media</h3>
 
 No self-respect webpage designers, would today design webpages without including some form of images or media on their websites.
 
@@ -6202,7 +6206,7 @@ Now, that we have seen the support for images and media, it is time to go onto a
 
 We'll make some changes to the index.html page by including some images and content using the media object.
 
-## Exercise (Video): Images and Media
+<h3>Exercise (Video): Images and Media</h3>
 
 Time to move onto the next exercise.
 
@@ -6326,7 +6330,7 @@ With this, we complete this exercise. In this exercise, we looked at the use of 
 
 This is a good time, again, to do a good comment, with the message, images and media.
 
-## Exercise (Instructions): Images and Media
+<h3>Exercise (Instructions): Images and Media</h3>
 
 ### **Objectives and Outcomes**
 
@@ -6403,7 +6407,7 @@ Note the use of the <i>media</i> class and the related Bootstrap classes to styl
 
 In this exercise, we learnt about the Bootstrap classes to support images and media in a web page. We saw how we can include responsive images on a web page. In addition, we saw the use of images within a media object to style and display content.
 
-## Images and Media: Additional Resources
+<h3>Images and Media: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -6420,7 +6424,7 @@ In this exercise, we learnt about the Bootstrap classes to support images and me
 -   [Bootstrap Image Classes](http://getbootstrap.com/docs/4.0/content/images/)
 -   [Bootstrap Media Object Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
 
-## Alerting Users: Objectives and Outcomes
+<h3>Alerting Users: Objectives and Outcomes</h3>
 
 In this lesson we examine various ways of delivering alert information to users. We examine labels, badges, alerts and progress bars. At the end of this lesson, you will be able to:
 
@@ -6428,7 +6432,7 @@ In this lesson we examine various ways of delivering alert information to users.
 -   Create, style and include alerts in your web page
 -   Appreciate the use of progress bars and controlling the state of the progress bars.
 
-## Alerting Users
+<h3>Alerting Users</h3>
 
 You may have several reasons for drawing the attention of visitors to certain parts of your website or maybe you want to alert the users about some information or you may want to keep the users informed about the progress of an operation that they initiate on your website.
 
@@ -6488,7 +6492,7 @@ You can even stack multiple progress bars together to create a stacked progress 
 
 Now that we have looked at various ways of alerting users, let's do a simple exercise next and use badges in our web page to draw the attention of users.
 
-## Exercise (Video): Alerting Users
+<h3>Exercise (Video): Alerting Users</h3>
 
 In this short exercise, we're going to make use of badges to add badges to our web page, so that we can highlight some information for our visitors to our website.
 
@@ -6510,7 +6514,7 @@ This completes this exercise.
 
 This is a good time to see if the changes to your good repository, with the message alerting users.
 
-## Exercise (Instructions): Alerting Users
+<h3>Exercise (Instructions): Alerting Users</h3>
 
 ### **Objectives and Outcomes**
 
@@ -6534,7 +6538,7 @@ In this short exercise we will examine the use of badges as a way of alerting us
 
 In this short exercise, we learnt how to add badges to our web page.
 
-## Alerting Users: Additional Resources
+<h3>Alerting Users: Additional Resources</h3>
 
 ### PDFs of Presentations
 
@@ -6546,7 +6550,7 @@ Bootstrap Resources
 -   [Bootstrap Alerts](http://getbootstrap.com/docs/4.0/components/alerts/)
 -   [Bootstrap Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
-## Assignment 2: Bootstrap CSS Components
+<h3>Assignment 2: Bootstrap CSS Components</h3>
 
 It's time to move on to the second assignment in this course.
 
@@ -6614,7 +6618,7 @@ The wordings here can occupy the remaining half of the scripts.
 
 You can use the column classes to adjust these things.
 
-## Assignment 2: Resources
+<h3>Assignment 2: Resources</h3>
 
 ### **Assignment Screenshots**
 <!------------------------------------------------------------------------------------------------>
@@ -6657,7 +6661,7 @@ You can use the column classes to adjust these things.
 -   [Bootstrap Alerts](http://getbootstrap.com/docs/4.0/components/alerts/)
 -   [Bootstrap Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
-## UI Design and Prototyping: Objectives and Outcomes
+<h3>UI Design and Prototyping: Objectives and Outcomes</h3>
 
 Now that you are more clear about your project idea, it's time to conceive how your project is going to look like for the end-users.
 
@@ -6678,7 +6682,7 @@ At the end of this lesson, you should be able to:
 -   Construct a wireframe diagram to visually represent the structure of your user interface
 -   Construct a prototype to enable understanding the flow of your application
 
-## UI Design and Prototyping Report Template
+<h3>UI Design and Prototyping Report Template</h3>
 
 ### **Project Title**
 
@@ -6700,7 +6704,7 @@ At the end of this lesson, you should be able to:
 
 -   Provide any references relevant to the report.
 
-## UI Design and Prototyping: Additional Resources
+<h3>UI Design and Prototyping: Additional Resources</h3>
 
 ### Wireframing, Mockups and UI Design
 
@@ -6725,7 +6729,7 @@ At the end of this lesson, you should be able to:
 -   [The Elements of User Experience](http://www.jjg.net/elements/)
 -   [The Elements of User Experience: User-Centered Design for the Web and Beyond (2nd Edition) (Voices That Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764)
 
-## Bootstrap JavaScript Components: Objectives and Outcomes
+<h3>Bootstrap JavaScript Components: Objectives and Outcomes</h3>
 
 In this module, we will be learning about Bootstrap's JavaScript components.
 
@@ -6738,7 +6742,7 @@ At the end of this module, you will be able to:
 -   Understand the various Bootstrap components that require JavaScript support in order to function
 -   Use the data-\* attributes that Bootstrap's JS API provides for you to control the JS components without writing a single line of JS code
 
-## Bootstrap JavaScript Components
+<h3>Bootstrap JavaScript Components</h3>
 
 In the previous module, we examined the number of Bootstrap components that are purely based around CSS.
 
@@ -6834,7 +6838,7 @@ Of course, you can leverage the full JavaScript API that is available for all th
 
 We will defer this to the next module, where we will examine how you can write simple JavaScript code based upon the JQuery syntax to add more functionality to your JavaScript-based Bootstrap components.
 
-## Bootstrap JavaScript Components: Additional Resources
+<h3>Bootstrap JavaScript Components: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -6846,14 +6850,14 @@ We will defer this to the next module, where we will examine how you can write s
 -   [Bootstrap JS Data Attributes](http://getbootstrap.com/docs/4.0/getting-started/javascript/#data-attributes)
 -   [Bootstrap Programmatic API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api)
 
-## Tabs and Tabbed Navigation: Objectives and Outcomes
+<h3>Tabs and Tabbed Navigation: Objectives and Outcomes</h3>
 
 In this lesson, we examine tabs and tabbed navigation. Tabs require Javascript support to be enabled for navigating the content. At the end of this lesson you will be able to:
 
 -   Design a tabbed navigation for your content
 -   Use tab panes to organize the content and navigate the content using tabbed navigation
 
-## Tabs, Pills and Tabbed Navigation
+<h3>Tabs, Pills and Tabbed Navigation</h3>
 
 In the previous lesson I referred to the nav class that is used in Bootstrap for creating navigation structures.
 
@@ -6899,7 +6903,7 @@ That is what we're going to explore in the exercise next.
 
 We will use tabbed navigation and then use tab content and tab panes to organize the actual content that will be displayed in our web page.
 
-## Exercise (Video): Tabs
+<h3>Exercise (Video): Tabs</h3>
 
 In this exercise, we're going to explore Bootstrap's tab-based navigation, Bootstrap's support for tabs, and how tabs can be used to organize content on your web page.
 
@@ -7065,7 +7069,7 @@ And then we saw how we can create tab navigation and enclose other content.
 
 This is also a good time for you to do a Git Comment with the message tabs.
 
-## Exercise (Instructions): Tabs
+<h3>Exercise (Instructions): Tabs</h3>
 
 ### **Objectives and Outcomes**
 
@@ -7139,7 +7143,7 @@ This modification adds a 1px border to the tab content which joins with the uppe
 
 In this exercise we learnt the use of tabbed navigation, tab content and tab panes and their use in organizing and navigating within the content in a page.
 
-## Tabs and Tabbed Navigation: Additional Resources
+<h3>Tabs and Tabbed Navigation: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -7152,14 +7156,14 @@ In this exercise we learnt the use of tabbed navigation, tab content and tab pan
 -   [Bootstrap Pills](http://getbootstrap.com/docs/4.0/components/navs/#pills)
 -   [Bootstrap Tabs Javascript Behavior](http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior)
 
-## Hide and Seek: Objectives and Outcomes
+<h3>Hide and Seek: Objectives and Outcomes</h3>
 
 In this lesson we learn about the collapse javascript plugin that allows us to hide and reveal content. In particular we explore its use in creating an accordion. At the end of this lesson, you will be able to:
 
 -   Use the collapse plugin to hide/reveal content
 -   Construct the accordion using cards
 
-## Collapse and Accordion
+<h3>Collapse and Accordion</h3>
 
 Let's now talk about a very useful plugin in Bootstrap called as the Collapse.
 
@@ -7243,7 +7247,7 @@ Although, of course, the Coursera page actually doesn't use Bootstrap.
 
 We'll move to the next exercise where we will see how we construct the Accordion for showing our corporate leadership information.
 
-## Exercise (Video): Accordion
+<h3>Exercise (Video): Accordion</h3>
 
 Accordions are one of those annoying instruments that some of you may have seen already.
 
@@ -7361,7 +7365,7 @@ With this, we complete this exercise.
 
 This is a good time for you to do a git commit with the message accordion..
 
-## Exercise (Instructions): Accordion
+<h3>Exercise (Instructions): Accordion</h3>
 
 ### Objectives and Outcomes
 
@@ -7445,7 +7449,7 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 
 In this exercise we constructed the accordion using the collapse plugin together with the card component.
 
-## Hide and Seek: Additional Resources
+<h3>Hide and Seek: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -7456,7 +7460,7 @@ In this exercise we constructed the accordion using the collapse plugin together
 -   [Bootstrap Collapse](http://getbootstrap.com/docs/4.0/components/collapse/)
 -   [Bootstrap Accordion Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example)
 
-## Revealing Content: Objectives and Outcomes
+<h3>Revealing Content: Objectives and Outcomes</h3>
 
 In this lesson we look at several ways of presenting information to users by overlaying the information on top of the page. In particular, we look at tooltips, popovers and modals. At the end of this lesson, you will be able to:
 
@@ -7464,7 +7468,7 @@ In this lesson we look at several ways of presenting information to users by ove
 -   Enable popovers when the user clicks on a link or button
 -   Reveal and hide modals when the user clicks on a link or button
 
-## Tooltips, Popovers and Modals
+<h3>Tooltips, Popovers and Modals</h3>
 
 Let us now try to understand several mechanisms to enable us to display information to the users overlaying the content of your web page.
 
@@ -7548,7 +7552,7 @@ Now that you have seen examples of tooltips, popovers, and modals, let's go to t
 
 We'll also create a modal that allows the user to type in information for logging in into our web page.
 
-## Exercise (Video): Tooltips and Modals
+<h3>Exercise (Video): Tooltips and Modals</h3>
 
 In the lecture before, we saw several ways of revealing content to the users.
 
@@ -7752,7 +7756,7 @@ In this exercise, we have seen the use of tooltips and we have seen the use of m
 
 This is a good time for you to do a git-commint with the message tool tips and models.
 
-## Exercise (Instructions): Tooltips and Modals
+<h3>Exercise (Instructions): Tooltips and Modals</h3>
 
 ### **Objectives and Outcomes**
 
@@ -7837,7 +7841,7 @@ We are introducing another link to the right of the navbar using the <i>navbar-t
 
 In this exercise we explored tooltips and modals as two ways of revealing content for the user upon clicking on a button or a link.
 
-## Revealing Content: Additional Resources
+<h3>Revealing Content: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -7849,7 +7853,7 @@ In this exercise we explored tooltips and modals as two ways of revealing conten
 -   [Bootstrap Popovers](http://getbootstrap.com/docs/4.0/components/popovers/)
 -   [Bootstrap Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
-## Carousel: Objectives and Outcomes
+<h3>Carousel: Objectives and Outcomes</h3>
 
 In this lesson we will examine the use of the Carousel component in our web page. We will examine the configuration of the various aspects of the carousel. At the end of this lesson you will be able to:
 
@@ -7857,7 +7861,7 @@ In this lesson we will examine the use of the Carousel component in our web page
 -   Configure various aspects of the carousel
 -   Add controls to the carousel to manually control it
 
-## Carousel
+<h3>Carousel</h3>
 
 Let's take a look at yet another interesting component in bootstrap, called as the bootstrap carousel.
 
@@ -7885,7 +7889,7 @@ Now that I have gotten you interested in the carousel, I'm sure you're curious a
 
 That is what we're going to examine in this next exercise, where we will add a carousel to our web page, the index.html page and then create the manual controls for it.
 
-## Exercise (Video): Carousel
+<h3>Exercise (Video): Carousel</h3>
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -8027,7 +8031,7 @@ This completes this exercise.
 
 This is a good time for you to do a git-commit with the message carousel.
 
-## Exercise (Instructions): Carousel
+<h3>Exercise (Instructions): Carousel</h3>
 
 ### Objectives and Outcomes
 
@@ -8120,7 +8124,7 @@ In this exercise we learnt about the carousel component and how to add it to a w
 
 We also learnt about introducing manual controls to the carousel.
 
-## Carousel: Additional Resources
+<h3>Carousel: Additional Resources</h3>
 
 ### PDFs of Presentations
 
@@ -8132,7 +8136,7 @@ Open file
 
 -   [Bootstrap Carousel](http://getbootstrap.com/docs/4.0/components/carousel/)
 
-## Assignment 3: Bootstrap JavaScript Components
+<h3>Assignment 3: Bootstrap JavaScript Components</h3>
 
 We have reached the end of the third module of this course.
 
@@ -8176,7 +8180,7 @@ That is your third task in this assignment.
 
 Hope you enjoyed creating this new variation of the index.html page.
 
-## Assignment 3: Resources
+<h3>Assignment 3: Resources</h3>
 
 ### Assignment Screenshots
 
@@ -8198,14 +8202,14 @@ Hope you enjoyed creating this new variation of the index.html page.
 -   [Bootstrap Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 -   [Bootstrap Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
-## Bootstrap and JQuery: Objectives and Outcomes
+<h3>Bootstrap and JQuery: Objectives and Outcomes</h3>
 
 In this lesson we examine the use of Bootstrap, JQuery and JavaScript together to control Bootstrap JS components. Many of the Bootstrap's JS components provide JavaScript methods and events to control the behavior. At the end of this lesson, you will be able to:
 
 -   Understand how to use JQuery and JavaScript and Bootstrap's JS component methods to control the behavior of the components.
 -   Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components
 
-## Bootstrap and JQuery
+<h3>Bootstrap and JQuery</h3>
 
 Let us now spend some time trying to understand how Bootstrap and jQuery work together to support the Bootstrap's JavaScript components.
 
@@ -8441,7 +8445,7 @@ We will write code to include a couple of buttons within our carousel, which wil
 
 Which means that we can pause and resume the sliding action of our carousel. And we'll activate these buttons from JavaScript.
 
-## Exercise (Video): Bootstrap and JQuery
+<h3>Exercise (Video): Bootstrap and JQuery</h3>
 
 Many of the Bootstrap's JavaScript-based components provide us with a mechanism to control some of the features of these components by writing JavaScript code, in particular, by writing code Using the jQuery syntax.
 
@@ -8573,7 +8577,7 @@ This exercise illustrates to you how we can use JavaScript code to be able to co
 
 This is a good time to do a comment of your code with the message Bootstrap jQuery.
 
-## Exercise (Instructions): Bootstrap and JQuery
+<h3>Exercise (Instructions): Bootstrap and JQuery</h3>
 
 Many of the Bootstrap's JavaScript-based components provide us with a mechanism to control some of the features of these components by writing JavaScript code, in particular, by writing code Using the jQuery syntax.
 
@@ -8699,7 +8703,7 @@ This exercise illustrates to you how we can use JavaScript code to be able to co
 
 This is a good time to do a comment of your code with the message Bootstrap jQuery.
 
-## Exercise (Video): More Bootstrap and JQuery
+<h3>Exercise (Video): More Bootstrap and JQuery</h3>
 
 In the previous exercise, we saw how we can leverage the JavaScript-based controls that are provided for the Bootstrap JavaScript components in order to control the behavior of the components.
 
@@ -8829,7 +8833,7 @@ Now, you see how in our code we made use of the hasClass method, and we also saw
 
 With this, we complete this exercise. It's time for you to do a Git commit with the message more Bootstrap and jQuery.
 
-## Exercise (Instructions): More Bootstrap and JQuery
+<h3>Exercise (Instructions): More Bootstrap and JQuery</h3>
 
 ### **Objectives and Outcomes**
 
@@ -8871,7 +8875,7 @@ We are adding a single button inside a button group with the ID carouselButton. 
 
 In this exercise we learnt more about Bootstrap's JS component methods and how they can be used together with JQuery and JavaScript to control the behavior of a Bootstrap JS component.
 
-## Bootstrap and JQuery: Additional Resources
+<h3>Bootstrap and JQuery: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -8886,14 +8890,14 @@ In this exercise we learnt more about Bootstrap's JS component methods and how t
 -   [JQuery](http://jquery.com/)
 -   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp)
 
-## CSS Preprocessors: Objectives and Outcomes
+<h3>CSS Preprocessors: Objectives and Outcomes</h3>
 
 In this lesson we explore CSS preprocessors, Less and Sass. We learn the salient features of both the processors and see how we can generate CSS from the Less and Sass code. At the end of this lesson, you will be able to:
 
 -   Write Less and Sass code to define your CSS classes
 -   Compile the Less and Sass code into the corresponding CSS classes
 
-## CSS Preprocessors: Less and Sass
+<h3>CSS Preprocessors: Less and Sass</h3>
 
 This particular lesson deals with CSS preprocessors, in particular Less and Sass.
 
@@ -9027,7 +9031,7 @@ First, we'll do an exercise based upon Less.
 
 Then we'll follow that up with an exercise based on Sass.
 
-## Exercise: Less
+<h3>Exercise: Less</h3>
 
 It's time to move on to the next exercise, called Exercise: Less.
 
@@ -9105,7 +9109,7 @@ In this exercise, we have learnt how to write less code and then automatically c
 
 At this point, you may wish to save the changes to your Git repository with the message Exercise: Less.
 
-## Exercise (Instructions): Less
+<h3>Exercise (Instructions): Less</h3>
 
 ### **Objectives and Outcomes**
 
@@ -9219,7 +9223,7 @@ This will install the <i>less</i> NPM module globally so that it can be used by 
 
 In this exercise you learnt to write Less code and then automatically generating the CSS file by compiling the Less code.
 
-## Exercise: Scss
+<h3>Exercise: Scss</h3>
 
 We'll now move on to the next exercise, where we will use SCSS syntax to define our SCSS classes and automatically convert them into their corresponding CSS classes.
 
@@ -9291,7 +9295,7 @@ This completes our exercise.
 
 This may be a good time for you to do a good commit with the message exercise SCSS.
 
-## Exercise (Instructions): Scss
+<h3>Exercise (Instructions): Scss</h3>
 
 ### **Objectives and Outcomes**
 
@@ -9408,7 +9412,7 @@ This will install the <i>node-sass</i> NPM module into your project and also add
 
 In this exercise you learnt to write Scss code and then automatically generating the CSS file by compiling the Scss code.
 
-## CSS Preprocessors: Additional Resources
+<h3>CSS Preprocessors: Additional Resources</h3>
 
 ### **PDFs of Presentations**
 
@@ -9423,7 +9427,7 @@ In this exercise you learnt to write Scss code and then automatically generating
 -   [Less NPM package](https://www.npmjs.com/package/less)
 -   [Node-sass NPM package](https://www.npmjs.com/package/node-sass)
 
-## Assignment 4: Bootstrap, JQuery and Sass
+<h3>Assignment 4: Bootstrap, JQuery and Sass</h3>
 
 We come to the final assignment of this course. In this fourth assignment, you're going to work with bootstraps, JQuery support and also a little bit of Sass. This assignment consists of four tasks.
 
@@ -9463,7 +9467,7 @@ Insert appropriate SCSS code into your style start SCSS file to enable this to w
 
 And upon completing this assignment, you may wish to do a good comment to save your changes with the message assignment four.
 
-## Assignment 4: Additional Resources
+<h3>Assignment 4: Additional Resources</h3>
 
 ### **Screenshots**
 <!------------------------------------------------------------------------------------------------>
@@ -9506,7 +9510,7 @@ At the end of this lesson, you will be able to:
 -   Configure NPM scripts and automate your web development
 -   Prepare your project for being hosted on a web server
 
-## Building and Deployment
+<h3>Building and Deployment</h3>
 
 So far, we have been concentrating on designing and implementing our website, be it HTML, CSS, or JavaScript code.
 
@@ -9628,7 +9632,7 @@ The steps involved in building up your site for deployment, what we call as buil
 
 We'll look at some of these through examples in the next exercise and also the next lesson where we will look at task runners.
 
-## NPM Scripts
+<h3>NPM Scripts</h3>
 
 As a first approach to automating our tasks, let's look at the example of using NPM scripts. Indeed, we had already started using NPM scripts in this course in the earlier lessons.
 
@@ -9715,7 +9719,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 
 In this exercise, you learnt how to set up a watch task to watch for changes to a file and automatically run tasks upon detecting changes.
 
-## Exercise (Video): NPM Scripts Part 2
+<h3>Exercise (Video): NPM Scripts Part 2</h3>
 
 We'll now continue our journey with NPM scripts in this next exercise.
 
@@ -10170,14 +10174,14 @@ In this exercise, you learnt the various steps to build the project for deployme
 -   [uglifyjs](https://github.com/mishoo/UglifyJS)
 -   [htmlmin](https://github.com/jserme/htmlmin)
 
-## Building and Deployment: Task Runners
+<h3>Building and Deployment: Task Runners</h3>
 
 In this lesson you will learn about JavaScript based Task runners, Grunt and Gulp. You will learn to automate your web development tasks using these tools. At the end of this lesson, you will be able to:
 
 -   Configure Grunt tasks and automate your web development using Grunt
 -   Define Gulp tasks in code to automate the web development using Gulp
 
-## Task Runners
+<h3>Task Runners</h3>
 
 As we understood from the previous lesson building and deployment of websites involves a lot of steps. And we looked at the use of [INAUDIBLE] scripts for doing the building and deployment tasks.
 
@@ -10245,7 +10249,7 @@ I will show you how you perform the same set of tasks that I did with the npm sc
 
 By showing you the Grunt and the Gulp way of doing the same sort of tasks in the exercises that follow this lecture.
 
-## Exercise (Video): Grunt Part 1
+<h3>Exercise (Video): Grunt Part 1</h3>
 
 Time to start Grunting. In this and the next exercise we're going to repeat the same kind of setup as we did with the NPM scripts.
 
