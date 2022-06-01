@@ -162,7 +162,7 @@ This should take you all the way to the final assignment in this course. I hope 
 
 <h3>Bootstrap Resources</h3>
 
-<h4><a href="http://www.getbootstrap.com/ target="_blank"">Bootstrap Site</a></h4>
+<h4><a href="http://www.getbootstrap.com/" target="_blank">Bootstrap Site</a></h4>
 
 <h3>Coursera Resources</h3>
 
@@ -11549,7 +11549,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 
 <h3><b>General Resources</b></h3>
 <ul>
-<li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/ target="_blank"">Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit</a><br/></li>
+<li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/" target="_blank">Node, Grunt, Bower and Yeoman - A Modern web dev's Toolkit</a><br/></li>
 <li><a href="https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/" target="_blank">The Advantages of Using Task Runners</a><br/></li>
 <li><a href="https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4" target="_blank">Gulp vs Grunt. Why one? Why the Other?</a><br/></li>
 <li><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/" target="_blank">Why we should stop using Grunt & Gulp</a><br/></li>
