@@ -6294,37 +6294,37 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
 
 -   Next we will work with the content on the web page and use the media object classes to style the content in the content rows.
 -   Go to the first content row, and replace the content in the second column containing the description of Uthappizza with the following code:
-
-    **\<div class="media"\>**
-    **\<img class="d-flex mr-3 img-thumbnail align-self-center"**
-    **src="img/uthappizza.png" alt="Uthappizza"\>**
-    **\<div class="media-body"\>**
-    **\<h2 class="mt-0"\>Uthappizza\</h2\>**
-    **\<p class="d-none d-sm-block"\>A unique combination of Indian Uthappam (pancake) and**
-    **Italian pizza, topped with Cerignola olives, ripe vine**
-    **cherry tomatoes, Vidalia onion, Guntur chillies and**
-    **Buffalo Paneer.\</p\>**
-    **\</div\>**
-    **\</div\>**
-
+```
+    <div class="media">**
+    <img class="d-flex mr-3 img-thumbnail align-self-center"
+    src="img/uthappizza.png" alt="Uthappizza">
+    <div class="media-body">
+    <h2 class="mt-0">Uthappizza</h2>
+    <p class="d-none d-sm-block"\>A unique combination of Indian Uthappam (pancake) and
+    Italian pizza, topped with Cerignola olives, ripe vine
+    cherry tomatoes, Vidalia onion, Guntur chillies and
+    Buffalo Paneer.</p>
+    </div>
+    </div>
+```
 Note the use of the <i>media</i> class and the related Bootstrap classes to style the content.
 
 -   Next, we will go to the third row and replace the contents of the second column containing the description about Alberto with the following content:
-
-    **\<div class="media"\>**
-    **\<img class="d-flex mr-3 img-thumbnail align-self-center"**
-    **src="img/alberto.png" alt="Alberto Somayya"\>**
-    **\<div class="media-body"\>**
-    **\<h2 class="mt-0"\>Alberto Somayya\</h2\>**
-    **\<h4\>Executive Chef\</h4\>**
-    **\<p class="d-none d-sm-block"\>Award winning three-star Michelin chef with wide**
-    **International experience having worked closely with**
-    **whos-who in the culinary world, he specializes in**
-    **creating mouthwatering Indo-Italian fusion experiences.**
-    **\</p\>**
-    **\</div\>**
-    **\</div\>**
-
+```
+    <div class="media">
+    <img class="d-flex mr-3 img-thumbnail align-self-center"
+    src="img/alberto.png" alt="Alberto Somayya">
+    <div class="media-body">
+    <h2 class="mt-0">Alberto Somayya</h2>
+    <h4>Executive Chef</h4>
+    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+    International experience having worked closely with
+    whos-who in the culinary world, he specializes in
+    creating mouthwatering Indo-Italian fusion experiences.
+    </p>
+    </div>
+    </div>
+```
 -   Finally, do a Git commit with a message "Images and Media".
 
 **Conclusions**
@@ -7003,47 +7003,47 @@ In this exercise we will explore Bootstrap tabs and tabbed navigation. In partic
 -   Use tab panes and organize the content into the panes
 -   Facilitate navigation among the tab panes using the tabbed navigation elements
 
-### **Adding Tab Navigation Elements**
+<h4>Adding Tab Navigation Elements</h4>
 
 -   Open the <i>aboutus.html<i> page and move to the second content row containing the details of the corporate leadership of the restaurant.
 -   Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:
-
-    **\<ul class="nav nav-tabs"\>**
-    **\<li class="nav-item"\>**
-    **\<a class="nav-link active" href="\#peter"**
-    **role="tab" data-toggle="tab"\>Peter Pan, CEO\</a\>**
-    **\</li\>**
-    **\<li class="nav-item"\>**
-    **\<a class="nav-link" href="\#danny" role="tab"**
-    **data-toggle="tab"\>Danny Witherspoon, CFO\</a\>**
-    **\</li\>**
-    **\<li class="nav-item"\>**
-    **\<a class="nav-link" href="\#agumbe"role="tab"**
-    **data-toggle="tab"\>Agumbe Tang, CTO\</a\>**
-    **\</li\>**
-    **\<li class="nav-item"\>**
-    **\<a class="nav-link" href="\#alberto" role="tab"**
-    **data-toggle="tab"\>Alberto Somayya, Exec. Chef\</a\>**
-    **\</li\>**
-    **\</ul\>**
-
+```
+    <ul class="nav nav-tabs">
+    <li class="nav-item">
+    <a class="nav-link active" href="#peter"
+    role="tab" data-toggle="tab">Peter Pan, CEO</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#danny" role="tab"
+    data-toggle="tab">Danny Witherspoon, CFO</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#agumbe"role="tab"
+    data-toggle="tab">Agumbe Tang, CTO</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#alberto" role="tab"
+    data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+    </li>
+    </ul>
+```
 Note the use of the *\<ul\>* tag with the <i>nav</i> and <i>nav-tabs</i> classes to set up the tab navigation. Each list item within the list acts as the tab element. Within each list item, note that we set up the *\<a\>* tags with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be introduced later. Also note that the *\<a\>* tag contains the <i>data-toggle=tab</i> attribute. The first list element's *\<a\>* tag contains the class <i>active*. This tab will be the open tab when we view the web page. We can switch to the other tabs using the tabbed navigation that we just set up.
 
 ### Adding Tab Content
 
 -   The details about the various corporate leaders should now be organized into various tab panes. To begin this, we will enclose the entire content into a div element with the class tab-content as specified below:
-
-    **\<div class="tab-content"\>**
-    **...**
-    **\</div\>**
-
+```
+    <div class="tab-content">
+    ...
+    </div>
+```
 -   Then we take the name and description of the CEO of the company and enclose it within a tab-pane as follows
-
-    **\<div role="tabpanel" class="tab-pane fade show active" id="peter"\>**
-    **\<h3\>Peter Pan \<small\>Chief Epicurious Officer\</small\>\</h3\>**
-    **\<p\> ... \</p\>**
-    **\</div\>**
-
+```
+    <div role="tabpanel" class="tab-pane fade show active" id="peter">
+    <h3\>Peter Pan <small>Chief Epicurious Officer</small></h3>
+    <p> ... </p>
+    </div>
+```
 Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the *\<a\>* link in the navigation.
 
 -   The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the <i>show</i> and <i>active</i> classes specified to indicate that the content should be visible on the web page by default.
@@ -7051,14 +7051,14 @@ Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with
 ### **Modifying the tab-content CSS**
 
 -   We now modify the CSS styles for the tab-content class in the <i>mystyles.css</i> file as follows:
-
-    **.tab-content {**
-    **border-left: 1px solid \#ddd;**
-    **border-right: 1px solid \#ddd;**
-    **border-bottom: 1px solid \#ddd;**
-    **padding: 10px;**
-    **}**
-
+```
+    .tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    }
+```
 This modification adds a 1px border to the tab content which joins with the upper border introduced by the tab navigation element to give a clean tab like appearance.
 
 -   Finally do a Git commit with the message "Tabs".
