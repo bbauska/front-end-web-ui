@@ -5922,34 +5922,35 @@ In this exercise, we learned about how we can use tables and cards for displayin
 
 Now that we have completed this exercise, it's a good time to do a git commit.
 
-## Exercise (Instructions): Displaying Content: Tables and Cards
+<h3>Exercise (Instructions): Displaying Content: Tables and Cards</h3>
 
-### **Objectives and Outcomes**
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, we will examine tables and Bootstrap classes for styling tables. We will also examine Bootstrap cards and their use for displaying content. At the end of this exercise, you will be able to:
 
 -   Create, style and present tabular data in tables in a web page using the Bootstrap table classes
 -   Display content in a web page using Bootstrap cards
 
-### **Set up for the Exercise**
+<h4>Set up for the Exercise</h4>
 
 -   In this exercise we will be modifying the <i>aboutus.html</i> page to add a table, a card with some content and a card with a quotation.
 -   Let us get started by opening <i>aboutus.html</i> page in a text editor.
 
-### **Bootstrap Tables**
+<h4>Bootstrap Tables</h4>
 
 -   In this part, we will add a new row of content after the Corparate Leadership row in the page. We first start by adding a row and columns to the page as follows:
-
-    **\<div class="row row-content"\>**
-    **\<div class="col-12 col-sm-9"\>**
-    **\<h2\>Facts \&amp; Figures\</h2\>**
-    **\</div\>**
-    **\<div class="col-12 col-sm-3"\>**
-    **\</div\>**
-    **\</div\>**
-
+```
+ <div class="row row-content">
+       <div class="col-12 col-sm-9">
+       <h2>Facts &amp; Figures\</h2>
+       </div>
+    <div class="col-12 col-sm-3">
+    </div>
+ </div>
+```
 -   Inside the first column of this row, insert the table as follows:
 
+```
     **\<div class="table-responsive"\>**
     **\<table class="table table-striped"\>**
     **\<thead class="thead-dark"\>**
@@ -5988,13 +5989,15 @@ In this exercise, we will examine tables and Bootstrap classes for styling table
     **\</tbody\>**
     **\</table\>**
     **\</div\>**
+```
 
 Note the use of <i>table-responsive</i> class to create a responsive table, and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the table.
 
-### **Bootstrap Cards**
+<h4>Bootstrap Cards</h4>
 
 -   Next we add a card to the second div in the first content row as follows, updating the div first by adding the classes col-12 col-sm-6 to it and then adding the card:
 
+```
     **\<div class="col-12 col-sm-6"\>**
     **\<div class="card"\>**
     **\<h3 class="card-header bg-primary text-white"\>Facts At a Glance\</h3\>**
@@ -6012,9 +6015,11 @@ Note the use of <i>table-responsive</i> class to create a responsive table, and 
     **\</div\>**
     **\</div\>**
     **\</div\>**
+```
 
 -   Next, we add a Bootstrap card and include a quotation in the card using the blockquote typography style:
 
+```
     **\<div class="col-12"\>**
     **\<div class="card card-body bg-light"\>**
     **\<blockquote class="blockquote"\>**
@@ -6027,30 +6032,31 @@ Note the use of <i>table-responsive</i> class to create a responsive table, and 
     **\</blockquote\>**
     **\</div\>**
     **\</div\>**
+```
 
 Note the use of the *\<blockquote\>* tag to create a block quote in the card. We can use a *\<footer\>* inside the block quote to specify the attribution of the quote to its origin.
 
 -   Remember to commit the changes to your Git repository with the message "Tables and Cards"
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, we constructed a table and styled it with the Bootstrap table classes. Thereafter, we added two cards to the web page. We also saw the use of the description list and the block quote in the content.
 
-## Displaying Content: Additional Resources
+<h3>Displaying Content: Additional Resources</h3>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 **08-Bootstrap-Tables.pdf**
 
 **08-Bootstrap-Cards.pdf**
 
-### Bootstrap Classes
+<h4>Bootstrap Classes</h4>
 
 -   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/)
 -   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/)
 -   [Bootstrap Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
-## Images and Media: Objectives and Outcomes
+<h3>Images and Media: Objectives and Outcomes</h3>
 
 In this lesson we will look at the use of images and media on websites. In particular we will review the Bootstrap classes to support the inclusion of images and media, supporting responsiveness of images and media, and the use of these as thumbnails and part of other components, in particular the media component. At the end of this lesson you will be able to:
 
@@ -7963,38 +7969,44 @@ In this exercise we will examine the carousel component and add it to the web pa
 
 -   The carousel will be added to the <i>index.html</i> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:
 
-**\<div class="row row-content"\>**
-**\<div class="col"\>**
-**\</div\>**
-**\</div\>**
+```
+<div class="row row-content">
+<div class="col">
+</div>
+</div>
+```
 
 <h4>Adding a Carousel</h4>
 
 -   Next, add the basic carousel div inside the content row that you just added as follows:
 
-    **\<div id="mycarousel" class="carousel slide" data-ride="carousel"\>**
-    **\</div\>**
+```
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">**
+    </div>**
+```
 
 <h4>Adding Carousel Content</h4>
 
 -   Next add the content inside the carousel as follows:
 
-    **\<div class="carousel-inner" role="listbox"\>**
-    **\<div class="carousel-item active"\>**
-    **\<img class="d-block img-fluid"**
-    **src="img/uthappizza.png" alt="Uthappizza"\>**
-    **\<div class="carousel-caption d-none d-md-block"\>**
-    **\<h2\>Uthappizza \<span class="badge badge-danger"\>HOT\</span\> \<span class="badge badge-pill badge-default"\>\$4.99\</span\>\</h2\>**
-    **. . .**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="carousel-item"\>**
-    **. . .**
-    **\</div\>**
-    **\<div class="carousel-item"\>**
-    **. . .**
-    **\</div\>**
-    **\</div\>**
+```
+    <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+    <img class="d-block img-fluid"
+    src="img/uthappizza.png" alt="Uthappizza">
+    <div class="carousel-caption d-none d-md-block">
+    <h2>Uthappizza <span class="badge badge-danger">HOT</span\> <span class="badge badge-pill badge-default">$4.99</span></h2>**
+    . . .
+    </div>
+    </div>
+    <div class="carousel-item">
+    . . .
+    </div>
+    <div class="carousel-item">
+    . . .
+    </div>
+    </div>
+```
 
 Note that the first item has been set up partially. Fill in the remaining parts from the content rows below.
 
@@ -8002,37 +8014,45 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 
 -   Add the following CSS classes to the <i>styles.css</i> file:
 
-    **.carousel {**
-    **background:\#512DA8;**
-    **}**
-    **.carousel-item {**
-    **height: 300px;**
-    **}**
-    **.carousel-item img {**
-    **position: absolute;**
-    **top: 0;**
-    **left: 0;**
-    **min-height: 300px;**
-    **}**
+```
+    .carousel {
+    background:#512DA8;
+    }
+    .carousel-item {
+    height: 300px;
+    }
+    .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    }
+```
 
 <h4>Adding Carousel Controls</h4>
 
 -   Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:
 
-    **\<ol class="carousel-indicators"\>**
-    **\<li data-target="\#mycarousel" data-slide-to="0" class="active"\>\</li\>**
-    **\<li data-target="\#mycarousel" data-slide-to="1"\>\</li\>**
-    **\<li data-target="\#mycarousel" data-slide-to="2"\>\</li\>**
-    **\</ol\>**
+```
+    <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ol>
+```
 
--   Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:
+<ul>
+<li>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</li>
+</ul>
 
+```
     **\<a class="carousel-control-prev" href="\#mycarousel" role="button" data-slide="prev"\>**
     **\<span class="carousel-control-prev-icon"\>\</span\>**
     **\</a\>**
     **\<a class="carousel-control-next" href="\#mycarousel" role="button" data-slide="next"\>**
     **\<span class="carousel-control-next-icon"\>\</span\>**
     **\</a\>**
+```
 
 -   Do a Git commit with the message "Carousel".
 
@@ -8098,9 +8118,9 @@ That is your third task in this assignment.
 
 Hope you enjoyed creating this new variation of the index.html page.
 
-## Assignment 3: Resources
+<h3>Assignment 3: Resources</h3>
 
-### Assignment Screenshots
+<h4>Assignment Screenshots</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 78.  (xx) ------------------------------->
@@ -8120,14 +8140,14 @@ Hope you enjoyed creating this new variation of the index.html page.
 -   [Bootstrap Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 -   [Bootstrap Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
-## Bootstrap and JQuery: Objectives and Outcomes
+<h3>Bootstrap and JQuery: Objectives and Outcomes</h3>
 
 In this lesson we examine the use of Bootstrap, JQuery and JavaScript together to control Bootstrap JS components. Many of the Bootstrap's JS components provide JavaScript methods and events to control the behavior. At the end of this lesson, you will be able to:
 
 -   Understand how to use JQuery and JavaScript and Bootstrap's JS component methods to control the behavior of the components.
 -   Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components
 
-## Bootstrap and JQuery
+<h3>Bootstrap and JQuery</h3>
 
 Let us now spend some time trying to understand how Bootstrap and jQuery work together to support the Bootstrap's JavaScript components.
 
@@ -11552,5 +11572,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 06-01-2022 10:13am front-end-web-ui
+last updated 06-01-2022 6:56pm front-end-web-ui
 </html>
