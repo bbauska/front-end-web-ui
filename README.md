@@ -4229,18 +4229,19 @@ In this exercise, we will examine the navigation support that we can build into 
 <ul>
 <li>We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.</li>
 </ul>
-    <b>\<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\><br/>
-    \<div class="container"\><br/>
-    \<a class="navbar-brand" href="\#"\>Ristorante Con Fusion\</a\><br/>
-    \<ul class="navbar-nav mr-auto"\><br/>
-    \<li class="nav-item active"\>\<a class="nav-link" href="\#"\>Home\</a\>\</li\><br/>
-    \<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>About\</a\>\</li\><br/>
-    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Menu\</a\>\</li\><br/>
-    \<li class="nav-item"\>\<a class="nav-link" href="\#"\>Contact\</a\>\</li\><br/>
-    \</ul\><br/>
-    \</div\><br/>
-    \</nav\></b><br/>
-
+<code>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+    </div>
+    </nav>
+</code>
 In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i> class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner <i>ul</i> is used to specify the items to be put in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
 
 <h4>Creating a responsive navigation bar</h4>
@@ -4256,11 +4257,11 @@ This creates a button with three horizontal lines. For medium to extra large scr
 <ul>
 <li>To hide the items from the navigation bar for the small screens, we need to enclose the <i>ul</i> within another div as follows:</li>
 </ul>
-
-    <b>\<div class="collapse navbar-collapse" id="Navbar"\></b><br/>
-    <b>\<ul class="navbar-nav mr-auto"\> ... \</ul\></b><br/>
-    <b>\</div\></b><br/>
-
+<code>
+    <div class="collapse navbar-collapse" id="Navbar">
+    <ul class="navbar-nav mr-auto"> ... </ul>
+    </div>
+</code>
 By doing this, we are specifying that this div with <i>collapse</i> and <i>navbar-collapse</i> classes and with the id N<i>avbar</i> will be collapsed on small and xs screens, but can be toggled on or off when the toggle button is clicked. Note the use of <i>data-toggle="collapse" data-target="\#Navbar"</i> within the button above. This specifies that the menu items are collapsed on small and xs screens when the toggle button is visible. They can be displayed or hidden by clicking the toggle button.
 <ul>
 <li>Copy and paste the entire navbar code also into <i>aboutus.html</i> to add the navigation also to that page. Make sure to change the \<li\> corresponding to "About" to <i>active</i>, and remove the <i>active</i> class from the Home link. Also, update the home link to take you back to <i>index.html</i>. Update the navbar-brand tag also to take you back to <i>index.html</i>.</li>
@@ -4270,14 +4271,15 @@ By doing this, we are specifying that this div with <i>collapse</i> and <i>navba
 <ul>
 <li>We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <i>styles.css</i> file.</li>
 </ul>
-
-    <b>body{<br/>
-    padding:50px 0px 0px 0px;<br/>
-    z-index:0;<br/>
-    }<br/>
-    .navbar-dark {<br/>
-    background-color: \#512DA8;<br/>
-    }</b><br/>
+<code>
+    body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    }
+    .navbar-dark {
+    background-color: \#512DA8;
+    }
+</code>
 <ul>
 <li>Remember to delete the <i>bg-primary</i> class from the \<nav\> element in both <i>index.html</i> and <i>aboutus.html.</i><br/></li>
 <li>We are already beginning to see the page format close to the final format for this module.</li>
@@ -4287,13 +4289,12 @@ By doing this, we are specifying that this div with <i>collapse</i> and <i>navba
 <ul>
 <li>To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <i>aboutus.html</i>.</li>
 </ul>
-
-<b>
-    \<ol class="col-12 breadcrumb"\><br/>
-    \<li class="breadcrumb-item"\>\<a href="./index.html"\>Home\</a\>\</li\><br/>
-    \<li class="breadcrumb-item active"\>About Us\</li\><br/>
-    \</ol\><br/>
-</b>
+<code>
+    <ol class="col-12 breadcrumb">
+    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+    <li class="breadcrumb-item active">About Us</li>
+    </ol>
+</code>
 <ul>
 <li>Save all the changes and commit to your Git repository with a message "Navbar and Breadcrumbs".</li>
 </ul>
@@ -5203,7 +5204,7 @@ In this exercise, we will examine user input for a website through the use of Bu
 
 <h4>Exercise Resources</h4>
 
->b>contactus.html</b>ZIP File
+<b>contactus.html</b>ZIP File
 
 <h4>Set up for the Exercise</h4>
 
@@ -5519,88 +5520,88 @@ In this exercise, we will examine user input for a website through the use of Fo
 <h4>Adding a Basic Form</h4>
 
 -   We will add a simple form to the page at the location identified by "Form goes here". Add the following code to page to create a simple horizontal form with two fields:
-
-<b>
-    \<form\>**<br/>
-    \<div class="form-group row"\><br/>
-    \<label for="firstname" class="col-md-2 col-form-label"\>First Name\</label\><br/>
-    \<div class="col-md-10"\><br/>
-    \<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"\><br/>
-    \</div\><br/>
-    \</div\><br/>
-    \<div class="form-group row"\><br/>
-    \<label for="lastname" class="col-md-2 col-form-label"\>Last Name\</label\><br/>
-    \<div class="col-md-10"\><br/>
-    \<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"\><br/>
-    \</div\><br/>
-    \</div\><br/>
-    \</form\><br/>
-</b>
-
+<code>
+    <form>
+    <div class="form-group row">
+    <label for="firstname" class="col-md-2 col-form-label">First Name\</label>
+    <div class="col-md-10">
+    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+    <div class="col-md-10">
+    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+    </div>
+    </div>
+    </form>
+</code>
 This creates a form with two elements in the form. Note that the class <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user's telephone number and email:
+<code>
+    **<div class="form-group row">**
+    **<label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>**
+    **<div class="col-5 col-md-3">**
+    **<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">**
+    **</div>**
+    **<div class="col-7 col-md-7">**
+    **<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">**
+    **</div>**
+    **</div>**
+    **<div class="form-group row">**
+    **<label for="emailid" class="col-md-2 col-form-label">Email</label>**
+    **<div class="col-md-10">**
+    **<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">**
+    **</div>**
+    **</div>**
+</code>
+<h4>Adding a Checkbox and Select</h4>
+<ul>
+<li>We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:</li>
+</ul>
+<code>
+   <div class="form-group row">
+   <div class="col-md-6 offset-md-2">
+   <div class="form-check">
+      <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+      <label class="form-check-label" for="approve">
+      <strong>May we contact you?</strong>
+      </label>
+   </div>
+   </div>
+<div class="col-md-3 offset-md-1">
+<select class="form-control">
+<option>Tel.</option>
+<option>Email</option>
+</select>
+</div>
+</div>
+</code>
 
-    **\<div class="form-group row"\>**
-    **\<label for="telnum" class="col-12 col-md-2 col-form-label"\>Contact Tel.\</label\>**
-    **\<div class="col-5 col-md-3"\>**
-    **\<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code"\>**
-    **\</div\>**
-    **\<div class="col-7 col-md-7"\>**
-    **\<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number"\>**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="form-group row"\>**
-    **\<label for="emailid" class="col-md-2 col-form-label"\>Email\</label\>**
-    **\<div class="col-md-10"\>**
-    **\<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email"\>**
-    **\</div\>**
-    **\</div\>**
-
-### **Adding a Checkbox and Select**
-
--   We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:
-
-**\<div class="form-group row"\>**
-**\<div class="col-md-6 offset-md-2"\>**
-**\<div class="form-check"\>**
-**\<input type="checkbox" class="form-check-input" name="approve" id="approve" value=""\>**
-**\<label class="form-check-label" for="approve"\>**
-**\<strong\>May we contact you?\</strong\>**
-**\</label\>**
-**\</div\>**
-**\</div\>**
-**\<div class="col-md-3 offset-md-1"\>**
-**\<select class="form-control"\>**
-**\<option\>Tel.\</option\>**
-**\<option\>Email\</option\>**
-**\</select\>**
-**\</div\>**
-**\</div\>**
-
-### **Adding a textarea**
-
--   Next we add a textarea for the users to submit their feedback comments as follows:
-
+<h4>Adding a textarea</h4>
+<ul>
+<li>Next we add a textarea for the users to submit their feedback comments as follows:</li>
+</ul>
+<code>
     **\<div class="form-group row"\>**
     **\<label for="feedback" class="col-md-2 col-form-label"\>Your Feedback\</label\>**
     **\<div class="col-md-10"\>**
     **\<textarea class="form-control" id="feedback" name="feedback" rows="12"\>\</textarea\>**
     **\</div\>**
     **\</div\>**
-
+</code>
 <h4>Adding the Submit Button</h4>
 <ul>
 <li>Finally, we add the submit button to the form as follows:</li>
 </ul>
-
-<b>
-    \<div class="form-group row"\><br/>
-    \<div class="offset-md-2 col-md-10"\><br/>
-    \<button type="submit" class="btn btn-primary"\>Send Feedback\</button\><br/>
-    \</div\><br/>
-    \</div\><br/>
-</b>
+<code>
+    <div class="form-group row">
+    <div class="offset-md-2 col-md-10">
+    <button type="submit" class="btn btn-primary">Send Feedback</button>
+    </div>
+    </div>
+</code>
 
 Note the declaration of the type for the button to <i>submit*.
 
