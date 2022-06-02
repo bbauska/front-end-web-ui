@@ -7692,27 +7692,27 @@ In this exercise we will examine how to add tooltips to a web page. In addition 
 ### **Adding a Tooltip**
 
 -   Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:
-
+```
     **\<a role="button" class="btn btn-block nav-link btn-warning"**
     **data-toggle="tooltip" data-html="true" title="Or Call us at \<br\>\<strong\>+852 12345678\</strong\>"**
     **data-placement="bottom" href="\#reserveform"\>Reserve Table\</a\>**
-
+```
 As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:
-
+```
     **\<script\>**
     **\$(document).ready(function(){**
     **\$('[data-toggle="tooltip"]').tooltip();**
     **});**
     **\</script\>**
-
+```
 This script is added right after the line that imports the bootstrap.min.js file.
 
 ### Adding a Modal
 
 -   In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.
-
+```
     **\<div id="loginModal" class="modal fade" role="dialog"\>**
     **\<div class="modal-dialog modal-lg" role="content"\>**
     **\<!-- Modal content--\>**
@@ -7749,7 +7749,7 @@ This script is added right after the line that imports the bootstrap.min.js file
     **\</div\>**
     **\</div\>**
     **\</div\>**
-
+```
 -   Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the \</ul\>:
 
     **\<span class="navbar-text"\>**
@@ -11572,5 +11572,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 06-01-2022 6:56pm front-end-web-ui
+last updated 06-01-2022 10:13am front-end-web-ui
 </html>
