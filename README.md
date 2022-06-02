@@ -5520,10 +5520,10 @@ In this exercise, we will examine user input for a website through the use of Fo
 <h4>Adding a Basic Form</h4>
 
 -   We will add a simple form to the page at the location identified by "Form goes here". Add the following code to page to create a simple horizontal form with two fields:
-<code>
+```
     <form>
     <div class="form-group row">
-    <label for="firstname" class="col-md-2 col-form-label">First Name\</label>
+    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
     <div class="col-md-10">
     <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
     </div>
@@ -5535,73 +5535,76 @@ In this exercise, we will examine user input for a website through the use of Fo
     </div>
     </div>
     </form>
-</code>
+```
 This creates a form with two elements in the form. Note that the class <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user's telephone number and email:
-<code>
-    **<div class="form-group row">**
-    **<label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>**
-    **<div class="col-5 col-md-3">**
-    **<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">**
-    **</div>**
-    **<div class="col-7 col-md-7">**
-    **<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">**
-    **</div>**
-    **</div>**
-    **<div class="form-group row">**
-    **<label for="emailid" class="col-md-2 col-form-label">Email</label>**
-    **<div class="col-md-10">**
-    **<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">**
-    **</div>**
-    **</div>**
-</code>
+```
+    <div class="form-group row">
+    <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+    <div class="col-5 col-md-3">
+    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+    </div>
+    <div class="col-7 col-md-7">
+    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label for="emailid" class="col-md-2 col-form-label">Email</label>
+    <div class="col-md-10">
+    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+    </div>
+    </div>
+```
+
 <h4>Adding a Checkbox and Select</h4>
 <ul>
 <li>We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:</li>
 </ul>
-<code>
+```
    <div class="form-group row">
    <div class="col-md-6 offset-md-2">
-   <div class="form-check">
-      <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-      <label class="form-check-label" for="approve">
-      <strong>May we contact you?</strong>
-      </label>
+      <div class="form-check">
+         <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+         <label class="form-check-label" for="approve">
+         <strong>May we contact you?</strong>
+         </label>
+      </div>
+   </div>
+   <div class="col-md-3 offset-md-1">
+   <select class="form-control">
+      <option>Tel.</option>
+      <option>Email</option>
+   </select>
    </div>
    </div>
-<div class="col-md-3 offset-md-1">
-<select class="form-control">
-<option>Tel.</option>
-<option>Email</option>
-</select>
-</div>
-</div>
-</code>
+```
 
 <h4>Adding a textarea</h4>
 <ul>
 <li>Next we add a textarea for the users to submit their feedback comments as follows:</li>
 </ul>
-<code>
-    **\<div class="form-group row"\>**
-    **\<label for="feedback" class="col-md-2 col-form-label"\>Your Feedback\</label\>**
-    **\<div class="col-md-10"\>**
-    **\<textarea class="form-control" id="feedback" name="feedback" rows="12"\>\</textarea\>**
-    **\</div\>**
-    **\</div\>**
-</code>
+
+```
+    <div class="form-group row">
+    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+	<div class="col-md-10">
+    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+    </div>**
+    </div>**
+```
+
 <h4>Adding the Submit Button</h4>
 <ul>
 <li>Finally, we add the submit button to the form as follows:</li>
 </ul>
-<code>
+```
     <div class="form-group row">
     <div class="offset-md-2 col-md-10">
     <button type="submit" class="btn btn-primary">Send Feedback</button>
     </div>
     </div>
-</code>
+```
 
 Note the declaration of the type for the button to <i>submit*.
 
