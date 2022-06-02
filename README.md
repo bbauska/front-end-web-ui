@@ -5561,6 +5561,7 @@ This creates a form with two elements in the form. Note that the class <i>row</i
 <ul>
 <li>We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:</li>
 </ul>
+
 ```
    <div class="form-group row">
    <div class="col-md-6 offset-md-2">
@@ -5598,6 +5599,7 @@ This creates a form with two elements in the form. Note that the class <i>row</i
 <ul>
 <li>Finally, we add the submit button to the form as follows:</li>
 </ul>
+
 ```
     <div class="form-group row">
     <div class="offset-md-2 col-md-10">
@@ -5606,9 +5608,10 @@ This creates a form with two elements in the form. Note that the class <i>row</i
     </div>
 ```
 
-Note the declaration of the type for the button to <i>submit*.
-
--   Remember to do a Git commit with the message "Forms"
+Note the declaration of the type for the button to submit.
+<ul>
+<li>Remember to do a Git commit with the message "Forms".</li>
+</ul>
 
 <h4>Conclusions</h4>
 
@@ -5625,10 +5628,11 @@ We have learnt how to add a form and style the form using Bootstrap form classes
 <b>contactus.html</b>
 
 <h4>Bootstrap Resources</h4>
-
--   [Bootstrap Buttons](http://getbootstrap.com/docs/4.0/components/buttons/)
--   [Bootstrap Button Groups](http://getbootstrap.com/docs/4.0/components/button-group/)
--   [Bootstrap Forms](http://getbootstrap.com/docs/4.0/components/forms/)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/components/buttons/">Bootstrap Buttons</a><br/></li>
+<li><a href="http://getbootstrap.com/docs/4.0/components/button-group/">Bootstrap Button Groups</a><br/></li>
+<li><a href="http://getbootstrap.com/docs/4.0/components/forms/">Bootstrap Forms</a></li>
+</ul>
 
 <h4>Other Useful Resources</h4>
 
