@@ -1,4 +1,6 @@
-<!-------------------------------------------- begins here --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- readme.md in front-end-web-ui of bbauska.github.io ----------------------->
+<!------------------------------------------------------------------------------------------------>
 <h2 align="center"><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></h2>
 
 <h5 align="center">(coursera.org)</h5>
@@ -766,14 +768,16 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 
 <h3>Now, modify the <i>index.html</i> file as follows:</h3>
 
-<b>\<!DOCTYPE html\><br/>
-\<html\><br/>
-\<head\>\</head\><br/>
-\<body\><br/>
-\<h1\>This is a Header\</h1\><br/>
-\<p\>This is a paragraph\</p\><br/>
-\</body\><br/>
-\</html\></b><br/>
+```
+<!DOCTYPE html>
+<html>
+<head></head>
+   <body>
+   <h1>This is a Header</h1>
+   <p>This is a paragraph</p>
+   </body>
+</html>
+```
 
 <ul>
 <li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <i>test.html</i> to the templates folder. Then set the contents of this file to be the same as the <i>index.html</i> file above,<br/></li>
@@ -782,16 +786,18 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <li>Now, modify the <i>index.html</i> file as follows:</li>
 </ul>
 
-    <b>\<!DOCTYPE html\><br/>
-    \<html\><br/>
-    \<head\>\</head\><br/>
-    \<body\><br/>
-    \<h1\>This is a Header\</h1\><br/>
-    \<p\>This is a paragraph\</p\><br/>
-    \<p\>This is a second paragraph\</p\><br/>
-    \</body\><br/>
-    \</html\><br/>
-</b>
+```
+    <!DOCTYPE html>
+    <html>
+    <head></head>
+    <body>
+    <h1>This is a Header</h1>
+    <p>This is a paragraph</p>
+    <p>This is a second paragraph</p>
+    </body>
+    </html>
+```
+
 <ul>
 <li>Now add the modified index.html file to the staging area and then do a third commit.</li>
 </ul>
@@ -989,38 +995,46 @@ All you need to do is obtain the URL of that Git repository, and then simply use
 
 With this, we complete this exercise on using online Git repositories.
 
-So did you finally Git it?
+Did you finally Git it?
 
 <h3>Exercise (Instructions): Online Git Repositories</h3>
 
 ### <b>Objectives and Outcomes</b>
 
 In this exercise you will learn about how to set up and use an online Git repository and synchronize your local Git repository with your online repository. At the end of this exercise, you will be able to:
-
--   Set up the online repository as a remote repository for your local Git repository
--   Push your commits to the online repository
--   Clone an online Git repository to your computer
+<ol type="1">
+<li>Set up the online repository as a remote repository for your local Git repository,</li><br>
+<li>Push your commits to the online repository,</li><br>
+<li>Clone an online Git repository to your computer.</li>
+</ol>
 
 ### <b>Setting up an Online Git repository</b>
 
--   Sign up for an account either at Bitbucket ([https://bitbucket.org](https://bitbucket.org/)) or GitHub ([https://github.com](https://github.com/)).
--   Then set up an online Git repository named <b>git-test</b>. Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.
+<ol type="1">
+<li>Sign up for an account either at Bitbucket ([https://bitbucket.org](https://bitbucket.org/)) or GitHub ([https://github.com](https://github.com/)).</li><br>
+<li>Then set up an online Git repository named <b>git-test</b>. Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.</li>
+</ol>
 
 ### <b>Set the local Git repository to set its remote origin</b>
 
--   At the prompt, type the following to set up your local repository to link to your online Git repository:
+<ul>
+<li>At the prompt, type the following to set up your local repository to link to your online Git repository:</li><br>
+</ul>
 
 <b>git remote add origin \<repository URL\></b>
 
 ### <b>Pushing your commits to the online repository</b>
-
--   At the prompt, type the following to push the commits to the online repository:
+<ul>
+<li>At the prompt, type the following to push the commits to the online repository:</li><br>
+</ul>
 
 <b>git push -u origin master</b>
 
 ### <b>Cloning an online repository</b>
 
--   To clone an online repository to your computer, type the following at the prompt:
+<ul>
+<li>To clone an online repository to your computer, type the following at the prompt:</li><br>
+</ul>
 
 <!-------0---------0---------0---------0---------0---------0---------0---------0---------0-------->
 <!------------------------------------------------------------------------------------------------>
@@ -1171,15 +1185,19 @@ At the end of this exercise, you will be able to:
 
 ### <b>Installing Node</b>
 
--   To install Node on your machine, go to [https://nodejs.org](https://nodejs.org/) and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.
--   As an example, on a Mac, you will see the following web page. Click on the Download button. Follow along the instructions to install Node on your machine. (Note: Now Node gives you the option of installing a mature and dependable LTS version and a more newer stable version. You should to install the LTS version. I will use this version in the course.)
+<ul>
+<li>To install Node on your machine, go to [https://nodejs.org](https://nodejs.org/) and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.</li><br>
+<li>As an example, on a Mac, you will see the following web page. Click on the Download button. Follow along the instructions to install Node on your machine. (Note: Now Node gives you the option of installing a mature and dependable LTS version and a more newer stable version. You should to install the LTS version. I will use this version in the course.)</li>
+</ul>
 
 <b>Note: On Windows machines, you may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.</b>
 
 ### Verifying the Node Installation
 
--   Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with <b>admin</b> privileges.
--   To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b>
+<ul>
+<li>Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with <b>admin</b> privileges.</li><br>
+<li>To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b>.</li>
+</ul>
 
 <ul>
 <li><b>node -v</b></li><br/>
@@ -1195,7 +1213,6 @@ At the end of this exercise, you will be able to:
    alt="Node.js Download Screen"
    width="85%" />
 </p>
- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](./images/image023.png)
 
 <h4><b>Conclusions</b></h4>
 
@@ -1532,27 +1549,38 @@ This is just a start.
 
 In this exercise you will learn the basics of Node and NPM. At the end of this exercise, you will be able to:
 
--   Set up package.json file in the project folder for configuring your Node and NPM for this project
--   Install a NPM module and make use of it within your project
+<ul>
+<li>Set up package.json file in the project folder for configuring your Node and NPM for this project.</li><br>
+<li>Install a NPM module and make use of it within your project.</li>
+</ul>
 
 ### <b>Initializing package.json</b>
 
--   At the command prompt in your <b>git-test</b> folder, type
+<ul>
+<li>At the command prompt in your <b>git-test</b> folder, type.</li>
+</ul>
 
 <b>npm init</b>
 
--   Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html
--   This should create a <i>package.json</i> file in your <b>git-test</b> folder.
+<ul>
+<li>Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html.</li><br>
+<li>This should create a <i>package.json</i> file in your <b>git-test</b> folder.</li>
+</ul>
 
 <b>Installing an NPM Module</b>
 
--   Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:
+<ul>
+<li>Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:</li>
+</ul>
 
 <b>npm install lite-server --save-dev</b>
 
--   You can check out more documentation on lite-server [here](https://github.com/johnpapa/lite-server).
--   Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.
+<ul>
+<li>You can check out more documentation on lite-server [here](https://github.com/johnpapa/lite-server).</li><br>
+<li>Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.</li>
+</ul>
 
+```
     **{**
     **"name": "git-test",**
     **"version": "1.0.0",**
@@ -1569,26 +1597,35 @@ In this exercise you will learn the basics of Node and NPM. At the end of this e
     **},**
     **"author": "",**
     **"license": "ISC",**
-    **"homepage": "https://bitbucket.org/jogesh_k_muppala/git-test\#readme",**
+    **"homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",**
     **"devDependencies": {**
-    **"lite-server": "\^2.2.2"**
+    **"lite-server": "^2.2.2"**
     **}**
     **}**
+```
 
--   Next, start the development server by typing the following at the prompt:
+<ul>
+<li>Next, start the development server by typing the following at the prompt:</li>
+</ul>
 
 <b>npm start</b>
 
--   This should open your <i>index.html</i> page in your default browser.
--   If you now open the <i>index.html</i> page in an editor and make changes and save, the browser should immediately refresh to reflect the changes.
+<ul>
+<li>This should open your <i>index.html</i> page in your default browser.</li><br>
+<li>If you now open the <i>index.html</i> page in an editor and make changes and save, the browser should immediately refresh to reflect the changes.</li>
+</ul>
 
 ### <b>Setting up .gitignore</b>
 
--   Next, create a file in your project directory named *.gitignore</i> (**Note**: the name starts with a period)Then, add the following to the .gitignore file
+<ul>
+<li>Next, create a file in your project directory named *.gitignore</i> (**Note**: the name starts with a period)Then, add the following to the .gitignore file.</li>
+</ul>
 
 <b>node_modules</b>
 
--   Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.
+<ul>
+<li>Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.</li>
+</ul>
 
 ### <b>Conclusions</b>
 
@@ -1598,26 +1635,33 @@ In this exercise you learnt to set up package.json, install a npm package and st
 
 ### <b>PDFs of Presentations</b>
 
--   <b>01-Git.pdf</b>
--   <b>01-Git-Exercises.pdf</b>
--   <b>02-NodeJS.pdf</b>
--   <b>02-Exercises-Node-NPM.pdf</b>
+<ul>
+<li><b>01-Git.pdf</b></li><br>
+<li><b>01-Git-Exercises.pdf</b></li><br>
+<li><b>02-NodeJS.pdf</b></li><br>
+<li><b>02-Exercises-Node-NPM.pdf</b></li>
+</ul>
 
 ### <b>Additional Resources (Git)</b>
 
--   Git site [http://git-scm.com](http://git-scm.com/).
--   [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) chapter from Pro Git
--   [Git reference manual](https://git-scm.com/docs)
--   Quick reference guides: [GitHub Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (PDF) \| [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html) (SVG \| PNG)
--   [Atlassian comprehensive Git tutorial](https://www.atlassian.com/git/tutorials/)
+<ul>
+<li><a href="http://git-scm.com](http://git-scm.com/">Git site.</a></li><br>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Installing Git - chapter from Pro Git.</a></li><br>
+<li><a href="https://git-scm.com/docs">Git reference manual.</a></li><br>
+<li><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf">GitHub Cheat Sheet - Quick reference guides.</a></li><br>
+<li><a href="http://ndpsoftware.com/git-cheatsheet.html">Git Cheat Sheet (SVG \| PNG)</a></li><br>
+<li><a href="https://www.atlassian.com/git/tutorials/">Atlassian comprehensive Git tutorial.</a></li>
+</ul>
 
 ### <b>Additional Resources (Node.js and NPM)</b>
 
--   [Nodejs.org](https://nodejs.org/)
--   [Npmjs.com](https://www.npmjs.com/)
--   [Node API Documentation](https://nodejs.org/api/)
--   [NPM Documentation](https://docs.npmjs.com/)
--   [lite-server](https://github.com/johnpapa/lite-server)
+<ul>
+<li><a href="https://nodejs.org/">Nodejs.org.</a></li><br>
+<li><a href="https://www.npmjs.com/">Npmjs.com.</a></li><br>
+<li><a href="https://nodejs.org/api/">Node API Documentation.</a></li><br>
+<li><a href="https://docs.npmjs.com/">NPM Documentation.</a></li><br>
+<li><a href="https://github.com/johnpapa/lite-server">lite-server.</a></li>
+</ul>
 
 <h3>Introduction to Bootstrap: Objectives and Outcomes</h3>
 
@@ -1627,10 +1671,12 @@ The exercises will introduce you to getting started with Bootstrap for your web 
 
 At the end of this lesson, you will be able to:
 
--   Identify the purpose of using front-end UI frameworks in web design and development
--   Set up a project with Bootstrap support
--   Configure a web project to use Bootstrap
--   Become familiar with the basic features of Bootstrap
+<ul>
+<li>Identify the purpose of using front-end UI frameworks in web design and development.</li><br>
+<li>Set up a project with Bootstrap support.</li><br>
+<li>Configure a web project to use Bootstrap.</li><br>
+<li>Become familiar with the basic features of Bootstrap.</li>
+</ul>
 
 <b>Note</b>: For those of you who are already familiar with Bootstrap 3, [here](http://getbootstrap.com/docs/4.0/migration/) is an overview from the Bootstrap 4 documentation on the major changes in Bootstrap 4 compared to Bootstrap 3.
 
@@ -2043,59 +2089,79 @@ As we proceed to the next few exercises, we're going to employee the Bootstrap c
 
 This exercise introduces the first set of steps to set up your web page to make use of Bootstrap classes and components. At the end of this exercise, you will be able to:
 
--   Download Bootstrap using NPM and include it in your project
--   Understand how to set up a web project to use Bootstrap
--   Include the Bootstrap CSS and JS classes into a web page
+<ul>
+<li>Download Bootstrap using NPM and include it in your project.</li><br>
+<li>Understand how to set up a web project to use Bootstrap.</li><br>
+<li>Include the Bootstrap CSS and JS classes into a web page.</li>
+</ul>
 
 ### <b>Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.</b>
 
 ### <b>Setting up the Project Folder</b>
 
--   Go to a convenient folder location on your computer and download the <b>Bootstrap4-starter.zip</b> file using the link provided at the top of this page.
--   Unzip the file to see a folder named <i>Bootstrap4</i> and a sub-folder under it named <i>conFusion</i> created. Move to the <i>conFusion</i> folder.
--   Open a cmd window/terminal and move to the conFusion folder.
--   At the prompt type
+<ul>
+<li>Go to a convenient folder location on your computer and download the <b>Bootstrap4-starter.zip</b> file using the link provided at the top of this page.</li><br>
+<li>Unzip the file to see a folder named <i>Bootstrap4</i> and a sub-folder under it named <i>conFusion</i> created. Move to the <i>conFusion</i> folder.</li><br>
+<li>Open a cmd window/terminal and move to the conFusion folder.</li><br>
+<li>At the prompt type</li>
+</ul>
 
 ### <b>npm install</b>
 
--   This will install the lite-server node module to your project.
--   Next, initialize a Git repository in the project folder, and then set up a .gitignore file with the contents as shown below:
+<ul>
+<li>This will install the lite-server node module to your project.</li><br>
+<li>Next, initialize a Git repository in the project folder, and then set up a .gitignore file with the contents as shown below:</li>
+</ul>
 
 ### <b>node_modules</b>
 
--   Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain the completed files of each exercise.
--   Set up an online Git repository and synchronize your project folder with the online repository.
+<ul>
+<li>Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain the completed files of each exercise.</li><br>
+<li>Set up an online Git repository and synchronize your project folder with the online repository.</li>
+</ul>
 
 ### <b>Downloading Bootstrap</b>
 
--   You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:
+<ul>
+<li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
+</ul>
 
     <b>npm install bootstrap@4.0.0 --save</b>
     <b>npm install jquery@3.3.1 popper.js@1.12.9 --save</b>
 
--   This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-\>dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.
--   Open your project folder in your editor, and then open the index.html file in the <i>conFusion</i> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
--   Start your lite-server by typing <b>npm start</b> at the prompt. The <i>index.html</i> file should now be loaded into your default browser.
+<ul>
+<li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-\>dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li><br>
+<li>Open your project folder in your editor, and then open the index.html file in the <i>conFusion</i> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.</li><br>
+<li>Start your lite-server by typing <b>npm start</b> at the prompt. The <i>index.html</i> file should now be loaded into your default browser.</li>
+</ul>
 
 ### <b>Getting your Web page Bootstrap ready</b>
 
--   Open the <i>index.html</i> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.
--   Insert the following code in the *\<head\>* of <i>index.html</i> file before the title.
+<ul>
+<li>Open the <i>index.html</i> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.</li><br>
+<li>Insert the following code in the *\<head\>* of <i>index.html</i> file before the title.</li>
+</ul>
 
-    **\<!-- Required meta tags always come first --\>**
-    **\<meta charset="utf-8"\>**
-    **\<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>**
-    **\<meta http-equiv="x-ua-compatible" content="ie=edge"\>**
-    **\<!-- Bootstrap CSS --\>**
-    **\<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>**
+```
+    **<!-- Required meta tags always come first -->**
+    **<meta charset="utf-8">**
+    **<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">**
+    **<meta http-equiv="x-ua-compatible" content="ie=edge">**
+    **<!-- Bootstrap CSS -->**
+    **<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">**
+```
 
--   This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.
--   At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.
+<ul>
+<li>This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.</li><br>
+<li>At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.</li>
+</ul>
 
-    **\<!-- jQuery first, then Popper.js, then Bootstrap JS. --\>**
-    **\<script src="node_modules/jquery/dist/jquery.slim.min.js"\>\</script\>**
-    **\<script src="node_modules/popper.js/dist/umd/popper.min.js"\>\</script\>**
-    **\<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\>\</script\>**
+```
+    **<!-- jQuery first, then Popper.js, then Bootstrap JS. -->**
+    **<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>**
+    **<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>**
+    **<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>**
+```
 
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
 
@@ -2113,20 +2179,26 @@ We have now understood how to set up a web project to use Bootstrap. In the next
 
 ### <b>Exercise Resources</b>
 
--   (required for the exercise)
+<ul>
+<li>(required for the exercise)</li>
+</ul>
 
 <b>Bootstrap4-starter.zip</b>
 
 ### <b>Bootstrap Official Resources</b>
 
--   [Bootstrap 4 Home Page](http://getbootstrap.com/)
--   [Bootstrap typography](http://getbootstrap.com/docs/4.0/content/typography/)
--   [Migrating from Bootstrap 3 to Bootstrap 4](http://getbootstrap.com/docs/4.0/migration/)
+<ul>
+<li><a href="http://getbootstrap.com/">Bootstrap 4 Home Page.</a><</li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/content/typography/">Bootstrap typography.</a><</li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/migration/">Migrating from Bootstrap 3 to Bootstrap 4.</a><</li>
+</ul>
 
 ### <b>Front-end Web UI Frameworks</b>
 
--   [Top 10 Front-End Frameworks of 2018](https://www.keycdn.com/blog/front-end-frameworks/)
--   [The 5 Most Popular Front-end Frameworks Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/)
+<ul>
+<li><a href="https://www.keycdn.com/blog/front-end-frameworks/">Top 10 Front-End Frameworks of 2018.</a><</li><br>
+<li><a href="https://www.sitepoint.com/most-popular-frontend-frameworks-compared/">The 5 Most Popular Front-end Frameworks Compared.</a><</li>
+</ul>
 
 ## Responsive Design and Bootstrap Grid System: Objectives and Outcomes
 
@@ -2134,11 +2206,13 @@ In this lesson, you will be given an overview of responsive web design and an in
 
 At the end of this lesson, you will be able to:
 
--   Understand the reasons for using responsive web design in a web project
--   Use the Bootstrap grid system to design responsive websites
--   Add your own custom CSS classes to a Bootstrap based web project
+<ul>
+<li>Understand the reasons for using responsive web design in a web project.</li><br>
+<li>Use the Bootstrap grid system to design responsive websites.</li><br>
+<li>Add your own custom CSS classes to a Bootstrap based web project.</li>
+</ul>
 
-## Responsive Design
+<h3>Responsive Design</h3>
 
 These days in web development world, we often hear people mentioning the terms responsive design and mobile first approach.
 
@@ -2361,7 +2435,7 @@ Fortunately, if you start with a well-designed front end web UI framework like B
 
 We will learn more about this in the next lecture and the exercise that follows.
 
-## Bootstrap Grid System
+<h3>Bootstrap Grid System</h3>
 
 In the previous lecture, we learnt about responsive design.
 
@@ -6292,6 +6366,7 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
 
 -   Next we will work with the content on the web page and use the media object classes to style the content in the content rows.
 -   Go to the first content row, and replace the content in the second column containing the description of Uthappizza with the following code:
+
 ```
     <div class="media">**
     <img class="d-flex mr-3 img-thumbnail align-self-center"
@@ -6305,9 +6380,11 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
     </div>
     </div>
 ```
+
 Note the use of the <i>media</i> class and the related Bootstrap classes to style the content.
 
 -   Next, we will go to the third row and replace the contents of the second column containing the description about Alberto with the following content:
+
 ```
     <div class="media">
     <img class="d-flex mr-3 img-thumbnail align-self-center"
@@ -6323,7 +6400,10 @@ Note the use of the <i>media</i> class and the related Bootstrap classes to styl
     </div>
     </div>
 ```
--   Finally, do a Git commit with a message "Images and Media".
+
+<ul>
+<li>Finally, do a Git commit with a message "Images and Media".</li>
+</ul>
 
 **Conclusions**
 
@@ -6343,16 +6423,20 @@ In this exercise, we learnt about the Bootstrap classes to support images and me
 
 ### **Bootstrap Resources**
 
--   [Bootstrap Image Classes](http://getbootstrap.com/docs/4.0/content/images/)
--   [Bootstrap Media Object Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/content/images/">Bootstrap Image Classes.</a></li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/layout/media-object/">Bootstrap Media Object Classes.</a></li>
+</ul>
 
 <h3>Alerting Users: Objectives and Outcomes</h3>
 
 In this lesson we examine various ways of delivering alert information to users. We examine labels, badges, alerts and progress bars. At the end of this lesson, you will be able to:
 
--   Include labels and badges in your web page
--   Create, style and include alerts in your web page
--   Appreciate the use of progress bars and controlling the state of the progress bars.
+<ul>
+<li>Include labels and badges in your web page.</li><br>
+<li>Create, style and include alerts in your web page.</li><br>
+<li>Appreciate the use of progress bars and controlling the state of the progress bars.</li>
+</ul>
 
 <h3>Alerting Users</h3>
 
@@ -6442,19 +6526,27 @@ This is a good time to see if the changes to your good repository, with the mess
 
 In this short exercise we will examine the use of badges as a way of alerting users. At the end of this exercise, you will be able to:
 
--   Add a badge to your web page using the Bootstrap badge class
+<ul>
+<li>Add a badge to your web page using the Bootstrap badge class.</li>
+</ul>
 
 ### **Adding Badges**
 
--   We will continue to edit the <i>index.html</i> file. In this file, we will add a badge <i>HOT</i> next to the name of the dish Uthappizza in the first content row. To do this, add the following code inside the *\<h2\>* containing the name of the dish:
+<ul>
+<li>We will continue to edit the <i>index.html</i> file. In this file, we will add a badge <i>HOT</i> next to the name of the dish Uthappizza in the first content row. To do this, add the following code inside the *\<h2\>* containing the name of the dish:</li>
+</ul>
 
     **\<span class="badge badge-danger"\>HOT\</span\>**
 
--   Next we will add a badge as a badge-pill right next to the earlier tag in the web page. Add the following code to the *\<h2\>* tag:
+<ul>
+<li>Next we will add a badge as a badge-pill right next to the earlier tag in the web page. Add the following code to the *\<h2\>* tag:</li>
+</ul>
 
     **\<span class="badge badge-pill badge-secondary"\>\$4.99\</span\>**
 
--   Remember to commit the changes to the Git repository with message "Alerting Users".
+<ul>
+<li>Remember to commit the changes to the Git repository with message "Alerting Users".</li>
+</ul>
 
 ### **Conclusions**
 
@@ -6468,9 +6560,11 @@ In this short exercise, we learnt how to add badges to our web page.
 
 Bootstrap Resources
 
--   [Bootstrap Badge](http://getbootstrap.com/docs/4.0/components/badge/)
--   [Bootstrap Alerts](http://getbootstrap.com/docs/4.0/components/alerts/)
--   [Bootstrap Progress](http://getbootstrap.com/docs/4.0/components/progress/)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/components/badge/">Bootstrap Badge</a></li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/components/alerts/">Bootstrap Alerts</a></li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/components/progress/">Bootstrap Progress</a></li>
+</ul>
 
 <h3>Assignment 2: Bootstrap CSS Components</h3>
 
@@ -6601,8 +6695,10 @@ The aim is to deliver an reasonable representation of the end-user experience wi
 
 At the end of this lesson, you should be able to:
 
--   Construct a wireframe diagram to visually represent the structure of your user interface
--   Construct a prototype to enable understanding the flow of your application
+<ul>
+<li>Construct a wireframe diagram to visually represent the structure of your user interface.</li><br>
+<li>Construct a prototype to enable understanding the flow of your application.</li>
+</ul>
 
 <h3>UI Design and Prototyping Report Template</h3>
 
@@ -6610,21 +6706,29 @@ At the end of this lesson, you should be able to:
 
 ### 1. Introduction
 
--   Give a brief introduction to your project and the list of features. Summarize in a few sentences what you proposed in the ideation report.
+<ul>
+<li>Give a brief introduction to your project and the list of features. Summarize in a few sentences what you proposed in the ideation report.</li>
+</ul>
 
 ### 2. User Interface Design and Prototype
 
--   Give some sample user interface layouts for your application. You can use either wireframe diagrams or prototyping tools to construct the mock representations of your UI design
--   Briefly explain the rationale behind designing your UI and how it is geared towards supporting the list of features for your application.
+<ul>
+<li>Give some sample user interface layouts for your application. You can use either wireframe diagrams or prototyping tools to construct the mock representations of your UI design.</li><br>
+<li>Briefly explain the rationale behind designing your UI and how it is geared towards supporting the list of features for your application.</li>
+</ul>
 
 ### 3. Navigation Structure
 
--   Give a brief overview of the navigation structure for your application.
--   Briefly indicate a typical flow of your application in terms of user experience. You can use any way of representing the flow. You can also construct a prototype using one of the prototyping tools to illustrate this.
+<ul>
+<li>Give a brief overview of the navigation structure for your application.</li><br>
+<li>Briefly indicate a typical flow of your application in terms of user experience. You can use any way of representing the flow. You can also construct a prototype using one of the prototyping tools to illustrate this.</li>
+</ul>
 
 ### 4. References
 
--   Provide any references relevant to the report.
+<ul>
+<li>Provide any references relevant to the report.</li>
+</ul>
 
 <h3>UI Design and Prototyping: Additional Resources</h3>
 
@@ -6997,14 +7101,19 @@ This is also a good time for you to do a Git Comment with the message tabs.
 
 In this exercise we will explore Bootstrap tabs and tabbed navigation. In particular we will learn about the use of tabs for organizing the content. At the end of this exercise you will be able to:
 
--   Design a web page to use tabbed navigation for organizing the content
--   Use tab panes and organize the content into the panes
--   Facilitate navigation among the tab panes using the tabbed navigation elements
+<ul>
+<li>Design a web page to use tabbed navigation for organizing the content.</li><br>
+<li>Use tab panes and organize the content into the panes.</li><br>
+<li>Facilitate navigation among the tab panes using the tabbed navigation elements.</li>
+</ul>
 
 <h4>Adding Tab Navigation Elements</h4>
 
--   Open the <i>aboutus.html<i> page and move to the second content row containing the details of the corporate leadership of the restaurant.
--   Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:
+<ul>
+<li>Open the <i>aboutus.html<i> page and move to the second content row containing the details of the corporate leadership of the restaurant.</li><br>
+<li>Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:</li>
+</ul>
+
 ```
     <ul class="nav nav-tabs">
     <li class="nav-item">
@@ -7044,11 +7153,16 @@ Note the use of the *\<ul\>* tag with the <i>nav</i> and <i>nav-tabs</i> classes
 ```
 Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the *\<a\>* link in the navigation.
 
--   The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the <i>show</i> and <i>active</i> classes specified to indicate that the content should be visible on the web page by default.
+<ul>
+<li>The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the <i>show</i> and <i>active</i> classes specified to indicate that the content should be visible on the web page by default.</li>
+</ul>
 
 ### **Modifying the tab-content CSS**
 
--   We now modify the CSS styles for the tab-content class in the <i>mystyles.css</i> file as follows:
+<ul>
+<li>We now modify the CSS styles for the tab-content class in the <i>mystyles.css</i> file as follows:</li>
+</ul>
+
 ```
     .tab-content {
     border-left: 1px solid #ddd;
@@ -7057,9 +7171,12 @@ Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with
     padding: 10px;
     }
 ```
+
 This modification adds a 1px border to the tab content which joins with the upper border introduced by the tab navigation element to give a clean tab like appearance.
 
--   Finally do a Git commit with the message "Tabs".
+<ul>
+<li>Finally do a Git commit with the message "Tabs".</li>
+</ul>
 
 ### Conclusions
 
@@ -7084,8 +7201,10 @@ In this exercise we learnt the use of tabbed navigation, tab content and tab pan
 
 In this lesson we learn about the collapse javascript plugin that allows us to hide and reveal content. In particular we explore its use in creating an accordion. At the end of this lesson, you will be able to:
 
--   Use the collapse plugin to hide/reveal content
--   Construct the accordion using cards
+<ul>
+<li>Use the collapse plugin to hide/reveal content.</li><br>
+<li>Construct the accordion using cards.</li>
+</ul>
 
 <h3>Collapse and Accordion</h3>
 
@@ -7295,19 +7414,28 @@ This is a good time for you to do a git commit with the message accordion..
 
 In this exercise we explore the use of the collapse Javascript plugin together with card component to create an accordion to show/hide content in a web page. At the end of this exercise, you will be able to:
 
--   Design an accordion using the collapse plugin together with the card component.
+<ul>
+<li>Design an accordion using the collapse plugin together with the card component.</li>
+</ul>
 
 ### Converting Tabs to Accordion
 
--   First delete the \<ul\> class that was introduced for the tabbed navigation.
--   Then the turn the <i>tab-content</i> div into a <i>accordion</i> div. Use the code structure as shown below:
+<ul>
+<li>First delete the \<ul\> class that was introduced for the tabbed navigation.</li><br>
+<li>Then the turn the <i>tab-content</i> div into a <i>accordion</i> div. Use the code structure as shown below:</li>
+</ul>
 
-    **\<div id="accordion"\>**
+```
+    **<div id="accordion">**
     **. . .**
-    **\</div\>**
+    **</div>**
+```
 
--   Then, convert the first tab-pane into a card such that the name appears as a card heading, and the \<p\> will be in the card body. Use the structure of the code as shown below:
+<ul>
+<li>Then, convert the first tab-pane into a card such that the name appears as a card heading, and the \<p\> will be in the card body. Use the structure of the code as shown below:</li>
+</ul>
 
+```
     **\<div class="card"\>**
     **\<div class="card-header" role="tab" id="peterhead"\>**
     **\<h3 class="mb-0"\>**
@@ -7322,52 +7450,59 @@ In this exercise we explore the use of the collapse Javascript plugin together w
     **\</div\>**
     **\</div\>**
     **\</div\>**
+```
 
--   For the remaining three leaders, use the same structure as above, with the appropriate ids set up for the cards, as shown in the code structure below:
+<ul>
+<li>For the remaining three leaders, use the same structure as above, with the appropriate ids set up for the cards, as shown in the code structure below:</li>
+</ul>
 
-    **\<div class="card"\>**
-    **\<div class="card-header" role="tab" id="dannyhead"\>**
-    **\<h3 class="mb-0"\>**
-    **\<a class="collapsed" data-toggle="collapse" data-target="\#danny"\>**
-    **Dhanasekaran Witherspoon \<small\>Chief Food Officer\</small\>**
-    **\</a\>**
-    **\</h3\>**
-    **\</div\>**
-    **\<div class="collapse" id="danny" data-parent="\#accordion"\>**
-    **\<div class="card-body"\>**
-    **\<p class="d-none d-sm-block"\>. . .\</em\>\</p\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="card"\>**
-    **\<div class="card-header" role="tab" id="agumbehead"\>**
-    **\<h3 class="mb-0"\>**
-    **\<a class="collapsed" data-toggle="collapse" data-target="\#agumbe"\>**
-    **Agumbe Tang \<small\>Chief Taste Officer\</small\>**
-    **\</a\>**
-    **\</h3\>**
-    **\</div\>**
-    **\<div class="collapse" id="agumbe" data-parent="\#accordion"\>**
-    **\<div class="card-body"\>**
-    **\<p class="d-none d-sm-block"\>. . .\</p\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="card"\>**
-    **\<div class="card-header" role="tab" id="albertohead"\>**
-    **\<h3 class="mb-0"\>**
-    **\<a class="collapsed" data-toggle="collapse" data-target="\#alberto"\>**
-    **Alberto Somayya \<small\>Executive Chef\</small\>**
-    **\</a\>**
-    **\</h3\>**
-    **\</div\>**
-    **\<div class="collapse" id="alberto" data-parent="\#accordion"\>**
-    **\<div class="card-body"\>**
-    **\<p class="d-none d-sm-block"\>. . .\</em\>\</p\>**
-    **\</div\>**
+```
+    **<div class="card">**
+    **<div class="card-header" role="tab" id="dannyhead">**
+    **<h3 class="mb-0">**
+    **<a class="collapsed" data-toggle="collapse" data-target="#danny">**
+    **Dhanasekaran Witherspoon <small>Chief Food Officer</small>**
+    **</a>**
+    **</h3>**
+    **</div>**
+    **<div class="collapse" id="danny" data-parent="#accordion">**
+    **<div class="card-body">**
+    **<p class="d-none d-sm-block">. . .</em></p>**
+    **</div>**
+    **</div>**
+    **</div>**
+    **<div class="card">**
+    **<div class="card-header" role="tab" id="agumbehead">**
+    **<h3 class="mb-0">**
+    **<a class="collapsed" data-toggle="collapse" data-target="#agumbe">**
+    **Agumbe Tang <small>Chief Taste Officer</small>**
+    **</a>**
+    **</h3>**
+    **</div>**
+    **<div class="collapse" id="agumbe" data-parent="#accordion">**
+    **<div class="card-body">**
+    **<p class="d-none d-sm-block">. . .</p>**
+    **</div>**
+    **</div>**
+    **</div>**
+    **<div class="card">**
+    **<div class="card-header" role="tab" id="albertohead">**
+    **<h3 class="mb-0">**
+    **<a class="collapsed" data-toggle="collapse" data-target="#alberto">**
+    **Alberto Somayya <small>Executive Chef</small>**
+    **</a>**
+    **</h3>**
+    **</div>**
+    **<div class="collapse" id="alberto" data-parent="#accordion">**
+    **<div class="card-body">**
+    **<p class="d-none d-sm-block">. . .</em></p>**
+    **</div>**
+```
 
--   After completing the update, check the behavior of the accordion on the web page.
--   Finally do a Git commit with the message "Accordion".
+<ul>
+<li>After completing the update, check the behavior of the accordion on the web page.</li><br>
+<li>Finally do a Git commit with the message "Accordion".</li>
+</ul>
 
 ### Conclusions
 
@@ -7686,80 +7821,96 @@ This is a good time for you to do a git-commint with the message tool tips and m
 
 In this exercise we will examine how to add tooltips to a web page. In addition we look at adding modals to a web page. At the end of this exercise, you will be able to:
 
--   Add tooltips to a web page
--   Add modals that are revealed when the user clicks on a link or a button in the web page.
+<ul>
+<li>Add tooltips to a web page.</li><br>
+<li>Add modals that are revealed when the user clicks on a link or a button in the web page.</li>
+</ul>
 
 ### **Adding a Tooltip**
 
--   Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:
+<ul>
+<li>Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:</li>
+</ul>
+
 ```
-    **\<a role="button" class="btn btn-block nav-link btn-warning"**
-    **data-toggle="tooltip" data-html="true" title="Or Call us at \<br\>\<strong\>+852 12345678\</strong\>"**
-    **data-placement="bottom" href="\#reserveform"\>Reserve Table\</a\>**
+    **<a role="button" class="btn btn-block nav-link btn-warning"**
+    **data-toggle="tooltip" data-html="true" title="Or Call us at <br><strong>+852 12345678</strong>"**
+    **data-placement="bottom" href="#reserveform">Reserve Table</a>**
 ```
+
 As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:
 ```
-    **\<script\>**
-    **\$(document).ready(function(){**
-    **\$('[data-toggle="tooltip"]').tooltip();**
+    **<script>**
+    **$(document).ready(function(){**
+    **$('[data-toggle="tooltip"]').tooltip();**
     **});**
-    **\</script\>**
+    **</script>**
 ```
+
 This script is added right after the line that imports the bootstrap.min.js file.
 
 ### Adding a Modal
 
--   In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.
+<ul>
+<li>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.</li>
+</ul>
+
 ```
     **\<div id="loginModal" class="modal fade" role="dialog"\>**
     **\<div class="modal-dialog modal-lg" role="content"\>**
-    **\<!-- Modal content--\>**
-    **\<div class="modal-content"\>**
-    **\<div class="modal-header"\>**
-    **\<h4 class="modal-title"\>Login \</h4\>**
-    **\<button type="button" class="close" data-dismiss="modal"\>&times;\</button\>**
-    **\</div\>**
-    **\<div class="modal-body"\>**
-    **\<form\>**
-    **\<div class="form-row"\>**
-    **\<div class="form-group col-sm-4"\>**
-    **\<label class="sr-only" for="exampleInputEmail3"\>Email address\</label\>**
-    **\<input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"\>**
-    **\</div\>**
-    **\<div class="form-group col-sm-4"\>**
-    **\<label class="sr-only" for="exampleInputPassword3"\>Password\</label\>**
-    **\<input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"\>**
-    **\</div\>**
-    **\<div class="col-sm-auto"\>**
-    **\<div class="form-check"\>**
-    **\<input class="form-check-input" type="checkbox"\>**
-    **\<label class="form-check-label"\> Remember me**
-    **\</label\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
-    **\<div class="form-row"\>**
-    **\<button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"\>Cancel\</button\>**
-    **\<button type="submit" class="btn btn-primary btn-sm ml-1"\>Sign in\</button\>**
-    **\</div\>**
-    **\</form\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
+    **<!-- Modal content-->**
+    **<div class="modal-content">**
+    **<div class="modal-header">**
+    **<h4 class="modal-title">Login </h4>**
+    **<button type="button" class="close" data-dismiss="modal">&times;</button>**
+    **</div>**
+    **<div class="modal-body">**
+    **<form>**
+    **<div class="form-row">**
+    **<div class="form-group col-sm-4">**
+    **<label class="sr-only" for="exampleInputEmail3">Email address</label>**
+    **<input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">**
+    **</div>**
+    **<div class="form-group col-sm-4">**
+    **<label class="sr-only" for="exampleInputPassword3">Password</label>**
+    **<input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">**
+    **</div>**
+    **<div class="col-sm-auto">**
+    **<div class="form-check">**
+    **<input class="form-check-input" type="checkbox">**
+    **<label class="form-check-label"> Remember me**
+    **</label>**
+    **</div>**
+    **</div>**
+    **</div>**
+    **<div class="form-row">**
+    **<button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>**
+    **<button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>**
+    **</div>**
+    **</form>**
+    **</div>**
+    **</div>**
+    **</div>**
+    **</div>**
 ```
--   Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the \</ul\>:
+<ul>
+<li>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the \:</li>
+</ul>
+
 ```
-    **\<span class="navbar-text"\>**
-    **\<a data-toggle="modal" data-target="\#loginModal"\>**
-    **\<span class="fa fa-sign-in"\>\</span\> Login\</a\>**
-    **\</span\>**
+    **<span class="navbar-text">**
+    **<a data-toggle="modal" data-target="#loginModal">**
+    **<span class="fa fa-sign-in"></span> Login</a>**
+    **</span>**
 ```
+
 We are introducing another link to the right of the navbar using the <i>navbar-text*. This contains a link with an *\<a\>* tag with the <i>data-toggle="modal"* and <i>data-target="\#loginModal"* attributes.
 
--   Save all the changes and do a Git commit with the message "Tooltip and Modal".
+<ul>
+<li>Save all the changes and do a Git commit with the message "Tooltip and Modal".</li>
+</ul>
 
 ### **Conclusions**
 
@@ -7781,9 +7932,11 @@ In this exercise we explored tooltips and modals as two ways of revealing conten
 
 In this lesson we will examine the use of the Carousel component in our web page. We will examine the configuration of the various aspects of the carousel. At the end of this lesson you will be able to:
 
--   Use a carousel component in your web page
--   Configure various aspects of the carousel
--   Add controls to the carousel to manually control it
+<ul>
+<li>Use a carousel component in your web page.</li><br>
+<li>Configure various aspects of the carousel.</li><br>
+<li>Add controls to the carousel to manually control it.</li>
+</ul>
 
 <h3>Carousel</h3>
 
@@ -7961,13 +8114,17 @@ This is a good time for you to do a git-commit with the message carousel.
 
 In this exercise we will examine the carousel component and add it to the web page. We will examine the configuration of the carousel and adding controls to the carousel. At the end of this exercise you will be able to:
 
--   Use a carousel component in your web page
--   Configure various aspects of the carousel
--   Add controls to the carousel to manually control it
+<ul>
+<li>Use a carousel component in your web page.</li><br>
+<li>Configure various aspects of the carousel.</li><br>
+<li>Add controls to the carousel to manually control it.</li>
+</ul>
 
 <h4>Adding a row for the carousel</h4>
 
--   The carousel will be added to the <i>index.html</i> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:
+<ul>
+<li>The carousel will be added to the <i>index.html</i> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:</li>
+</ul>
 
 ```
 <div class="row row-content">
@@ -7978,7 +8135,9 @@ In this exercise we will examine the carousel component and add it to the web pa
 
 <h4>Adding a Carousel</h4>
 
--   Next, add the basic carousel div inside the content row that you just added as follows:
+<ul>
+<li>Next, add the basic carousel div inside the content row that you just added as follows:</li>
+</ul>
 
 ```
     <div id="mycarousel" class="carousel slide" data-ride="carousel">**
@@ -7987,7 +8146,9 @@ In this exercise we will examine the carousel component and add it to the web pa
 
 <h4>Adding Carousel Content</h4>
 
--   Next add the content inside the carousel as follows:
+<ul>
+<li>Next add the content inside the carousel as follows:</li>
+</ul>
 
 ```
     <div class="carousel-inner" role="listbox">
@@ -8012,7 +8173,9 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 
 <h4>Adding CSS Classes</h4>
 
--   Add the following CSS classes to the <i>styles.css</i> file:
+<ul>
+<li>Add the following CSS classes to the <i>styles.css</i> file:</li>
+</ul>
 
 ```
     .carousel {
@@ -8031,7 +8194,9 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 
 <h4>Adding Carousel Controls</h4>
 
--   Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:
+<ul>
+<li>Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:</li>
+</ul>
 
 ```
     <ol class="carousel-indicators">
@@ -8072,7 +8237,9 @@ Open file
 
 <h4>Bootstrap Resources</h4>
 
--   [Bootstrap Carousel](http://getbootstrap.com/docs/4.0/components/carousel/)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/components/carousel/">Bootstrap Carousel</a></li>
+</ul>
 
 <h3>Assignment 3: Bootstrap JavaScript Components</h3>
 
@@ -8130,9 +8297,6 @@ Hope you enjoyed creating this new variation of the index.html page.
    alt=""
    width="85%" />
 </p>
-<!----
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/47f457d977fbafb3cd5cd7c3e563605d.png)
------>
 
 <h3>Bootstrap Resources</h3>
 
@@ -9416,9 +9580,6 @@ And upon completing this assignment, you may wish to do a good comment to save y
    alt=""
    width="85%" />
 </p>
-<!-----
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA](images/938f7cc8c2d5b4ffc4e13f9d77452168.png)
------->
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 80.  (xx) ------------------------------->
@@ -9428,14 +9589,13 @@ And upon completing this assignment, you may wish to do a good comment to save y
    alt=""
    width="85%" />
 </p>
-<!-----
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/3fae449c13caa1d13169c4e0c43939e1.png)
------->
 
 <h3>**Bootstrap Documentation**</h3>
 
--   [Modals](http://getbootstrap.com/docs/4.0/components/modal/)
--   [Modal Methods](http://getbootstrap.com/docs/4.0/components/modal/#methods)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/components/modal/">Modals</a></li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/components/modal/#methods">Modal Methods</a></li>
+</ul>
 
 <h3>Building and Deployment: Objectives and Outcomes</h3>
 
@@ -9445,8 +9605,10 @@ You will learn to automate your web development tasks using NPM scripts.
 
 At the end of this lesson, you will be able to:
 
--   Configure NPM scripts and automate your web development
--   Prepare your project for being hosted on a web server
+<ul>
+<li>Configure NPM scripts and automate your web development.</li><br>
+<li>Prepare your project for being hosted on a web server.</li>
+</ul>
 
 <h3>Building and Deployment</h3>
 
@@ -10067,20 +10229,25 @@ Remember to use <i>sudo</i> on mac and Linux. **NOTE:** Some students have encou
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 -   Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:
 
-    **\<!-- build:js js/main.js --\>**
-    **\<script src="node_modules/jquery/dist/jquery.slim.min.js"\>\</script\>**
-    **\<script src="node_modules/popper.js/dist/umd/popper.min.js"\>\</script\>**
-    **\<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\>\</script\>**
-    **\<script src="js/scripts.js"\>\</script\>**
-    **\<!-- endbuild --\>**
+    **<!-- build:js js/main.js -->**
+    **<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>**
+    **<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>**
+    **<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>**
+    **<script src="js/scripts.js"></script>**
+    **<!-- endbuild -->**
+```
 
--   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
--   To build the distribution folder, you can type the following at the prompt:
+<ul>
+<li>Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>.</li><br>
+<li>To build the distribution folder, you can type the following at the prompt:</li>
+</ul>
 
 **npm run build**
 
--   This will build the <i>dist</i> folder containing the files that are a self-contained version of your project. You can now copy the contents of this folder to a web server that hosts your website.
--   After verifying that the dist folder is built correctly, you can now do a git commit with the message "NPM Scripts Part 2"
+<ul>
+<li>This will build the <i>dist</i> folder containing the files that are a self-contained version of your project. You can now copy the contents of this folder to a web server that hosts your website.</li><br>
+<li>After verifying that the dist folder is built correctly, you can now do a git commit with the message "NPM Scripts Part 2".</li>
+</ul>
 
 <h4>Conclusions</h4>
 
@@ -10116,8 +10283,10 @@ In this exercise, you learnt the various steps to build the project for deployme
 
 In this lesson you will learn about JavaScript based Task runners, Grunt and Gulp. You will learn to automate your web development tasks using these tools. At the end of this lesson, you will be able to:
 
--   Configure Grunt tasks and automate your web development using Grunt
--   Define Gulp tasks in code to automate the web development using Gulp
+<ul>
+<li>Configure Grunt tasks and automate your web development using Grunt.</li><br>
+<li>Define Gulp tasks in code to automate the web development using Gulp.</li>
+</ul>
 
 <h3>Task Runners</h3>
 
@@ -10432,7 +10601,9 @@ In this exercise, you will learn to use Grunt, the task runner. You will install
 
 -   At the command prompt, type the following to install Grunt command-line interface (CLI):
 
+```
 **npm install -g grunt-cli@1.2.0**
+```
 
 This will install the Grunt CLI globally so that you can use them in all projects.
 
@@ -10447,12 +10618,14 @@ This will install local per-project Grunt to use within your project.
 -   Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named <i>Gruntfile.js</i> in the <i>conFusion</i> folder.
 -   Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:
 
+```
     **'use strict';**
     **module.exports = function (grunt) {**
     **// Define the configuration for all the tasks**
     **grunt.initConfig({**
     **});**
     **};**
+```
 
 This sets up the Grunt module ready for including the grunt tasks inside the function above.
 
@@ -10460,14 +10633,17 @@ This sets up the Grunt module ready for including the grunt tasks inside the fun
 
 -   Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:
 
+```
     **npm install grunt-sass@2.1.0 --save-dev**
     **npm install time-grunt@1.4.0 --save-dev**
     **npm install jit-grunt@0.10.0 --save-dev**
+```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The time-grunt module generates time statistics about how much time each task consumes, and jit-grunt enables us to include the necessary downloaded Grunt modules when needed for the tasks.
 
 -   Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <i>Gruntfile.js*:
 
+```
     **'use strict';**
     **module.exports = function (grunt) {**
     **// Time how long tasks take. Can help when optimizing build times**
@@ -10486,6 +10662,7 @@ The first one installs the Grunt module for SCSS to CSS conversion. The time-gru
     **});**
     **grunt.registerTask('css', ['sass']);**
     **};**
+```
 
 -   Now you can run the grunt SASS task by typing the following at the prompt:
 
@@ -10500,28 +10677,30 @@ The first one installs the Grunt module for SCSS to CSS conversion. The time-gru
 
 -   After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:
 
+```
     **,**
     **watch: {**
-    **files: 'css/\*.scss',**
+    **files: 'css/*.scss',**
     **tasks: ['sass']**
     **},**
     **browserSync: {**
     **dev: {**
     **bsFiles: {**
     **src : [**
-    **'css/\*.css',**
-    **'\*.html',**
-    **'js/\*.js'**
+    **'css/*.css',**
+    **'*.html',**
+    **'js/*.js'**
     **]**
     **},**
     **options: {**
     **watchTask: true,**
     **server: {**
-    **baseDir: "./"**
+    **baseDir: "."**
     **}**
     **}**
     **}**
     **}**
+```
 
 -   Then add the following task to the Grunt file:
 
@@ -11325,19 +11504,28 @@ Thereafter you will configure a Gulp file with a set of tasks to build and serve
 
 At the end of this exercise, you will be able to:
 
--   Configure the Gulp file with a set of tasks to build the distribution folder for the web project.
+<ul>
+<li>Configure the Gulp file with a set of tasks to build the distribution folder for the web project.</li>
+</ul>
 
 <h4>Copying the Files and Cleaning up the Dist Folder</h4>
 
--   We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the <i>del</i> Node module and require it in the Gulp file as follows:
+<ul>
+<li>We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the <i>del</i> Node module and require it in the Gulp file as follows:</li>
+</ul>
 
+```
     **npm install del@3.0.0 --save-dev**
     **var ...**
     **del = require('del'),**
     **...**
+```
 
--   Next, we will add the code for the Clean task and the copyfonts task as follows:
+<ul>
+<li>Next, we will add the code for the Clean task and the copyfonts task as follows:</li>
+</ul>
 
+```
     **// Clean**
     **gulp.task('clean', function() {**
     **return del(['dist']);**
@@ -11346,29 +11534,41 @@ At the end of this exercise, you will be able to:
     **gulp.src('./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*')**
     **.pipe(gulp.dest('./dist/fonts'));**
     **});**
+```
 
 <h3>**Compressing and Minifying Images**</h3>
 
--   We will now install the <i>gulp-imagemin</i> plugin and configure the <i>imagemin</i> task. To do this we install the plugin and require it as follows:
+<ul>
+<li>We will now install the <i>gulp-imagemin</i> plugin and configure the <i>imagemin</i> task. To do this we install the plugin and require it as follows:</li>
+</ul>
 
+```
 **npm install gulp-imagemin@4.1.0 --save-dev**
 **var ...**
 **imagemin = require('gulp-imagemin'),**
 **...**
+```
 
--   Next, we create the <i>imagemin</i> task as follows:
+<ul>
+<li>Next, we create the <i>imagemin</i> task as follows:</li>
+</ul>
 
+```
     **// Images**
     **gulp.task('imagemin', function() {**
     **return gulp.src('img/\*.{png,jpg,gif}')**
     **.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))**
     **.pipe(gulp.dest('dist/img'));**
     **});**
+```
 
 **Preparing the Distribution Folder and Files**
 
--   We now install the gulp-usemin and other related Gulp plugins and require them as follows:
+<ul>
+<li>We now install the gulp-usemin and other related Gulp plugins and require them as follows:</li>
+</ul>
 
+```
     **npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev**
     **var ...**
     **uglify = require('gulp-uglify'),**
@@ -11377,9 +11577,13 @@ At the end of this exercise, you will be able to:
     **cleanCss = require('gulp-clean-css'),**
     **flatmap = require('gulp-flatmap'),**
     **htmlmin = require('gulp-htmlmin');**
+```
 
--   We configure the usemin and the build task as follows:
+<ul>
+<li>We configure the usemin and the build task as follows:</li>
+</ul>
 
+```
     **gulp.task('usemin', function() {**
     **return gulp.src('./\*.html')**
     **.pipe(flatmap(function(stream, file){**
@@ -11397,6 +11601,7 @@ At the end of this exercise, you will be able to:
     **gulp.task('build',['clean'], function() {**
     **gulp.start('copyfonts','imagemin','usemin');**
     **});**
+```
 
 <h4>Save the Gulp file</h4>
 
@@ -11520,6 +11725,8 @@ And I hope I'll see you back again in the next course of the specialization.
 
 <b>11-Conclusion.pdf</b>
 
+<h3>Last Updated: 06-06-2022 11:46pm</h3>
+
 <h4>Project Implementation: Objectives and Outcomes</h4>
 
 This is the final stretch before you complete your project.
@@ -11572,5 +11779,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-last updated 06-05-2022 10:41pm front-end-web-ui
+<h3>last updated 06-06-2022 10:31pm front-end-web-ui</h3>
 </html>
