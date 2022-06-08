@@ -4650,6 +4650,7 @@ Now that you've completed this exercise, this may be a good time to do a good co
 <h4><b>Objectives and Outcomes</b></h4>
 
 In this exercise, we will learn the use of icons in web page design using Font Awesome icons, and bootstrap-social icons. At the end of this exercise, you will be able to:
+
 <ul>
 <li>Use icons within your website to represent various entities making use of the glyphicons, font-awesome icons and bootstrap-social icons.</li>
 </ul>
@@ -4657,52 +4658,67 @@ In this exercise, we will learn the use of icons in web page design using Font A
 Note: Some people have pointed out that if they have AdBlocker installed, then the font icons are not showing up in their browser.
 
 <h4><b>Using Icon Fonts and Other CSS classes</b></h4>
+
 <ul>
 <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <http://fontawesome.io/> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
+
 ```
-$ npm install font-awesome@4.7.0 --save</b></br/></li>
+$ npm install font-awesome@4.7.0 --save
 ```
+
 <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <https://lipis.github.io/bootstrap-social/>. To install it using npm, type the following at the prompt:</li>
+
 ```
 $ npm install bootstrap-social@5.1.1 --save
 ```
+
 <li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:</li>
+
 ```
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 ```
+
 <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
+
 ```
-    <b><li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li></b><br/>
-    <b><li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span><br/> Home</a></b></li><br/>
-    <b><li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></b></li></b><br/>
-    <b><li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li></b></br/></li>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li><br/>
+<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span><br/> Home</a></li><br/>
+<li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li><br/>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li><br/>
 ```
+
 <li>Similarly update the navbar's ul list items as follows in aboutus.html:
+
 ```
-<li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li></b>
-<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li></b>
+<li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li></b></br/></li>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
 ```
+
 <li>Next, in both index.html and aboutus.html, go down to the address in the footer of the page and replace the "Tel.", "Fax" and "Email" with the corresponding font awesome based icons as follows:</li>
+
 ```
-    <i class="fa fa-phone fa-lg"></i>: +852 1234 5678
-    <i class="fa fa-fax fa-lg"></i>: +852 8765 4321
-    <i class="fa fa-envelope fa-lg"></i>:
-    <a href="mailto:confusion@food.net">confusion@food.net</a>
+<i class="fa fa-phone fa-lg"></i>: +852 1234 5678
+<i class="fa fa-fax fa-lg"></i>: +852 8765 4321
+<i class="fa fa-envelope fa-lg"></i>:
+<a href="mailto:confusion@food.net">confusion@food.net</a>
 ```
+
 <li>Finally, let us use the bootstrap-social CSS classes to create the social buttons in the footer in both index.html and aboutus.html, by replacing the social sites' links with the following code:</li>
+
 ```
-    <div class="text-center">
-    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a></b>
-    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a></b>
-    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-    </div>
+<div class="text-center">
+<a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></a>
+<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></a>
+<a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></a>
+<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></a>
+<a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></a>
+<a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></a>
+</div>
 ```
+
 <li>Save all the changes and commit to your Git repository with the message "Icon Fonts".</li>
 </ul>
 
@@ -4720,25 +4736,32 @@ We learnt about using icon fonts in a web project.
 
 <h4>Official Bootstrap Resources</h4>
 
--   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
--   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/)
+<ul>
+<li><a href="http://getbootstrap.com/docs/4.0/components/navbar/">Navbar</a></li><br>
+<li><a href="http://getbootstrap.com/docs/4.0/components/breadcrumb/">Breadcrumbs</a></li>
+</ul>
 
 <h4>General</h4>
 
--   [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) (Accessibility support and screen reader support)
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA">Accessible Rich Internet Applications (ARIA) (Accessibility support and screen reader support).</a></li>
+</ul>
 
 <h4>Information Architecture</h4>
 
--   [Information Architecture 101: Techniques and Best Practices](http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/) (Quick introduction to Information architecture with respect to website design)
--   [Web Site Information Architecture models](http://webdesignfromscratch.com/website-architecture/ia-models/) (Another good resource on information architecture)
--   [What is information architecture?](http://www.steptwo.com.au/papers/kmc_whatisinfoarch/) (Good definition and explanation about the topic)
--   [Information Architecture Tutorial](http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/) (Comprehensive look from a website design perspective)
+<li><a href="http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/">Information Architecture 101: Techniques and Best Practices. Quick introduction to Information architecture with respect to website design.</a></li><br>
+<li><a href="http://webdesignfromscratch.com/website-architecture/ia-models/">Web Site Information Architecture models] (Another good resource on information architecture).</a></li><br>
+<li><a href="http://www.steptwo.com.au/papers/kmc_whatisinfoarch/">What is information architecture? (Good definition and explanation about the topic).</a></li><br>
+<li><a href="http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/">Information Architecture Tutorial (Comprehensive look from a website design perspective).</a></li>
+</ul>
 
 <h4>Navigation Bar Design</h4>
 
--   [Designing A Winning Navigation Menu: Ideas and Inspirations](http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/) (Good suggestions on how to design navigation for a website)
--   [Are You Making These Common Website Navigation Mistakes?](https://blog.kissmetrics.com/common-website-navigation-mistakes/) (Worth reading at least to learn what not to do)
--   [3 Reasons We Should Stop Using Navigation Bars](http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/) (A provocative view on navigation bars)
+<ul>
+<li><a href="http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/">Designing A Winning Navigation Menu: Ideas and Inspirations (Good suggestions on how to design navigation for a website).</a></li><br>
+<li><a href="https://blog.kissmetrics.com/common-website-navigation-mistakes/">Are You Making These Common Website Navigation Mistakes? (Worth reading at least to learn what not to do).</a></li><br>
+<li><a href="http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/">3 Reasons We Should Stop Using Navigation Bars (A provocative view on navigation bars).</a></li>
+</ul>
 
 <h4>Breadcrumbs</h4>
 
@@ -10845,18 +10868,26 @@ The first one installs the Grunt module for SCSS to CSS conversion. The time-gru
     };
 ```
 
--   Now you can run the grunt SASS task by typing the following at the prompt:
+<ul>
+<li>Now you can run the grunt SASS task by typing the following at the prompt:</li>
+</ul>
 
 grunt css
 
 <h4>Watch and Serve Tasks</h4>
 
--   The final step is to use the Grunt modules watch and browser-sync to spin up a web server and keep a watch on the files and automatically reload the browser when any of the watched files are updated. To do this, install the following grunt modules:
+<ul>
+<li>The final step is to use the Grunt modules watch and browser-sync to spin up a web server and keep a watch on the files and automatically reload the browser when any of the watched files are updated. To do this, install the following grunt modules:</li>
+</ul>
 
+```
     npm install grunt-contrib-watch@1.0.0 --save-dev
     npm install grunt-browser-sync@2.2.0 --save-dev
+```
 
--   After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:
+<ul>
+<li>After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:</li>
+</ul>
 
 ```
     ,
@@ -10883,15 +10914,25 @@ grunt css
     }
 ```
 
--   Then add the following task to the Grunt file:
+<ul>
+<li>Then add the following task to the Grunt file:</li>
+</ul>
 
+```
 grunt.registerTask('default', ['browserSync', 'watch']);
+```
 
--   Now if you type the following at the command prompt, it will start the server, and open the web page in your default browser. It will also keep a watch on the files in the css folder, and if you update any of them, it will compile the scss file into css file and load the updated page into the browser (livereload)
+<ul>
+<li>Now if you type the following at the command prompt, it will start the server, and open the web page in your default browser. It will also keep a watch on the files in the css folder, and if you update any of them, it will compile the scss file into css file and load the updated page into the browser (livereload).</li>
+</ul>
 
+```
 grunt
+```
 
--   Do a Git commit with the message "Grunt Part 1".
+<ul>
+<li>Do a Git commit with the message "Grunt Part 1".</li>
+</ul>
 
 <h4>Conclusions</h4>
 
@@ -11276,10 +11317,11 @@ At the end of this exercise, you will be able to:
 -   Next you will install the Grunt modules to copy over files to a distribution folder named dist, and clean up the dist folder when needed. To do this, install the following Grunt modules:
 
     npm install grunt-contrib-copy@1.0.0 --save-dev
-
     npm install grunt-contrib-clean@1.1.0 --save-dev
 
--   You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <i>Gruntfile.js*. This should be added right after the configuration of the SASS task.:
+<ul>
+<li>You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <i>Gruntfile.js*. This should be added right after the configuration of the SASS task.:</li>
+</ul>
 
 ```
     ,
@@ -11314,15 +11356,23 @@ At the end of this exercise, you will be able to:
     }
 ```
 
--   Remember to add the comma after the end of the SASS task.
+<ul>
+<li>Remember to add the comma after the end of the SASS task.</li>
+</ul>
 
 <h4>Compressing and Minifying Images</h4>
 
--   Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:
+<ul>
+<li>Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:</li>
+</ul>
 
+```
     npm install grunt-contrib-imagemin@2.0.1 --save-dev
+```
 
--   Then, configure the imagemin task as shown below in the Gruntfile:
+<ul>
+<li>Then, configure the imagemin task as shown below in the Gruntfile:</li>
+</ul>
 
 ```
     ,
@@ -11340,7 +11390,9 @@ At the end of this exercise, you will be able to:
 
 <h4>Preparing the Distribution Folder and Files</h4>
 
--   We are now going to use the Grunt <i>usemin</i> module together with <i>concat*, <i>cssmin*, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:
+<ul>
+<li>We are now going to use the Grunt <i>usemin</i> module together with <i>concat*, <i>cssmin*, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:</li>
+</ul>
 
 ```
     npm install grunt-contrib-concat@1.0.1 --save-dev
@@ -11351,7 +11403,9 @@ At the end of this exercise, you will be able to:
     npm install grunt-usemin@3.1.1 --save-dev
 ```
 
--   Next, update the task configuration within the Gruntfile.js with the following additional code to introduce the new tasks:
+<ul>
+<li>Next, update the task configuration within the Gruntfile.js with the following additional code to introduce the new tasks:</li>
+</ul>
 
 ```
     ,
@@ -11392,7 +11446,9 @@ At the end of this exercise, you will be able to:
     uglify: {
 ```
 
--   Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:
+<ul>
+<li>Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:</li>
+</ul>
 
 ```
     require('jit-grunt')(grunt, {
@@ -11400,7 +11456,9 @@ At the end of this exercise, you will be able to:
     });
 ```
 
--   Next, update the Grunt build task as follows:
+<ul>
+<li>Next, update the Grunt build task as follows:</li>
+</ul>
 
 ```
     grunt.registerTask('build', [
@@ -11417,9 +11475,13 @@ At the end of this exercise, you will be able to:
     ]);
 ```
 
--   Now if you run Grunt, it will create a dist folder with the files structured correctly to be distributed to a server to host your website. To do this, type the following at the prompt:
+<ul>
+<li>Now if you run Grunt, it will create a dist folder with the files structured correctly to be distributed to a server to host your website. To do this, type the following at the prompt:</li>
+</ul>
 
+```
     grunt build
+```
 
 <h4>Conclusions</h4>
 
@@ -11607,36 +11669,54 @@ This is a good time for you to do a git-commit with the message Gulp part 1.
 
 In this exercise, you will learn to use Gulp, the task runner. You will install Gulp CLI and install Gulp plugins using NPM. Thereafter you will configure a Gulp file with a set of tasks to build and serve your web project. At the end of this exercise, you will be able to:
 
--   Install Gulp CLI and Gulp plugins in your project
--   Configure a Gulp file with a set of tasks to build a web project from a source, and serve the built project using a server.
+<ul>
+<li>Install Gulp CLI and Gulp plugins in your project.</li><br>
+<li>Configure a Gulp file with a set of tasks to build a web project from a source, and serve the built project using a server.</li>
+</ul>
 
-Installing Gulp
+<h4>Installing Gulp</h4>
 
--   At the command prompt, type the following to install Gulp command-line interface (CLI) globally:
+<ul>
+<li>At the command prompt, type the following to install Gulp command-line interface (CLI) globally:</li>
+</ul>
 
+```
     npm install -g gulp-cli@2.0.1
+```
 
 This will install the Gulp globally so that you can use it in all projects.
 
--   Next install Gulp to use within your project. To do this, go to the <i>conFusion</i> folder and type the following at the prompt:
+<ul>
+<li>Next install Gulp to use within your project. To do this, go to the <i>conFusion</i> folder and type the following at the prompt:</li>
+</ul>
 
+```
     npm install gulp@3.9.1 --save-dev
+```
 
 This will install local per-project Gulp to use within your project.
 
 <h4>Install Gulp Plugins for SASS and Browser-Sync</h4>
 
--   Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:
+<ul>
+<li>Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:</li>
+</ul>
 
+```
     npm install gulp-sass@3.1.0 browser-sync@2.23.6 --save-dev
+```
 
 <h4>Creating a Gulp File</h4>
 
--   Next you need to create a Gulp file containing the tasks to be run when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in the <i>conFusion</i> folder.
+<ul>
+<li>Next you need to create a Gulp file containing the tasks to be run when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in the <i>conFusion</i> folder.</li>
+</ul>
 
 <h4>Loading Gulp Plugins</h4>
 
--   Load in all the Gulp plugins by including the following code in the Gulp file:
+<ul>
+<li>Load in all the Gulp plugins by including the following code in the Gulp file:</li>
+</ul>
 
 ```
     'use strict';
@@ -11647,7 +11727,9 @@ This will install local per-project Gulp to use within your project.
 
 <h4>Adding Gulp Tasks for SASS and Browser-Sync</h4>
 
--   Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:
+<ul>
+<li>Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:</li>
+</ul>
 
 ```
     gulp.task('sass', function () {
@@ -11677,15 +11759,23 @@ This will install local per-project Gulp to use within your project.
     });
 ```
 
--   Save the Gulp file
+<ul>
+<li>Save the Gulp file.</li>
+</ul>
 
 <h4>Running the Gulp Tasks</h4>
 
--   At the command prompt, if you type <i>gulp</i> it will run the default task:
+<ul>
+<li>At the command prompt, if you type <i>gulp</i> it will run the default task:</li>
+</ul>
 
+```
     gulp
+```
 
--   Do a Git commit with the message "Gulp Part 1".
+<ul>
+<li>Do a Git commit with the message "Gulp Part 1".</li>
+</ul>
 
 <h4>Conclusions</h4>
 
@@ -11976,5 +12066,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-<h3>last updated 06-07-2022 10:09pm front-end-web-ui</h3>
+<h3>last updated 06-08-2022 08:27am front-end-web-ui</h3>
 </html>
