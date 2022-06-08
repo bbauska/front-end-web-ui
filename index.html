@@ -390,7 +390,7 @@ Download the installer and run through the set up to get Git on to your computer
    width="85%" />
 </p>
 
-Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in \> git --version to check what version of git is installed on your computer.
+Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in &amp;gt; git --version to check what version of git is installed on your computer.
 
 On my machine I have this current version of git installed and that is good enough for me to work with.
 
@@ -400,13 +400,13 @@ Whenever Git does any comments as you will learn later, it will make use of this
 
 To do that, at the prompt type \> git config --global user.name “Username”, and then you can type in your user name.
 
-\> git config –global user.Email brianbauska@gmail.com
+&amp;gt; git config –global user.Email brianbauska@gmail.com
 
 The other parameter that I'm going to configure is my email.
 
 And to insure that this information has been configured, we can type
 
-\> git config ---list.
+&amp;gt; git config ---list.
 
 And it will list out a bunch of configurations that we have. Done.
 
@@ -448,13 +448,13 @@ In this exercise you will learn to install Git on your computer. Git is required
 <li>Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:</li>
 </ul>
 
-\> git --version
+&amp;gt; git --version
 
 <ul>
 <li>To configure your user name to be used by Git, type the following at the prompt:</li>
 </ul>
 
-\> git config --global user.name "Your Name"
+&amp;gt; git config --global user.name "Your Name"
 
 <ul>
 <li>To configure your email to be used by Git, type the following at the prompt:</li>
@@ -468,7 +468,7 @@ git config --global user.email <your email address>
 <li>You can check your default Git global configuration, you can type the following at the prompt:</li>
 </ul>
 
-\> git config --list
+&amp;gt; git config --list
 
 <h3>Conclusions</h3>
 
@@ -492,11 +492,11 @@ Let's save the changes.
 
 Now let's switch to our command line, at the command line go to the git-test folder, and let's initialize this folder to be a git repository.
 
-To do that at the command line type \> git init.
+To do that at the command line type &amp;gt; git init.
 
 Now, this folder has been initialized to be a git repository.
 
-This is our first git command that we have learnt, \> git init.
+This is our first git command that we have learnt, &amp;gt; git init.
 
 This initializes the current folder as a git repository and when it initializes the folder, it will mark that folder as a master.
 
@@ -510,7 +510,7 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we're going to look at is \> git status.
+The next command that we're going to look at is &amp;gt; git status.
 
 If you type git status in the command line, it'll tell you the current status of the folder.
 
@@ -528,19 +528,19 @@ Now, this index.html file that we have just created in this folder is now not be
 
 Let's go ahead and add that file to the git repository.
 
-To do that, we say, \> git add, and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.
+To do that, we say, &amp;gt; git add, and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.
 
-Now, if I again type \> git status, you will see that the file index.html is marked in green.
+Now, if I again type &amp;gt; git status, you will see that the file index.html is marked in green.
 
 And it says, changes to be committed there and then shows the file name and then so that means that this file is now ready to be committed to my git repository.
 
-The next command that we saw was \> git add.
+The next command that we saw was &amp;gt; git add.
 
 By using git add you can add file or folders to that staging area.
 
 Once you add it to the staging area, then you can commit that snapshot of our folder status to our git repository.
 
-That means that when you do the \> git commit, what this command will do is commit the current state of our folders into our git repositories.
+That means that when you do the &amp;gt; git commit, what this command will do is commit the current state of our folders into our git repositories.
 
 All the files as they exist at the moment, once they have been staged using the git add, then they will be committed to our git repository when we execute the git command folder.
 
@@ -548,11 +548,11 @@ At this point when we execute the git command, then our initial state will now b
 
 Let's go ahead and do that.
 
-Back at the command prompt, let's type \> git commit.
+Back at the command prompt, let's type &amp;gt; git commit.
 
 And then we can even add a message to our commit.
 
-I'm going to say \> git commit -m "first commit" because this is our commit to our git repository.
+I'm going to say &amp;gt; git commit -m "first commit" because this is our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git repository and some other information will be typed out on to the command window.
 
@@ -560,13 +560,13 @@ Let's now check again, git status and now you see that it says nothing to commit
 
 What it means is that the current state of my working directory or working folder has been committed to the git repository, so a snapshot has been committed to my git repository.
 
-Now, I can type the next command called \> git log --oneline, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.
+Now, I can type the next command called &amp;gt; git log --oneline, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.
 
 That is the log of all the commits that have been put into my git repository.
 
-Going back to our next git command, we saw that \> git log --oneline will show us a brief log of all the commits.
+Going back to our next git command, we saw that &amp;gt; git log --oneline will show us a brief log of all the commits.
 
-If you simply type \> git log display a lot more detailed information about all the commits.
+If you simply type &amp;gt; git log display a lot more detailed information about all the commits.
 
 But this is sufficient enough for obtaining information that we require.
 
@@ -591,11 +591,11 @@ With test.html now there, I'm just going to copy everything from my index.html i
 
 Going back to the command line, let's now check out the status of our git repository and this folder.
 
-Type in \> git status, shows that the index status html file that we have already handed earlier to the repository has now been modified, so there is a newer version of the index.html file.
+Type in &amp;gt; git status, shows that the index status html file that we have already handed earlier to the repository has now been modified, so there is a newer version of the index.html file.
 
 Also, it shows that there are some untracked files in this folder called templates.
 
-Let's add all these changes to the staging the area, so again, type \> git add.
+Let's add all these changes to the staging the area, so again, type &amp;gt; git add.
 
 And then all these files will be added to the staging area.
 
@@ -605,11 +605,11 @@ You now see that changes that have been added to the staging area.
 
 All these files have been added to the staging area.
 
-Let's do one more commit, so I would say \> git commit -m, second commit and then let's check out the log. If you check out the log, you'll now see that there are two commits in my git repository, the first and the second commit.
+Let's do one more commit, so I would say &amp;gt; git commit -m, second commit and then let's check out the log. If you check out the log, you'll now see that there are two commits in my git repository, the first and the second commit.
 
 And note that each one of them is given a different number there.
 
-If you want to see their full details of the log, you can type simply, \> git log and then you'll receive more details in there.
+If you want to see their full details of the log, you can type simply, &amp;gt; git log and then you'll receive more details in there.
 
 Then what you would be interested in.
 
@@ -625,13 +625,13 @@ Now my index.html file has been modified.
 
 And let's save the changes.
 
-Going back to the command line, doing \> git status shows that index.html file has been modified.
+Going back to the command line, doing &amp;gt; git status shows that index.html file has been modified.
 
 Let's add this to the staging area, and then do a third commit.
 
-Let's say, \> git add., \> git status, now you see that the index.html the modified version has been added.
+Let's say, &amp;gt; git add., &amp;gt; git status, now you see that the index.html the modified version has been added.
 
-Now we can say \> git commit. "third commit" and do \> git log --oneline, and you see there are three commits in our repository.
+Now we can say &amp;gt; git commit. "third commit" and do &amp;gt; git log --oneline, and you see there are three commits in our repository.
 
 Now our repository contains snapshots of three different points, at the end of the first commit, at the end of the second commit, and at the end of the third commit.
 
@@ -645,7 +645,7 @@ At this stage, our index.html file is in the current state. So you can notice th
 
 Let's now look at the next git command.
 
-The next git command that we are going to learn about is \> git checkout.
+The next git command that we are going to learn about is &amp;gt; git checkout.
 
 This checkout command allows us to check out a file from a previous commit in our git repository.
 
@@ -657,7 +657,7 @@ Going back to our command line, we remember that, between the second and the thi
 
 Suppose I want to revert back to the index.html file from my second commit.
 
-Then, I can simply say, \> git checkout 900cfcf.
+Then, I can simply say, &amp;gt; git checkout 900cfcf.
 
 That is commit identify the number that identifies the particular commit, and then I can say index.html, and what you would notice is that, that older file will now be checked out into my current working directory.
 
@@ -679,15 +679,15 @@ If you go back and look at the index.html in your editor, it will still show the
 
 Because we had pulled out the file using checkout for that.
 
-Now, if you want to revert it back to what it was at the end of the third commit, then we do one more checkout from the third commit going to our command window, type \> git status and you would notice that the index.html is marked as modified.
+Now, if you want to revert it back to what it was at the end of the third commit, then we do one more checkout from the third commit going to our command window, type &amp;gt; git status and you would notice that the index.html is marked as modified.
 
-But it also shows this particular statement here. It says \> git checkout -- and the file name, to discard the changes in the working directories.
+But it also shows this particular statement here. It says &amp;gt; git checkout -- and the file name, to discard the changes in the working directories.
 
 That's one way you can discard the changes that you have made to a particular file corresponding to the previous comment.
 
 Let me just restore that index.html back to what it was at the end of the third commit.
 
-To do that, I could simply say \> git checkout -- index.html and then, if I do git status, it shows that my directory is clean.
+To do that, I could simply say &amp;gt; git checkout -- index.html and then, if I do git status, it shows that my directory is clean.
 
 And basically my directory has been restored to the state at the end of the third commit.
 
@@ -764,7 +764,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git init
+&amp;gt; git init
 ```
 
 <h3><b>Checking your Git repository status</b></h3>
@@ -773,7 +773,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git status
+&amp;gt; git status
 ```
 
 <h3><b>Adding files to the staging area</b></h3>
@@ -783,7 +783,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git add .
+&amp;gt; git add .
 ```
 
 <h3><b>Commiting to the Git repository</b></h3>
@@ -791,7 +791,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <h3>To commit the current staging area to your Git repository, type:</h3>
 
 ```
-\> git commit -m "first commit"
+&amp;gt; git commit -m "first commit"
 ```
 
 <h3><b>Checking the log of Git commits</b></h3>
@@ -799,7 +799,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <h3>To check the log of the commits to your Git repository, type</h3>
 
 ```
-\> git log --oneline
+&amp;gt; git log --oneline
 ```
 
 <h3>Now, modify the <i>index.html</i> file as follows:</h3>
@@ -845,7 +845,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git checkout \<second commit's number\> index.html
+&amp;gt; git checkout \<second commit's number\> index.html
 ```
 
 <h3>Resetting the Git repository</h3>
@@ -855,7 +855,7 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git reset HEAD index.html
+&amp;gt; git reset HEAD index.html
 ```
 
 <ul>
@@ -863,11 +863,11 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-\> git checkout -- index.html
+&amp;gt; git checkout -- index.html
 ```
 
 <ul>
-<li>You can also use \> git reset to reset the staging area to the last commit without disturbing the working directory.</li>
+<li>You can also use &amp;gt; git reset to reset the staging area to the last commit without disturbing the working directory.</li>
 </ul>
 
 <h3>Conclusions</h3>
@@ -1081,7 +1081,9 @@ git remote add origin <repository URL>
 <li>At the prompt, type the following to push the commits to the online repository:</li><br>
 </ul>
 
-\> git push -u origin master
+```
+&amp;gt; git push -u origin master
+```
 
 <h4><b>Cloning an online repository</b></h4>
 
@@ -1099,7 +1101,7 @@ git remote add origin <repository URL>
    width="85%" />
 </p>
 ```
-\> git clone <repository URL>
+&amp;gt; git clone <repository URL>
 ```
 
 <h4><b>Conclusions</b></h4>
@@ -2186,7 +2188,7 @@ This exercise introduces the first set of steps to set up your web page to make 
     <b>npm install jquery@3.3.1 popper.js@1.12.9 --save</b>
 
 <ul>
-<li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-\>dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li><br>
+<li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-&amp;gt;dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li><br>
 <li>Open your project folder in your editor, and then open the index.html file in the <i>conFusion</i> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.</li><br>
 <li>Start your lite-server by typing <b>npm start</b> at the prompt. The <i>index.html</i> file should now be loaded into your default browser.</li>
 </ul>
@@ -5418,6 +5420,7 @@ In this exercise, we will examine user input for a website through the use of Bu
 <ul>
 <li>We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</li>
 </ul>
+
 <b>
 ```
     <div class="btn-group" role="group">
@@ -5427,6 +5430,7 @@ In this exercise, we will examine user input for a website through the use of Bu
     </div>
 ```
 </b>
+
 Note how we define the button bar using the <i>btn-group</i> class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an <i>href</i> associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the <i>btn</i> class.
 <ul>
 <li>Remember to do a Git commit with the message "Buttons".</li>
