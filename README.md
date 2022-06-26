@@ -9351,7 +9351,7 @@ Note the use of the variables and the mixin with various parameters in defining 
 
 This will install the <i>less</i> NPM module globally so that it can be used by any project. **Note: if you are executing this on a Mac or Linux machine, you may need to add "sudo" to the beginning of this command**. This will make available the <i>lessc</i> compiler for us so that we can compile Less files.
 
--   Next, go to the CSS folder on your machine and rename the <i>styles.css</i> file that you have there as <i>styles-old.css*. This is to save the CSS file that we have been using so far. We will be creating a new <i>styles.css</i> file by compiling the Less file.
+-   Next, go to the CSS folder on your machine and rename the <i>styles.css</i> file that you have there as <i>styles-old.css</i>. This is to save the CSS file that we have been using so far. We will be creating a new <i>styles.css</i> file by compiling the Less file.
 -   Next type the following at the command prompt to compile the Less file into a CSS file:
 
 ```
@@ -9486,30 +9486,30 @@ We will make use of this to define several row classes next.
     min-height:400px;
     }
     .footer{
-    background-color: \$background-pale;
+    background-color: $background-pale;
     @include zero-margin(20px, 0px);
     }
     .jumbotron {
     @include zero-margin(70px,30px);
-    background: \$background-light ;
+    background: $background-light ;
     color:floralwhite;
     }
     address{
     font-size:80%;
     margin:0px;
-    color:\#0f0f0f;
+    color:#0f0f0f;
     }
     body{
     padding:50px 0px 0px 0px;
     z-index:0;
     }
     .navbar-dark {
-    background-color: \$background-dark;
+    background-color: $background-dark;
     }
     .tab-content {
-    border-left: 1px solid \$lt-gray;
-    border-right: 1px solid \$lt-gray;
-    border-bottom: 1px solid \$lt-gray;
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
 ```
 
 Note the use of the variables and the mixin with various parameters in defining the classes.
@@ -9520,9 +9520,9 @@ Note the use of the variables and the mixin with various parameters in defining 
 
 ```
     .carousel {
-    background:\$background-dark;
+    background:$background-dark;
     .carousel-item {
-    height: \$carousel-item-height;
+    height: $carousel-item-height;
     img {
     position: absolute;
     top: 0;
@@ -9549,7 +9549,9 @@ This will install the <i>node-sass</i> NPM module into your project and also add
 
 -   Next open your package.json file and add the following line into the scripts object there. This adds a script to enable the compilation of the Scss file into a CSS file:
 
-**"scss": "node-sass -o css/ css/"**
+```
+"scss": "node-sass -o css css"
+```
 
 -   In order to transform the Scss file to a CSS file, type the following at the prompt:
 
@@ -11499,13 +11501,13 @@ In this exercise, you will learn to use Gulp, the task runner. You will install 
 
 -   At the command prompt, type the following to install Gulp command-line interface (CLI) globally:
 
-    **npm install -g gulp-cli@2.0.1**
+    <b>npm install -g gulp-cli@2.0.1</b>
 
 This will install the Gulp globally so that you can use it in all projects.
 
 -   Next install Gulp to use within your project. To do this, go to the <i>conFusion</i> folder and type the following at the prompt:
 
-    **npm install gulp@3.9.1 --save-dev**
+    <b>npm install gulp@3.9.1 --save-dev</b>
 
 This will install local per-project Gulp to use within your project.
 
@@ -11513,7 +11515,7 @@ This will install local per-project Gulp to use within your project.
 
 -   Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:
 
-    **npm install gulp-sass@3.1.0 browser-sync@2.23.6 --save-dev**
+    <b>npm install gulp-sass@3.1.0 browser-sync@2.23.6 --save-dev</b>
 
 <h4>Creating a Gulp File</h4>
 
@@ -11536,19 +11538,19 @@ This will install local per-project Gulp to use within your project.
 
 ```
     gulp.task('sass', function () {
-    return gulp.src('./css/\*.scss')
+    return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
     });
     gulp.task('sass:watch', function () {
-    gulp.watch('./css/\*.scss', ['sass']);
+    gulp.watch('./css/*.scss', ['sass']);
     });
     gulp.task('browser-sync', function () {
     var files = [
-    './\*.html',
-    './css/\*.css',
-    './img/\*.{png,jpg,gif}',
-    './js/\*.js'
+    './*.html',
+    './css/*.css',
+    './img/*.{png,jpg,gif}',
+    './js/*.js'
     ];
     browserSync.init(files, {
     server: {
@@ -11568,7 +11570,7 @@ This will install local per-project Gulp to use within your project.
 
 -   At the command prompt, if you type <i>gulp</i> it will run the default task:
 
-    **gulp**
+    <b>gulp</b>
 
 -   Do a Git commit with the message "Gulp Part 1".
 
@@ -11691,7 +11693,7 @@ At the end of this exercise, you will be able to:
 
 <h4>At the command prompt, if you type <i>gulp build</i> it will run the build task:</h4>
 
-**gulp build**
+<b>gulp build</b>
 
 <h4>Do a Git commit with the message "Gulp Part 2"</h4>
 
@@ -11703,7 +11705,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins, configure the gu
 
 <h4>PDFs of Presentations</h4>
 
-**10-Task-Runners.pdf**
+<b>10-Task-Runners.pdf</b>
 
 <h4>Grunt Resources</h4>
 
