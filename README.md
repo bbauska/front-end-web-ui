@@ -7110,11 +7110,11 @@ In this exercise we will explore Bootstrap tabs and tabbed navigation. In partic
 <h4>Adding Tab Navigation Elements</h4>
 
 <ul>
-<li>Open the <i>aboutus.html<i> page and move to the second content row containing the details of the corporate leadership of the restaurant.</li><br>
+<li>Open the <i>aboutus.html</i> page and move to the second content row containing the details of the corporate leadership of the restaurant.</li><br>
 <li>Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:</li>
 </ul>
 
-```
+```html
     <ul class="nav nav-tabs">
     <li class="nav-item">
     <a class="nav-link active" href="#peter"
@@ -7134,30 +7134,50 @@ In this exercise we will explore Bootstrap tabs and tabbed navigation. In partic
     </li>
     </ul>
 ```
-Note the use of the *\<ul\>* tag with the <i>nav</i> and <i>nav-tabs</i> classes to set up the tab navigation. Each list item within the list acts as the tab element. Within each list item, note that we set up the *\<a\>* tags with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be introduced later. Also note that the *\<a\>* tag contains the <i>data-toggle=tab</i> attribute. The first list element's *\<a\>* tag contains the class <i>active*. This tab will be the open tab when we view the web page. We can switch to the other tabs using the tabbed navigation that we just set up.
+<p>
+Note the use of the *\<ul\>* tag with the <i>nav</i> and <i>nav-tabs</i> classes to set up the tab navigation. 
 
-### Adding Tab Content
+Each list item within the list acts as the tab element. 
 
--   The details about the various corporate leaders should now be organized into various tab panes. To begin this, we will enclose the entire content into a div element with the class tab-content as specified below:
+Within each list item, note that we set up the *\<a\>* tags with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be introduced later. 
+
+Also note that the *\<a\>* tag contains the <i>data-toggle=tab</i> attribute. 
+The first list element's *\<a\>* tag contains the class active*.
+
+This tab will be the open tab when we view the web page. 
+
+We can switch to the other tabs using the tabbed navigation that we just set up.
+
+<h3>Adding Tab Content</h3>
+
+-   The details about the various corporate leaders should now be organized into various tab panes. 
+
+To begin this, we will enclose the entire content into a div element with the class tab-content as specified below:
+
 ```
     <div class="tab-content">
     ...
     </div>
 ```
+
 -   Then we take the name and description of the CEO of the company and enclose it within a tab-pane as follows
+
 ```
     <div role="tabpanel" class="tab-pane fade show active" id="peter">
     <h3\>Peter Pan <small>Chief Epicurious Officer</small></h3>
     <p> ... </p>
     </div>
 ```
-Note the use of the <i>tab-pane, fade, show,* and <i>active</i> classes and with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the *\<a\>* link in the navigation.
+
+Note the use of the tab-pane, fade, show,* and <i>active</i> classes and with <i>peter</i> as the id. 
+
+This is the same id used as the <i>href</i> in the *\<a\>* link in the navigation.
 
 <ul>
 <li>The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the <i>show</i> and <i>active</i> classes specified to indicate that the content should be visible on the web page by default.</li>
 </ul>
 
-### **Modifying the tab-content CSS**
+<h3>Modifying the tab-content CSS</h3>
 
 <ul>
 <li>We now modify the CSS styles for the tab-content class in the <i>mystyles.css</i> file as follows:</li>
@@ -7178,15 +7198,15 @@ This modification adds a 1px border to the tab content which joins with the uppe
 <li>Finally do a Git commit with the message "Tabs".</li>
 </ul>
 
-### Conclusions
+<h3>Conclusions</h3>
 
 In this exercise we learnt the use of tabbed navigation, tab content and tab panes and their use in organizing and navigating within the content in a page.
 
 <h3>Tabs and Tabbed Navigation: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h3>PDFs of Presentations</h3>
 
-**08-Tabs-Pills-Navigation.pdf**
+<b>08-Tabs-Pills-Navigation.pdf</b>
 
 <h4>Bootstrap Resources</h4>
 
@@ -7199,7 +7219,9 @@ In this exercise we learnt the use of tabbed navigation, tab content and tab pan
 
 <h3>Hide and Seek: Objectives and Outcomes</h3>
 
-In this lesson we learn about the collapse javascript plugin that allows us to hide and reveal content. In particular we explore its use in creating an accordion. At the end of this lesson, you will be able to:
+In this lesson we learn about the collapse javascript plugin that allows us to hide and reveal content. 
+
+In particular we explore its use in creating an accordion. At the end of this lesson, you will be able to:
 
 <ul>
 <li>Use the collapse plugin to hide/reveal content.</li><br>
@@ -7410,7 +7432,7 @@ This is a good time for you to do a git commit with the message accordion..
 
 <h3>Exercise (Instructions): Accordion</h3>
 
-### Objectives and Outcomes
+<h3>Objectives and Outcomes</h3>
 
 In this exercise we explore the use of the collapse Javascript plugin together with card component to create an accordion to show/hide content in a web page. At the end of this exercise, you will be able to:
 
@@ -7418,7 +7440,7 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 <li>Design an accordion using the collapse plugin together with the card component.</li>
 </ul>
 
-### Converting Tabs to Accordion
+<h3>Converting Tabs to Accordion</h3>
 
 <ul>
 <li>First delete the \<ul\> class that was introduced for the tabbed navigation.</li><br>
@@ -7426,30 +7448,31 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 </ul>
 
 ```
-    **<div id="accordion">**
-    **. . .**
-    **</div>**
+    <div id="accordion">
+    . . .
+    </div>
 ```
 
 <ul>
-<li>Then, convert the first tab-pane into a card such that the name appears as a card heading, and the \<p\> will be in the card body. Use the structure of the code as shown below:</li>
+<li>Then, convert the first tab-pane into a card such that the name appears as a card heading, and the \<p\> will be in the card body. 
+Use the structure of the code as shown below:</li>
 </ul>
 
 ```
-    **\<div class="card"\>**
-    **\<div class="card-header" role="tab" id="peterhead"\>**
-    **\<h3 class="mb-0"\>**
-    **\<a data-toggle="collapse" data-target="\#peter"\>**
-    **Peter Pan \<small\>Chief Epicurious Officer\</small\>**
-    **\</a\>**
-    **\</h3\>**
-    **\</div\>**
-    **\<div class="collapse show" id="peter" data-parent="\#accordion"\>**
-    **\<div class="card-body"\>**
-    **\<p class="d-none d-sm-block"\>. . .\</p\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
+    <div class="card">
+    <div class="card-header" role="tab" id="peterhead">
+    <h3 class="mb-0">
+    <a data-toggle="collapse" data-target="#peter">
+    Peter Pan <small>Chief Epicurious Officer</small>
+    </a>
+    </h3>
+    </div>
+    <div class="collapse show" id="peter" data-parent="#accordion">
+    <div class="card-body">
+    <p class="d-none d-sm-block">. . .</p>
+    </div>
+    </div>
+    </div>
 ```
 
 <ul>
@@ -7457,46 +7480,46 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 </ul>
 
 ```
-    **<div class="card">**
-    **<div class="card-header" role="tab" id="dannyhead">**
-    **<h3 class="mb-0">**
-    **<a class="collapsed" data-toggle="collapse" data-target="#danny">**
-    **Dhanasekaran Witherspoon <small>Chief Food Officer</small>**
-    **</a>**
-    **</h3>**
-    **</div>**
-    **<div class="collapse" id="danny" data-parent="#accordion">**
-    **<div class="card-body">**
-    **<p class="d-none d-sm-block">. . .</em></p>**
-    **</div>**
-    **</div>**
-    **</div>**
-    **<div class="card">**
-    **<div class="card-header" role="tab" id="agumbehead">**
-    **<h3 class="mb-0">**
-    **<a class="collapsed" data-toggle="collapse" data-target="#agumbe">**
-    **Agumbe Tang <small>Chief Taste Officer</small>**
-    **</a>**
-    **</h3>**
-    **</div>**
-    **<div class="collapse" id="agumbe" data-parent="#accordion">**
-    **<div class="card-body">**
-    **<p class="d-none d-sm-block">. . .</p>**
-    **</div>**
-    **</div>**
-    **</div>**
-    **<div class="card">**
-    **<div class="card-header" role="tab" id="albertohead">**
-    **<h3 class="mb-0">**
-    **<a class="collapsed" data-toggle="collapse" data-target="#alberto">**
-    **Alberto Somayya <small>Executive Chef</small>**
-    **</a>**
-    **</h3>**
-    **</div>**
-    **<div class="collapse" id="alberto" data-parent="#accordion">**
-    **<div class="card-body">**
-    **<p class="d-none d-sm-block">. . .</em></p>**
-    **</div>**
+    <div class="card">
+    <div class="card-header" role="tab" id="dannyhead">
+    <h3 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" data-target="#danny">
+    Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+    </a>
+    </h3>
+    </div>
+    <div class="collapse" id="danny" data-parent="#accordion">
+    <div class="card-body">
+    <p class="d-none d-sm-block">. . .</em></p>
+    </div>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-header" role="tab" id="agumbehead">
+    <h3 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+    Agumbe Tang <small>Chief Taste Officer</small>
+    </a>
+    </h3>
+    </div>
+    <div class="collapse" id="agumbe" data-parent="#accordion">
+    <div class="card-body">
+    <p class="d-none d-sm-block">. . .</p>
+    </div>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-header" role="tab" id="albertohead">
+    <h3 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+    Alberto Somayya <small>Executive Chef</small>
+    </a>
+    </h3>
+    </div>
+    <div class="collapse" id="alberto" data-parent="#accordion">
+    <div class="card-body">
+    <p class="d-none d-sm-block">. . .</em></p>
+    </div>
 ```
 
 <ul>
@@ -7504,17 +7527,17 @@ In this exercise we explore the use of the collapse Javascript plugin together w
 <li>Finally do a Git commit with the message "Accordion".</li>
 </ul>
 
-### Conclusions
+<h3>Conclusions</h3>
 
 In this exercise we constructed the accordion using the collapse plugin together with the card component.
 
 <h3>Hide and Seek: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h3>PDFs of Presentations</h3>
 
-**09-Collapse.pdf**
+<b>09-Collapse.pdf</b>
 
-**Bootstrap Resources**
+<b>Bootstrap Resources</b>
 
 -   [Bootstrap Collapse](http://getbootstrap.com/docs/4.0/components/collapse/)
 -   [Bootstrap Accordion Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example)
@@ -7523,9 +7546,9 @@ In this exercise we constructed the accordion using the collapse plugin together
 
 In this lesson we look at several ways of presenting information to users by overlaying the information on top of the page. In particular, we look at tooltips, popovers and modals. At the end of this lesson, you will be able to:
 
--   Set up a tooltip to be displayed when the user hovers over an area of the page
--   Enable popovers when the user clicks on a link or button
--   Reveal and hide modals when the user clicks on a link or button
+-   Set up a tooltip to be displayed when the user hovers over an area of the page.
+-   Enable popovers when the user clicks on a link or button.
+-   Reveal and hide modals when the user clicks on a link or button.
 
 <h3>Tooltips, Popovers and Modals</h3>
 
@@ -7817,7 +7840,7 @@ This is a good time for you to do a git-commint with the message tool tips and m
 
 <h3>Exercise (Instructions): Tooltips and Modals</h3>
 
-### **Objectives and Outcomes**
+<h3>Objectives and Outcomes</h3>
 
 In this exercise we will examine how to add tooltips to a web page. In addition we look at adding modals to a web page. At the end of this exercise, you will be able to:
 
@@ -7826,27 +7849,28 @@ In this exercise we will examine how to add tooltips to a web page. In addition 
 <li>Add modals that are revealed when the user clicks on a link or a button in the web page.</li>
 </ul>
 
-### **Adding a Tooltip**
+<h3>Adding a Tooltip</h3>
 
 <ul>
 <li>Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:</li>
 </ul>
 
 ```
-    **<a role="button" class="btn btn-block nav-link btn-warning"**
-    **data-toggle="tooltip" data-html="true" title="Or Call us at <br><strong>+852 12345678</strong>"**
-    **data-placement="bottom" href="#reserveform">Reserve Table</a>**
+    <a role="button" class="btn btn-block nav-link btn-warning"
+    data-toggle="tooltip" data-html="true" title="Or Call us at <br><strong>+852 12345678</strong>"
+    data-placement="bottom" href="#reserveform">Reserve Table</a>
 ```
 
 As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:
+
 ```
-    **<script>**
-    **$(document).ready(function(){**
-    **$('[data-toggle="tooltip"]').tooltip();**
-    **});**
-    **</script>**
+    <script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
 ```
 
 This script is added right after the line that imports the bootstrap.min.js file.
@@ -7858,43 +7882,44 @@ This script is added right after the line that imports the bootstrap.min.js file
 </ul>
 
 ```
-    **\<div id="loginModal" class="modal fade" role="dialog"\>**
-    **\<div class="modal-dialog modal-lg" role="content"\>**
-    **<!-- Modal content-->**
-    **<div class="modal-content">**
-    **<div class="modal-header">**
-    **<h4 class="modal-title">Login </h4>**
-    **<button type="button" class="close" data-dismiss="modal">&times;</button>**
-    **</div>**
-    **<div class="modal-body">**
-    **<form>**
-    **<div class="form-row">**
-    **<div class="form-group col-sm-4">**
-    **<label class="sr-only" for="exampleInputEmail3">Email address</label>**
-    **<input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">**
-    **</div>**
-    **<div class="form-group col-sm-4">**
-    **<label class="sr-only" for="exampleInputPassword3">Password</label>**
-    **<input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">**
-    **</div>**
-    **<div class="col-sm-auto">**
-    **<div class="form-check">**
-    **<input class="form-check-input" type="checkbox">**
-    **<label class="form-check-label"> Remember me**
-    **</label>**
-    **</div>**
-    **</div>**
-    **</div>**
-    **<div class="form-row">**
-    **<button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>**
-    **<button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>**
-    **</div>**
-    **</form>**
-    **</div>**
-    **</div>**
-    **</div>**
-    **</div>**
+    <div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="content">
+    <!-- Modal content-->
+    <div class="modal-content">
+    <div class="modal-header">
+    <h4 class="modal-title">Login </h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+    <form>
+    <div class="form-row">
+    <div class="form-group col-sm-4">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+    </div>
+    <div class="form-group col-sm-4">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+    </div>
+    <div class="col-sm-auto">
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox">
+    <label class="form-check-label"> Remember me
+    </label>
+    </div>
+    </div>
+    </div>
+    <div class="form-row">
+    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+    <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
 ```
+
 <ul>
 <li>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the \:</li>
 </ul>
@@ -11779,5 +11804,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-<h3>last updated 06-06-2022 10:31pm front-end-web-ui</h3>
+<h3>last updated 06-25-2022 8:13pm front-end-web-ui</h3>
 </html>
