@@ -9447,7 +9447,7 @@ In this exercise you will learn to write Scss code and then automatically transf
 
 <h4>Adding Scss Variables</h4>
 
--   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.scss*. We will add the Scss code into this file.
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.scss</i>. We will add the Scss code into this file.
 -   Add the following Scss variables into the file:
 
 ```
@@ -9582,17 +9582,17 @@ In this exercise you learnt to write Scss code and then automatically generating
 
 We come to the final assignment of this course. In this fourth assignment, you're going to work with bootstraps, JQuery support and also a little bit of Sass. This assignment consists of four tasks.
 
-Your **first** task would be to remove all that data-attributes from both the login link here and the reserve of tables here.
+Your <b>first</b> task would be to remove all that data-attributes from both the login link here and the reserve of tables here.
 
 Now, in this assignment, we are going to trigger the models using JavaScript code.
 
 To do that, we'll first remove the data-attributes, both from the reserve model and the login model as our first task in this assignment.
 
-Your **second** task is to add appropriate JavaScript code by using the models methods, JavaScript methods that are available, such that when the reserve table pattern is clicked, then the corresponding reserve model will be displayed as seen here.
+Your <b>second</b> task is to add appropriate JavaScript code by using the models methods, JavaScript methods that are available, such that when the reserve table pattern is clicked, then the corresponding reserve model will be displayed as seen here.
 
 We see that this showing and hiding of the model is triggered completely using the JavaScript methods of that model.
 
-Your **third** task would be to, again, insert appropriate code into the script such that when you click on the login link here, the login model will be displayed.
+Your <b>third</b> task would be to, again, insert appropriate code into the script such that when you click on the login link here, the login model will be displayed.
 
 Now, in order for this to work, you need to give appropriate IDs both to the reserve table button and the login link such that they can then be referenced in your JavaScript code.
 
