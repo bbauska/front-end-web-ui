@@ -9251,7 +9251,7 @@ In this exercise you will learn to write Less code and then automatically transf
 
 <h4>Adding Less Variables</h4>
 
--   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.less*. We will add the Less code into this file.
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.less</i>. We will add the Less code into this file.
 -   Add the following Less variables into the file:
 
 ```
