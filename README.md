@@ -7852,7 +7852,7 @@ In this exercise we will examine how to add tooltips to a web page. In addition 
 <h3>Adding a Tooltip</h3>
 
 <ul>
-<li>Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the *\<a\>* tag for the button as follows:</li>
+<li>Let us now switch to the <i>index.html</i> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the \<a\> tag for the button as follows:</li>
 </ul>
 
 ```
@@ -7861,7 +7861,7 @@ In this exercise we will examine how to add tooltips to a web page. In addition 
     data-placement="bottom" href="#reserveform">Reserve Table</a>
 ```
 
-As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
+As you can see from the code, we add a <i>data-toggle</i>, <i>data-placement</i> and a <i>title</i> attribute to the \<a\> tag in order to introduce a tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:
 
@@ -7875,7 +7875,7 @@ As you can see from the code, we add a <i>data-toggle*, <i>data-placement</i> an
 
 This script is added right after the line that imports the bootstrap.min.js file.
 
-### Adding a Modal
+<h3>Adding a Modal</h3>
 
 <ul>
 <li>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.</li>
@@ -7925,29 +7925,29 @@ This script is added right after the line that imports the bootstrap.min.js file
 </ul>
 
 ```
-    **<span class="navbar-text">**
-    **<a data-toggle="modal" data-target="#loginModal">**
-    **<span class="fa fa-sign-in"></span> Login</a>**
-    **</span>**
+    <span class="navbar-text">
+    <a data-toggle="modal" data-target="#loginModal">
+    <span class="fa fa-sign-in"></span> Login</a>
+    </span>
 ```
 
-We are introducing another link to the right of the navbar using the <i>navbar-text*. This contains a link with an *\<a\>* tag with the <i>data-toggle="modal"* and <i>data-target="\#loginModal"* attributes.
+We are introducing another link to the right of the navbar using the <i>navbar-text</i>. This contains a link with an \<a\> tag with the <i>data-toggle="modal"</i> and <i>data-target="\#loginModal"</i> attributes.
 
 <ul>
 <li>Save all the changes and do a Git commit with the message "Tooltip and Modal".</li>
 </ul>
 
-### **Conclusions**
+<h3>Conclusions</h3>
 
 In this exercise we explored tooltips and modals as two ways of revealing content for the user upon clicking on a button or a link.
 
 <h3>Revealing Content: Additional Resources</h3>
 
-### **PDFs of Presentations**
+<h3>PDFs of Presentations</h3>
 
-**09-Tooltips-Popovers-Modals.pdf**
+<b>09-Tooltips-Popovers-Modals.pdf</b>
 
-### **Bootstrap Resources**
+<h3>Bootstrap Resources</h3>
 
 -   [Bootstrap Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/)
 -   [Bootstrap Popovers](http://getbootstrap.com/docs/4.0/components/popovers/)
@@ -8165,8 +8165,8 @@ In this exercise we will examine the carousel component and add it to the web pa
 </ul>
 
 ```
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">**
-    </div>**
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    </div>
 ```
 
 <h4>Adding Carousel Content</h4>
@@ -8236,12 +8236,12 @@ Note that the first item has been set up partially. Fill in the remaining parts 
 </ul>
 
 ```
-    **\<a class="carousel-control-prev" href="\#mycarousel" role="button" data-slide="prev"\>**
-    **\<span class="carousel-control-prev-icon"\>\</span\>**
-    **\</a\>**
-    **\<a class="carousel-control-next" href="\#mycarousel" role="button" data-slide="next"\>**
-    **\<span class="carousel-control-next-icon"\>\</span\>**
-    **\</a\>**
+    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </a>
 ```
 
 -   Do a Git commit with the message "Carousel".
@@ -8256,7 +8256,7 @@ We also learnt about introducing manual controls to the carousel.
 
 <h4>PDFs of Presentations</h4>
 
-**09-Carousel.pdf**
+<b>09-Carousel.pdf</b>
 
 Open file
 
@@ -8830,7 +8830,7 @@ This exercise illustrates to you how we can use JavaScript code to be able to co
 
 This is a good time to do a comment of your code with the message Bootstrap jQuery.
 
-</h3>Exercise (Video): More Bootstrap and JQuery</h3>
+<h3>Exercise (Video): More Bootstrap and JQuery</h3>
 
 In the previous exercise, we saw how we can leverage the JavaScript-based controls that are provided for the Bootstrap JavaScript components in order to control the behavior of the components.
 
@@ -8973,9 +8973,11 @@ In this exercise we extend the previous exercise of controlling the carousel by 
 
 -   We will modify the carousel control buttons in the carousel component that we already included in the index.html page. Instead of two buttons, we will use a single button that will indicate if the carousel is currently cycling or paused. Furthermore we can use the button to toggle the carousel cycling behavior:
 
-    **\<button class="btn btn-danger btn-sm" id="carouselButton"\>**
-    **\<span id="carousel-button-icon" class="fa fa-pause"\>\</span\>**
-    **\</button\>**
+```
+    <button class="btn btn-danger btn-sm" id="carouselButton">
+    <span id="carousel-button-icon" class="fa fa-pause"></span>
+    </button>
+```
 
 We are adding a single button inside a button group with the ID carouselButton. The buttons will show either as a pause or play button based on the current behavior of the carousel.
 
@@ -8983,18 +8985,20 @@ We are adding a single button inside a button group with the ID carouselButton. 
 
 -   Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:
 
-    **\$("\#carouselButton").click(function(){**
-    **if (\$("\#carouselButton").children("span").hasClass('fa-pause')) {**
-    **\$("\#mycarousel").carousel('pause');**
-    **\$("\#carouselButton").children("span").removeClass('fa-pause');**
-    **\$("\#carouselButton").children("span").addClass('fa-play');**
-    **}**
-    **else if (\$("\#carouselButton").children("span").hasClass('fa-play')){**
-    **\$("\#mycarousel").carousel('cycle');**
-    **\$("\#carouselButton").children("span").removeClass('fa-play');**
-    **\$("\#carouselButton").children("span").addClass('fa-pause');**
-    **}**
-    **});**
+```
+    $("#carouselButton").click(function(){
+    if (\$("\#carouselButton").children("span").hasClass('fa-pause')) {
+    $("#mycarousel").carousel('pause');
+    $("#carouselButton").children("span").removeClass('fa-pause');
+    $("#carouselButton").children("span").addClass('fa-play');
+    }
+    else if ($("#carouselButton").children("span").hasClass('fa-play')){
+    $("#mycarousel").carousel('cycle');
+    $("#carouselButton").children("span").removeClass('fa-play');
+    $("#carouselButton").children("span").addClass('fa-pause');
+    }
+    });
+```
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
 
@@ -9006,7 +9010,7 @@ In this exercise we learnt more about Bootstrap's JS component methods and how t
 
 <h4>PDFs of Presentations</h4>
 
-**09-Bootstrap-JQuery.pdf**
+<b>09-Bootstrap-JQuery.pdf</b>
 
 <h4>Bootstrap Resources</h4>
 
@@ -9250,12 +9254,14 @@ In this exercise you will learn to write Less code and then automatically transf
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.less*. We will add the Less code into this file.
 -   Add the following Less variables into the file:
 
-    **@lt-gray: \#ddd;**
-    **@background-dark: \#512DA8;**
-    **@background-light: \#9575CD;**
-    **@background-pale: \#D1C4E9;**
-    **// Height variables**
-    **@carousel-item-height: 300px;**
+```
+    @lt-gray: #ddd;
+    @background-dark: #512DA8;
+    @background-light: #9575CD;
+    @background-pale: #D1C4E9;
+    // Height variables
+    @carousel-item-height: 300px;
+```
 
 We have just added a few color and a height variable. We will make use of these variables while defining the classes.
 
@@ -9263,48 +9269,52 @@ We have just added a few color and a height variable. We will make use of these 
 
 -   Next we add a mixin into the file as follows:
 
-    **.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {**
-    **margin:0px auto;**
-    **padding: @pad-up-dn @pad-left-right;**
-    **}**
+```
+    .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+    margin:0px auto;
+    padding: @pad-up-dn @pad-left-right;
+    }
+```
 
 We will make use of this to define several row classes next.
 
 -   Using the variables and Mixin class that we defined earlier, add the following row classes to the file:
 
-    **address{**
-    **font-size:80%;**
-    **margin:0px;**
-    **color:\#0f0f0f;**
-    **}**
-    **body{**
-    **padding:50px 0px 0px 0px;**
-    **z-index:0;**
-    **}**
-    **.navbar-dark {**
-    **background-color: @background-dark;**
-    **}**
-    **.tab-content {**
-    **border-left: 1px solid @lt-gray;**
-    **border-right: 1px solid @lt-gray;**
-    **border-bottom: 1px solid @lt-gray;**
-    **color:floralwhite;**
-    **}**
-    **.jumbotron {**
-    **.zero-margin(70px,30px);**
-    **background: @background-light ;**
-    **}**
-    **.footer{**
-    **background-color: @background-pale;**
-    **.zero-margin(20px, 0px);**
-    **min-height:400px;**
-    **}**
-    **.zero-margin(50px,0px);**
-    **border-bottom: 1px ridge;**
-    **}**
-    **.row-content {**
-    **.row-header{**
-    **.zero-margin();**
+```
+    address{
+    font-size:80%;
+    margin:0px;
+    color:\#0f0f0f;
+    }
+    body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    }
+    .navbar-dark {
+    background-color: @background-dark;
+    }
+    .tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    color:floralwhite;
+    }
+    .jumbotron {
+    .zero-margin(70px,30px);
+    background: @background-light ;
+    }
+    .footer{
+    background-color: @background-pale;
+    .zero-margin(20px, 0px);
+    min-height:400px;
+    }
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    }
+    .row-content {
+    .row-header{
+    .zero-margin();
+```
 
 Note the use of the variables and the mixin with various parameters in defining the classes.
 
@@ -9312,41 +9322,45 @@ Note the use of the variables and the mixin with various parameters in defining 
 
 -   Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:
 
-    **.carousel {**
-    **background:@background-dark;**
-    **.carousel-item {**
-    **height: @carousel-item-height;**
-    **img {**
-    **position: absolute;**
-    **top: 0;**
-    **left: 0;**
-    **min-height: 300px;**
-    **}**
-    **}**
-    **}**
-    **\#carouselButton {**
-    **right:0px;**
-    **position: absolute;**
-    **bottom: 0px;**
-    **z-index: 1;**
-    **}**
+```
+    .carousel {
+    background:@background-dark;
+    .carousel-item {
+    height: @carousel-item-height;
+    img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    }
+    }
+    }
+    #carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    }
+```
 
 <h4>Installing and using the lessc Compiler</h4>
 
 -   Now we install the node module to support the compilation of the Less file. To do this, type the following at the command prompt:
 
-    **npm install -g less@2.7.2**
+    <b>npm install -g less@2.7.2</b>
 
 This will install the <i>less</i> NPM module globally so that it can be used by any project. **Note: if you are executing this on a Mac or Linux machine, you may need to add "sudo" to the beginning of this command**. This will make available the <i>lessc</i> compiler for us so that we can compile Less files.
 
 -   Next, go to the CSS folder on your machine and rename the <i>styles.css</i> file that you have there as <i>styles-old.css*. This is to save the CSS file that we have been using so far. We will be creating a new <i>styles.css</i> file by compiling the Less file.
 -   Next type the following at the command prompt to compile the Less file into a CSS file:
 
-    **lessc styles.less styles.css**
+```
+    lessc styles.less styles.css
+```
 
 -   You can now do a Git commit with the message "Less".
 
-### **Conclusions**
+<h3>Conclusions</h3>
 
 In this exercise you learnt to write Less code and then automatically generating the CSS file by compiling the Less code.
 
@@ -9436,12 +9450,14 @@ In this exercise you will learn to write Scss code and then automatically transf
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the css folder, create a file named <i>styles.scss*. We will add the Scss code into this file.
 -   Add the following Scss variables into the file:
 
-    **\$lt-gray: \#ddd;**
-    **\$background-dark: \#512DA8;**
-    **\$background-light: \#9575CD;**
-    **\$background-pale: \#D1C4E9;**
-    **// Height variables**
-    **\$carousel-item-height: 300px;**
+```
+    $lt-gray: #ddd;
+    $background-dark: #512DA8;
+    $background-light: #9575CD;
+    $background-pale: #D1C4E9;
+    // Height variables
+    $carousel-item-height: 300px;
+```
 
 We have just added a few color and a height variable. We will make use of these variables while defining the classes.
 
@@ -9449,48 +9465,52 @@ We have just added a few color and a height variable. We will make use of these 
 
 -   Next we add a mixin into the file as follows:
 
-    **@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
-    **margin:0px auto;**
-    **padding: \$pad-up-dn \$pad-left-right;**
-    **}**
+```
+    @mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin:0px auto;
+    padding: $pad-up-dn $pad-left-right;
+    }
+```
 
 We will make use of this to define several row classes next.
 
 -   Using the variables and Mixin class that we defined earlier, add the following row classes to the file:
 
-    **.row-header{**
-    **@include zero-margin(0px,0px);**
-    **}**
-    **.row-content {**
-    **@include zero-margin(50px,0px);**
-    **border-bottom: 1px ridge;**
-    **min-height:400px;**
-    **}**
-    **.footer{**
-    **background-color: \$background-pale;**
-    **@include zero-margin(20px, 0px);**
-    **}**
-    **.jumbotron {**
-    **@include zero-margin(70px,30px);**
-    **background: \$background-light ;**
-    **color:floralwhite;**
-    **}**
-    **address{**
-    **font-size:80%;**
-    **margin:0px;**
-    **color:\#0f0f0f;**
-    **}**
-    **body{**
-    **padding:50px 0px 0px 0px;**
-    **z-index:0;**
-    **}**
-    **.navbar-dark {**
-    **background-color: \$background-dark;**
-    **}**
-    **.tab-content {**
-    **border-left: 1px solid \$lt-gray;**
-    **border-right: 1px solid \$lt-gray;**
-    **border-bottom: 1px solid \$lt-gray;**
+```
+    .row-header{
+    @include zero-margin(0px,0px);
+    }
+    .row-content {
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+    }
+    .footer{
+    background-color: \$background-pale;
+    @include zero-margin(20px, 0px);
+    }
+    .jumbotron {
+    @include zero-margin(70px,30px);
+    background: \$background-light ;
+    color:floralwhite;
+    }
+    address{
+    font-size:80%;
+    margin:0px;
+    color:\#0f0f0f;
+    }
+    body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    }
+    .navbar-dark {
+    background-color: \$background-dark;
+    }
+    .tab-content {
+    border-left: 1px solid \$lt-gray;
+    border-right: 1px solid \$lt-gray;
+    border-bottom: 1px solid \$lt-gray;
+```
 
 Note the use of the variables and the mixin with various parameters in defining the classes.
 
@@ -9498,30 +9518,32 @@ Note the use of the variables and the mixin with various parameters in defining 
 
 -   Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:
 
-    **.carousel {**
-    **background:\$background-dark;**
-    **.carousel-item {**
-    **height: \$carousel-item-height;**
-    **img {**
-    **position: absolute;**
-    **top: 0;**
-    **left: 0;**
-    **min-height: 300px;**
-    **}**
-    **}**
-    **}**
-    **\#carouselButton {**
-    **right:0px;**
-    **position: absolute;**
-    **bottom: 0px;**
-    **z-index: 1;**
-    **}**
+```
+    .carousel {
+    background:\$background-dark;
+    .carousel-item {
+    height: \$carousel-item-height;
+    img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    }
+    }
+    }
+    #carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    }
+```
 
 <h4>Installing and using the node-sass module</h4>
 
 -   Now we install the node module to support the compilation of the Scss file to a CSS file. To do this, type the following at the command prompt:
 
-    **npm install --save-dev node-sass@4.7.2**
+    <b>npm install --save-dev node-sass@4.7.2</b>
 
 This will install the <i>node-sass</i> NPM module into your project and also add it as a development dependency in your package.json file.
 
@@ -9531,7 +9553,7 @@ This will install the <i>node-sass</i> NPM module into your project and also add
 
 -   In order to transform the Scss file to a CSS file, type the following at the prompt:
 
-**npm run scss**
+<b>npm run scss</b>
 
 -   You can now do a Git commit with the message "Sass".
 
@@ -9615,7 +9637,7 @@ And upon completing this assignment, you may wish to do a good comment to save y
    width="85%" />
 </p>
 
-<h3>**Bootstrap Documentation**</h3>
+<h3>Bootstrap Documentation</h3>
 
 <ul>
 <li><a href="http://getbootstrap.com/docs/4.0/components/modal/">Modals</a></li><br>
@@ -9808,7 +9830,9 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 -   Open <i>index.html</i> and from this file cut out all the JQuery script that we added to it and move the code to the <i>scripts.js</i> file that we created above.
 -   Then, update the <i>index.html</i> file to include the <i>scripts.js</i> file by adding the following line:
 
-**\<script src="js/scripts.js"\>\</script\>**
+```
+<script src="js/scripts.js"></script>**
+```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and <i>contactus.html*:
 
@@ -9816,31 +9840,38 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 
 -   First, we install two NPM packages <i>onchange</i> and <i>parallelshell</i> as follows:
 
-**npm install --save-dev onchange@3.3.0 parallelshell@3.0.2**
+npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 
 -   Then, add the following two script items to <i>package.json</i> if you are doing the exercise on a MacOS computer or a Linux computer:
 
-    **"watch:scss": "onchange 'css/\*.scss' -- npm run scss",**
+```
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+```
 
-    **"watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"**
+-   <b>NOTE:</b> If you are doing the exercise on a Windows computer, please use the following two script items instead of the above:
 
--   **NOTE:** If you are doing the exercise on a Windows computer, please use the following two script items instead of the above:
-
-    **"watch:scss": "onchange \\"css/\*.scss\\" -- npm run scss",**
-    **"watch:all": "parallelshell \\"npm run watch:scss\\" \\"npm run lite\\""**
+```
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+```
 
 -   You will also update the start script as follows:
 
-**"start": "npm run watch:all",**
+```
+"start": "npm run watch:all",
+```
 
 -   Then, type the following at the prompt to start watching for changes to the SCSS file, compile it to CSS, and run the server:
 
-**npm start**
+```
+npm start
+```
 
 -   Now, whenever you make any changes to <i>styles.scss</i> file, it will automatically be compiled to the corresponding css file.
 -   Do a Git Commit with the message "NPM Scripts Part 1".
 
-### **Conclusions**
+<h3>Conclusions</h3>
 
 In this exercise, you learnt how to set up a watch task to watch for changes to a file and automatically run tasks upon detecting changes.
 
@@ -10193,73 +10224,95 @@ At the end of this exercise, you will be able to:
 
 -   Install the <i>rimraf</i> npm module by typing the following at the prompt:
 
-**npm install --save-dev rimraf@2.6.2**
+```
+npm install --save-dev rimraf@2.6.2
+```
 
 -   Then, set up the following script:
 
-**"clean": "rimraf dist",**
+```
+"clean": "rimraf dist",
+```
 
 <h4>Copying Fonts</h4>
 
 -   Your project uses font-awesome fonts. These need to be copied to the distribution folder. To help us do this, install the <i>copyfiles</i> NPM module globally as follows:
 
-**npm -g install copyfiles@2.0.0**
+```
+npm -g install copyfiles@2.0.0
+```
 
 Remember to use <i>sudo</i> on mac and Linux.
 
 -   Then set up the following script:
 
-**"copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",**
+```
+"copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+```
 
 Compressing and Minifying Images
 
 -   We use the <i>imagemin-cli</i> NPM module to help us to compress our images to reduce the size of the images being used in our project. Install the <i>imagemin-cli</i> module as follows:
 
-**npm -g install imagemin-cli@3.0.0**
+```
+npm -g install imagemin-cli@3.0.0
+```
 
 Remember to use <i>sudo</i> on mac and Linux. **NOTE:** Some students have encountered issues with imagemin-cli not installing its plugins due to issues with global permissions on Mac. In that case try
 
-**sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root**
+```
+sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
+```
 
 -   Then set up the following script:
 
-**"imagemin": "imagemin img/\* --out-dir='dist/img'",**
+```
+"imagemin": "imagemin img/* --out-dir='dist/img'",
+```
 
 <h4>Preparing the Distribution Folder</h4>
 
--   Open *.gitignore</i> and update it as follows. We do not want the dist folder to be checked into the git repository.
+-   Open <i>.gitignore</i> and update it as follows. We do not want the dist folder to be checked into the git repository.
 
-    **node_modules**
-    **dist**
+```
+    node_modules
+    dist
+```
 
 -   Then, install the <i>usemin-cli, cssmin, uglifyjs</i> and <i>htmlmin</i> NPM packages as follows:
 
-    **npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
+```
+    npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+```
 
 -   Add the following two scripts to the package.json file:
 
-    **"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",**
-
-    **"build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"**
+```
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+```
 
 -   Open <i>index.html</i> and surround the css links inclusion code as follows:
 
-    **\<!-- build:css css/main.css --\>**
-    **\<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>**
-    **\<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"\>**
-    **\<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"\>**
-    **\<link href="css/styles.css" rel="stylesheet"\>**
-    **\<!-- endbuild --\>**
+```
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
+```
 
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 -   Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:
 
-    **<!-- build:js js/main.js -->**
-    **<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>**
-    **<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>**
-    **<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>**
-    **<script src="js/scripts.js"></script>**
-    **<!-- endbuild -->**
+```
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 ```
 
 <ul>
@@ -10644,12 +10697,12 @@ This will install local per-project Grunt to use within your project.
 -   Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:
 
 ```
-    **'use strict';**
-    **module.exports = function (grunt) {**
-    **// Define the configuration for all the tasks**
-    **grunt.initConfig({**
-    **});**
-    **};**
+    'use strict';
+    module.exports = function (grunt) {
+    // Define the configuration for all the tasks
+    grunt.initConfig({
+    });
+    };
 ```
 
 This sets up the Grunt module ready for including the grunt tasks inside the function above.
@@ -10659,9 +10712,9 @@ This sets up the Grunt module ready for including the grunt tasks inside the fun
 -   Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:
 
 ```
-    **npm install grunt-sass@2.1.0 --save-dev**
-    **npm install time-grunt@1.4.0 --save-dev**
-    **npm install jit-grunt@0.10.0 --save-dev**
+    npm install grunt-sass@2.1.0 --save-dev
+    npm install time-grunt@1.4.0 --save-dev
+    npm install jit-grunt@0.10.0 --save-dev
 ```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The time-grunt module generates time statistics about how much time each task consumes, and jit-grunt enables us to include the necessary downloaded Grunt modules when needed for the tasks.
@@ -11470,40 +11523,44 @@ This will install local per-project Gulp to use within your project.
 
 -   Load in all the Gulp plugins by including the following code in the Gulp file:
 
-    **'use strict';**
-    **var gulp = require('gulp'),**
-    **sass = require('gulp-sass'),**
-    **browserSync = require('browser-sync');**
+```
+    'use strict';
+    var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync');
+```
 
 <h4>Adding Gulp Tasks for SASS and Browser-Sync</h4>
 
 -   Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:
 
-    **gulp.task('sass', function () {**
-    **return gulp.src('./css/\*.scss')**
-    **.pipe(sass().on('error', sass.logError))**
-    **.pipe(gulp.dest('./css'));**
-    **});**
-    **gulp.task('sass:watch', function () {**
-    **gulp.watch('./css/\*.scss', ['sass']);**
-    **});**
-    **gulp.task('browser-sync', function () {**
-    **var files = [**
-    **'./\*.html',**
-    **'./css/\*.css',**
-    **'./img/\*.{png,jpg,gif}',**
-    **'./js/\*.js'**
-    **];**
-    **browserSync.init(files, {**
-    **server: {**
-    **baseDir: "./"**
-    **}**
-    **});**
-    **});**
-    **// Default task**
-    **gulp.task('default', ['browser-sync'], function() {**
-    **gulp.start('sass:watch');**
-    **});**
+```
+    gulp.task('sass', function () {
+    return gulp.src('./css/\*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+    });
+    gulp.task('sass:watch', function () {
+    gulp.watch('./css/\*.scss', ['sass']);
+    });
+    gulp.task('browser-sync', function () {
+    var files = [
+    './\*.html',
+    './css/\*.css',
+    './img/\*.{png,jpg,gif}',
+    './js/\*.js'
+    ];
+    browserSync.init(files, {
+    server: {
+    baseDir: "./"
+    }
+    });
+    });
+    // Default task
+    gulp.task('default', ['browser-sync'], function() {
+    gulp.start('sass:watch');
+    });
+```
 
 -   Save the Gulp file
 
@@ -11540,10 +11597,10 @@ At the end of this exercise, you will be able to:
 </ul>
 
 ```
-    **npm install del@3.0.0 --save-dev**
-    **var ...**
-    **del = require('del'),**
-    **...**
+    npm install del@3.0.0 --save-dev
+    var ...
+    del = require('del'),
+    ...
 ```
 
 <ul>
@@ -11551,27 +11608,27 @@ At the end of this exercise, you will be able to:
 </ul>
 
 ```
-    **// Clean**
-    **gulp.task('clean', function() {**
-    **return del(['dist']);**
-    **});**
-    **gulp.task('copyfonts', function() {**
-    **gulp.src('./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*')**
-    **.pipe(gulp.dest('./dist/fonts'));**
-    **});**
+    // Clean
+    gulp.task('clean', function() {
+    return del(['dist']);
+    });
+    gulp.task('copyfonts', function() {
+    gulp.src('./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*')
+    .pipe(gulp.dest('./dist/fonts'));
+    });
 ```
 
-<h3>**Compressing and Minifying Images**</h3>
+<h3>Compressing and Minifying Images</h3>
 
 <ul>
 <li>We will now install the <i>gulp-imagemin</i> plugin and configure the <i>imagemin</i> task. To do this we install the plugin and require it as follows:</li>
 </ul>
 
 ```
-**npm install gulp-imagemin@4.1.0 --save-dev**
-**var ...**
-**imagemin = require('gulp-imagemin'),**
-**...**
+   npm install gulp-imagemin@4.1.0 --save-dev
+   var ...
+   imagemin = require('gulp-imagemin'),
+   ...
 ```
 
 <ul>
@@ -11579,29 +11636,29 @@ At the end of this exercise, you will be able to:
 </ul>
 
 ```
-    **// Images**
-    **gulp.task('imagemin', function() {**
-    **return gulp.src('img/\*.{png,jpg,gif}')**
-    **.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))**
-    **.pipe(gulp.dest('dist/img'));**
-    **});**
+    // Images
+    gulp.task('imagemin', function() {
+    return gulp.src('img/\*.{png,jpg,gif}')
+    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+    .pipe(gulp.dest('dist/img'));
+    });
 ```
 
-**Preparing the Distribution Folder and Files**
+<b>Preparing the Distribution Folder and Files</b>
 
 <ul>
 <li>We now install the gulp-usemin and other related Gulp plugins and require them as follows:</li>
 </ul>
 
 ```
-    **npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev**
-    **var ...**
-    **uglify = require('gulp-uglify'),**
-    **usemin = require('gulp-usemin'),**
-    **rev = require('gulp-rev'),**
-    **cleanCss = require('gulp-clean-css'),**
-    **flatmap = require('gulp-flatmap'),**
-    **htmlmin = require('gulp-htmlmin');**
+    npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
+    var ...
+    uglify = require('gulp-uglify'),
+    usemin = require('gulp-usemin'),
+    rev = require('gulp-rev'),
+    cleanCss = require('gulp-clean-css'),
+    flatmap = require('gulp-flatmap'),
+    htmlmin = require('gulp-htmlmin');
 ```
 
 <ul>
@@ -11609,23 +11666,23 @@ At the end of this exercise, you will be able to:
 </ul>
 
 ```
-    **gulp.task('usemin', function() {**
-    **return gulp.src('./\*.html')**
-    **.pipe(flatmap(function(stream, file){**
-    **return stream**
-    **.pipe(usemin({**
-    **css: [ rev() ],**
-    **html: [ function() { return htmlmin({ collapseWhitespace: true })} ],**
-    **js: [ uglify(), rev() ],**
-    **inlinejs: [ uglify() ],**
-    **inlinecss: [ cleanCss(), 'concat' ]**
-    **}))**
-    **}))**
-    **.pipe(gulp.dest('dist/'));**
-    **});**
-    **gulp.task('build',['clean'], function() {**
-    **gulp.start('copyfonts','imagemin','usemin');**
-    **});**
+    gulp.task('usemin', function() {
+    return gulp.src('./\*.html')
+    .pipe(flatmap(function(stream, file){
+    return stream
+    .pipe(usemin({
+    css: [ rev() ],
+    html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+    js: [ uglify(), rev() ],
+    inlinejs: [ uglify() ],
+    inlinecss: [ cleanCss(), 'concat' ]
+    }))
+    }))
+    .pipe(gulp.dest('dist/'));
+    });
+    gulp.task('build',['clean'], function() {
+    gulp.start('copyfonts','imagemin','usemin');
+    });
 ```
 
 <h4>Save the Gulp file</h4>
@@ -11804,5 +11861,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-<h3>last updated 06-25-2022 8:13pm front-end-web-ui</h3>
+<h3>last updated 06-25-2022 9:45pm front-end-web-ui</h3>
 </html>
