@@ -9828,7 +9828,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 
 <h4>Moving JS to Script file</h4>
 
--   Create a folder named <i>js</i> and in that folder create a file named <i>scripts.js*.
+-   Create a folder named <i>js</i> and in that folder create a file named <i>scripts.js</i>.
 -   Open <i>index.html</i> and from this file cut out all the JQuery script that we added to it and move the code to the <i>scripts.js</i> file that we created above.
 -   Then, update the <i>index.html</i> file to include the <i>scripts.js</i> file by adding the following line:
 
@@ -9836,7 +9836,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the <i>packa
 <script src="js/scripts.js"></script>**
 ```
 
--   Add the same line to the scripts block in <i>aboutus.html</i> and <i>contactus.html*:
+-   Add the same line to the scripts block in <i>aboutus.html</i> and <i>contactus.html</i>:
 
 <h4>Watching for Changes and Parallelshell</h4>
 
@@ -9854,8 +9854,8 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 -   <b>NOTE:</b> If you are doing the exercise on a Windows computer, please use the following two script items instead of the above:
 
 ```
-    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:scss": "onchange "css/*.scss" -- npm run scss",
+    "watch:all": "parallelshell "npm run watch:scss" "npm run lite""
 ```
 
 -   You will also update the start script as follows:
@@ -10721,7 +10721,7 @@ This sets up the Grunt module ready for including the grunt tasks inside the fun
 
 The first one installs the Grunt module for SCSS to CSS conversion. The time-grunt module generates time statistics about how much time each task consumes, and jit-grunt enables us to include the necessary downloaded Grunt modules when needed for the tasks.
 
--   Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <i>Gruntfile.js*:
+-   Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <i>Gruntfile.js</i>:
 
 ```
     **'use strict';**
@@ -11178,7 +11178,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
     **npm install grunt-contrib-clean@1.1.0 --save-dev**
 
--   You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <i>Gruntfile.js*. This should be added right after the configuration of the SASS task.:
+-   You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <i>Gruntfile.js</i>. This should be added right after the configuration of the SASS task.:
 
     **,**
     **copy: {**
@@ -11235,7 +11235,7 @@ You will configure the Grunt file with a set of additional tasks to build your w
 
 <h4>Preparing the Distribution Folder and Files</h4>
 
--   We are now going to use the Grunt <i>usemin</i> module together with <i>concat*, <i>cssmin*, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:
+-   We are now going to use the Grunt <i>usemin</i> module together with <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the distribution folder. To do this, install the following Grunt modules:
 
     **npm install grunt-contrib-concat@1.0.1 --save-dev**
     **npm install grunt-contrib-cssmin@2.2.1 --save-dev**
