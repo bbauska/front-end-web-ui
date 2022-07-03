@@ -726,15 +726,17 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <li>Open this git-test folder in your favorite editor,<br/></li>
 <li>Add a file named <i>index.html</i> to this folder, and add the following HTML code to this file:</li>
 </ul>
+
 ```
-    <!DOCTYPE html><br/>
-    <html><br/>
-    <head></head><br/>
-    <body><br/>
-    <h1>This is a Header</h1><br/>
-    </body><br/>
-    </html><br/>
+<!DOCTYPE html><br/>
+<html><br/>
+<head></head><br/>
+<body><br/>
+<h1>This is a Header</h1><br/>
+</body><br/>
+</html><br/>
 ```
+
 <h3><b>Initializing the folder as a Git repository</b></h3>
 <ul>
 <li>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</li>
@@ -787,15 +789,15 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 ```
-    <!DOCTYPE html>
-    <html>
-    <head></head>
-    <body>
-    <h1>This is a Header</h1>
-    <p>This is a paragraph</p>
-    <p>This is a second paragraph</p>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1>This is a Header</h1>
+<p>This is a paragraph</p>
+<p>This is a second paragraph</p>
+</body>
+</html>
 ```
 
 <ul>
@@ -1186,7 +1188,7 @@ At the end of this exercise, you will be able to:
 <h4>Installing Node</h4>
 
 <ul>
-<li>To install Node on your machine, go to [https://nodejs.org](https://nodejs.org/) and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.</li><br>
+<li>To install Node on your machine, go to <a href="https://nodejs.org](https://nodejs.org/"></a> and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.</li><br>
 <li>As an example, on a Mac, you will see the following web page. Click on the Download button. Follow along the instructions to install Node on your machine. (Note: Now Node gives you the option of installing a mature and dependable LTS version and a more newer stable version. You should to install the LTS version. I will use this version in the course.)</li>
 </ul>
 
@@ -1201,8 +1203,7 @@ At the end of this exercise, you will be able to:
 
 <ul>
 <li><b>node -v</b></li><br/>
-<li></li><br/>
-<li>**npm -v**</li><br/>
+<li><b>npm -v</b></li><br/>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1581,34 +1582,34 @@ In this exercise you will learn the basics of Node and NPM. At the end of this e
 </ul>
 
 ```
-    **{**
-    **"name": "git-test",**
-    **"version": "1.0.0",**
-    **"description": "This is the Git and Node basic learning project",**
-    **"main": "index.html",**
-    **"scripts": {**
-    **"start": "npm run lite",**
-    **"test": "echo \\"Error: no test specified\\" && exit 1",**
-    **"lite": "lite-server"**
-    **},**
-    **"repository": {**
-    **"type": "git",**
-    **"url": "git+https://jogesh_k_muppala@bitbucket.org/jogesh_k_muppala/git-test.git"**
-    **},**
-    **"author": "",**
-    **"license": "ISC",**
-    **"homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",**
-    **"devDependencies": {**
-    **"lite-server": "^2.2.2"**
-    **}**
-    **}**
+    {
+    "name": "git-test",
+    "version": "1.0.0",
+    "description": "This is the Git and Node basic learning project",
+    "main": "index.html",
+    "scripts": {
+    "start": "npm run lite",
+    "test": "echo \\"Error: no test specified\\" && exit 1",
+    "lite": "lite-server"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://jogesh_k_muppala@bitbucket.org/jogesh_k_muppala/git-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",
+    "devDependencies": {
+    "lite-server": "^2.2.2"
+    }
+    }
 ```
 
 <ul>
 <li>Next, start the development server by typing the following at the prompt:</li>
 </ul>
 
-<b>npm start</b>
+<h4>npm start</h4>
 
 <ul>
 <li>This should open your <i>index.html</i> page in your default browser.</li><br>
@@ -2126,8 +2127,8 @@ This exercise introduces the first set of steps to set up your web page to make 
 <li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
 </ul>
 
-    <b>npm install bootstrap@4.0.0 --save</b>
-    <b>npm install jquery@3.3.1 popper.js@1.12.9 --save</b>
+<b>npm install bootstrap@4.0.0 --save</b>
+<b>npm install jquery@3.3.1 popper.js@1.12.9 --save</b>
 
 <ul>
 <li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-\>dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li><br>
@@ -2143,12 +2144,12 @@ This exercise introduces the first set of steps to set up your web page to make 
 </ul>
 
 ```
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Required meta tags always come first -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 ```
 
 <ul>
@@ -2157,10 +2158,10 @@ This exercise introduces the first set of steps to set up your web page to make 
 </ul>
 
 ```
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 ```
 
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
@@ -6039,44 +6040,44 @@ In this exercise, we will examine tables and Bootstrap classes for styling table
 -   Inside the first column of this row, insert the table as follows:
 
 ```
-    **\<div class="table-responsive"\>**
-    **\<table class="table table-striped"\>**
-    **\<thead class="thead-dark"\>**
-    **\<tr\>**
-    **\<th\>&nbsp;\</th\>**
-    **\<th\>2013\</th\>**
-    **\<th\>2014\</th\>**
-    **\<th\>2015\</th\>**
-    **\</tr\>**
-    **\</thead\>**
-    **\<tbody\>**
-    **\<tr\>**
-    **\<th\>Employees\</th\>**
-    **\<td\>15\</td\>**
-    **\<td\>30\</td\>**
-    **\<td\>40\</td\>**
-    **\</tr\>**
-    **\<tr\>**
-    **\<th\>Guests Served\</th\>**
-    **\<td\>15000\</td\>**
-    **\<td\>45000\</td\>**
-    **\<td\>100,000\</td\>**
-    **\</tr\>**
-    **\<tr\>**
-    **\<th\>Special Events\</th\>**
-    **\<td\>3\</td\>**
-    **\<td\>20\</td\>**
-    **\<td\>45\</td\>**
-    **\</tr\>**
-    **\<tr\>**
-    **\<th\>Annual Turnover\</th\>**
-    **\<td\>\$251,325\</td\>**
-    **\<td\>\$1,250,375\</td\>**
-    **\<td\>\~\$3,000,000\</td\>**
-    **\</tr\>**
-    **\</tbody\>**
-    **\</table\>**
-    **\</div\>**
+    <div class="table-responsive">
+    <table class="table table-striped">
+    <thead class="thead-dark">
+    <tr>
+    <th>&nbsp;</th>
+    <th>2013</th\>
+    <th>2014</th>
+    <th>2015</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <th>Employees</th>
+    <td>15</td>
+    <td>30</td>
+    <td>40</td>
+    </tr>
+    <tr>
+    <th>Guests Served</th>
+    <td>15000</td>
+    <td>45000</td>
+    <td>100,000</td>
+    </tr>
+    <tr>
+    <th>Special Events</th>
+    <td>3</td>
+    <td>20</td>
+    <td>45</td>
+    </tr>
+    <tr>
+    <th>Annual Turnover</th>
+    <td>$251,325</td>
+    <td>$1,250,375</td>
+    <td>~$3,000,000</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
 ```
 
 Note the use of <i>table-responsive</i> class to create a responsive table, and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the table.
@@ -6086,40 +6087,40 @@ Note the use of <i>table-responsive</i> class to create a responsive table, and 
 -   Next we add a card to the second div in the first content row as follows, updating the div first by adding the classes col-12 col-sm-6 to it and then adding the card:
 
 ```
-    **\<div class="col-12 col-sm-6"\>**
-    **\<div class="card"\>**
-    **\<h3 class="card-header bg-primary text-white"\>Facts At a Glance\</h3\>**
-    **\<div class="card-body"\>**
-    **\<dl class="row"\>**
-    **\<dt class="col-6"\>Started\</dt\>**
-    **\<dd class="col-6"\>3 Feb. 2013\</dd\>**
-    **\<dt class="col-6"\>Major Stake Holder\</dt\>**
-    **\<dd class="col-6"\>HK Fine Foods Inc.\</dd\>**
-    **\<dt class="col-6"\>Last Year's Turnover\</dt\>**
-    **\<dd class="col-6"\>\$1,250,375\</dd\>**
-    **\<dt class="col-6"\>Employees\</dt\>**
-    **\<dd class="col-6"\>40\</dd\>**
-    **\</dl\>**
-    **\</div\>**
-    **\</div\>**
-    **\</div\>**
+    <div class="col-12 col-sm-6">
+    <div class="card">
+    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+    <div class="card-body">
+    <dl class="row">
+    <dt class="col-6">Started</dt>
+    <dd class="col-6">3 Feb. 2013</dd>
+    <dt class="col-6">Major Stake Holder</dt>
+    <dd class="col-6">HK Fine Foods Inc.</dd>
+    <dt class="col-6">Last Year's Turnover</dt>
+    <dd class="col-6">$1,250,375</dd>
+    <dt class="col-6">Employees</dt>
+    <dd class="col-6">40</dd>
+    </dl>
+    </div>
+    </div>
+    </div>
 ```
 
 -   Next, we add a Bootstrap card and include a quotation in the card using the blockquote typography style:
 
 ```
-    **\<div class="col-12"\>**
-    **\<div class="card card-body bg-light"\>**
-    **\<blockquote class="blockquote"\>**
-    **\<p class="mb-0"\>You better cut the pizza in four pieces because**
-    **I'm not hungry enough to eat six.\</p\>**
-    **\<footer class="blockquote-footer"\>Yogi Berra,**
-    **\<cite title="Source Title"\>The Wit and Wisdom of Yogi Berra,**
-    **P. Pepe, Diversion Books, 2014\</cite\>**
-    **\</footer\>**
-    **\</blockquote\>**
-    **\</div\>**
-    **\</div\>**
+    <div class="col-12">
+    <div class="card card-body bg-light">
+    <blockquote class="blockquote">
+    <p class="mb-0"\>You better cut the pizza in four pieces because
+    I'm not hungry enough to eat six.</p>
+    <footer class="blockquote-footer">Yogi Berra,
+    <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+    P. Pepe, Diversion Books, 2014</cite>
+    </footer>
+    </blockquote>
+    </div>
+    </div>
 ```
 
 Note the use of the *\<blockquote\>* tag to create a block quote in the card. We can use a *\<footer\>* inside the block quote to specify the attribution of the quote to its origin.
@@ -6353,7 +6354,7 @@ In this exercise, we will explore the Bootstrap classes to support image and med
 
 <h4>Exercise Resources</h4>
 
-**Img.zip**
+<b>Img.zip</b>
 
 <h4>Set up for the Exercise</h4>
 
@@ -6364,15 +6365,19 @@ In this exercise, we will explore the Bootstrap classes to support image and med
 
 -   We will now add the restaurant logo to the Jumbotron. In index.html go to the header row inside the jumbotron and replace the second \<div\> column with the following code:
 
-    **\<div class="col-12 col-sm align-self-center"\>**
-    **\<img src="img/logo.png" class="img-fluid"\>**
-    **\</div\>**
+```
+<div class="col-12 col-sm align-self-center">
+<img src="imglogo.png" class="img-fluid">
+</div>
+```
 
 You will immediately notice the restaurant logo being displayed in the jumbotron.
 
 -   Next, we will add the logo to the navbar where we display the restaurant brand. Go to the navbar and replace the code there for the \<a\> tag with the "navbar-brand"
 
-    **\<a class="navbar-brand mr-auto" href="\#"\>\<img src="img/logo.png" height="30" width="41"\>\</a\>**
+```
+<a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+```
 
 **Note the inclusion of the logo in the navbar.**
 
@@ -6384,17 +6389,17 @@ You will immediately notice the restaurant logo being displayed in the jumbotron
 -   Go to the first content row, and replace the content in the second column containing the description of Uthappizza with the following code:
 
 ```
-    <div class="media">**
-    <img class="d-flex mr-3 img-thumbnail align-self-center"
-    src="img/uthappizza.png" alt="Uthappizza">
-    <div class="media-body">
-    <h2 class="mt-0">Uthappizza</h2>
-    <p class="d-none d-sm-block"\>A unique combination of Indian Uthappam (pancake) and
-    Italian pizza, topped with Cerignola olives, ripe vine
-    cherry tomatoes, Vidalia onion, Guntur chillies and
-    Buffalo Paneer.</p>
-    </div>
-    </div>
+<div class="media">**
+<img class="d-flex mr-3 img-thumbnail align-self-center"
+src="img/uthappizza.png" alt="Uthappizza">
+<div class="media-body">
+<h2 class="mt-0">Uthappizza</h2>
+<p class="d-none d-sm-block"\>A unique combination of Indian Uthappam (pancake) and
+Italian pizza, topped with Cerignola olives, ripe vine
+cherry tomatoes, Vidalia onion, Guntur chillies and
+Buffalo Paneer.</p>
+</div>
+</div>
 ```
 
 Note the use of the <i>media</i> class and the related Bootstrap classes to style the content.
@@ -6402,19 +6407,19 @@ Note the use of the <i>media</i> class and the related Bootstrap classes to styl
 -   Next, we will go to the third row and replace the contents of the second column containing the description about Alberto with the following content:
 
 ```
-    <div class="media">
-    <img class="d-flex mr-3 img-thumbnail align-self-center"
-    src="img/alberto.png" alt="Alberto Somayya">
-    <div class="media-body">
-    <h2 class="mt-0">Alberto Somayya</h2>
-    <h4>Executive Chef</h4>
-    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-    International experience having worked closely with
-    whos-who in the culinary world, he specializes in
-    creating mouthwatering Indo-Italian fusion experiences.
-    </p>
-    </div>
-    </div>
+<div class="media">
+<img class="d-flex mr-3 img-thumbnail align-self-center"
+src="img/alberto.png" alt="Alberto Somayya">
+<div class="media-body">
+<h2 class="mt-0">Alberto Somayya</h2>
+<h4>Executive Chef</h4>
+<p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+ International experience having worked closely with
+ whos-who in the culinary world, he specializes in
+ creating mouthwatering Indo-Italian fusion experiences.
+</p>
+</div>
+</div>
 ```
 
 <ul>
