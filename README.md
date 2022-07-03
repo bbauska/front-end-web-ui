@@ -4527,40 +4527,53 @@ Note: Some people have pointed out that if they have AdBlocker installed, then t
 <h4><b>Using Icon Fonts and Other CSS classes</b></h4>
 <ul>
 <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <http://fontawesome.io/> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
+
 ```
 $ npm install font-awesome@4.7.0 --save</b></br/></li>
 ```
+
 <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <https://lipis.github.io/bootstrap-social/>. To install it using npm, type the following at the prompt:</li>
+
 ```
 $ npm install bootstrap-social@5.1.1 --save
 ```
+
 <li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:</li>
+
 ```
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 ```
+
 <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
+
 ```
     <b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-address-card fa-lg"\>\</span\> Contact\</a\>\</li\></b><br/>
     <b>\<li class="nav-item active"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-home fa-lg"\>\</span\><br/> Home\</a\>\</b></li\>**<br/>
     <b>\<li class="nav-item"\>\<a class="nav-link" href="./aboutus.html"\>\<span class="fa fa-info fa-lg"\>\</span\> About\</a\>\</b></li\></b><br/>
     <b>\<li class="nav-item"\>\<a class="nav-link" href="\#"\>\<span class="fa fa-list fa-lg"\>\</span\> Menu\</a\>\</li\></b></br/></li>
 ```
+
 <li>Similarly update the navbar's ul list items as follows in aboutus.html:
+
 ```
 <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li></b>
 <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li></b>
 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li></b></br/></li>
 ```
+
 <li>Next, in both index.html and aboutus.html, go down to the address in the footer of the page and replace the "Tel.", "Fax" and "Email" with the corresponding font awesome based icons as follows:</li>
+
 ```
     <i class="fa fa-phone fa-lg"></i>: +852 1234 5678
     <i class="fa fa-fax fa-lg"></i>: +852 8765 4321
     <i class="fa fa-envelope fa-lg"></i>:
     <a href="mailto:confusion@food.net">confusion@food.net</a>
 ```
+
 <li>Finally, let us use the bootstrap-social CSS classes to create the social buttons in the footer in both index.html and aboutus.html, by replacing the social sites' links with the following code:</li>
+
 ```
     <div class="text-center">
     <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
@@ -4571,6 +4584,7 @@ $ npm install bootstrap-social@5.1.1 --save
     <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
     </div>
 ```
+
 <li>Save all the changes and commit to your Git repository with the message "Icon Fonts".</li>
 </ul>
 
@@ -4580,7 +4594,7 @@ We learnt about using icon fonts in a web project.
 
 <h3>Navigation and Navigation Bar: Additional Resources</h3>
 
-<h4><b>PDFs of Presentations</b></h4>
+<h4>PDFs of Presentations</h4>
 
 **06-Navigation.pdf**
 
@@ -5012,39 +5026,41 @@ explain that part to you. Notice how I am using the Bootstrap's
 
 grid column classes to each of these. So the label is given col-md-2. And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here. So that way, the telephone number,
 
-this element is properly positioned. But, in particular,
+this element is properly positioned. 
 
-let's pay attention to this part. So this one here is inside of this div. So inside this div,
+But, in particular, let's pay attention to this part. So this one here is inside of this div. 
 
-notice the class given to it. The class says input-group. So essentially meaning that whatever
+So inside this div, notice the class given to it. 
 
-is inside this div will be treated as a group of elements here. So that's why the class
+The class says input-group. 
 
-given is input-group. Now, for adding in something like this,
+So essentially meaning that whatever is inside this div will be treated as a group of elements here. 
 
-you will use a class called as input-group-addon. And then notice that I am
+So that's why the class given is input-group. 
 
-using a div to hold that item. I can use anything here, but
+Now, for adding in something like this, you will use a class called as input-group-addon. 
 
-a div comes in handy here. So I say div class input-group-addon. And then the closing div type inside,
+And then notice that I am using a div to hold that item. 
 
-where, notice that I have the left parenthesis. So this is what allows
+I can use anything here, but a div comes in handy here. So I say div class input-group-addon. 
 
-you to add in some extra appendage to your input box here. Similarly, the one below here is also
+And then the closing div type inside, where, notice that I have the left parenthesis.
 
-an input-group-addon right parenthesis. So that is what adds the other
+So this is what allows you to add in some extra appendage to your input box here. 
 
-right parenthesis here. Now, between these two, of course,
+Similarly, the one below here is also an input-group-addon right parenthesis. 
 
-you have the input type. The input with the type tel and
+So that is what adds the other right parenthesis here. 
 
-class form-control, id, name, placeholder, everything in place here. So this is nothing but the area code part. So if you use this input-group
+Now, between these two, of course, you have the input type. 
 
-together with input-group-addons like this on either side. Those things will be added in
+The input with the type tel and class form-control, id, name, placeholder, everything in place here. 
 
-to your input element like this. That provides you with a nice way of
+So this is nothing but the area code part. So if you use this input-group together with input-group-addons like this on either side.
 
-designing Your form with some added in.
+Those things will be added in to your input element like this. 
+
+That provides you with a nice way of designing Your form with some added in.
 
 For example, if you have a field that is accepting money as the input, you could simply add a dollar sign to the left hand side to indicate to the user that that is a field that takes currency value at the moment.
 
@@ -5288,7 +5304,7 @@ In this exercise, we will examine user input for a website through the use of Bu
 <ul>
 <li>We are now going to add content to <i>contactus.html</i> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</li>
 </ul>
-<b>
+
 ```
     <div class="btn-group" role="group">
     <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
@@ -5296,7 +5312,7 @@ In this exercise, we will examine user input for a website through the use of Bu
     <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> email</a>
     </div>
 ```
-</b>
+
 Note how we define the button bar using the <i>btn-group</i> class, and then add the three buttons using the *\<a\>* tag. In this case, the three buttons are hyperlinks that cause an action and have an <i>href</i> associated with them. So we decided to use the *\<a\>* tag instead of the *\<button\>* tag. Note how the *\<a\>* tags have been styled using the <i>btn</i> class.
 <ul>
 <li>Remember to do a Git commit with the message "Buttons".</li>
