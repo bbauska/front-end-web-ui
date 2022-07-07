@@ -431,24 +431,25 @@ In this exercise you will learn to install Git on your computer. Git is required
 <li>Installing some of the GUI tools like GitHub Desktop will also install Git on your computer,<br/></li>
 <li>On a Mac, setting up XCode command-line tools also will set up Git on your computer,<br/></li>
 <li>You can choose any of the methods that is most convenient for you.</li>
+</ul>
 
-<b>Some Global Configuration for Git</b>
-
--   Open a cmd window or terminal on your computer.
--   Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:
-
+<h4>Some Global Configuration for Git</h4>
+<ul>
+<li>Open a cmd window or terminal on your computer.</li><br/>
+<li>Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:</li><br/>
+</ul>
 <b>git --version</b>
-
--   To configure your user name to be used by Git, type the following at the prompt:
-
+<ul>
+<li>To configure your user name to be used by Git, type the following at the prompt:<br/></li>
+</ul>
 <b>git config --global user.name "Your Name"</b>
-
--   To configure your email to be used by Git, type the following at the prompt:
-
+<ul>
+<li>To configure your email to be used by Git, type the following at the prompt:<br/></li>
+</ul>
 <b>git config --global user.email \<your email address\></b>
-
--   You can check your default Git global configuration, you can type the following at the prompt:
-
+<ul>
+<li>You can check your default Git global configuration, you can type the following at the prompt:<br/></li>
+</ul>
 <b>git config --list</b>
 
 <h3>Conclusions</h3>
@@ -716,9 +717,10 @@ At the end of this exercise, did you Git it?
 <h3><b>Objectives and Outcomes</b></h3>
 
 In this exercise you will get familiar with some basic Git commands. At the end of this exercise you will be able to:
-
--   Set up a folder as a Git repository
--   Perform basic Git operations on your Git repository
+<ul>
+<li>Set up a folder as a Git repository,<br/></li>
+<li>Perform basic Git operations on your Git repository.</li>
+</ul>
 
 <h3>Basic Git Commands</h3>
 <ul>
@@ -745,15 +747,16 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <b>git init</b>
 
 <h3><b>Checking your Git repository status</b></h3>
-
--   Type the following at the prompt to check your Git repository's status:
+<ul>
+<li>Type the following at the prompt to check your Git repository's status:</li>
+</ul>
 
 <b>git status</b>
 
 <h3><b>Adding files to the staging area</b></h3>
-
--   To add files to the staging area of your Git repository, type:
-
+<ul>
+<liTo add files to the staging area of your Git repository, type:</li>
+</ul>
 <b>git add .</b>
 
 <h3><b>Commiting to the Git repository</b></h3>
@@ -805,23 +808,23 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 </ul>
 
 <h3><B>Checking out a file from an earlier commit</b></h3>
-
--   To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:
+<ul>
+<li>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:
 
 <b>git checkout \<second commit's number\> index.html</b>
 
 <h4>Resetting the Git repository</h4>
-
--   To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:
-
+<ul>
+<li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
+</ul>
 <b>git reset HEAD index.html</b>
-
--   Then type the following at the prompt:
-
+<ul>
+<li>Then type the following at the prompt:</li>
+</ul>
 <b>git checkout -- index.html</b>
-
--   You can also use <i>git reset</i> to reset the staging area to the last commit without disturbing the working directory.
-
+<ul>
+<li>You can also use <i>git reset</i> to reset the staging area to the last commit without disturbing the working directory.</li>
+</ul>
 <h4>Conclusions</h4>
 
 At the end of this exercise you should have learnt some basic Git commands. Experiment with these commands until you fully understand how to use Git.
@@ -2163,8 +2166,9 @@ This exercise introduces the first set of steps to set up your web page to make 
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 ```
-
--   Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
+<ul>
+<li>Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.</li>
+</ul>
 
 <h4>Conclusion</h4>
 
@@ -3519,8 +3523,8 @@ This exercise continues the examination of responsive design and Bootstrap suppo
 We can define our own custom CSS classes in a separate CSS file, and also customize some of the built-in CSS classes. We will now attempt to do this in this part of the exercise.
 
 -   Create a folder named <i>css</i>. Then create a file named <i>styles.css</i> in the <i>css</i> folder. Open this file to edit the contents. Add the following CSS code to the file:
-
-    <b>.row-header{
+```
+    .row-header{
     margin:0px auto;
     padding:0px;
     }
@@ -3531,59 +3535,72 @@ We can define our own custom CSS classes in a separate CSS file, and also custom
     min-height:400px;
     }
     .footer{
-    background-color: \#D1C4E9;
+    background-color: #D1C4E9;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
-    }</b>
-
--   Include the <i>styles.css</i> file into the head of the <i>index.html</i> file as follows:
-
+    }
+```
+<ul>
+<li>Include the <i>styles.css</i> file into the head of the <i>index.html</i> file as follows:</li>
+</ul>
 <b>\<link href="css/styles.css" rel="stylesheet"\></b>
 
--   Then add these classes to the corresponding rows in the <i>index.html</i> file as follows. See the difference in the <i>index.html</i> file in the browser. The first one is for the row in the \<header\>, the next three for the rows in the content, and the last one directly to the \<footer\> tag.
-
-    <b>\<div class="row row-header"\> ... \</div\></b>
-    <b>\<div class="row row-content"\> ... \</div\></b>
-    <b>\<div class="row row-content"\> ... \</div\></b>
-    <b>\<div class="row row-content"\> ... \</div\></b>
-    <b>\<footer class="footer"\> ... \</footer\></b>
-
--   Our next set of customization is to the jumbotron and the address. Add the following to <i>styles.css</i> file:
-
-    <b>.jumbotron {</b>
-    <b>padding:70px 30px 70px 30px;</b>
-    <b>margin:0px auto;</b>
-    <b>background: \#9575CD ;</b>
-    <b>color:floralwhite;</b>
-    <b>}</b>
-    <b>address{</b>
-    <b>font-size:80%;</b>
-    <b>margin:0px;</b>
-    <b>color:\#0f0f0f;</b>
-    <b>}</b>
-
+<ul>
+<li>Then add these classes to the corresponding rows in the <i>index.html</i> file as follows. See the difference in the <i>index.html</i> file in the browser. The first one is for the row in the <header>, the next three for the rows in the content, and the last one directly to the <footer> tag.</l>
+</ul>
+```
+    <div class="row row-header"> ... </div>
+    <div class="row row-content"> ... </div>
+    <div class="row row-content"> ... </div>
+    <div class="row row-content"> ... </div>
+    <footer class="footer"> ... </footer>
+```
+<ul>
+<li>Our next set of customization is to the jumbotron and the address. Add the following to <i>styles.css</i> file:</li>
+</ul>
+```
+    .jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: \#9575CD ;
+    color:floralwhite;
+    }
+    address{
+    font-size:80%;
+    margin:0px;
+    color:\#0f0f0f;
+    }
+```
 <h4>Vertically Centering the Content</h4>
-
--   In the content section, update all the rows as follows:
-
-**\<div class="row row-content align-items-center"\>**
-
--   In the footer, update the third column div that contains the social media links as follows:
-
-**\<div class="col-12 col-sm-4 align-self-center"\>**
-
+<ul>
+<li>In the content section, update all the rows as follows:</li>
+</ul>
+```
+<div class="row row-content align-items-center">
+```
+<ul>
+<li>In the footer, update the third column div that contains the social media links as follows:</li>
+</ul>
+```
+<div class="col-12 col-sm-4 align-self-center">
+```
 <h4>Horizontally Centering the Content</h4>
-
--   Update the copyright paragraph as follows:
-
+<ul>
+<li>Update the copyright paragraph as follows:</li>
+</ul>
+```
     **\<div class="row justify-content-center"\>**
     **\<div class="col-auto"\>**
-
--   Update the inner div containing the social media links as follows:
-
-**\<div class="text-center"\>**
-
--   After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 2" and push your changes to the online repository.
+```
+<ul>
+<li>Update the inner div containing the social media links as follows:</li>
+</ul>/
+```
+<div class="text-center">
+```
+<ul>
+<li>After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 2" and push your changes to the online repository.</li>
+</ul>
 
 <h4>Conclusion</h4>
 
@@ -3598,7 +3615,7 @@ In this exercise, we continued our review of responsive design and the Bootstrap
 <b>05-Bootstrap-Grid.pdf</b>
 
 <h4>Bootstrap Official Documentation</h4>
-
+<ul>
 -   [Bootstrap Grid System](http://getbootstrap.com/docs/4.0/layout/grid/)
 
 <h4>Responsive Design and Bootstrap Grid Resources</h4>
@@ -4302,6 +4319,7 @@ In this exercise, we will examine the navigation support that we can build into 
 <ul>
 <li>We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.</li>
 </ul>
+```
 <code>
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
     <div class="container">
@@ -4315,6 +4333,7 @@ In this exercise, we will examine the navigation support that we can build into 
     </div>
     </nav>
 </code>
+```
 In the above code, we can see the use of the nav element to specify the navigation information for the website. This nav element is styled by the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i> class to specify that the page should use the dark navigation bar. You will now notice the addition of a link with the name of the restaurant. This is the brand name for the website. You can replace this with the logo for the website. This is created by the *\<a class="navbar-brand"\>* tag. In addition the inner <i>ul</i> is used to specify the items to be put in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items should be displayed inline inside the navigation bar. We also use the container class inside the navigation bar.
 
 <h4>Creating a responsive navigation bar</h4>
@@ -11884,5 +11903,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-<h3>last updated 06-25-2022 9:45pm front-end-web-ui</h3>
+<h3>last updated 07-06-2022 7:11pm front-end-web-ui</h3>
 </html>
