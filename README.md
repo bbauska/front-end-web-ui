@@ -438,19 +438,19 @@ In this exercise you will learn to install Git on your computer. Git is required
 <li>Open a cmd window or terminal on your computer.</li><br/>
 <li>Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:</li><br/>
 </ul>
-<b>git --version</b>
+<h4>git --version</h4>
 <ul>
 <li>To configure your user name to be used by Git, type the following at the prompt:<br/></li>
 </ul>
-<b>git config --global user.name "Your Name"</b>
+<h4>git config --global user.name "Your Username"</h4>
 <ul>
 <li>To configure your email to be used by Git, type the following at the prompt:<br/></li>
 </ul>
-<b>git config --global user.email \<your email address\></b>
+<h4>git config --global user.email &lt;your email address&gt;</h4>
 <ul>
 <li>You can check your default Git global configuration, you can type the following at the prompt:<br/></li>
 </ul>
-<b>git config --list</b>
+<h4>git config --list</h4>
 
 <h3>Conclusions</h3>
 
@@ -807,21 +807,21 @@ In this exercise you will get familiar with some basic Git commands. At the end 
 <li>Now add the modified index.html file to the staging area and then do a third commit.</li>
 </ul>
 
-<h3><B>Checking out a file from an earlier commit</b></h3>
+<h3>Checking out a file from an earlier commit</h3>
 <ul>
 <li>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:
 
-<b>git checkout \<second commit's number\> index.html</b>
+<h4>git checkout &lt;second commit's number&gt; index.html</h4>
 
 <h4>Resetting the Git repository</h4>
 <ul>
 <li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
 </ul>
-<b>git reset HEAD index.html</b>
+<h4>git reset HEAD index.html</h4>
 <ul>
 <li>Then type the following at the prompt:</li>
 </ul>
-<b>git checkout -- index.html</b>
+<h4>git checkout -- index.html</h4>
 <ul>
 <li>You can also use <i>git reset</i> to reset the staging area to the last commit without disturbing the working directory.</li>
 </ul>
@@ -1026,14 +1026,14 @@ In this exercise you will learn about how to set up and use an online Git reposi
 <li>At the prompt, type the following to set up your local repository to link to your online Git repository:</li><br>
 </ul>
 
-<b>git remote add origin \<repository URL\></b>
+<b>git remote add origin &lt;repository URL&gt;</b>
 
 <h4>Pushing your commits to the online repository</h4>
 <ul>
 <li>At the prompt, type the following to push the commits to the online repository:</li><br>
 </ul>
 
-<b>git push -u origin master</b>
+<h4>git push -u origin master</h4>
 
 <h4>Cloning an online repository</h4>
 
@@ -1177,16 +1177,17 @@ Let's go ahead and make use of Node.js in the next exercise.
 
 In this exercise, you will learn to set up the Node.js environment, a popular Javascript based server framework, and node package manager (NPM) on your machine.
 
-To learn more about NodeJS, you can visit [https://nodejs.org](https://nodejs.org/).
+To learn more about NodeJS, you can visit <a href="https://nodejs.org](https://nodejs.org/"</a>.
 
 For this course, you just need to install Node.js on your machine and make use of it for running some front-end tools.
 
 You will learn more about the server-side support using Node.js in a subsequent course.
 
 At the end of this exercise, you will be able to:
-
--   Complete the setup of Node.js and NPM on your machine
--   Verify that the installation was successful and your machine is ready for using Node.js and NPM.
+<ul>
+<li>Complete the setup of Node.js and NPM on your machine,</li><br/>
+<li>Verify that the installation was successful and your machine is ready for using Node.js and NPM.</li>
+</ul>
 
 <h4>Installing Node</h4>
 
@@ -11903,5 +11904,5 @@ In particular, this section should contain:
 </ul>
 ...the end
 
-<h3>last updated 07-06-2022 7:11pm front-end-web-ui</h3>
+<h3>last updated 07-10-2022 9:01am front-end-web-ui</h3>
 </html>
